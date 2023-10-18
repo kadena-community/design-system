@@ -1,0 +1,79 @@
+{
+  "kda": {
+    "foundation": {
+      "dimension": {
+        "layout": {
+          "breakpoint": {
+            "description": "breakpoint layout details",
+            "xs": {
+              "description": "smallest viewports",
+              "type": "dimension",
+              "value": {
+                "columns": 4,
+                "gap": "{kda.foundation.dimension.size.n4}",
+                "width": "100%",
+                "minWidth": 304,
+                "margin": "{kda.foundation.dimension.size.n4}"
+              }
+            },
+            "sm": {
+              "description": "phone viewports",
+              "type": "dimension",
+              "value": {
+                "columns": 8,
+                "gap": "{kda.foundation.dimension.size.n4}",
+                "width": "100%",
+                "minWidth": 640,
+                "margin": "{kda.foundation.dimension.size.n8}"
+              }
+            },
+            "md": {
+              "description": "tablets viewports",
+              "type": "dimension",
+              "value": {
+                "columns": 12,
+                "gap": "{kda.foundation.dimension.size.n4}",
+                "width": "100%",
+                "minWidth": 640,
+                "margin": "{kda.foundation.dimension.size.n10}"
+              }
+            },
+            "lg": {
+              "description": "desktops viewports",
+              "type": "dimension",
+              "value": {
+                "columns": 12,
+                "gap": "{kda.foundation.dimension.size.n6}",
+                "width": "100%",
+                "minWidth": 1024,
+                "margin": "{kda.foundation.dimension.size.n16}"
+              }
+            },
+            "xl": {
+              "description": "large desktop viewports",
+              "type": "dimension",
+              "value": {
+                "columns": 12,
+                "gap": "{kda.foundation.dimension.size.n8}",
+                "width": "100%",
+                "minWidth": 1280,
+                "margin": "{kda.foundation.dimension.size.n24}"
+              }
+            },
+            "xxl": {
+              "description": "extra large desktops viewports",
+              "type": "dimension",
+              "value": {
+                "columns": 12,
+                "gap": "{kda.foundation.dimension.size.n10}",
+                "width": "100%",
+                "minWidth": 1536,
+                "margin": "{kda.foundation.dimension.size.n40}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

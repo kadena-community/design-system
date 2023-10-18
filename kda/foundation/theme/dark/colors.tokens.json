@@ -1,0 +1,22 @@
+{
+  "kda": {
+    "dark": {
+      "color": {
+        "intent": {
+          "secondary": {
+            "background": {
+              "type": "color",
+              "description": "primary background color",
+              "value": "{kda.foundation.color.intent.primary.foreground}"
+            },
+            "foreground": {
+              "type": "color",
+              "description": "primary background color",
+              "value": "{kda.foundation.color.intent.primary.background}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

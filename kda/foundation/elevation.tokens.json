@@ -1,0 +1,46 @@
+{
+  "kda": {
+    "foundation": {
+      "elevation": {
+        "shadow": {
+          "description": "@TODO: shadow tokens",
+          "xs": {
+            "description": "xs shadow token",
+            "type": "shadow",
+            "value": {
+              "color": "{kda.foundation.color.palette.neutral.n20.base}",
+              "offsetX": "{kda.foundation.dimension.spacing.xxs}",
+              "offsetY": "{kda.foundation.dimension.spacing.xs}",
+              "blur": "{kda.foundation.dimension.size.n4}",
+              "spread": "{kda.foundation.dimension.size.n0}"
+            }
+          },
+          "sm": {
+            "description": "sm shadow token",
+            "type": "shadow",
+            "value": {
+              "color": "{kda.foundation.color.palette.neutral.n20.base}",
+              "offsetX": "{kda.foundation.dimension.spacing.xs}",
+              "offsetY": "{kda.foundation.dimension.spacing.sm}",
+              "blur": "{kda.foundation.dimension.size.n6}",
+              "spread": "{kda.foundation.dimension.size.n0}"
+            }
+          }
+        },
+        "overlay": {
+          "description": "@TODO: elevation overlay colors",
+          "xs": {
+            "description": "xs overlay token",
+            "type": "color",
+            "value": "{kda.foundation.color.palette.neutral.n20.alpha.at20}"
+          },
+          "sm": {
+            "description": "sm overlay token",
+            "type": "color",
+            "value": "{kda.foundation.color.palette.neutral.n20.alpha.at40}"
+          }
+        }
+      }
+    }
+  }
+}

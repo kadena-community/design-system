@@ -1,0 +1,123 @@
+{
+  "kda": {
+    "foundation": {
+      "color": {
+        "categorical": {
+          "description": "categorical colors used for data visualisations. follow the numbered sequence",
+          "c1": {
+            "base": {
+              "description": "category 1 color",
+              "type": "color",
+              "value": "#1D9AAA"
+            },
+            "state": {
+              "hover": {
+                "type": "color",
+                "description": "category 1 color on hover",
+                "value": "#1D7F8C"
+              }
+            }
+          },
+          "c2": {
+            "base": {
+              "description": "category 2 color",
+              "type": "color",
+              "value": "#5E4DB2"
+            },
+            "state": {
+              "hover": {
+                "type": "color",
+                "description": "category 2 color on hover",
+                "value": "#352C63"
+              }
+            }
+          },
+          "c3": {
+            "base": {
+              "description": "category 3 color",
+              "type": "color",
+              "value": "#D97008"
+            },
+            "state": {
+              "hover": {
+                "type": "color",
+                "description": "category 3 color on hover",
+                "value": "#B65C02"
+              }
+            }
+          },
+          "c4": {
+            "base": {
+              "description": "category 4 color",
+              "type": "color",
+              "value": "#943D73"
+            },
+            "state": {
+              "hover": {
+                "type": "color",
+                "description": "category 4 color on hover",
+                "value": "#50253F"
+              }
+            }
+          },
+          "c5": {
+            "base": {
+              "description": "category 5 color",
+              "type": "color",
+              "value": "#09326C"
+            },
+            "state": {
+              "hover": {
+                "type": "color",
+                "description": "category 5 color on hover",
+                "value": "#092957"
+              }
+            }
+          },
+          "c6": {
+            "base": {
+              "description": "category 6 color",
+              "type": "color",
+              "value": "#8F7EE7"
+            },
+            "state": {
+              "hover": {
+                "type": "color",
+                "description": "category 6 color on hover",
+                "value": "#8270DB"
+              }
+            }
+          },
+          "c7": {
+            "base": {
+              "description": "category 7 color",
+              "type": "color",
+              "value": "#50253F"
+            },
+            "state": {
+              "hover": {
+                "type": "color",
+                "description": "category 7 color on hover",
+                "value": "#421F34"
+              }
+            }
+          },
+          "c8": {
+            "base": {
+              "description": "category 8 color",
+              "type": "color",
+              "value": "#974F0C"
+            },
+            "state": {
+              "hover": {
+                "type": "color",
+                "description": "category 8 color on hover",
+                "value": "#5F3811"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

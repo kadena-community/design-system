@@ -1,0 +1,34 @@
+{
+  "kda": {
+    "foundation": {
+      "dimension": {
+        "radius": {
+          "no": {
+            "type": "number",
+            "value": 0
+          },
+          "xs": {
+            "type": "dimension",
+            "value": "2px"
+          },
+          "sm": {
+            "type": "dimension",
+            "value": "4px"
+          },
+          "md": {
+            "type": "dimension",
+            "value": "6px"
+          },
+          "lg": {
+            "type": "dimension",
+            "value": "8px"
+          },
+          "round": {
+            "type": "dimension",
+            "value": "999rem"
+          }
+        }
+      }
+    }
+  }
+}

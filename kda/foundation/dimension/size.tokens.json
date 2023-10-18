@@ -1,0 +1,83 @@
+{
+  "kda": {
+    "foundation": {
+      "dimension": {
+        "size": {
+          "description": "measurement units like size, spacing, and layout specs",
+          "n0": {
+            "type": "dimension",
+            "value": "0rem"
+          },
+          "n1": {
+            "type": "dimension",
+            "value": "0.25rem"
+          },
+          "n2": {
+            "type": "dimension",
+            "value": "0.5rem"
+          },
+          "n3": {
+            "type": "dimension",
+            "value": "0.75rem"
+          },
+          "n4": {
+            "type": "dimension",
+            "value": "1rem"
+          },
+          "n5": {
+            "type": "dimension",
+            "value": "1.25rem"
+          },
+          "n6": {
+            "type": "dimension",
+            "value": "1.5rem"
+          },
+          "n8": {
+            "type": "dimension",
+            "value": "2rem"
+          },
+          "n10": {
+            "type": "dimension",
+            "value": "2.5rem"
+          },
+          "n12": {
+            "type": "dimension",
+            "value": "3rem"
+          },
+          "n16": {
+            "type": "dimension",
+            "value": "4rem"
+          },
+          "n20": {
+            "type": "dimension",
+            "value": "5rem"
+          },
+          "n24": {
+            "type": "dimension",
+            "value": "6rem"
+          },
+          "n32": {
+            "type": "dimension",
+            "value": "8rem"
+          },
+          "n40": {
+            "type": "dimension",
+            "value": "10rem"
+          },
+          "n48": {
+            "type": "dimension",
+            "value": "12rem"
+          },
+          "n56": {
+            "type": "dimension",
+            "value": "14rem"
+          },
+          "n64": {
+            "type": "dimension",
+            "value": "16rem"
+          }
+        }
+      }
+    }
+  }
+}

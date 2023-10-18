@@ -1,0 +1,26 @@
+{
+  "kda": {
+    "button": {
+      "background": {
+        "type": "color",
+        "description": "primary background color",
+        "value": "{kda.foundation.color.intent.primary.background}"
+      },
+      "foreground": {
+        "type": "color",
+        "description": "primary foreground color",
+        "value": "{kda.foundation.color.intent.primary.foreground}"
+      },
+      "border": {
+        "type": "color",
+        "description": "primary border color",
+        "value": "{kda.foundation.color.intent.primary.border}"
+      },
+      "accent": {
+        "type": "color",
+        "description": "primary accent color",
+        "value": "{kda.foundation.color.intent.primary.accent}"
+      }
+    }
+  }
+}

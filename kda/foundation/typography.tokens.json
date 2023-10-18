@@ -1,0 +1,262 @@
+{
+  "kda": {
+    "foundation": {
+      "typography": {
+        "description": "Typography metrics",
+        "font": {
+          "family": {
+            "main": {
+              "type": "fontFamily",
+              "value": [
+                "Neue Haas Grotesk Display",
+                "-apple-system",
+                "sans-serif"
+              ]
+            },
+            "code": {
+              "type": "fontFamily",
+              "value": [
+                "Kode Mono",
+                "Menlo",
+                "monospace"
+              ]
+            }
+          },
+          "weight": {
+            "light": {
+              "type": "fontWeight",
+              "value": 300
+            },
+            "normal": {
+              "type": "fontWeight",
+              "value": 400
+            },
+            "medium": {
+              "type": "fontWeight",
+              "value": 500
+            },
+            "semiBold": {
+              "type": "fontWeight",
+              "value": 600
+            },
+            "bold": {
+              "type": "fontWeight",
+              "value": 700
+            }
+          },
+          "lineHeight": {
+            "initial": {
+              "value": "initial"
+            },
+            "normal": {
+              "value": "normal"
+            },
+            "base": {
+              "type": "number",
+              "value": 1.4
+            },
+            "lg": {
+              "type": "number",
+              "value": 1.9
+            }
+          }
+        },
+        "headline": {
+          "description": "@TODO: Headline metrics",
+          "h1": {
+            "description": "headline 1 props",
+            "font": {
+              "type": "typography",
+              "value": {
+                "fontFamily": "{kda.foundation.typography.font.family.main}",
+                "fontSize": "{kda.foundation.dimension.size.n12}",
+                "fontWeight": "{kda.foundation.typography.font.weight.bold}",
+                "lineHeight": "{kda.foundation.typography.font.lineHeight.lg}",
+                "letterSpacing": "0.1px"
+              }
+            },
+            "space": {
+              "description": "headline 1 spacing",
+              "type": "dimension",
+              "value": {
+                "marginBottom": "{kda.foundation.dimension.spacing.md}",
+                "padding": "{kda.foundation.dimension.spacing.no}"
+              }
+            }
+          },
+          "h2": {
+            "description": "headline 2 props",
+            "font": {
+              "type": "typography",
+              "value": {
+                "fontFamily": "{kda.foundation.typography.font.family.main}",
+                "fontSize": "{kda.foundation.dimension.size.n10}",
+                "fontWeight": "{kda.foundation.typography.font.weight.bold}",
+                "lineHeight": "{kda.foundation.typography.font.lineHeight.initial}",
+                "letterSpacing": "0.1px"
+              }
+            },
+            "space": {
+              "description": "headline 2 spacing",
+              "type": "dimension",
+              "value": {
+                "marginBottom": "{kda.foundation.dimension.spacing.xs}",
+                "padding": "{kda.foundation.dimension.spacing.no}"
+              }
+            }
+          },
+          "h3": {
+            "description": "headline 3 props",
+            "font": {
+              "type": "typography",
+              "value": {
+                "fontFamily": "{kda.foundation.typography.font.family.main}",
+                "fontSize": "{kda.foundation.dimension.size.n8}",
+                "fontWeight": "{kda.foundation.typography.font.weight.semiBold}",
+                "lineHeight": "{kda.foundation.typography.font.lineHeight.initial}",
+                "letterSpacing": "0.1px"
+              }
+            },
+            "space": {
+              "description": "headline 3 spacing",
+              "type": "dimension",
+              "value": {
+                "marginBottom": "{kda.foundation.dimension.spacing.xs}",
+                "padding": "{kda.foundation.dimension.spacing.no}"
+              }
+            }
+          },
+          "h4": {
+            "description": "headline 4 props",
+            "font": {
+              "type": "typography",
+              "value": {
+                "fontFamily": "{kda.foundation.typography.font.family.main}",
+                "fontSize": "{kda.foundation.dimension.size.n8}",
+                "fontWeight": "{kda.foundation.typography.font.weight.semiBold}",
+                "lineHeight": "{kda.foundation.typography.font.lineHeight.initial}",
+                "letterSpacing": "0.1px"
+              }
+            },
+            "space": {
+              "description": "headline 4 spacing",
+              "type": "dimension",
+              "value": {
+                "marginBottom": "{kda.foundation.dimension.spacing.xs}",
+                "padding": "{kda.foundation.dimension.spacing.no}"
+              }
+            }
+          },
+          "h5": {
+            "description": "headline 5 props",
+            "font": {
+              "type": "typography",
+              "value": {
+                "fontFamily": "{kda.foundation.typography.font.family.main}",
+                "fontSize": "{kda.foundation.dimension.size.n8}",
+                "fontWeight": "{kda.foundation.typography.font.weight.semiBold}",
+                "lineHeight": "{kda.foundation.typography.font.lineHeight.initial}",
+                "letterSpacing": "0.1px"
+              }
+            },
+            "space": {
+              "description": "headline 5 spacing",
+              "type": "dimension",
+              "value": {
+                "marginBottom": "{kda.foundation.dimension.spacing.xs}",
+                "padding": "{kda.foundation.dimension.spacing.no}"
+              }
+            }
+          },
+          "h6": {
+            "description": "headline 6 props",
+            "font": {
+              "type": "typography",
+              "value": {
+                "fontFamily": "{kda.foundation.typography.font.family.main}",
+                "fontSize": "{kda.foundation.dimension.size.n8}",
+                "fontWeight": "{kda.foundation.typography.font.weight.semiBold}",
+                "lineHeight": "{kda.foundation.typography.font.lineHeight.initial}",
+                "letterSpacing": "0.1px"
+              }
+            },
+            "space": {
+              "description": "headline 6 spacing",
+              "type": "dimension",
+              "value": {
+                "marginBottom": "{kda.foundation.dimension.spacing.xs}",
+                "padding": "{kda.foundation.dimension.spacing.no}"
+              }
+            }
+          }
+        },
+        "body": {
+          "description": "@TODO: Body metrics",
+          "base": {
+            "description": "body 1 props",
+            "font": {
+              "type": "typography",
+              "value": {
+                "fontFamily": "{kda.foundation.typography.font.family.main}",
+                "fontSize": "{kda.foundation.dimension.size.n4}",
+                "fontWeight": "{kda.foundation.typography.font.weight.normal}",
+                "lineHeight": "{kda.foundation.typography.font.lineHeight.initial}",
+                "letterSpacing": 0
+              }
+            },
+            "space": {
+              "description": "body 1 spacing",
+              "type": "dimension",
+              "value": {
+                "marginBottom": "{kda.foundation.dimension.spacing.xs}",
+                "padding": "{kda.foundation.dimension.spacing.no}"
+              }
+            }
+          },
+          "small": {
+            "description": "body small props",
+            "font": {
+              "type": "typography",
+              "value": {
+                "fontFamily": "{kda.foundation.typography.font.family.main}",
+                "fontSize": "{kda.foundation.dimension.size.n3}",
+                "fontWeight": "{kda.foundation.typography.font.weight.normal}",
+                "lineHeight": "{kda.foundation.typography.font.lineHeight.initial}",
+                "letterSpacing": 0
+              }
+            },
+            "space": {
+              "description": "body small spacing",
+              "type": "dimension",
+              "value": {
+                "marginBottom": "{kda.foundation.dimension.spacing.xxs}",
+                "padding": "{kda.foundation.dimension.spacing.no}"
+              }
+            }
+          }
+        },
+        "caption": {
+          "description": "@TODO: Caption metrics",
+          "font": {
+            "type": "typography",
+            "value": {
+              "fontFamily": "{kda.foundation.typography.font.family.main}",
+              "fontSize": "{kda.foundation.dimension.size.n3}",
+              "fontWeight": "{kda.foundation.typography.font.weight.normal}",
+              "lineHeight": "{kda.foundation.typography.font.lineHeight.initial}",
+              "letterSpacing": 0
+            }
+          },
+          "space": {
+            "description": "caption spacing",
+            "type": "dimension",
+            "value": {
+              "marginBottom": "{kda.foundation.dimension.spacing.xxs}",
+              "padding": "{kda.foundation.dimension.spacing.no}"
+            }
+          }
+        }
+      }
+    }
+  }
+}

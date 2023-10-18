@@ -1,0 +1,56 @@
+{
+  "kda": {
+    "foundation": {
+      "motion": {
+        "transition": {
+          "description": "@TODO: transition tokens",
+          "informative": {
+            "description": "Motion design informs users by highlighting relationships between elements, action availability, and action outcomes.",
+            "type": "transition",
+            "value": {
+              "duration": "200ms",
+              "delay": "0ms",
+              "timingFunction": [
+                0.5,
+                0,
+                1,
+                1
+              ]
+            }
+          },
+          "focused": {
+            "description": "Motion focuses attention on what's important, without creating unnecessary distraction.",
+            "type": "transition",
+            "value": {
+              "duration": "200ms",
+              "delay": "0ms",
+              "timingFunction": [
+                0.5,
+                0,
+                1,
+                1
+              ]
+            }
+          },
+          "expressive": {
+            "description": "Motion celebrates moments in user journeys, adds character to common interactions, and can express a brand's style.",
+            "type": "transition",
+            "value": {
+              "duration": "200ms",
+              "delay": "0ms",
+              "timingFunction": [
+                0.5,
+                0,
+                1,
+                1
+              ]
+            }
+          }
+        },
+        "transformation": {
+          "description": "@TODO: Transformation describes specific animations of a transitioning element."
+        }
+      }
+    }
+  }
+}
