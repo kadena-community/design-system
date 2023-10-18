@@ -899,6 +899,15 @@
             }
           }
         },
+        "breakpoint": {
+          "description": "media breakpoint metrics",
+          "xs": 304,
+          "sm": 640,
+          "md": 640,
+          "lg": 1024,
+          "xl": 1280,
+          "xxl": 1536
+        },
         "layout": {
           "breakpoint": {
             "description": "breakpoint layout details",
