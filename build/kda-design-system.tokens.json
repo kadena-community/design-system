@@ -1263,10 +1263,47 @@
       "description": "component tokens theme independent static values"
     },
     "button": {
-      "background": "#F1DBFF",
-      "foreground": "#450070",
-      "border": "#8300D6",
-      "accent": "#9D00FF"
+      "variants": {
+        "intent": {
+          "primary": {
+            "default": {
+              "background": "#F1DBFF",
+              "foreground": "#450070",
+              "border": "#8300D6",
+              "accent": "#9D00FF"
+            },
+            "disabled": {
+              "background": "#A59DAA",
+              "foreground": "#272329",
+              "border": "#8300D6",
+              "accent": "#9D00FF"
+            }
+          },
+          "outlined": {},
+          "alternative": {}
+        },
+        "compact": {
+          "true": {
+            "paddingX": "0.25rem",
+            "paddingY": "0.5rem",
+            "font": {
+              "fontFamily": [
+                "Neue Haas Grotesk Display",
+                "-apple-system",
+                "sans-serif"
+              ],
+              "fontSize": "0.75rem",
+              "fontWeight": 400,
+              "lineHeight": "initial",
+              "letterSpacing": 0
+            }
+          }
+        }
+      },
+      "base": {
+        "paddingX": "0.5rem",
+        "paddingY": "0.75rem"
+      }
     },
     "dark": {
       "color": {
