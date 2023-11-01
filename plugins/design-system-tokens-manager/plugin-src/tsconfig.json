@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "../dist",
+    "strict": true,
+    "typeRoots": [
+      "../node_modules/@figma",
+      "../node_modules/@figma/plugin-typings"
+    ],
+    "target": "ESNext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "module": "commonjs"
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts*"
+  ]
+}

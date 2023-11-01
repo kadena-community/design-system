@@ -1,0 +1,270 @@
+{
+  "$name": "Kode Design System",
+  "$version": "0.0.1",
+  "kda": {
+    "foundation": {
+      "color": {
+        "foreground": {
+          "$type": "color",
+          "$description": "primary foreground color",
+          "$value": "#aa4411",
+          "$extensions": {
+            "mode": {
+              "dark": "#cccccc"
+            }
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$description": "primary background color",
+          "$value": "#ff0011",
+          "$extensions": {
+            "mode": {
+              "dark": "#0099CC"
+            }
+          }
+        },
+        "intent": {
+          "primary": {
+            "default": {
+              "background": {
+                "$type": "color",
+                "$description": "color description",
+                "$value": "#ff0011"
+              }
+            }
+          },
+          "secondary": {
+            "$type": "color",
+            "$description": "color description",
+            "$value": "#aa4411"
+          },
+          "tertiary": {
+            "$type": "color",
+            "$description": "color description",
+            "$value": "#5794FF",
+            "$extensions": {
+              "mode": {
+                "dark": "#2012CC"
+              }
+            }
+          }
+        },
+        "categorical": {
+          "category1": {
+            "$type": "color",
+            "$value": "#00CC00",
+            "$extensions": {
+              "style": {
+                "@20": {
+                  "$type": "alpha",
+                  "$value": "33",
+                  "$base": "#00CC00"
+                }
+              }
+            }
+          },
+          "category2": {
+            "$type": "color",
+            "$value": "#00FF00",
+            "$extensions": {
+              "mode": {
+                "dark": "#000000"
+              },
+              "style": {
+                "@20": {
+                  "$modes": [
+                    "light",
+                    "dark"
+                  ],
+                  "$type": "alpha",
+                  "$base": "#aa4411",
+                  "$value": "33"
+                },
+                "@40": {
+                  "$modes": [
+                    "light"
+                  ],
+                  "$type": "alpha",
+                  "$base": "#5794FF",
+                  "$value": "66"
+                },
+                "@60": {
+                  "$type": "alpha",
+                  "$base": "#5794FF",
+                  "$value": "99"
+                }
+              }
+            }
+          }
+        }
+      },
+      "size": {
+        "$description": "measurement units like size, spacing, and layout specs",
+        "n0": {
+          "$type": "dimension",
+          "$value": "0rem"
+        },
+        "n1": {
+          "$type": "dimension",
+          "$value": "0.25rem"
+        },
+        "n2": {
+          "$type": "dimension",
+          "$value": "0.5rem",
+          "$extensions": {
+            "mode": {
+              "dark": "6rem"
+            }
+          }
+        },
+        "n3": {
+          "$type": "dimension",
+          "$value": "0.75rem"
+        },
+        "n4": {
+          "$type": "dimension",
+          "$value": "999rem"
+        }
+      },
+      "radius": {
+        "no": {
+          "$type": "number",
+          "$value": 0
+        },
+        "xs": {
+          "$type": "dimension",
+          "$value": "2px"
+        },
+        "round": {
+          "$type": "dimension",
+          "$value": "999rem"
+        }
+      },
+      "border": {
+        "no": {
+          "$type": "border",
+          "$value": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "#5794FF"
+          }
+        }
+      },
+      "effect": {
+        "shadow": [
+          {
+            "$name": "level1",
+            "$type": "shadow",
+            "$title": "Shadow Level 1",
+            "$description": "This is the shadow description",
+            "$value": {
+              "color": "33",
+              "offsetX": "4px",
+              "offsetY": "0.5rem",
+              "blur": "0.75rem",
+              "spread": "4px"
+            }
+          },
+          {
+            "$name": "level2",
+            "$type": "shadow",
+            "$title": "Shadow Level 2",
+            "$description": "This is the shadow description",
+            "$value": {
+              "color": "99",
+              "offsetX": "4rem",
+              "offsetY": "4rem",
+              "blur": "0.75rem",
+              "spread": "2rem"
+            }
+          }
+        ]
+      },
+      "typography": {
+        "fonts": {
+          "primaryFont": {
+            "$value": "Comic Sans MS",
+            "$type": "fontFamily"
+          },
+          "codeFont": {
+            "$value": "Kode Mono",
+            "$type": "fontFamily"
+          },
+          "bodyFont": {
+            "$value": [
+              "Helvetica",
+              "Arial",
+              "sans-serif"
+            ],
+            "$type": "fontFamily"
+          },
+          "code": {
+            "$description": "This is the codeblock description",
+            "$type": "typography",
+            "$title": "Code Block",
+            "$value": {
+              "fontFamily": "Kode Mono",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "letterSpacing": "20px",
+              "lineHeight": 1.9
+            }
+          },
+          "smallCode": {
+            "$description": "This is the small codeblock description",
+            "$type": "typography",
+            "$title": "Small Code Block",
+            "$value": {
+              "fontFamily": "Kode Mono",
+              "fontSize": "0.75rem",
+              "fontWeight": "Regular",
+              "letterSpacing": "0.25rem",
+              "lineHeight": "24px"
+            }
+          }
+        }
+      }
+    },
+    "button": {
+      "color": {
+        "foreground": {
+          "$type": "color",
+          "$description": "primary foreground color",
+          "$value": "#aa4411",
+          "$extensions": {
+            "mode": {
+              "dark": "#ff0011"
+            }
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$description": "primary background color",
+          "$value": "#ff0011",
+          "$extensions": {
+            "mode": {
+              "dark": "#aa4411"
+            }
+          }
+        },
+        "intent": {
+          "primary": {
+            "default": {
+              "background": {
+                "$type": "color",
+                "$description": "color description",
+                "$value": "#ff0011"
+              }
+            }
+          },
+          "secondary": {
+            "$type": "color",
+            "$description": "color description",
+            "$value": "#aa4411"
+          }
+        }
+      }
+    }
+  }
+}

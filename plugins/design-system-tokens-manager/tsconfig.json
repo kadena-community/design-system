@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "es5"
+    ],
+    "strict": true,
+    "typeRoots": [
+      "./node_modules/@figma",
+      "../node_modules/@figma/plugin-typings"
+    ],
+    "moduleResolution": "Node",
+    "skipLibCheck": true
+  }
+}

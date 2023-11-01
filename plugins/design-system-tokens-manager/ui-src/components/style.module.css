@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.wrapper textarea {
+  width: 100%;
+  resize: none;
+  font-family: monospace;
+}
+
+.header {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-grow: 0;
+}
+
+.header p {
+  margin: 0;
+}
+
+.input {
+  display: flex;
+  align-items: flex-start;
+  margin: 12px 0 24px 0;
+}
+
+.body {
+  display: flex;
+  margin: 12px 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.footer {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-grow: 0;
+}

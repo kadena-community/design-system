@@ -1,0 +1,307 @@
+{
+  "$name": "Kode Design System",
+  "$version": "0.0.1",
+  "kda": {
+    "foundation": {
+      "color": {
+        "foreground": {
+          "$type": "color",
+          "$description": "primary foreground color",
+          "$value": "#aa4411",
+          "$extensions": {
+            "mode": {
+              "dark": "#cccccc"
+            }
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$description": "primary background color",
+          "$value": "#ff0011",
+          "$extensions": {
+            "mode": {
+              "dark": "#0099CC"
+            }
+          }
+        },
+        "intent": {
+          "primary": {
+            "default": {
+              "background": {
+                "$type": "color",
+                "$description": "color description",
+                "$value": "{kda.foundation.color.background.$value}"
+              }
+            }
+          },
+          "secondary": {
+            "$type": "color",
+            "$description": "color description",
+            "$value": "{kda.foundation.color.foreground.$value}"
+          },
+          "tertiary": {
+            "$type": "color",
+            "$description": "color description",
+            "$value": "#5794FF",
+            "$extensions": {
+              "mode": {
+                "dark": "#2012CC"
+              }
+            }
+          }
+        },
+        "categorical": {
+          "category1": {
+            "$type": "color",
+            "$value": "#00CC00",
+            "$extensions": {
+              "style": {
+                "@20": {
+                  "$type": "alpha",
+                  "$value": "33",
+                  "$base": "{kda.foundation.color.categorical.category1.$value}"
+                }
+              }
+            }
+          },
+          "category2": {
+            "$type": "color",
+            "$value": "#00FF00",
+            "$extensions": {
+              "mode": {
+                "dark": "#000000"
+              },
+              "style": {
+                "@20": {
+                  "$modes": [
+                    "light",
+                    "dark"
+                  ],
+                  "$type": "alpha",
+                  "$base": "{kda.foundation.color.foreground.$value}",
+                  "$value": "33"
+                },
+                "@40": {
+                  "$modes": [
+                    "light"
+                  ],
+                  "$type": "alpha",
+                  "$base": "{kda.foundation.color.intent.tertiary.$value}",
+                  "$value": "66"
+                },
+                "@60": {
+                  "$type": "alpha",
+                  "$base": "{kda.foundation.color.intent.tertiary.$value}",
+                  "$value": "99"
+                }
+              }
+            }
+          }
+        }
+      },
+      "size": {
+        "$description": "measurement units like size, spacing, and layout specs",
+        "n0": {
+          "$type": "dimension",
+          "$value": "0rem"
+        },
+        "n1": {
+          "$type": "dimension",
+          "$value": "0.25rem"
+        },
+        "n2": {
+          "$type": "dimension",
+          "$value": "0.5rem",
+          "$extensions": {
+            "mode": {
+              "dark": "6rem"
+            }
+          }
+        },
+        "n3": {
+          "$type": "dimension",
+          "$value": "0.75rem"
+        },
+        "n10": {
+          "$type": "dimension",
+          "$value": "1rem"
+        },
+        "n4": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.radius.round.$value}"
+        }
+      },
+      "radius": {
+        "no": {
+          "$type": "number",
+          "$value": 0
+        },
+        "xs": {
+          "$type": "dimension",
+          "$value": "2px"
+        },
+        "round": {
+          "$type": "dimension",
+          "$value": "999rem"
+        }
+      },
+      "border": {
+        "no": {
+          "$type": "border",
+          "$value": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "{kda.foundation.color.intent.tertiary.$value}"
+          }
+        }
+      },
+      "effect": {
+        "s1": {
+          "$name": "level1",
+          "$type": "shadow",
+          "$title": "Shadow Level 1",
+          "$description": "This is the shadow description",
+          "$value": {
+            "color": "{kda.foundation.color.categorical.category1.$extensions.style.@20.$value}",
+            "offsetX": "4px",
+            "offsetY": "0.5rem",
+            "blur": "{kda.foundation.size.n3.$value}",
+            "spread": "4px"
+          }
+        },
+        "shadow": [
+          {
+            "$name": "level1",
+            "$type": "shadow",
+            "$title": "Shadow Level 1",
+            "$description": "This is the shadow 1 description",
+            "$value": {
+              "color": "{kda.foundation.color.categorical.category1.$extensions.style.@20.$value}",
+              "offsetX": "4px",
+              "offsetY": "0.5rem",
+              "blur": "{kda.foundation.size.n3.$value}",
+              "spread": "4px"
+            }
+          },
+          {
+            "$name": "level2",
+            "$type": "shadow",
+            "$title": "Shadow Level 2",
+            "$description": "This is the shadow 2 description",
+            "$value": {
+              "color": "{kda.foundation.color.categorical.category2.$extensions.style.@60.$value}",
+              "offsetX": "4rem",
+              "offsetY": "4rem",
+              "blur": "{kda.foundation.size.n3.$value}",
+              "spread": "2rem"
+            }
+          },
+          {
+            "$name": "level3",
+            "$type": "shadow",
+            "$title": "Shadow Level 3",
+            "$description": "This is the shadow 3 description updated",
+            "$value": {
+              "color": "{kda.foundation.color.categorical.category2.$extensions.style.@20.$value}",
+              "offsetX": 0,
+              "offsetY": 0,
+              "blur": "{kda.foundation.size.n3.$value}",
+              "spread": "24px"
+            }
+          }
+        ]
+      },
+      "typography": {
+        "family": {
+          "primaryFont": {
+            "$value": "Comic Sans MS",
+            "$title": "Primary Font",
+            "$type": "fontFamily"
+          },
+          "codeFont": {
+            "$value": "Kode Mono",
+            "$title": "Code Font",
+            "$type": "fontFamily"
+          },
+          "bodyFont": {
+            "$value": [
+              "Helvetica",
+              "Arial",
+              "sans-serif"
+            ],
+            "$title": "Body Font",
+            "$type": "fontFamily"
+          }
+        },
+        "fonts": [
+          {
+            "$name": "code",
+            "$description": "This is the codeblock description",
+            "$type": "typography",
+            "$title": "Code Block",
+            "$value": {
+              "fontFamily": "Kode Mono",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "letterSpacing": "20px",
+              "lineHeight": 1.9
+            }
+          },
+          {
+            "$name": "smallCode",
+            "$description": "This is the small codeblock description",
+            "$type": "typography",
+            "$title": "Small Code Block",
+            "$value": {
+              "fontFamily": "{kda.foundation.typography.family.codeFont.$value}",
+              "fontSize": "{kda.foundation.size.n10.$value}",
+              "fontWeight": "Regular",
+              "letterSpacing": "{kda.foundation.size.n1.$value}",
+              "lineHeight": "24px"
+            }
+          }
+        ]
+      }
+    },
+    "button": {
+      "color": {
+        "foreground": {
+          "$type": "color",
+          "$description": "primary foreground color",
+          "$value": "#aa4411",
+          "$extensions": {
+            "mode": {
+              "dark": "{kda.foundation.color.background.$value}"
+            }
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$description": "primary background color",
+          "$value": "{kda.foundation.color.background.$value}",
+          "$extensions": {
+            "mode": {
+              "dark": "{kda.foundation.color.foreground.$value}"
+            }
+          }
+        },
+        "intent": {
+          "primary": {
+            "default": {
+              "background": {
+                "$type": "color",
+                "$description": "color description",
+                "$value": "{kda.foundation.color.background.$value}"
+              }
+            }
+          },
+          "secondary": {
+            "$type": "color",
+            "$description": "color description",
+            "$value": "{kda.foundation.color.foreground.$value}"
+          }
+        }
+      }
+    }
+  }
+}

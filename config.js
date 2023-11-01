@@ -1,10 +1,10 @@
 // config.js
 module.exports = {
-  source: [`kda/**/*.json`],
+  source: [`tokens/**/*.json`],
   platforms: {
     css: {
       transformGroup: "css",
-      buildPath: "build/",
+      buildPath: "builds/tokens/",
       files: [
         {
           format: "json/nested",

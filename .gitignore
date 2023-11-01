@@ -1,4 +1,8 @@
 node_modules
 *-lock.json
+*.lock
 
 tmp
+.vscode
+
+builds
