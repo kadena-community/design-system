@@ -52,7 +52,7 @@ export function convertPropPath(path: string, value = '') {
     .trim()
     .split(EConstants.TOKEN_NAME_DELIMITER)
     .filter((part) => part !== EConstants.EXTENSIONS)
-    .map((part) => part === EExtensionKey.EXTENSION_TYPE_STYLE ? value : part)
+    .map((part) => part === EExtensionKey.EXTENSION_TYPE_MODIFIER ? value : part)
     .join(EConstants.TOKEN_NAME_DELIMITER)
 }
 
@@ -71,7 +71,7 @@ export const hasAliasValue = (value: VariableValue) =>
 
 export const hasExtendedAliasValue = (value: VariableValue) =>
   typeof value === 'string' &&
-  /\.\$extensions\.style\./.test(value)
+  /\.\$extensions\.modifier\./.test(value)
 
 export const getExtendedAliasValue = (value: VariableValue) => {
   if (typeof value === 'string' && hasExtendedAliasValue(value)) {
@@ -84,7 +84,7 @@ export const getExtendedAliasValue = (value: VariableValue) => {
 export const transformExtendedAliasPath = (value: string) => {
   return getValuePath(value).split(EConstants.TOKEN_NAME_DELIMITER)
     .filter((part) => part !== EConstants.EXTENSIONS)
-    .map((part) => part === EExtensionKey.EXTENSION_TYPE_STYLE ? EExtensionProp.ALPHA.toLowerCase() : part)
+    .map((part) => part === EExtensionKey.EXTENSION_TYPE_MODIFIER ? EExtensionProp.ALPHA.toLowerCase() : part)
     .join(EConstants.TOKEN_NAME_DELIMITER)
 }
 

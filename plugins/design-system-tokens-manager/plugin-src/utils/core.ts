@@ -1,4 +1,4 @@
-import { EConstants, EDTFCompositeTypes, METADATA_KEYS, TCollectionPayload, TJsonData, TPathData, TPreProcessedDataObject, TPreTranspiledData, TProcessedData, TTokenData, TTokenDataTranspiled, TTokenRootValue, TTranspiledData, TTranspiledTokenData } from "../types";
+import { EConstants, EDTFCompositeTypes, EExtensionKey, METADATA_KEYS, TCollectionPayload, TJsonData, TPathData, TPreProcessedDataObject, TPreTranspiledData, TProcessedData, TTokenData, TTokenDataTranspiled, TTokenRootValue, TTranspiledData, TTranspiledTokenData } from "../types";
 import { getCollectionName, getCollectionVersion, initCollection } from "./collection";
 import { convertPathToName, deconstructPath, getValueByPath, hasAliasValue, setVariableDataType } from "./helper";
 import { getLocalVariables, iterateTokens } from "./variable";
@@ -86,7 +86,7 @@ export async function processData(data: TPreProcessedDataObject, sourceData: TCo
       } as TTokenRootValue
     }
 
-    if (parentKey === EConstants.MODE_KEY) {
+    if (parentKey === EExtensionKey.EXTENSION_TYPE_MODE) {
       modes.push(key)
     }
 

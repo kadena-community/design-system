@@ -39,8 +39,13 @@
             "$type": "color",
             "$value": "#00CC00",
             "$extensions": {
-              "style": {
+              "modifier": {
                 "@20": {
+                  "$type": "alpha",
+                  "$value": "33",
+                  "$base": "#00CC00"
+                },
+                "@40": {
                   "$type": "alpha",
                   "$value": "33",
                   "$base": "#00CC00"
@@ -55,7 +60,7 @@
               "mode": {
                 "dark": "#000000"
               },
-              "style": {
+              "modifier": {
                 "@20": {
                   "$modes": [
                     "light",
@@ -228,17 +233,14 @@
         "family": {
           "primaryFont": {
             "$value": "Comic Sans MS",
-            "$title": "Primary Font",
             "$type": "fontFamily"
           },
           "headingFont": {
             "$value": "Haas Grot Disp",
-            "$title": "Header Font",
             "$type": "fontFamily"
           },
           "codeFont": {
             "$value": "Kode Mono",
-            "$title": "Code Font",
             "$type": "fontFamily"
           },
           "bodyFont": {
@@ -247,12 +249,11 @@
               "Arial",
               "sans-serif"
             ],
-            "$title": "Body Font",
             "$type": "fontFamily"
           }
         },
-        "fonts": [
-          {
+        "fonts": {
+          "Header 1": {
             "$name": "heading",
             "$description": "This is the codeblock description",
             "$type": "typography",
@@ -265,7 +266,7 @@
               "lineHeight": 1.9
             }
           },
-          {
+          "Code Block": {
             "$name": "code",
             "$description": "This is the codeblock description",
             "$type": "typography",
@@ -278,7 +279,7 @@
               "lineHeight": 1.9
             }
           },
-          {
+          "Small Code Bloc": {
             "$name": "smallCode",
             "$description": "This is the small codeblock description",
             "$type": "typography",
@@ -291,7 +292,7 @@
               "lineHeight": "24px"
             }
           }
-        ]
+        }
       }
     },
     "button": {

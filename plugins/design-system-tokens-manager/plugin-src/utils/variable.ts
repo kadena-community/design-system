@@ -173,7 +173,7 @@ async function parseTokenValue(token: TTokenData, params: TCreateTokenMetaData, 
       token.$extension[EExtensionKey.EXTENSION_TYPE_MODE][modeId] = processTokenValue(token.type, token.$extension[EExtensionKey.EXTENSION_TYPE_MODE][modeId], token, params)
 
       return token
-    } else if (token.isExtension && token.$extension?.style) {
+    } else if (token.isExtension && token.$extension?.modifier) {
 
       return token
     } else if (token.isExtension && !modeId) {

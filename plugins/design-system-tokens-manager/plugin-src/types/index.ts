@@ -10,10 +10,9 @@ export enum EConstants {
   TITLE_KEY = '$title',
   EXTENSIONS = '$extensions',
   DOT_PATH_DELIMITER = '.',
-  MODE_KEY = 'mode',
   DEFAULT_MODE = 'light',
   TOKEN_NAME_DELIMITER = '/',
-  BASE_FONT_SIZE = 16
+  BASE_FONT_SIZE = 16,
 }
 
 export enum EDTFTypes {
@@ -53,8 +52,8 @@ export const METADATA_KEYS = [
 ]
 
 export enum EExtensionKey {
-  EXTENSION_TYPE_STYLE = 'style',
-  EXTENSION_TYPE_MODE = EConstants.MODE_KEY,
+  EXTENSION_TYPE_MODIFIER = 'modifier',
+  EXTENSION_TYPE_MODE = 'mode',
 }
 
 export type TExtensionTypeStyle = {
@@ -106,7 +105,7 @@ export type TProcessedData = {
 
 type TExtensionKeys =
   EExtensionKey.EXTENSION_TYPE_MODE |
-  EExtensionKey.EXTENSION_TYPE_STYLE
+  EExtensionKey.EXTENSION_TYPE_MODIFIER
 
 export type TExtension = {
   [key in TExtensionKeys]?: any

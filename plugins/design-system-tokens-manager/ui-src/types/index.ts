@@ -1,6 +1,6 @@
 export enum EExtensions {
   MODE = "mode",
-  STYLE = "style",
+  MODIFIER = "modifier",
 }
 
 export enum EActions {

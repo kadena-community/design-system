@@ -52,8 +52,13 @@
             "$type": "color",
             "$value": "#00CC00",
             "$extensions": {
-              "style": {
+              "modifier": {
                 "@20": {
+                  "$type": "alpha",
+                  "$value": "33",
+                  "$base": "{kda.foundation.color.categorical.category1.$value}"
+                },
+                "@40": {
                   "$type": "alpha",
                   "$value": "33",
                   "$base": "{kda.foundation.color.categorical.category1.$value}"
@@ -68,7 +73,7 @@
               "mode": {
                 "dark": "#000000"
               },
-              "style": {
+              "modifier": {
                 "@20": {
                   "$modes": [
                     "light",
@@ -131,7 +136,7 @@
           "$title": "Shadow Level 1",
           "$description": "This is the shadow description",
           "$value": {
-            "color": "{kda.foundation.color.categorical.category1.$extensions.style.@20.$value}",
+            "color": "{kda.foundation.color.categorical.category1.$extensions.modifier.@20.$value}",
             "offsetX": "4px",
             "offsetY": "0.5rem",
             "blur": "{kda.foundation.size.n3.$value}",
@@ -145,7 +150,7 @@
             "$title": "Shadow Level 1",
             "$description": "This is the shadow 1 description",
             "$value": {
-              "color": "{kda.foundation.color.categorical.category1.$extensions.style.@20.$value}",
+              "color": "{kda.foundation.color.categorical.category1.$extensions.modifier.@20.$value}",
               "offsetX": "4px",
               "offsetY": "0.5rem",
               "blur": "{kda.foundation.size.n3.$value}",
@@ -158,7 +163,7 @@
             "$title": "Shadow Level 2",
             "$description": "This is the shadow 2 description",
             "$value": {
-              "color": "{kda.foundation.color.categorical.category2.$extensions.style.@60.$value}",
+              "color": "{kda.foundation.color.categorical.category2.$extensions.modifier.@60.$value}",
               "offsetX": "4rem",
               "offsetY": "4rem",
               "blur": "{kda.foundation.size.n3.$value}",
@@ -171,7 +176,7 @@
             "$title": "Shadow Level 3",
             "$description": "This is the shadow 3 description updated",
             "$value": {
-              "color": "{kda.foundation.color.categorical.category2.$extensions.style.@20.$value}",
+              "color": "{kda.foundation.color.categorical.category2.$extensions.modifier.@20.$value}",
               "offsetX": 0,
               "offsetY": 0,
               "blur": "{kda.foundation.size.n3.$value}",
@@ -223,8 +228,8 @@
         }
       },
       "typography": {
-        "fonts": [
-          {
+        "fonts": {
+          "Header 1": {
             "$name": "heading",
             "$description": "This is the codeblock description",
             "$type": "typography",
@@ -237,7 +242,7 @@
               "lineHeight": 1.9
             }
           },
-          {
+          "Code Block": {
             "$name": "code",
             "$description": "This is the codeblock description",
             "$type": "typography",
@@ -250,7 +255,7 @@
               "lineHeight": 1.9
             }
           },
-          {
+          "Small Code Bloc": {
             "$name": "smallCode",
             "$description": "This is the small codeblock description",
             "$type": "typography",
@@ -263,21 +268,18 @@
               "lineHeight": "24px"
             }
           }
-        ],
+        },
         "family": {
           "primaryFont": {
             "$value": "Comic Sans MS",
-            "$title": "Primary Font",
             "$type": "fontFamily"
           },
           "headingFont": {
             "$value": "Haas Grot Disp",
-            "$title": "Header Font",
             "$type": "fontFamily"
           },
           "codeFont": {
             "$value": "Kode Mono",
-            "$title": "Code Font",
             "$type": "fontFamily"
           },
           "bodyFont": {
@@ -286,7 +288,6 @@
               "Arial",
               "sans-serif"
             ],
-            "$title": "Body Font",
             "$type": "fontFamily"
           }
         }

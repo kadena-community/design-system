@@ -2,8 +2,8 @@
   "kda": {
     "foundation": {
       "typography": {
-        "fonts": [
-          {
+        "fonts": {
+          "Header 1": {
             "$name": "heading",
             "$description": "This is the codeblock description",
             "$type": "typography",
@@ -16,7 +16,7 @@
               "lineHeight": 1.9
             }
           },
-          {
+          "Code Block": {
             "$name": "code",
             "$description": "This is the codeblock description",
             "$type": "typography",
@@ -29,7 +29,7 @@
               "lineHeight": 1.9
             }
           },
-          {
+          "Small Code Bloc": {
             "$name": "smallCode",
             "$description": "This is the small codeblock description",
             "$type": "typography",
@@ -42,7 +42,7 @@
               "lineHeight": "24px"
             }
           }
-        ]
+        }
       }
     }
   }

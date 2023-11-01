@@ -7,8 +7,13 @@
             "$type": "color",
             "$value": "#00CC00",
             "$extensions": {
-              "style": {
+              "modifier": {
                 "@20": {
+                  "$type": "alpha",
+                  "$value": "33",
+                  "$base": "{kda.foundation.color.categorical.category1.$value}"
+                },
+                "@40": {
                   "$type": "alpha",
                   "$value": "33",
                   "$base": "{kda.foundation.color.categorical.category1.$value}"
@@ -23,7 +28,7 @@
               "mode": {
                 "dark": "#000000"
               },
-              "style": {
+              "modifier": {
                 "@20": {
                   "$modes": [
                     "light",
