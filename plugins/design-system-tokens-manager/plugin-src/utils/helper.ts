@@ -71,7 +71,7 @@ export const hasAliasValue = (value: VariableValue) =>
 
 export const hasExtendedAliasValue = (value: VariableValue) =>
   typeof value === 'string' &&
-  /\.\$extensions\.modifier\./.test(value)
+  value.includes(`.${EConstants.EXTENSIONS}.${EExtensionKey.EXTENSION_TYPE_MODIFIER}.`)
 
 export const getExtendedAliasValue = (value: VariableValue) => {
   if (typeof value === 'string' && hasExtendedAliasValue(value)) {
