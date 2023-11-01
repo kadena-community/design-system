@@ -2,32 +2,6 @@
   "kda": {
     "foundation": {
       "typography": {
-        "family": {
-          "primaryFont": {
-            "$value": "Comic Sans MS",
-            "$title": "Primary Font",
-            "$type": "fontFamily"
-          },
-          "headingFont": {
-            "$value": "Haas Grot Disp",
-            "$title": "Header Font",
-            "$type": "fontFamily"
-          },
-          "codeFont": {
-            "$value": "Kode Mono",
-            "$title": "Code Font",
-            "$type": "fontFamily"
-          },
-          "bodyFont": {
-            "$value": [
-              "Helvetica",
-              "Arial",
-              "sans-serif"
-            ],
-            "$title": "Body Font",
-            "$type": "fontFamily"
-          }
-        },
         "fonts": [
           {
             "$name": "heading",

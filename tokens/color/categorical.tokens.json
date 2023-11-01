@@ -2,52 +2,6 @@
   "kda": {
     "foundation": {
       "color": {
-        "foreground": {
-          "$type": "color",
-          "$description": "primary foreground color",
-          "$value": "#aa4411",
-          "$extensions": {
-            "mode": {
-              "dark": "#cccccc"
-            }
-          }
-        },
-        "background": {
-          "$type": "color",
-          "$description": "primary background color",
-          "$value": "#ff0011",
-          "$extensions": {
-            "mode": {
-              "dark": "#0099CC"
-            }
-          }
-        },
-        "intent": {
-          "primary": {
-            "default": {
-              "background": {
-                "$type": "color",
-                "$description": "color description",
-                "$value": "{kda.foundation.color.background.$value}"
-              }
-            }
-          },
-          "secondary": {
-            "$type": "color",
-            "$description": "color description",
-            "$value": "{kda.foundation.color.foreground.$value}"
-          },
-          "tertiary": {
-            "$type": "color",
-            "$description": "color description",
-            "$value": "#5794FF",
-            "$extensions": {
-              "mode": {
-                "dark": "#2012CC"
-              }
-            }
-          }
-        },
         "categorical": {
           "category1": {
             "$type": "color",
@@ -91,6 +45,14 @@
                   "$type": "alpha",
                   "$base": "{kda.foundation.color.intent.tertiary.$value}",
                   "$value": "99"
+                },
+                "@80": {
+                  "$modes": [
+                    "dark"
+                  ],
+                  "$type": "alpha",
+                  "$base": "{kda.foundation.color.intent.primary.default.background.$value}",
+                  "$value": "66"
                 }
               }
             }

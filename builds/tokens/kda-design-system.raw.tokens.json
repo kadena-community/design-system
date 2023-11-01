@@ -20,90 +20,14 @@
           "$value": "999rem"
         }
       },
-      "effect": {
-        "s1": {
-          "$name": "level1",
-          "$type": "shadow",
-          "$title": "Shadow Level 1",
-          "$description": "This is the shadow description",
-          "$value": {
-            "color": "{kda.foundation.color.categorical.category1.$extensions.style.@20.$value}",
-            "offsetX": "4px",
-            "offsetY": "0.5rem",
-            "blur": "{kda.foundation.size.n3.$value}",
-            "spread": "4px"
-          }
-        },
-        "shadow": [
-          {
-            "$name": "level1",
-            "$type": "shadow",
-            "$title": "Shadow Level 1",
-            "$description": "This is the shadow 1 description",
-            "$value": {
-              "color": "{kda.foundation.color.categorical.category1.$extensions.style.@20.$value}",
-              "offsetX": "4px",
-              "offsetY": "0.5rem",
-              "blur": "{kda.foundation.size.n3.$value}",
-              "spread": "4px"
-            }
-          },
-          {
-            "$name": "level2",
-            "$type": "shadow",
-            "$title": "Shadow Level 2",
-            "$description": "This is the shadow 2 description",
-            "$value": {
-              "color": "{kda.foundation.color.categorical.category2.$extensions.style.@60.$value}",
-              "offsetX": "4rem",
-              "offsetY": "4rem",
-              "blur": "{kda.foundation.size.n3.$value}",
-              "spread": "2rem"
-            }
-          },
-          {
-            "$name": "level3",
-            "$type": "shadow",
-            "$title": "Shadow Level 3",
-            "$description": "This is the shadow 3 description updated",
-            "$value": {
-              "color": "{kda.foundation.color.categorical.category2.$extensions.style.@20.$value}",
-              "offsetX": 0,
-              "offsetY": 0,
-              "blur": "{kda.foundation.size.n3.$value}",
-              "spread": "24px"
-            }
-          }
-        ]
-      },
       "color": {
-        "foreground": {
-          "$type": "color",
-          "$description": "primary foreground color",
-          "$value": "#aa4411",
-          "$extensions": {
-            "mode": {
-              "dark": "#cccccc"
-            }
-          }
-        },
-        "background": {
-          "$type": "color",
-          "$description": "primary background color",
-          "$value": "#ff0011",
-          "$extensions": {
-            "mode": {
-              "dark": "#0099CC"
-            }
-          }
-        },
         "intent": {
           "primary": {
             "default": {
               "background": {
                 "$type": "color",
                 "$description": "color description",
-                "$value": "{kda.foundation.color.background.$value}"
+                "$value": "#aabbcc"
               }
             }
           },
@@ -166,11 +90,95 @@
                   "$type": "alpha",
                   "$base": "{kda.foundation.color.intent.tertiary.$value}",
                   "$value": "99"
+                },
+                "@80": {
+                  "$modes": [
+                    "dark"
+                  ],
+                  "$type": "alpha",
+                  "$base": "{kda.foundation.color.intent.primary.default.background.$value}",
+                  "$value": "66"
                 }
               }
             }
           }
+        },
+        "foreground": {
+          "$type": "color",
+          "$description": "primary foreground color",
+          "$value": "#aa4411",
+          "$extensions": {
+            "mode": {
+              "dark": "#cccccc"
+            }
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$description": "primary background color",
+          "$value": "#ff0011",
+          "$extensions": {
+            "mode": {
+              "dark": "#0099CC"
+            }
+          }
         }
+      },
+      "effect": {
+        "s1": {
+          "$name": "level1",
+          "$type": "shadow",
+          "$title": "Shadow Level 1",
+          "$description": "This is the shadow description",
+          "$value": {
+            "color": "{kda.foundation.color.categorical.category1.$extensions.style.@20.$value}",
+            "offsetX": "4px",
+            "offsetY": "0.5rem",
+            "blur": "{kda.foundation.size.n3.$value}",
+            "spread": "4px"
+          }
+        },
+        "shadow": [
+          {
+            "$name": "level1",
+            "$type": "shadow",
+            "$title": "Shadow Level 1",
+            "$description": "This is the shadow 1 description",
+            "$value": {
+              "color": "{kda.foundation.color.categorical.category1.$extensions.style.@20.$value}",
+              "offsetX": "4px",
+              "offsetY": "0.5rem",
+              "blur": "{kda.foundation.size.n3.$value}",
+              "spread": "4px"
+            }
+          },
+          {
+            "$name": "level2",
+            "$type": "shadow",
+            "$title": "Shadow Level 2",
+            "$description": "This is the shadow 2 description",
+            "$value": {
+              "color": "{kda.foundation.color.categorical.category2.$extensions.style.@60.$value}",
+              "offsetX": "4rem",
+              "offsetY": "4rem",
+              "blur": "{kda.foundation.size.n3.$value}",
+              "spread": "2rem"
+            }
+          },
+          {
+            "$name": "level3",
+            "$type": "shadow",
+            "$title": "Shadow Level 3",
+            "$description": "This is the shadow 3 description updated",
+            "$value": {
+              "color": "{kda.foundation.color.categorical.category2.$extensions.style.@20.$value}",
+              "offsetX": 0,
+              "offsetY": 0,
+              "blur": "{kda.foundation.size.n3.$value}",
+              "spread": "24px"
+            }
+          }
+        ]
       },
       "size": {
         "$description": "measurement units like size, spacing, and layout specs",
@@ -215,32 +223,6 @@
         }
       },
       "typography": {
-        "family": {
-          "primaryFont": {
-            "$value": "Comic Sans MS",
-            "$title": "Primary Font",
-            "$type": "fontFamily"
-          },
-          "headingFont": {
-            "$value": "Haas Grot Disp",
-            "$title": "Header Font",
-            "$type": "fontFamily"
-          },
-          "codeFont": {
-            "$value": "Kode Mono",
-            "$title": "Code Font",
-            "$type": "fontFamily"
-          },
-          "bodyFont": {
-            "$value": [
-              "Helvetica",
-              "Arial",
-              "sans-serif"
-            ],
-            "$title": "Body Font",
-            "$type": "fontFamily"
-          }
-        },
         "fonts": [
           {
             "$name": "heading",
@@ -281,7 +263,33 @@
               "lineHeight": "24px"
             }
           }
-        ]
+        ],
+        "family": {
+          "primaryFont": {
+            "$value": "Comic Sans MS",
+            "$title": "Primary Font",
+            "$type": "fontFamily"
+          },
+          "headingFont": {
+            "$value": "Haas Grot Disp",
+            "$title": "Header Font",
+            "$type": "fontFamily"
+          },
+          "codeFont": {
+            "$value": "Kode Mono",
+            "$title": "Code Font",
+            "$type": "fontFamily"
+          },
+          "bodyFont": {
+            "$value": [
+              "Helvetica",
+              "Arial",
+              "sans-serif"
+            ],
+            "$title": "Body Font",
+            "$type": "fontFamily"
+          }
+        }
       }
     },
     "button": {

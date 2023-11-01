@@ -34,32 +34,6 @@
             }
           }
         },
-        "intent": {
-          "primary": {
-            "default": {
-              "background": {
-                "$type": "color",
-                "$description": "color description",
-                "$value": "#ff0011"
-              }
-            }
-          },
-          "secondary": {
-            "$type": "color",
-            "$description": "color description",
-            "$value": "#aa4411"
-          },
-          "tertiary": {
-            "$type": "color",
-            "$description": "color description",
-            "$value": "#5794FF",
-            "$extensions": {
-              "mode": {
-                "dark": "#2012CC"
-              }
-            }
-          }
-        },
         "categorical": {
           "category1": {
             "$type": "color",
@@ -103,7 +77,41 @@
                   "$type": "alpha",
                   "$base": "#5794FF",
                   "$value": "99"
+                },
+                "@80": {
+                  "$modes": [
+                    "dark"
+                  ],
+                  "$type": "alpha",
+                  "$base": "#aabbcc",
+                  "$value": "66"
                 }
+              }
+            }
+          }
+        },
+        "intent": {
+          "primary": {
+            "default": {
+              "background": {
+                "$type": "color",
+                "$description": "color description",
+                "$value": "#aabbcc"
+              }
+            }
+          },
+          "secondary": {
+            "$type": "color",
+            "$description": "color description",
+            "$value": "#aa4411"
+          },
+          "tertiary": {
+            "$type": "color",
+            "$description": "color description",
+            "$value": "#5794FF",
+            "$extensions": {
+              "mode": {
+                "dark": "#2012CC"
               }
             }
           }
