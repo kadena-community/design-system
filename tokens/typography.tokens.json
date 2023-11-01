@@ -1,0 +1,75 @@
+{
+  "kda": {
+    "foundation": {
+      "typography": {
+        "family": {
+          "primaryFont": {
+            "$value": "Comic Sans MS",
+            "$title": "Primary Font",
+            "$type": "fontFamily"
+          },
+          "headingFont": {
+            "$value": "Haas Grot Disp",
+            "$title": "Header Font",
+            "$type": "fontFamily"
+          },
+          "codeFont": {
+            "$value": "Kode Mono",
+            "$title": "Code Font",
+            "$type": "fontFamily"
+          },
+          "bodyFont": {
+            "$value": [
+              "Helvetica",
+              "Arial",
+              "sans-serif"
+            ],
+            "$title": "Body Font",
+            "$type": "fontFamily"
+          }
+        },
+        "fonts": [
+          {
+            "$name": "heading",
+            "$description": "This is the codeblock description",
+            "$type": "typography",
+            "$title": "Header 1",
+            "$value": {
+              "fontFamily": "{kda.foundation.typography.family.headingFont.$value}",
+              "fontSize": 40,
+              "fontWeight": "75 Bold",
+              "letterSpacing": "0px",
+              "lineHeight": 1.9
+            }
+          },
+          {
+            "$name": "code",
+            "$description": "This is the codeblock description",
+            "$type": "typography",
+            "$title": "Code Block",
+            "$value": {
+              "fontFamily": "Kode Mono",
+              "fontSize": 40,
+              "fontWeight": 700,
+              "letterSpacing": "20px",
+              "lineHeight": 1.9
+            }
+          },
+          {
+            "$name": "smallCode",
+            "$description": "This is the small codeblock description",
+            "$type": "typography",
+            "$title": "Small Code Block",
+            "$value": {
+              "fontFamily": "{kda.foundation.typography.family.codeFont.$value}",
+              "fontSize": "{kda.foundation.size.n10.$value}",
+              "fontWeight": "Regular",
+              "letterSpacing": "{kda.foundation.size.n1.$value}",
+              "lineHeight": "24px"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

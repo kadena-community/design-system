@@ -1,0 +1,25 @@
+{
+  "kda": {
+    "foundation": {
+      "radius": {
+        "no": {
+          "$type": "number",
+          "$value": 0
+        },
+        "xs": {
+          "$type": "number",
+          "$value": 8,
+          "$extensions": {
+            "mode": {
+              "dark": 24
+            }
+          }
+        },
+        "round": {
+          "$type": "dimension",
+          "$value": "999rem"
+        }
+      }
+    }
+  }
+}

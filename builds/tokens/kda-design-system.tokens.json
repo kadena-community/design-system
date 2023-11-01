@@ -3,6 +3,16 @@
   "$version": "0.0.1",
   "kda": {
     "foundation": {
+      "border": {
+        "no": {
+          "$type": "border",
+          "$value": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "#5794FF"
+          }
+        }
+      },
       "color": {
         "foreground": {
           "$type": "color",
@@ -99,67 +109,6 @@
           }
         }
       },
-      "size": {
-        "$description": "measurement units like size, spacing, and layout specs",
-        "n0": {
-          "$type": "dimension",
-          "$value": "0rem"
-        },
-        "n1": {
-          "$type": "dimension",
-          "$value": "0.25rem"
-        },
-        "n2": {
-          "$type": "dimension",
-          "$value": "0.5rem",
-          "$extensions": {
-            "mode": {
-              "dark": "6rem"
-            }
-          }
-        },
-        "n3": {
-          "$type": "dimension",
-          "$value": "0.75rem"
-        },
-        "n10": {
-          "$type": "dimension",
-          "$value": "1rem"
-        },
-        "n4": {
-          "$type": "dimension",
-          "$value": "999rem"
-        }
-      },
-      "radius": {
-        "no": {
-          "$type": "number",
-          "$value": 0
-        },
-        "xs": {
-          "$type": "number",
-          "$value": 8,
-          "$extensions": {
-            "mode": {
-              "dark": 24
-            }
-          }
-        },
-        "round": {
-          "$type": "dimension",
-          "$value": "999rem"
-        }
-      },
-      "border": {
-        "no": {
-          "$type": "border",
-          "$value": {
-            "borderWidth": 1,
-            "borderStyle": "solid",
-            "borderColor": "#5794FF"
-          }
-        }
-      },
       "effect": {
         "s1": {
           "$name": "level1",
@@ -216,11 +165,67 @@
           }
         ]
       },
+      "radius": {
+        "no": {
+          "$type": "number",
+          "$value": 0
+        },
+        "xs": {
+          "$type": "number",
+          "$value": 8,
+          "$extensions": {
+            "mode": {
+              "dark": 24
+            }
+          }
+        },
+        "round": {
+          "$type": "dimension",
+          "$value": "999rem"
+        }
+      },
+      "size": {
+        "$description": "measurement units like size, spacing, and layout specs",
+        "n0": {
+          "$type": "dimension",
+          "$value": "0rem"
+        },
+        "n1": {
+          "$type": "dimension",
+          "$value": "0.25rem"
+        },
+        "n2": {
+          "$type": "dimension",
+          "$value": "0.5rem",
+          "$extensions": {
+            "mode": {
+              "dark": "6rem"
+            }
+          }
+        },
+        "n3": {
+          "$type": "dimension",
+          "$value": "0.75rem"
+        },
+        "n10": {
+          "$type": "dimension",
+          "$value": "1rem"
+        },
+        "n4": {
+          "$type": "dimension",
+          "$value": "999rem"
+        }
+      },
       "typography": {
         "family": {
           "primaryFont": {
             "$value": "Comic Sans MS",
             "$title": "Primary Font",
+            "$type": "fontFamily"
+          },
+          "headingFont": {
+            "$value": "Haas Grot Disp",
+            "$title": "Header Font",
             "$type": "fontFamily"
           },
           "codeFont": {
@@ -239,6 +244,19 @@
           }
         },
         "fonts": [
+          {
+            "$name": "heading",
+            "$description": "This is the codeblock description",
+            "$type": "typography",
+            "$title": "Header 1",
+            "$value": {
+              "fontFamily": "Haas Grot Disp",
+              "fontSize": 40,
+              "fontWeight": "75 Bold",
+              "letterSpacing": "0px",
+              "lineHeight": 1.9
+            }
+          },
           {
             "$name": "code",
             "$description": "This is the codeblock description",

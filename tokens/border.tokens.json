@@ -1,0 +1,16 @@
+{
+  "kda": {
+    "foundation": {
+      "border": {
+        "no": {
+          "$type": "border",
+          "$value": {
+            "borderWidth": 1,
+            "borderStyle": "solid",
+            "borderColor": "{kda.foundation.color.intent.tertiary.$value}"
+          }
+        }
+      }
+    }
+  }
+}

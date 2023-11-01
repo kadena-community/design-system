@@ -1,0 +1,38 @@
+{
+  "kda": {
+    "foundation": {
+      "size": {
+        "$description": "measurement units like size, spacing, and layout specs",
+        "n0": {
+          "$type": "dimension",
+          "$value": "0rem"
+        },
+        "n1": {
+          "$type": "dimension",
+          "$value": "0.25rem"
+        },
+        "n2": {
+          "$type": "dimension",
+          "$value": "0.5rem",
+          "$extensions": {
+            "mode": {
+              "dark": "6rem"
+            }
+          }
+        },
+        "n3": {
+          "$type": "dimension",
+          "$value": "0.75rem"
+        },
+        "n10": {
+          "$type": "dimension",
+          "$value": "1rem"
+        },
+        "n4": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.radius.round.$value}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "kda": {
+    "foundation": {
+      "color": {
+        "foreground": {
+          "$type": "color",
+          "$description": "primary foreground color",
+          "$value": "#aa4411",
+          "$extensions": {
+            "mode": {
+              "dark": "#cccccc"
+            }
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$description": "primary background color",
+          "$value": "#ff0011",
+          "$extensions": {
+            "mode": {
+              "dark": "#0099CC"
+            }
+          }
+        },
+        "intent": {
+          "primary": {
+            "default": {
+              "background": {
+                "$type": "color",
+                "$description": "color description",
+                "$value": "{kda.foundation.color.background.$value}"
+              }
+            }
+          },
+          "secondary": {
+            "$type": "color",
+            "$description": "color description",
+            "$value": "{kda.foundation.color.foreground.$value}"
+          },
+          "tertiary": {
+            "$type": "color",
+            "$description": "color description",
+            "$value": "#5794FF",
+            "$extensions": {
+              "mode": {
+                "dark": "#2012CC"
+              }
+            }
+          }
+        },
+        "categorical": {
+          "category1": {
+            "$type": "color",
+            "$value": "#00CC00",
+            "$extensions": {
+              "style": {
+                "@20": {
+                  "$type": "alpha",
+                  "$value": "33",
+                  "$base": "{kda.foundation.color.categorical.category1.$value}"
+                }
+              }
+            }
+          },
+          "category2": {
+            "$type": "color",
+            "$value": "#00FF00",
+            "$extensions": {
+              "mode": {
+                "dark": "#000000"
+              },
+              "style": {
+                "@20": {
+                  "$modes": [
+                    "light",
+                    "dark"
+                  ],
+                  "$type": "alpha",
+                  "$base": "{kda.foundation.color.foreground.$value}",
+                  "$value": "33"
+                },
+                "@40": {
+                  "$modes": [
+                    "light"
+                  ],
+                  "$type": "alpha",
+                  "$base": "{kda.foundation.color.intent.tertiary.$value}",
+                  "$value": "66"
+                },
+                "@60": {
+                  "$type": "alpha",
+                  "$base": "{kda.foundation.color.intent.tertiary.$value}",
+                  "$value": "99"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

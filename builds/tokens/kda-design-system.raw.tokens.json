@@ -1,8 +1,81 @@
 {
-  "$name": "Kode Design System",
-  "$version": "0.0.1",
   "kda": {
     "foundation": {
+      "radius": {
+        "no": {
+          "$type": "number",
+          "$value": 0
+        },
+        "xs": {
+          "$type": "number",
+          "$value": 8,
+          "$extensions": {
+            "mode": {
+              "dark": 24
+            }
+          }
+        },
+        "round": {
+          "$type": "dimension",
+          "$value": "999rem"
+        }
+      },
+      "effect": {
+        "s1": {
+          "$name": "level1",
+          "$type": "shadow",
+          "$title": "Shadow Level 1",
+          "$description": "This is the shadow description",
+          "$value": {
+            "color": "{kda.foundation.color.categorical.category1.$extensions.style.@20.$value}",
+            "offsetX": "4px",
+            "offsetY": "0.5rem",
+            "blur": "{kda.foundation.size.n3.$value}",
+            "spread": "4px"
+          }
+        },
+        "shadow": [
+          {
+            "$name": "level1",
+            "$type": "shadow",
+            "$title": "Shadow Level 1",
+            "$description": "This is the shadow 1 description",
+            "$value": {
+              "color": "{kda.foundation.color.categorical.category1.$extensions.style.@20.$value}",
+              "offsetX": "4px",
+              "offsetY": "0.5rem",
+              "blur": "{kda.foundation.size.n3.$value}",
+              "spread": "4px"
+            }
+          },
+          {
+            "$name": "level2",
+            "$type": "shadow",
+            "$title": "Shadow Level 2",
+            "$description": "This is the shadow 2 description",
+            "$value": {
+              "color": "{kda.foundation.color.categorical.category2.$extensions.style.@60.$value}",
+              "offsetX": "4rem",
+              "offsetY": "4rem",
+              "blur": "{kda.foundation.size.n3.$value}",
+              "spread": "2rem"
+            }
+          },
+          {
+            "$name": "level3",
+            "$type": "shadow",
+            "$title": "Shadow Level 3",
+            "$description": "This is the shadow 3 description updated",
+            "$value": {
+              "color": "{kda.foundation.color.categorical.category2.$extensions.style.@20.$value}",
+              "offsetX": 0,
+              "offsetY": 0,
+              "blur": "{kda.foundation.size.n3.$value}",
+              "spread": "24px"
+            }
+          }
+        ]
+      },
       "color": {
         "foreground": {
           "$type": "color",
@@ -131,25 +204,6 @@
           "$value": "{kda.foundation.radius.round.$value}"
         }
       },
-      "radius": {
-        "no": {
-          "$type": "number",
-          "$value": 0
-        },
-        "xs": {
-          "$type": "number",
-          "$value": 8,
-          "$extensions": {
-            "mode": {
-              "dark": 24
-            }
-          }
-        },
-        "round": {
-          "$type": "dimension",
-          "$value": "999rem"
-        }
-      },
       "border": {
         "no": {
           "$type": "border",
@@ -160,67 +214,16 @@
           }
         }
       },
-      "effect": {
-        "s1": {
-          "$name": "level1",
-          "$type": "shadow",
-          "$title": "Shadow Level 1",
-          "$description": "This is the shadow description",
-          "$value": {
-            "color": "{kda.foundation.color.categorical.category1.$extensions.style.@20.$value}",
-            "offsetX": "4px",
-            "offsetY": "0.5rem",
-            "blur": "{kda.foundation.size.n3.$value}",
-            "spread": "4px"
-          }
-        },
-        "shadow": [
-          {
-            "$name": "level1",
-            "$type": "shadow",
-            "$title": "Shadow Level 1",
-            "$description": "This is the shadow 1 description",
-            "$value": {
-              "color": "{kda.foundation.color.categorical.category1.$extensions.style.@20.$value}",
-              "offsetX": "4px",
-              "offsetY": "0.5rem",
-              "blur": "{kda.foundation.size.n3.$value}",
-              "spread": "4px"
-            }
-          },
-          {
-            "$name": "level2",
-            "$type": "shadow",
-            "$title": "Shadow Level 2",
-            "$description": "This is the shadow 2 description",
-            "$value": {
-              "color": "{kda.foundation.color.categorical.category2.$extensions.style.@60.$value}",
-              "offsetX": "4rem",
-              "offsetY": "4rem",
-              "blur": "{kda.foundation.size.n3.$value}",
-              "spread": "2rem"
-            }
-          },
-          {
-            "$name": "level3",
-            "$type": "shadow",
-            "$title": "Shadow Level 3",
-            "$description": "This is the shadow 3 description updated",
-            "$value": {
-              "color": "{kda.foundation.color.categorical.category2.$extensions.style.@20.$value}",
-              "offsetX": 0,
-              "offsetY": 0,
-              "blur": "{kda.foundation.size.n3.$value}",
-              "spread": "24px"
-            }
-          }
-        ]
-      },
       "typography": {
         "family": {
           "primaryFont": {
             "$value": "Comic Sans MS",
             "$title": "Primary Font",
+            "$type": "fontFamily"
+          },
+          "headingFont": {
+            "$value": "Haas Grot Disp",
+            "$title": "Header Font",
             "$type": "fontFamily"
           },
           "codeFont": {
@@ -239,6 +242,19 @@
           }
         },
         "fonts": [
+          {
+            "$name": "heading",
+            "$description": "This is the codeblock description",
+            "$type": "typography",
+            "$title": "Header 1",
+            "$value": {
+              "fontFamily": "{kda.foundation.typography.family.headingFont.$value}",
+              "fontSize": 40,
+              "fontWeight": "75 Bold",
+              "letterSpacing": "0px",
+              "lineHeight": 1.9
+            }
+          },
           {
             "$name": "code",
             "$description": "This is the codeblock description",
@@ -308,5 +324,7 @@
         }
       }
     }
-  }
+  },
+  "$name": "Kode Design System",
+  "$version": "0.0.1"
 }
