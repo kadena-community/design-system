@@ -122,6 +122,10 @@
           "$type": "dimension",
           "$value": "0.75rem"
         },
+        "n10": {
+          "$type": "dimension",
+          "$value": "1rem"
+        },
         "n4": {
           "$type": "dimension",
           "$value": "{kda.foundation.radius.round.$value}"
@@ -133,8 +137,13 @@
           "$value": 0
         },
         "xs": {
-          "$type": "dimension",
-          "$value": "2px"
+          "$type": "number",
+          "$value": 8,
+          "$extensions": {
+            "mode": {
+              "dark": 24
+            }
+          }
         },
         "round": {
           "$type": "dimension",
@@ -250,7 +259,7 @@
             "$title": "Small Code Block",
             "$value": {
               "fontFamily": "{kda.foundation.typography.family.codeFont.$value}",
-              "fontSize": "{kda.foundation.size.n3.$value}",
+              "fontSize": "{kda.foundation.size.n10.$value}",
               "fontWeight": "Regular",
               "letterSpacing": "{kda.foundation.size.n1.$value}",
               "lineHeight": "24px"

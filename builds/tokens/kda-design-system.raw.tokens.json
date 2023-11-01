@@ -137,8 +137,13 @@
           "$value": 0
         },
         "xs": {
-          "$type": "dimension",
-          "$value": "2px"
+          "$type": "number",
+          "$value": 8,
+          "$extensions": {
+            "mode": {
+              "dark": 24
+            }
+          }
         },
         "round": {
           "$type": "dimension",
