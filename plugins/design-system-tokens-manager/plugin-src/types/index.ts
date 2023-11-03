@@ -4,30 +4,41 @@ export enum EConstants {
   METADATA_KEY_NAME = '$name',
   METADATA_KEYS_VERSION = '$version',
   PRESERVED_KEY_SYMBOL = '$',
+
   VALUE_KEY = '$value',
   TYPE_KEY = '$type',
-  DESCRIPTION_KEY = '$description',
-  TITLE_KEY = '$title',
   EXTENSIONS = '$extensions',
+  TITLE_KEY = '$title',
+  DESCRIPTION_KEY = '$description',
+
   DOT_PATH_DELIMITER = '.',
-  DEFAULT_MODE = 'light',
   TOKEN_NAME_DELIMITER = '/',
+
+  DEFAULT_MODE = 'light',
   BASE_FONT_SIZE = 16,
 }
 
 export enum EDTFTypes {
-  COLOR = 'COLOR',
-  DIMENSION = 'DIMENSION',
-  FONTFAMILY = 'FONTFAMILY',
-  NUMBER = 'NUMBER',
+  COLOR = 'color',
+  DIMENSION = 'dimension',
+  FONTFAMILY = 'fontFamily',
+  FONTWEIGHT = 'fontWeight',
+  DURATION = 'duration',
+  NUMBER = 'number',
+  SHADOW = 'shadow',
+  BORDER = 'border',
+  TRANSITION = 'transition',
+  GRADIENT = 'gradient',
+  STROKE = 'stroke',
+  TYPOGRAPHY = 'typography',
 }
 
 export enum EDTFCompositeTypes {
-  BORDER = 'BORDER',
-  TRANSITION = 'TRANSITION',
-  SHADOW = 'SHADOW',
-  GRADIENT = 'GRADIENT',
-  TYPOGRAPHY = 'TYPOGRAPHY',
+  BORDER = 'border',
+  TRANSITION = 'transition',
+  SHADOW = 'shadow',
+  GRADIENT = 'gradient',
+  TYPOGRAPHY = 'typography',
 }
 
 export enum ETokenResolvedType {
@@ -39,11 +50,15 @@ export enum ETokenResolvedType {
 }
 
 export enum EExtensionProp {
-  ALPHA = 'ALPHA',
+  MODE = 'mode',
+  ALPHA = 'alpha',
+  HUE = 'hue', /* next iteration */
 }
 
 export enum EExtensionPropPath {
+  MODE = '',
   ALPHA = '@',
+  HUE = 'H', /* next iteration */
 }
 
 export const METADATA_KEYS = [
@@ -51,9 +66,17 @@ export const METADATA_KEYS = [
   EConstants.METADATA_KEYS_VERSION,
 ]
 
-export enum EExtensionKey {
-  EXTENSION_TYPE_MODIFIER = 'modifier',
-  EXTENSION_TYPE_MODE = 'mode',
+// export enum EExtensionKey {
+//   // EXTENSION_TYPE_MODIFIER = 'modifier',
+//   EXTENSION_TYPE_MODE = 'mode',
+// }
+
+export type TDesignTokenFormat = {
+  $type: EDTFTypes,
+  $value: string | { [key: string]: string | string[] },
+  $description: string
+  $title: string
+  $extensions: TTokenExtensions
 }
 
 export type TExtensionTypeStyle = {
@@ -86,6 +109,14 @@ export type TJsonData = {
  * utils/core.ts
  */
 
+export type TTokenBaseProps = {
+  [EConstants.VALUE_KEY]: string
+  [EConstants.TYPE_KEY]: TTokenData['type']
+  [EConstants.EXTENSIONS]: TTokenExtensions
+  [EConstants.TITLE_KEY]: string
+  [EConstants.DESCRIPTION_KEY]: string
+}
+
 export type TPathData = {
   path: string
   value: string
@@ -103,49 +134,56 @@ export type TProcessedData = {
   }
 }
 
-type TExtensionKeys =
-  EExtensionKey.EXTENSION_TYPE_MODE |
-  EExtensionKey.EXTENSION_TYPE_MODIFIER
+type TExtensionGeneratorKeys = EExtensionProp.ALPHA | EExtensionProp.HUE
+type TExtensionKeys = EExtensionProp.MODE | TExtensionGeneratorKeys
+
 
 export type TExtension = {
   [key in TExtensionKeys]?: any
 }
-export type TTokenRootValue = {
-  $description: string,
-  $extensions: TExtension,
-  extensionType: TTokenData['type'],
+export type TExtensionGeneratorGroup = {
+  [key: string]: TExtensionGeneratorValue
 }
+export type TExtensionGeneratorValue = {
+  $value: TTokenData['value'],
+  $base: string,
+  $type?: TTokenData['type'], // added from token type
+}
+export type TTokenGeneratorProps = {
+  [key in TExtensionGeneratorKeys]?: TExtensionGeneratorGroup
+}
+export type TTokenModeProps = {
+  [EExtensionProp.MODE]: {
+    [key: string]: string
+  }
+}
+export interface TTokenExtensions extends TTokenGeneratorProps, TTokenModeProps { }
 export type TTokenKey = string
 export type TTokenData = {
   name: string,
-  type: EDTFTypes | EDTFCompositeTypes,
+  type: TDesignTokenFormat['$type'],
   title: string,
   description: string,
   value: string,
+  prevValue: string,
   variableAlias?: VariableAlias,
-  fallbackValue?: any | null,
+  // fallbackValue?: any | null,
   key: string,
   parentKey: string,
   groupName: string,
+  modifier: null | TExtensionGeneratorKeys,
   path: string,
   rootKey: string,
-  extensionProps?: {
-    $base: string,
-    $modes: string[],
-    $refKey: string,
-    $type: EExtensionProp,
-    $value: any,
-  },
-  $extension?: TExtension,
+  extensions: TTokenExtensions | null
   isExtension: boolean,
 }
 
-export type TTokenDataTranspiled = TTokenData & {
+export type TTokenMappedData = TTokenData & {
   isAlias: boolean
 }
 
-export type TPreTranspiledData = {
-  source: TTokenDataTranspiled[],
+export type TPreMappedData = {
+  source: TTokenMappedData[],
   aliases: TTokenData[],
   tokens: TTokenData[],
   styles: {
@@ -173,7 +211,7 @@ export type TTranspiledCollectionData = {
 export type TTranspiledData = {
   variables: TTranspiledTokenData,
   collections: TTranspiledCollectionData,
-  styles: TPreTranspiledData['styles'],
+  styles: TPreMappedData['styles'],
   status: {
     tokens: {
       added: string[],
@@ -185,8 +223,8 @@ export type TTranspiledData = {
 export type TCreateTokenMetaData = {
   collection: VariableCollection,
   metaData: TProcessedData['$metaData']
-  localVariables: Variable[]
-  styles: TPreTranspiledData['styles']
+  allVariables: Variable[]
+  styles: TPreMappedData['styles']
 }
 
 export type TValueForMode = {
@@ -198,8 +236,8 @@ export type TTokenIterationArgs = {
   tokens: TTokenData[],
   collection: VariableCollection,
   data: TProcessedData,
-  localVariables: Variable[]
-  styles: TPreTranspiledData['styles']
+  allVariables: Variable[]
+  styles: TPreMappedData['styles']
   isSkipStyles?: boolean,
 }
 

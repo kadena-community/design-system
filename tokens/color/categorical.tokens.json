@@ -5,18 +5,28 @@
         "categorical": {
           "category1": {
             "$type": "color",
-            "$value": "#00CC00",
+            "$description": "This is the category 1 color",
+            "$value": "#AABBCC",
             "$extensions": {
-              "modifier": {
+              "mode": {
+                "dark": "#CCBBAA"
+              },
+              "alpha": {
                 "@20": {
-                  "$type": "alpha",
-                  "$value": "33",
-                  "$base": "{kda.foundation.color.categorical.category1.$value}"
+                  "$value": 20,
+                  "$base": "{kda.foundation.color.categorical.category2.$value}"
                 },
                 "@40": {
-                  "$type": "alpha",
-                  "$value": "33",
-                  "$base": "{kda.foundation.color.categorical.category1.$value}"
+                  "$value": 40,
+                  "$base": "{kda.foundation.color.intent.primary.default.background.$value}"
+                },
+                "@60": {
+                  "$value": 60,
+                  "$base": "{kda.foundation.color.intent.secondary.$value}"
+                },
+                "@80": {
+                  "$value": 70,
+                  "$base": "{kda.foundation.color.intent.tertiary.$value}"
                 }
               }
             }
@@ -28,36 +38,18 @@
               "mode": {
                 "dark": "#000000"
               },
-              "modifier": {
+              "alpha": {
                 "@20": {
-                  "$modes": [
-                    "light",
-                    "dark"
-                  ],
-                  "$type": "alpha",
-                  "$base": "{kda.foundation.color.foreground.$value}",
-                  "$value": "33"
+                  "$value": 20
                 },
                 "@40": {
-                  "$modes": [
-                    "light"
-                  ],
-                  "$type": "alpha",
-                  "$base": "{kda.foundation.color.intent.tertiary.$value}",
-                  "$value": "66"
+                  "$value": 30
                 },
                 "@60": {
-                  "$type": "alpha",
-                  "$base": "{kda.foundation.color.intent.tertiary.$value}",
-                  "$value": "99"
+                  "$value": 40
                 },
                 "@80": {
-                  "$modes": [
-                    "dark"
-                  ],
-                  "$type": "alpha",
-                  "$base": "{kda.foundation.color.intent.primary.default.background.$value}",
-                  "$value": "66"
+                  "$value": 50
                 }
               }
             }

@@ -8,7 +8,7 @@
           "$title": "Shadow Level 1",
           "$description": "This is the shadow description",
           "$value": {
-            "color": "{kda.foundation.color.categorical.category1.$extensions.modifier.@20.$value}",
+            "color": "{kda.foundation.color.categorical.category1.$value}",
             "offsetX": "4px",
             "offsetY": "0.5rem",
             "blur": "{kda.foundation.size.n3.$value}",
@@ -22,7 +22,7 @@
             "$title": "Shadow Level 1",
             "$description": "This is the shadow 1 description",
             "$value": {
-              "color": "{kda.foundation.color.categorical.category1.$extensions.modifier.@20.$value}",
+              "color": "{kda.foundation.color.categorical.category1.$value}",
               "offsetX": "4px",
               "offsetY": "0.5rem",
               "blur": "{kda.foundation.size.n3.$value}",
@@ -35,7 +35,7 @@
             "$title": "Shadow Level 2",
             "$description": "This is the shadow 2 description",
             "$value": {
-              "color": "{kda.foundation.color.categorical.category2.$extensions.modifier.@60.$value}",
+              "color": "{kda.foundation.color.categorical.category2.$value}",
               "offsetX": "4rem",
               "offsetY": "4rem",
               "blur": "{kda.foundation.size.n3.$value}",
@@ -48,7 +48,7 @@
             "$title": "Shadow Level 3",
             "$description": "This is the shadow 3 description updated",
             "$value": {
-              "color": "{kda.foundation.color.categorical.category2.$extensions.modifier.@20.$value}",
+              "color": "{kda.foundation.color.categorical.category2.$value}",
               "offsetX": 0,
               "offsetY": 0,
               "blur": "{kda.foundation.size.n3.$value}",

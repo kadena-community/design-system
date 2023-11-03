@@ -1,8 +1,18 @@
-import { EConstants, EDTFTypes, EDimensionUnit, EDimensionUnitSymbol, EExtensionKey, EExtensionProp, TFontProps, TTokenData } from "../types";
+import {
+  EConstants,
+  EDTFTypes,
+  EDimensionUnit,
+  EDimensionUnitSymbol,
+  EExtensionProp,
+  TFontProps,
+  TPreMappedData,
+  TTokenData
+} from "../types";
 
-export function getValueByPath(data: any, path: string): any {
+export function getValueByPath(payloadData: any, path: string): any {
+  const { sourceData } = payloadData
   const keys = path.split(EConstants.DOT_PATH_DELIMITER);
-  let value = data;
+  let value = sourceData;
 
   for (const key of keys) {
     if (value && typeof value === 'object' && key in value) {
@@ -15,7 +25,7 @@ export function getValueByPath(data: any, path: string): any {
   return value;
 }
 
-type TDeconstructPath = {
+export type TDeconstructPath = {
   refKey: string
   rootKey: string
   key: string
@@ -24,7 +34,11 @@ type TDeconstructPath = {
   isExtension: boolean
 }
 
-export function deconstructPath(path: string[]): TDeconstructPath {
+export function deconstructPath(path: string[] | string): TDeconstructPath {
+  if (typeof path === 'string') {
+    path = path.split(EConstants.DOT_PATH_DELIMITER)
+  }
+
   const [key, parentKey, groupName, rootKey, refKey] = [...path].reverse()
   const isExtension = path.includes(EConstants.EXTENSIONS)
   return {
@@ -37,27 +51,38 @@ export function deconstructPath(path: string[]): TDeconstructPath {
   }
 }
 
+export function loadAllStyles(styles: TPreMappedData['styles']) {
+  const allEffects = figma.getLocalEffectStyles()
+  const allTexts = figma.getLocalTextStyles()
+
+  styles.effects = [...allEffects]
+  styles.texts = [...allTexts]
+
+  return styles
+}
+
 export function setVariableDataType(type: string) {
-  return type.toUpperCase() as EDTFTypes
+  return type?.toUpperCase() as EDTFTypes
 }
 
 export function convertPathToName(path: string) {
   return path
-    .trim()
+    ?.trim()
+    .replace(new RegExp(/\.\$value$/), '')
     .replace(/\./g, EConstants.TOKEN_NAME_DELIMITER)
 }
 
 export function convertPropPath(path: string, value = '') {
   return path
-    .trim()
+    ?.trim()
     .split(EConstants.TOKEN_NAME_DELIMITER)
     .filter((part) => part !== EConstants.EXTENSIONS)
-    .map((part) => part === EExtensionKey.EXTENSION_TYPE_MODIFIER ? value : part)
+    .map((part) => [EExtensionProp.ALPHA, EExtensionProp.HUE].includes(part as EExtensionProp) ? value : part)
     .join(EConstants.TOKEN_NAME_DELIMITER)
 }
 
 export function transformExtentionPropFallbackPath(path: string) {
-  const [fallbackPath] = path.trim().split(EConstants.EXTENSIONS)
+  const [fallbackPath] = path?.trim().split(EConstants.EXTENSIONS)
 
   return fallbackPath
     .split(EConstants.DOT_PATH_DELIMITER)
@@ -65,13 +90,13 @@ export function transformExtentionPropFallbackPath(path: string) {
     .join(EConstants.TOKEN_NAME_DELIMITER)
 }
 
-export const hasAliasValue = (value: VariableValue) =>
+export const hasAliasValue = (value: string) =>
   typeof value === 'string' &&
   /\{[^.]+\.+[^}]+\}$/.test(value)
 
 export const hasExtendedAliasValue = (value: VariableValue) =>
   typeof value === 'string' &&
-  value.includes(`.${EConstants.EXTENSIONS}.${EExtensionKey.EXTENSION_TYPE_MODIFIER}.`)
+  value.includes(`.${EConstants.EXTENSIONS}.`)
 
 export const getExtendedAliasValue = (value: VariableValue) => {
   if (typeof value === 'string' && hasExtendedAliasValue(value)) {
@@ -84,7 +109,7 @@ export const getExtendedAliasValue = (value: VariableValue) => {
 export const transformExtendedAliasPath = (value: string) => {
   return getValuePath(value).split(EConstants.TOKEN_NAME_DELIMITER)
     .filter((part) => part !== EConstants.EXTENSIONS)
-    .map((part) => part === EExtensionKey.EXTENSION_TYPE_MODIFIER ? EExtensionProp.ALPHA.toLowerCase() : part)
+    .map((part) => [EExtensionProp.ALPHA, EExtensionProp.HUE].includes(part as EExtensionProp) ? EExtensionProp.ALPHA : part)
     .join(EConstants.TOKEN_NAME_DELIMITER)
 }
 
@@ -111,11 +136,11 @@ const matchUnitRegex = /^(\d+(?:\.\d+)?)([a-zA-Z]+)$/
 
 export function parseDimensionUnit(type: string, token: TTokenData, value: string | number, defaults = { unit: EDimensionUnit.AUTO }): { value?: number, unit: EDimensionUnit } {
   if (type === 'lineHeight' && typeof value === 'number') {
-    value = `${((token.value as TFontProps).fontSize || 1) * value}${EDimensionUnitSymbol.PIXELS}`
+    value = `${((token.value as TFontProps).fontSize ?? 1) * value}${EDimensionUnitSymbol.PIXELS}`
   }
 
-  const match = String(value).match(matchUnitRegex) || [];
-  const [_originalValue, unitValue, unitMetric] = match
+  const match = RegExp(matchUnitRegex).exec(String(value)) ?? [];
+  const [, unitValue, unitMetric] = match
 
   if (match.length) {
     value = parseFloat(unitValue);
@@ -145,7 +170,7 @@ export function parseDimensionUnit(type: string, token: TTokenData, value: strin
 }
 
 export function parseFontSize(value: string | number): number {
-  const match = String(value).match(matchUnitRegex) || [];
+  const match = RegExp(matchUnitRegex).exec(String(value)) ?? [];
   const [_originalValue, unitValue, unitMetric] = match
 
   if (match.length) {

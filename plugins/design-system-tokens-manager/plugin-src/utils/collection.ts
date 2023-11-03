@@ -1,4 +1,4 @@
-import { TCollectionPayload, TJsonData, TProcessedData } from "../types";
+import { EConstants, TCollectionPayload, TJsonData, TProcessedData } from "../types";
 
 export function initCollection(data: TCollectionPayload, source: TProcessedData) {
   try {
@@ -70,7 +70,7 @@ function getLocalCollections(ids?: string[]) {
 }
 
 export function getCollectionName(data: TJsonData) {
-  return `${data.$name} - ${data.$version}`
+  return data.$name ?? EConstants.COLLECTION_TITLE
 }
 
 export function getCollectionVersion(data: TJsonData) {

@@ -10,7 +10,7 @@ const hslaRegex =
   /^hsla\(\s*(\d{1,3})\s*,\s*(\d{1,3})%\s*,\s*(\d{1,3})%\s*,\s*([\d.]+)\s*\)$/
 const hexRegex = /^#([A-Fa-f0-9]{3}){1,2}$/
 const floatRgbRegex =
-  /^\{\s*r:\s*[\d\.]+,\s*g:\s*[\d\.]+,\s*b:\s*[\d\.]+(,\s*opacity:\s*[\d\.]+)?\s*\}$/
+  /^\{\s*r:\s*[\d.]+,\s*g:\s*[\d.]+,\s*b:\s*[\d.]+(,\s*opacity:\s*[\d.]+)?\s*\}$/
 
 export const hexToRgba = (value: string) => {
   const rgba = _hexToRgba(value)
@@ -48,15 +48,15 @@ export function isColorValue(value: string) {
 }
 
 export function parseColor(color: string) {
-  color = color.trim()
+  color = color?.trim()
 
   if (!isColorValue(color)) throw new Error(`Invalid color format: "${color}"`)
 
   if (rgbRegex.test(color)) {
-    const [, r, g, b] = color.match(rgbRegex) || []
+    const [, r, g, b] = RegExp(rgbRegex).exec(color) ?? []
     return { r: parseInt(r) / 255, g: parseInt(g) / 255, b: parseInt(b) / 255 }
   } else if (rgbaRegex.test(color)) {
-    const [, r, g, b, a] = color.match(rgbaRegex) || []
+    const [, r, g, b, a] = RegExp(rgbaRegex).exec(color) ?? []
     return {
       r: parseInt(r) / 255,
       g: parseInt(g) / 255,
@@ -64,10 +64,10 @@ export function parseColor(color: string) {
       a: parseFloat(a),
     }
   } else if (hslRegex.test(color)) {
-    const [, h, s, l] = color.match(hslRegex) || []
+    const [, h, s, l] = RegExp(hslRegex).exec(color) ?? []
     return hslToRgbFloat(parseInt(h), parseInt(s) / 100, parseInt(l) / 100)
   } else if (hslaRegex.test(color)) {
-    const [, h, s, l, a] = color.match(hslaRegex) || []
+    const [, h, s, l, a] = RegExp(hslaRegex).exec(color) ?? []
     return Object.assign(
       hslToRgbFloat(parseInt(h), parseInt(s) / 100, parseInt(l) / 100),
       { a: parseFloat(a) }

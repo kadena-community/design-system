@@ -10,7 +10,7 @@ export function processEffectsTokens({ type, value }: { type: TTokenData['type']
     const effectValue = Object.keys(value).reduce((resolvedData, key) => {
       let compositeValue = value[key as keyof TEffectProps]
 
-      if (compositeValue && hasAliasValue(compositeValue)) {
+      if (compositeValue && typeof compositeValue === 'string' && hasAliasValue(compositeValue)) {
         compositeValue = getCompositeAliasValue(compositeValue)
       }
 

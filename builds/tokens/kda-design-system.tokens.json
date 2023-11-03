@@ -37,18 +37,28 @@
         "categorical": {
           "category1": {
             "$type": "color",
-            "$value": "#00CC00",
+            "$description": "This is the category 1 color",
+            "$value": "#AABBCC",
             "$extensions": {
-              "modifier": {
+              "mode": {
+                "dark": "#CCBBAA"
+              },
+              "alpha": {
                 "@20": {
-                  "$type": "alpha",
-                  "$value": "33",
-                  "$base": "#00CC00"
+                  "$value": 20,
+                  "$base": "#00FF00"
                 },
                 "@40": {
-                  "$type": "alpha",
-                  "$value": "33",
-                  "$base": "#00CC00"
+                  "$value": 40,
+                  "$base": "#aabbcc"
+                },
+                "@60": {
+                  "$value": 60,
+                  "$base": "#aa4411"
+                },
+                "@80": {
+                  "$value": 70,
+                  "$base": "#5794FF"
                 }
               }
             }
@@ -60,36 +70,18 @@
               "mode": {
                 "dark": "#000000"
               },
-              "modifier": {
+              "alpha": {
                 "@20": {
-                  "$modes": [
-                    "light",
-                    "dark"
-                  ],
-                  "$type": "alpha",
-                  "$base": "#aa4411",
-                  "$value": "33"
+                  "$value": 20
                 },
                 "@40": {
-                  "$modes": [
-                    "light"
-                  ],
-                  "$type": "alpha",
-                  "$base": "#5794FF",
-                  "$value": "66"
+                  "$value": 30
                 },
                 "@60": {
-                  "$type": "alpha",
-                  "$base": "#5794FF",
-                  "$value": "99"
+                  "$value": 40
                 },
                 "@80": {
-                  "$modes": [
-                    "dark"
-                  ],
-                  "$type": "alpha",
-                  "$base": "#aabbcc",
-                  "$value": "66"
+                  "$value": 50
                 }
               }
             }
@@ -106,6 +98,7 @@
             }
           },
           "secondary": {
+            "$title": "Secondary Title",
             "$type": "color",
             "$description": "color description",
             "$value": "#aa4411"
@@ -129,7 +122,7 @@
           "$title": "Shadow Level 1",
           "$description": "This is the shadow description",
           "$value": {
-            "color": "33",
+            "color": "#AABBCC",
             "offsetX": "4px",
             "offsetY": "0.5rem",
             "blur": "0.75rem",
@@ -143,7 +136,7 @@
             "$title": "Shadow Level 1",
             "$description": "This is the shadow 1 description",
             "$value": {
-              "color": "33",
+              "color": "#AABBCC",
               "offsetX": "4px",
               "offsetY": "0.5rem",
               "blur": "0.75rem",
@@ -156,7 +149,7 @@
             "$title": "Shadow Level 2",
             "$description": "This is the shadow 2 description",
             "$value": {
-              "color": "99",
+              "color": "#00FF00",
               "offsetX": "4rem",
               "offsetY": "4rem",
               "blur": "0.75rem",
@@ -169,7 +162,7 @@
             "$title": "Shadow Level 3",
             "$description": "This is the shadow 3 description updated",
             "$value": {
-              "color": "33",
+              "color": "#00FF00",
               "offsetX": 0,
               "offsetY": 0,
               "blur": "0.75rem",

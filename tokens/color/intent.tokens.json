@@ -13,6 +13,7 @@
             }
           },
           "secondary": {
+            "$title": "Secondary Title",
             "$type": "color",
             "$description": "color description",
             "$value": "{kda.foundation.color.foreground.$value}"
