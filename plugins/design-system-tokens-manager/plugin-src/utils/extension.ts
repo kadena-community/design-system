@@ -130,11 +130,10 @@ export async function processColor({ mode, token }: TProcessColor, payload: TJso
   }
 
   if (newColor) {
-
     if (hasAliasValue(newColor)) {
       const resolvedValue = await getAliasAbsoluteValue(newColor as string, value, { modeId, modeName })
 
-      if (typeof resolvedValue === 'object' && (resolvedValue as TRGBA)?.r && isModifierColor && typeof value === 'number') {
+      if (typeof resolvedValue === 'object' && typeof (resolvedValue as TRGBA)?.r !== 'undefined' && isModifierColor && typeof value === 'number') {
         return rgbaToHex({ ...(resolvedValue as TRGBA), a: Number(value) / 100 })
       } else if (typeof resolvedValue === 'object' && (resolvedValue as TRGBA)?.r) {
         if (isModifierColor && typeof value === 'number') {

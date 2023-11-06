@@ -1,9 +1,9 @@
-import { EConstants, EDimensionUnit, TFontProps, TTokenData, TTokenIterationArgs } from "../../types";
+import { EConstants, EDimensionUnit, TFontProps, TJsonData, TTokenData, TTokenIterationArgs } from "../../types";
 import { getAliasAbsoluteValue } from "../extension";
 import { hasAliasValue, parseDimensionUnit, parseFontSize } from "../helper";
 import { processTokenAliasValue } from "../variable";
 
-export async function processTypographyTokens({ type, value }: { type: TTokenData['type'], value: TFontProps }, token: TTokenData, params: TTokenIterationArgs) {
+export async function processTypographyTokens({ type, value }: { type: TTokenData['type'], value: TFontProps }, token: TTokenData, params: TTokenIterationArgs, payload: TJsonData) {
   try {
     let checkValue = {
       ...value as { [key: string]: any }

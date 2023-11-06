@@ -224,3 +224,14 @@ export function parseFontSize(value: string | number): number {
 
   return EConstants.BASE_FONT_SIZE
 }
+
+export function getSymbolByUnit(unit: EDimensionUnit) {
+  switch (unit) {
+    case EDimensionUnit.PERCENT:
+      return EDimensionUnitSymbol.PERCENT
+    case EDimensionUnit.PIXELS:
+      return EDimensionUnitSymbol.PIXELS
+    default:
+      return EDimensionUnitSymbol.PIXELS
+  }
+}

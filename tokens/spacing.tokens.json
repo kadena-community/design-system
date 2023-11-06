@@ -1,0 +1,40 @@
+{
+  "kda": {
+    "foundation": {
+      "spacing": {
+        "xxs": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n1.$value}"
+        },
+        "xs": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n2.$value}"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n3.$value}"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n4.$value}"
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n6.$value}"
+        },
+        "xl": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n7.$value}"
+        },
+        "xxl": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n9.$value}"
+        },
+        "xxxl": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n10.$value}"
+        }
+      }
+    }
+  }
+}

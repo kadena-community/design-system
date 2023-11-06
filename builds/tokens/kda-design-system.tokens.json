@@ -4,12 +4,20 @@
   "kda": {
     "foundation": {
       "border": {
-        "no": {
+        "sm": {
           "$type": "border",
           "$value": {
-            "borderWidth": 1,
-            "borderStyle": "solid",
-            "borderColor": "#5794FF"
+            "width": 1,
+            "style": "solid",
+            "color": "#5794FF"
+          }
+        },
+        "md": {
+          "$type": "border",
+          "$value": {
+            "width": 2,
+            "style": "solid",
+            "color": "#5794FF"
           }
         }
       },
@@ -116,12 +124,12 @@
         }
       },
       "effect": {
-        "s2": {
+        "defaultBlur": {
           "$type": "blur",
-          "$title": "Layer Blur",
-          "$description": "This is the layer blur description",
+          "$title": "Default layer blur",
+          "$description": "This is the default layer blur description",
           "$value": {
-            "radius": 40
+            "radius": "0.25rem"
           }
         },
         "blur": [
@@ -131,21 +139,21 @@
             "$title": "Layer Blur",
             "$description": "This is the layer blur description",
             "$value": {
-              "radius": "0.75rem",
+              "radius": "0.5rem",
               "visible": true
             }
           }
         ],
-        "s1": {
-          "$name": "level1",
+        "defaultShadow": {
+          "$name": "main",
           "$type": "shadow",
-          "$title": "Shadow Level 1",
-          "$description": "This is the shadow description",
+          "$title": "Default Shadow",
+          "$description": "This is the default shadow effect description",
           "$value": {
             "color": "#AABBCC",
             "offsetX": "4px",
             "offsetY": "0.5rem",
-            "blur": "0.75rem",
+            "blur": "0.5rem",
             "spread": "4px"
           }
         },
@@ -159,7 +167,7 @@
               "color": "#AABBCC",
               "offsetX": "4px",
               "offsetY": "0.5rem",
-              "blur": "0.75rem",
+              "blur": "0.5rem",
               "spread": "4px"
             }
           },
@@ -172,7 +180,7 @@
               "color": "#00FF00",
               "offsetX": "4rem",
               "offsetY": "4rem",
-              "blur": "0.75rem",
+              "blur": "0.5rem",
               "spread": "2rem"
             }
           },
@@ -185,7 +193,7 @@
               "color": "#00FF00",
               "offsetX": 0,
               "offsetY": 0,
-              "blur": "0.75rem",
+              "blur": "0.5rem",
               "spread": "24px"
             }
           }
@@ -196,18 +204,21 @@
           "$type": "number",
           "$value": 0
         },
-        "xxs": {
-          "$type": "number",
-          "$value": 4
-        },
         "xs": {
           "$type": "number",
-          "$value": 8,
-          "$extensions": {
-            "mode": {
-              "dark": 24
-            }
-          }
+          "$value": 2
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "0.125rem"
+        },
+        "md": {
+          "$type": "number",
+          "$value": 6
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "0.25rem"
         },
         "round": {
           "$type": "dimension",
@@ -215,59 +226,162 @@
         }
       },
       "size": {
-        "$description": "measurement units like size, spacing, and layout specs",
+        "$description": "Size units for sizing and spacing elements",
         "n0": {
           "$type": "dimension",
-          "$value": "0rem"
+          "$value": 0
         },
         "n1": {
           "$type": "dimension",
-          "$value": "0.25rem"
+          "$value": "0.125rem"
         },
         "n2": {
           "$type": "dimension",
-          "$value": "0.5rem",
-          "$extensions": {
-            "mode": {
-              "dark": "6rem"
-            }
-          }
+          "$value": "0.25rem"
         },
         "n3": {
           "$type": "dimension",
-          "$value": "0.75rem"
+          "$value": "0.5rem"
         },
         "n4": {
           "$type": "dimension",
-          "$value": "999rem",
-          "$extensions": {
-            "mode": {
-              "dark": "0.75rem"
-            }
-          }
+          "$value": "1rem"
         },
         "n5": {
           "$type": "dimension",
-          "$value": 8
+          "$value": "1.25rem"
         },
         "n6": {
           "$type": "dimension",
-          "$value": "0.75rem",
-          "$extensions": {
-            "mode": {
-              "dark": 8
-            }
-          }
+          "$value": "1.5rem"
+        },
+        "n7": {
+          "$type": "dimension",
+          "$value": "1.75rem"
+        },
+        "n8": {
+          "$type": "dimension",
+          "$value": "2rem"
+        },
+        "n9": {
+          "$type": "dimension",
+          "$value": "2.25rem"
         },
         "n10": {
           "$type": "dimension",
+          "$value": "2.5rem"
+        },
+        "n11": {
+          "$type": "dimension",
+          "$value": "2.75rem"
+        },
+        "n12": {
+          "$type": "dimension",
+          "$value": "3rem"
+        },
+        "n13": {
+          "$type": "dimension",
+          "$value": "3.25rem"
+        },
+        "n14": {
+          "$type": "dimension",
+          "$value": "3.5rem"
+        },
+        "n15": {
+          "$type": "dimension",
+          "$value": "3.75rem"
+        },
+        "n16": {
+          "$type": "dimension",
+          "$value": "4rem"
+        },
+        "n17": {
+          "$type": "dimension",
+          "$value": "4.25rem"
+        },
+        "n18": {
+          "$type": "dimension",
+          "$value": "4.5rem"
+        },
+        "n19": {
+          "$type": "dimension",
+          "$value": "4.75rem"
+        },
+        "n20": {
+          "$type": "dimension",
+          "$value": "5rem"
+        },
+        "n24": {
+          "$type": "dimension",
+          "$value": "6rem"
+        },
+        "n25": {
+          "$type": "dimension",
+          "$value": "6.25rem"
+        },
+        "n32": {
+          "$type": "dimension",
+          "$value": "8rem"
+        },
+        "n35": {
+          "$type": "dimension",
+          "$value": "8.75rem"
+        },
+        "n40": {
+          "$type": "dimension",
+          "$value": "10rem"
+        },
+        "n48": {
+          "$type": "dimension",
+          "$value": "12rem"
+        },
+        "n56": {
+          "$type": "dimension",
+          "$value": "14rem"
+        },
+        "n64": {
+          "$type": "dimension",
+          "$value": "16rem"
+        }
+      },
+      "spacing": {
+        "xxs": {
+          "$type": "dimension",
+          "$value": "0.125rem"
+        },
+        "xs": {
+          "$type": "dimension",
+          "$value": "0.25rem"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "0.5rem"
+        },
+        "md": {
+          "$type": "dimension",
           "$value": "1rem"
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "1.5rem"
+        },
+        "xl": {
+          "$type": "dimension",
+          "$value": "1.75rem"
+        },
+        "xxl": {
+          "$type": "dimension",
+          "$value": "2.25rem"
+        },
+        "xxxl": {
+          "$type": "dimension",
+          "$value": "2.5rem"
         }
       },
       "typography": {
         "family": {
           "primaryFont": {
-            "$value": "Comic Sans MS",
+            "$value": "Haas Grot Disp",
             "$type": "fontFamily"
           },
           "headingFont": {
@@ -280,6 +394,7 @@
           },
           "bodyFont": {
             "$value": [
+              "Haas Grot Disp",
               "Helvetica",
               "Arial",
               "sans-serif"
@@ -287,7 +402,7 @@
             "$type": "fontFamily"
           }
         },
-        "fonts": {
+        "font": {
           "Header 1": {
             "$name": "heading",
             "$description": "This is the codeblock description",
@@ -321,10 +436,207 @@
             "$title": "Small Code Block",
             "$value": {
               "fontFamily": "Kode Mono",
-              "fontSize": "1rem",
+              "fontSize": "2.5rem",
               "fontWeight": "Regular",
-              "letterSpacing": "0.25rem",
+              "letterSpacing": "0.125rem",
               "lineHeight": "24px"
+            }
+          }
+        },
+        "fontSize": {
+          "xs": {
+            "$type": "dimension",
+            "$value": "0.75rem"
+          },
+          "sm": {
+            "$type": "dimension",
+            "$value": "0.875rem"
+          },
+          "base": {
+            "$type": "dimension",
+            "$value": {
+              "$type": "dimension",
+              "$value": "1rem"
+            }
+          },
+          "md": {
+            "$type": "dimension",
+            "$value": "1.125rem"
+          },
+          "lg": {
+            "$type": "dimension",
+            "$value": "1.25rem"
+          },
+          "xl": {
+            "$type": "dimension",
+            "$value": "1.5rem"
+          },
+          "2xl": {
+            "$type": "dimension",
+            "$value": "1.75rem"
+          },
+          "3xl": {
+            "$type": "dimension",
+            "$value": "2rem"
+          },
+          "4xl": {
+            "$type": "dimension",
+            "$value": "2.25rem"
+          },
+          "5xl": {
+            "$type": "dimension",
+            "$value": "2.5rem"
+          },
+          "6xl": {
+            "$type": "dimension",
+            "$value": "2.75rem"
+          },
+          "7xl": {
+            "$type": "dimension",
+            "$value": "3rem"
+          },
+          "8xl": {
+            "$type": "dimension",
+            "$value": "3.25rem"
+          },
+          "9xl": {
+            "$type": "dimension",
+            "$value": "3.75rem"
+          },
+          "10xl": {
+            "$type": "dimension",
+            "$value": "4.5rem"
+          },
+          "11xl": {
+            "$type": "dimension",
+            "$value": "5rem"
+          },
+          "12xl": {
+            "$type": "dimension",
+            "$value": "5.25rem"
+          }
+        },
+        "lineHeight": {
+          "primaryFont": {
+            "initial": {
+              "$value": "initial",
+              "$type": "custom"
+            },
+            "normal": {
+              "$value": "normal",
+              "$type": "fontWeight"
+            },
+            "base": {
+              "$value": 1.4,
+              "$type": "number"
+            },
+            "lg": {
+              "$value": 1.9,
+              "$type": "number"
+            }
+          },
+          "secondaryFont": {
+            "initial": {
+              "$value": "initial",
+              "$type": "custom"
+            },
+            "normal": {
+              "$value": "normal",
+              "$type": "fontWeight"
+            },
+            "base": {
+              "$value": 1.4,
+              "$type": "number"
+            },
+            "lg": {
+              "$value": 1.9,
+              "$type": "number"
+            }
+          },
+          "codeFont": {
+            "initial": {
+              "$value": "initial",
+              "$type": "custom"
+            },
+            "normal": {
+              "$value": "normal",
+              "$type": "fontWeight"
+            },
+            "base": {
+              "$value": 1.4,
+              "$type": "number"
+            },
+            "lg": {
+              "$value": 1.9,
+              "$type": "number"
+            }
+          }
+        },
+        "weight": {
+          "primaryFont": {
+            "light": {
+              "$value": "300",
+              "$type": "fontWeight"
+            },
+            "normal": {
+              "$value": "400",
+              "$type": "fontWeight"
+            },
+            "medium": {
+              "$value": "500",
+              "$type": "fontWeight"
+            },
+            "semiBold": {
+              "$value": "600",
+              "$type": "fontWeight"
+            },
+            "bold": {
+              "$value": "700",
+              "$type": "fontWeight"
+            }
+          },
+          "secondaryFont": {
+            "light": {
+              "$value": "300",
+              "$type": "fontWeight"
+            },
+            "normal": {
+              "$value": "400",
+              "$type": "fontWeight"
+            },
+            "medium": {
+              "$value": "500",
+              "$type": "fontWeight"
+            },
+            "semiBold": {
+              "$value": "600",
+              "$type": "fontWeight"
+            },
+            "bold": {
+              "$value": "700",
+              "$type": "fontWeight"
+            }
+          },
+          "codeFont": {
+            "light": {
+              "$value": "300",
+              "$type": "fontWeight"
+            },
+            "normal": {
+              "$value": "400",
+              "$type": "fontWeight"
+            },
+            "medium": {
+              "$value": "500",
+              "$type": "fontWeight"
+            },
+            "semiBold": {
+              "$value": "600",
+              "$type": "fontWeight"
+            },
+            "bold": {
+              "$value": "700",
+              "$type": "fontWeight"
             }
           }
         }

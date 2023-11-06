@@ -1,0 +1,64 @@
+{
+  "kda": {
+    "foundation": {
+      "typography": {
+        "lineHeight": {
+          "primaryFont": {
+            "initial": {
+              "$value": "initial",
+              "$type": "custom"
+            },
+            "normal": {
+              "$value": "normal",
+              "$type": "fontWeight"
+            },
+            "base": {
+              "$value": 1.4,
+              "$type": "number"
+            },
+            "lg": {
+              "$value": 1.9,
+              "$type": "number"
+            }
+          },
+          "secondaryFont": {
+            "initial": {
+              "$value": "initial",
+              "$type": "custom"
+            },
+            "normal": {
+              "$value": "normal",
+              "$type": "fontWeight"
+            },
+            "base": {
+              "$value": 1.4,
+              "$type": "number"
+            },
+            "lg": {
+              "$value": 1.9,
+              "$type": "number"
+            }
+          },
+          "codeFont": {
+            "initial": {
+              "$value": "initial",
+              "$type": "custom"
+            },
+            "normal": {
+              "$value": "normal",
+              "$type": "fontWeight"
+            },
+            "base": {
+              "$value": 1.4,
+              "$type": "number"
+            },
+            "lg": {
+              "$value": 1.9,
+              "$type": "number"
+            }
+          }
+        }
+      }
+    }
+  }
+}

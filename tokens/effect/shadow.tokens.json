@@ -2,11 +2,11 @@
   "kda": {
     "foundation": {
       "effect": {
-        "s1": {
-          "$name": "level1",
+        "defaultShadow": {
+          "$name": "main",
           "$type": "shadow",
-          "$title": "Shadow Level 1",
-          "$description": "This is the shadow description",
+          "$title": "Default Shadow",
+          "$description": "This is the default shadow effect description",
           "$value": {
             "color": "{kda.foundation.color.categorical.category1.$value}",
             "offsetX": "4px",

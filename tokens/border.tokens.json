@@ -2,12 +2,20 @@
   "kda": {
     "foundation": {
       "border": {
-        "no": {
+        "sm": {
           "$type": "border",
           "$value": {
-            "borderWidth": 1,
-            "borderStyle": "solid",
-            "borderColor": "{kda.foundation.color.intent.tertiary.$value}"
+            "width": 1,
+            "style": "solid",
+            "color": "{kda.foundation.color.intent.tertiary.$value}"
+          }
+        },
+        "md": {
+          "$type": "border",
+          "$value": {
+            "width": 2,
+            "style": "solid",
+            "color": "{kda.foundation.color.intent.tertiary.$value}"
           }
         }
       }

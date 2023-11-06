@@ -2,7 +2,7 @@
   "kda": {
     "foundation": {
       "typography": {
-        "fonts": {
+        "font": {
           "Header 1": {
             "$name": "heading",
             "$description": "This is the codeblock description",

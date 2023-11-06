@@ -6,18 +6,21 @@
           "$type": "number",
           "$value": 0
         },
-        "xxs": {
-          "$type": "number",
-          "$value": 4
-        },
         "xs": {
           "$type": "number",
-          "$value": 8,
-          "$extensions": {
-            "mode": {
-              "dark": 24
-            }
-          }
+          "$value": 2
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{kda.foundation.size.n1.$value}"
+        },
+        "md": {
+          "$type": "number",
+          "$value": 6
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{kda.foundation.size.n2.$value}"
         },
         "round": {
           "$type": "dimension",

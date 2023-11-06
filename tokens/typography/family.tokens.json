@@ -4,7 +4,7 @@
       "typography": {
         "family": {
           "primaryFont": {
-            "$value": "Comic Sans MS",
+            "$value": "Haas Grot Disp",
             "$type": "fontFamily"
           },
           "headingFont": {
@@ -17,6 +17,7 @@
           },
           "bodyFont": {
             "$value": [
+              "Haas Grot Disp",
               "Helvetica",
               "Arial",
               "sans-serif"

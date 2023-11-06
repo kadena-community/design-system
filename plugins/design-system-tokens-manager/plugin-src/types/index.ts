@@ -33,6 +33,7 @@ export enum EDTFTypes {
   GRADIENT = 'gradient',
   STROKE = 'stroke',
   TYPOGRAPHY = 'typography',
+  CUSTOM = 'custom',
 }
 
 export enum EDTFCompositeTypes {
@@ -273,13 +274,17 @@ export type TBlurEffectProps = {
   radius?: number,
   visible?: boolean
 }
-export type TEffectProps = TShadowEffectProps | TBlurEffectProps
+export type TEffectProps = TShadowEffectProps | TBlurEffectProps | TBorderProps
 // export interface IEffectPropKeys extends TShadowEffectProps, TBlurEffectProps { }
-export type TEffectPropKeys = keyof TShadowEffectProps | keyof TBlurEffectProps
+export type TEffectPropKeys = keyof TShadowEffectProps | keyof TBlurEffectProps | keyof TBorderProps
 export type TStrokeStyle = "solid" | "dashed" | "dotted" | "double" | "groove" | "ridge" | "outset" | "inset"
 
 export type TBorderProps = {
   color?: string,
   width?: string,
   style?: TStrokeStyle
+}
+
+export type TPropIterationProps = {
+  skipKeys?: string[]
 }

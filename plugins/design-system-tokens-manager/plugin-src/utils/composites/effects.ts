@@ -1,8 +1,8 @@
-import { EDTFTypes, TBlurEffectProps, TShadowEffectProps, TTokenData, TTokenIterationArgs } from "../../types";
+import { EDTFTypes, TBlurEffectProps, TJsonData, TPropIterationProps, TShadowEffectProps, TTokenData, TTokenIterationArgs } from "../../types";
 import { hasAliasValue, parseDimensionUnit } from "../helper";
 import { getCompositeAliasValue } from "./helpers";
 
-export function processEffectsTokens({ type, value }: { type: TTokenData['type'], value: TShadowEffectProps | TBlurEffectProps }, token: TTokenData, params: TTokenIterationArgs) {
+export function processEffectsTokens({ type, value }: { type: TTokenData['type'], value: TShadowEffectProps | TBlurEffectProps }, token: TTokenData, params: TTokenIterationArgs, payload: TJsonData) {
   try {
     const styleName = token.name
     let effectStyle = params.styles.effects.find(({ name }) => name === styleName) || figma.createEffectStyle()
@@ -21,8 +21,15 @@ export function processEffectsTokens({ type, value }: { type: TTokenData['type']
   }
 }
 
-function iterateEffectProps<T extends {}>(value: T, token: TTokenData) {
+export function iterateEffectProps<T extends {}>(value: T, token: TTokenData, params?: TPropIterationProps) {
   const props = Object.keys(value).reduce((resolvedData, key): T => {
+    if (params?.skipKeys?.includes(key)) {
+      return {
+        ...resolvedData,
+        [key]: value[key as keyof T],
+      }
+    }
+
     let compositeValue: any = value[key as keyof T]
 
     if (compositeValue && typeof compositeValue === 'string' && hasAliasValue(compositeValue)) {

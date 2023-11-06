@@ -32,15 +32,15 @@ export async function iterateTokens(params: TTokenIterationArgs): Promise<TTrans
       try {
         switch (token.type) {
           case EDTFTypes.TYPOGRAPHY:
-            processTypographyTokens({ type: token.type, value: token.value as TFontProps }, token, params)
+            processTypographyTokens({ type: token.type, value: token.value as TFontProps }, token, params, payload)
             break;
           case EDTFTypes.BORDER:
-            processBorderTokens({ type: token.type, value: token.value as TBorderProps }, token, params)
+            processBorderTokens({ type: token.type, value: token.value as TBorderProps }, token, params, payload)
             break;
           case EDTFTypes.SHADOW:
           case EDTFTypes.BLUR:
             if (!isSkipStyles) {
-              processEffectsTokens({ type: token.type, value: token.value as TEffectProps }, token, params)
+              processEffectsTokens({ type: token.type, value: token.value as TEffectProps }, token, params, payload)
             }
             break;
           case EDTFTypes.NUMBER:
@@ -90,23 +90,23 @@ export function getLocalVariables() {
 export async function createToken(token: TTokenData, params: TCreateTokenMetaData, payload: TJsonData) {
   try {
     const { collection, metaData, allVariables } = params
-    let existingToken: Variable | null = allVariables.find(({ name }) => name === token.name) || null
+    let variableData: Variable | null = allVariables.find(({ name }) => name === token.name) || null
 
-    if (!existingToken) {
+    if (!variableData) {
       if (token.isExtension) {
         const { variable, token: updatedToken } = await processTokenExtension(token, params, payload) ?? {}
         token = updatedToken
-        existingToken = variable
+        variableData = variable
       } else {
-        existingToken = figma.variables.createVariable(token.name, collection.id, getResolvedTokenType(token.type))
+        variableData = figma.variables.createVariable(token.name, collection.id, getResolvedTokenType(token.type))
       }
     }
 
-    if (existingToken) {
-      await setVariableModeValues(existingToken, token, { metaData, collection, allVariables, styles: params.styles }, payload)
+    if (variableData) {
+      await setVariableModeValues(variableData, token, { metaData, collection, allVariables, styles: params.styles }, payload)
     }
 
-    return token
+    return variableData
   } catch (error) {
     return null
   }
@@ -219,7 +219,9 @@ async function setValueForModeExtension({ mode: { modeId, name }, defaultMode }:
         }
         break;
 
+      case EDTFTypes.NUMBER:
       default:
+        token.value = `${token.value}`.trim()
         break;
     }
 
@@ -313,7 +315,6 @@ async function processTokenValue(type: TTokenData['type'], value: TTokenData['va
       case EDTFTypes.BORDER:
       case EDTFTypes.SHADOW:
       case EDTFTypes.BLUR:
-        console.warn('BORDER TOKEN', value)
         value = typeof value === 'object' ? JSON.stringify(value) : value
         break
     }
@@ -333,14 +334,12 @@ export function getResolvedTokenType(type: TTokenData['type']) {
     case EDTFTypes.FONTFAMILY:
     case EDTFTypes.SHADOW:
     case EDTFTypes.BLUR:
+    case EDTFTypes.BORDER:
       return ETokenResolvedType.STRING
 
     case EDTFTypes.NUMBER:
     case EDTFTypes.DIMENSION:
       return ETokenResolvedType.FLOAT
-
-    case EDTFTypes.BORDER:
-      return ETokenResolvedType.STRING
 
     default:
       return ETokenResolvedType.STRING
