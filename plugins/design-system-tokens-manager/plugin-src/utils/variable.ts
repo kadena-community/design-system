@@ -38,6 +38,7 @@ export async function iterateTokens(params: TTokenIterationArgs): Promise<TTrans
             processBorderTokens({ type: token.type, value: token.value as TBorderProps }, token, params)
             break;
           case EDTFTypes.SHADOW:
+          case EDTFTypes.BLUR:
             if (!isSkipStyles) {
               processEffectsTokens({ type: token.type, value: token.value as TEffectProps }, token, params)
             }
@@ -311,6 +312,7 @@ async function processTokenValue(type: TTokenData['type'], value: TTokenData['va
 
       case EDTFTypes.BORDER:
       case EDTFTypes.SHADOW:
+      case EDTFTypes.BLUR:
         console.warn('BORDER TOKEN', value)
         value = typeof value === 'object' ? JSON.stringify(value) : value
         break
@@ -330,6 +332,7 @@ export function getResolvedTokenType(type: TTokenData['type']) {
     case EDTFTypes.TYPOGRAPHY:
     case EDTFTypes.FONTFAMILY:
     case EDTFTypes.SHADOW:
+    case EDTFTypes.BLUR:
       return ETokenResolvedType.STRING
 
     case EDTFTypes.NUMBER:

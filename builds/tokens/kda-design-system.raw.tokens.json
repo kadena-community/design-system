@@ -127,6 +127,26 @@
         }
       },
       "effect": {
+        "s2": {
+          "$type": "blur",
+          "$title": "Layer Blur",
+          "$description": "This is the layer blur description",
+          "$value": {
+            "radius": 40
+          }
+        },
+        "blur": [
+          {
+            "$name": "layerBlur",
+            "$type": "blur",
+            "$title": "Layer Blur",
+            "$description": "This is the layer blur description",
+            "$value": {
+              "radius": "{kda.foundation.size.n3.$value}",
+              "visible": true
+            }
+          }
+        ],
         "s1": {
           "$name": "level1",
           "$type": "shadow",

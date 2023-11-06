@@ -31,7 +31,7 @@ function parseExtensionToken(token: TTokenData): TTokenData {
       token.value = setColorAlphaValue(token)
       break;
 
-    case EExtensionProp['HUE']:
+    case EExtensionProp.HUE:
       break;
 
   }

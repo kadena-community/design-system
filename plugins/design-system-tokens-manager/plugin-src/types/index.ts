@@ -27,6 +27,7 @@ export enum EDTFTypes {
   DURATION = 'duration',
   NUMBER = 'number',
   SHADOW = 'shadow',
+  BLUR = 'blur',
   BORDER = 'border',
   TRANSITION = 'transition',
   GRADIENT = 'gradient',
@@ -40,6 +41,7 @@ export enum EDTFCompositeTypes {
   SHADOW = 'shadow',
   GRADIENT = 'gradient',
   TYPOGRAPHY = 'typography',
+  BLUR = 'blur',
 }
 
 export enum ETokenResolvedType {
@@ -259,7 +261,7 @@ export enum EDimensionUnit {
   PERCENT = 'PERCENT'
 }
 
-export type TEffectProps = {
+export type TShadowEffectProps = {
   color?: string,
   offsetX?: number,
   offsetY?: number,
@@ -267,6 +269,13 @@ export type TEffectProps = {
   spread?: number
 }
 
+export type TBlurEffectProps = {
+  radius?: number,
+  visible?: boolean
+}
+export type TEffectProps = TShadowEffectProps | TBlurEffectProps
+// export interface IEffectPropKeys extends TShadowEffectProps, TBlurEffectProps { }
+export type TEffectPropKeys = keyof TShadowEffectProps | keyof TBlurEffectProps
 export type TStrokeStyle = "solid" | "dashed" | "dotted" | "double" | "groove" | "ridge" | "outset" | "inset"
 
 export type TBorderProps = {

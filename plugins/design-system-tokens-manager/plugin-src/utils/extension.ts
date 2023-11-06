@@ -40,14 +40,14 @@ export async function processTokenExtension(token: TTokenData, params: TCreateTo
   let variable = null;
   const extensionPropType = token.type
 
-  if (extensionPropType === EDTFTypes['COLOR']) {
+  if (extensionPropType === EDTFTypes.COLOR) {
     switch (token.modifier) {
-      case EExtensionProp['ALPHA']:
+      case EExtensionProp.ALPHA:
         const { token: updatedToken, variable: updatedVariable } = await processAlphaExtension(token, params, payload) ?? {}
         variable = updatedVariable
         token = updatedToken
         break;
-      case EExtensionProp['HUE']:
+      case EExtensionProp.HUE:
       default:
         break;
     }
@@ -61,10 +61,10 @@ export async function processTokenExtension(token: TTokenData, params: TCreateTo
 
 export function getTokenExtensionModifier(groupName: TTokenData['groupName']): TTokenData['modifier'] {
   switch (groupName) {
-    case EExtensionProp['ALPHA']:
-      return EExtensionProp['ALPHA']
-    case EExtensionProp['HUE']:
-      return EExtensionProp['HUE']
+    case EExtensionProp.ALPHA:
+      return EExtensionProp.ALPHA
+    case EExtensionProp.HUE:
+      return EExtensionProp.HUE
 
     default:
       return groupName as TTokenData['modifier']

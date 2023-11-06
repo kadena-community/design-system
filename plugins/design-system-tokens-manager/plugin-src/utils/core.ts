@@ -18,6 +18,7 @@ export function iterateJson(jsonObj: any, path: string[] = []): TPreProcessedDat
         case EDTFCompositeTypes.TYPOGRAPHY:
         case EDTFCompositeTypes.BORDER:
         case EDTFCompositeTypes.SHADOW:
+        case EDTFCompositeTypes.BLUR:
           return [
             {
               path: `${path.join(EConstants.DOT_PATH_DELIMITER)}.${EConstants.TYPE_KEY}`,
