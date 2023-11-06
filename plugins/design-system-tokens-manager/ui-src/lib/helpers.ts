@@ -1,4 +1,4 @@
-import { TJsonData } from "../../plugin-src/types";
+import { EConstants, TJsonData } from "../../plugin-src/types";
 import { publish } from "../main";
 import { EActions } from "../types";
 export const processTokens = (jsonData: TJsonData, isReset: boolean) => {
@@ -12,6 +12,6 @@ export const processTokens = (jsonData: TJsonData, isReset: boolean) => {
   });
 }
 
-const getCollectionName = ({ $name, $version }: TJsonData) => {
-  return `${$name} - ${$version}`;
+const getCollectionName = ({ $name }: TJsonData) => {
+  return $name ?? EConstants.COLLECTION_TITLE;
 }

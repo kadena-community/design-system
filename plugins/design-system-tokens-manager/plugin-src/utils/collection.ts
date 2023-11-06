@@ -1,4 +1,4 @@
-import { EConstants, TCollectionPayload, TJsonData, TProcessedData } from "../types";
+import { TCollectionPayload, TJsonData, TProcessedData } from "../types";
 
 export function initCollection(data: TCollectionPayload, source: TProcessedData) {
   try {
@@ -11,11 +11,13 @@ export function initCollection(data: TCollectionPayload, source: TProcessedData)
       if (collection && isReset) {
         collection.remove()
         collection = null
-        figma.notify('Collection already exists therefor this collection is replaced', { error: true, timeout: 2000 })
+        figma.notify('Collection is removed', { error: true, timeout: 2000 })
       }
 
       if (!collection) {
         collection = figma.variables.createVariableCollection(name)
+      } else {
+        collection.name = name
       }
 
       setCollectionModes(collection, source)
@@ -70,7 +72,8 @@ function getLocalCollections(ids?: string[]) {
 }
 
 export function getCollectionName(data: TJsonData) {
-  return data.$name ?? EConstants.COLLECTION_TITLE
+  return 'adfasdf1231'
+  // return data.$name ?? EConstants.COLLECTION_TITLE
 }
 
 export function getCollectionVersion(data: TJsonData) {
