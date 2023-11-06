@@ -1,4 +1,5 @@
 import { EConstants, EDimensionUnit, TFontProps, TTokenData, TTokenIterationArgs } from "../../types";
+import { getAliasAbsoluteValue } from "../extension";
 import { hasAliasValue, parseDimensionUnit, parseFontSize } from "../helper";
 import { processTokenAliasValue } from "../variable";
 
@@ -13,15 +14,14 @@ export async function processTypographyTokens({ type, value }: { type: TTokenDat
         let setValue = null
 
         if (hasAliasValue(checkValue[key])) {
-          const fontAliasValue = getTypographyAliasValue(checkValue[key])
+          const { collection: { modes } } = params
+          const [baseMode] = modes
+          const fontRefPropValue = await getAliasAbsoluteValue(checkValue[key], checkValue[key], { modeId: baseMode.modeId, modeName: baseMode.name }) as Variable | undefined
 
-          if (typeof fontAliasValue === 'object' && fontAliasValue?.fontFamily) {
-            setValue = fontAliasValue?.fontFamily ?? null
-          } else {
-            setValue = fontAliasValue as TFontProps['fontFamily']
+          if (typeof fontRefPropValue !== 'undefined') {
+            setValue = fontRefPropValue
           }
-          // }
-        } else {
+        } else if (checkValue[key]) {
           setValue = checkValue[key]
         }
 
@@ -31,7 +31,7 @@ export async function processTypographyTokens({ type, value }: { type: TTokenDat
 
         return {
           ...await resolve,
-          [key]: setValue,
+          ...(setValue ? { [key]: setValue } : {}),
         }
       }, Promise.resolve({}))
     }
@@ -67,7 +67,13 @@ export async function processTypographyTokens({ type, value }: { type: TTokenDat
         style,
       }
       textStyle.fontSize = fontSize ? parseFontSize(fontSize) : EConstants.BASE_FONT_SIZE
-      textStyle.letterSpacing = parseDimensionUnit('letterSpacing', token, letterSpacing ?? 0) as LetterSpacing
+      const parsedLetterSpacing = parseDimensionUnit('letterSpacing', token, letterSpacing ?? 0) as LetterSpacing | undefined
+
+      if (parsedLetterSpacing) {
+        textStyle.letterSpacing = parsedLetterSpacing
+      } else {
+        textStyle.letterSpacing = { value: 0, unit: EDimensionUnit.PIXELS }
+      }
 
       if (lineHeight) {
         textStyle.lineHeight = parseDimensionUnit('lineHeight', token, lineHeight, { unit: EDimensionUnit.AUTO }) as LineHeight

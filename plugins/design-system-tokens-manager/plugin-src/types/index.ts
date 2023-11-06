@@ -1,6 +1,7 @@
 import { EActions, TActionParams, TDataContext } from '../../ui-src/types'
 
 export enum EConstants {
+  COLLECTION_TITLE = 'Kode Design System',
   METADATA_KEY_NAME = '$name',
   METADATA_KEYS_VERSION = '$version',
   PRESERVED_KEY_SYMBOL = '$',
@@ -65,11 +66,6 @@ export const METADATA_KEYS = [
   EConstants.METADATA_KEY_NAME,
   EConstants.METADATA_KEYS_VERSION,
 ]
-
-// export enum EExtensionKey {
-//   // EXTENSION_TYPE_MODIFIER = 'modifier',
-//   EXTENSION_TYPE_MODE = 'mode',
-// }
 
 export type TDesignTokenFormat = {
   $type: EDTFTypes,
@@ -164,10 +160,9 @@ export type TTokenData = {
   type: TDesignTokenFormat['$type'],
   title: string,
   description: string,
-  value: string,
-  prevValue: string,
+  value: string | number,
+  prevValue: string | number,
   variableAlias?: VariableAlias,
-  // fallbackValue?: any | null,
   key: string,
   parentKey: string,
   groupName: string,
@@ -239,6 +234,7 @@ export type TTokenIterationArgs = {
   allVariables: Variable[]
   styles: TPreMappedData['styles']
   isSkipStyles?: boolean,
+  payload: TJsonData
 }
 
 export type TRGBA = { r: number; g: number; b: number; a: number }

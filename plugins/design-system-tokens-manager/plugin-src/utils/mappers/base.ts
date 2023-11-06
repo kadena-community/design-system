@@ -26,6 +26,7 @@ export async function prepareMapper(data: TProcessedData, payload: TCollectionPa
       }
     ]
   }, Promise.resolve([]) as Promise<TTokenMappedData[]>)
+
   return {
     source: newData,
     aliases,
@@ -62,8 +63,8 @@ export async function mapper(data: TProcessedData, params: TCollectionPayload): 
   }
 
   if (payload && collection) {
-    const { added: tokensAdded, failed: tokensFailed } = await iterateTokens({ collection, data, allVariables, tokens, styles })
-    const { added: aliasesAdded, failed: aliasesFailed } = await iterateTokens({ collection, data, allVariables, tokens: aliases, styles, isSkipStyles: true })
+    const { added: tokensAdded, failed: tokensFailed } = await iterateTokens({ collection, data, allVariables, tokens, styles, payload })
+    const { added: aliasesAdded, failed: aliasesFailed } = await iterateTokens({ collection, data, allVariables, tokens: aliases, styles, isSkipStyles: true, payload })
     addedTokens = [
       ...addedTokens,
       ...tokensAdded,

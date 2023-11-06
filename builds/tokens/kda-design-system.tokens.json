@@ -176,6 +176,10 @@
           "$type": "number",
           "$value": 0
         },
+        "xxs": {
+          "$type": "number",
+          "$value": 4
+        },
         "xs": {
           "$type": "number",
           "$value": 8,
@@ -213,13 +217,31 @@
           "$type": "dimension",
           "$value": "0.75rem"
         },
+        "n4": {
+          "$type": "dimension",
+          "$value": "999rem",
+          "$extensions": {
+            "mode": {
+              "dark": "0.75rem"
+            }
+          }
+        },
+        "n5": {
+          "$type": "dimension",
+          "$value": 8
+        },
+        "n6": {
+          "$type": "dimension",
+          "$value": "0.75rem",
+          "$extensions": {
+            "mode": {
+              "dark": 8
+            }
+          }
+        },
         "n10": {
           "$type": "dimension",
           "$value": "1rem"
-        },
-        "n4": {
-          "$type": "dimension",
-          "$value": "999rem"
         }
       },
       "typography": {

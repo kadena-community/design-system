@@ -6,6 +6,10 @@
           "$type": "number",
           "$value": 0
         },
+        "xxs": {
+          "$type": "number",
+          "$value": 4
+        },
         "xs": {
           "$type": "number",
           "$value": 8,

@@ -27,12 +27,12 @@ function parseExtensionToken(token: TTokenData): TTokenData {
   token.rootKey = rootKey
 
   switch (token.modifier) {
-    case EExtensionProp['ALPHA']:
+    case EExtensionProp.ALPHA:
       token.value = setColorAlphaValue(token)
       break;
 
-    // case EExtensionProp['HUE']:
-    //   break;
+    case EExtensionProp['HUE']:
+      break;
 
   }
 

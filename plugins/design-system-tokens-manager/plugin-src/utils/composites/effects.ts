@@ -15,7 +15,7 @@ export function processEffectsTokens({ type, value }: { type: TTokenData['type']
       }
 
       if (typeof compositeValue === 'string') {
-        compositeValue = parseDimensionUnit(type, token, compositeValue || 0).value || 0
+        compositeValue = parseDimensionUnit(type, token, compositeValue || 0).value ?? 0
       }
 
       return {
@@ -32,10 +32,10 @@ export function processEffectsTokens({ type, value }: { type: TTokenData['type']
           x: effectValue.offsetX as number,
           y: effectValue.offsetY as number,
         },
-        radius: effectValue.blur || 0,
+        radius: effectValue.blur ?? 0,
         blendMode: 'NORMAL',
         visible: true,
-        spread: parseDimensionUnit(type, token, value.spread || 0).value
+        spread: parseDimensionUnit(type, token, value.spread ?? 0).value
       }
 
       effectStyle.name = styleName

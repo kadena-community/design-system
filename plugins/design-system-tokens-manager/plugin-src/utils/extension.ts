@@ -1,14 +1,17 @@
 import {
+  EConstants,
   EDTFTypes,
   EExtensionProp,
   TCreateTokenMetaData,
   TDesignTokenFormat,
   TExtensionGeneratorGroup,
+  TJsonData,
+  TRGBA,
   TTokenData,
   TTokenExtensions
 } from "../types";
 import { hexToRgba, rgbaToHex } from "./color";
-import { TDeconstructPath, getValuePath, hasAliasValue } from "./helper";
+import { TDeconstructPath, computePathByName, deconstructPath, getValueByPath, getValuePath, hasAliasValue } from "./helper";
 import { getResolvedTokenType } from "./variable";
 
 export function mapTokenExtensions(refToken: TDesignTokenFormat, params: TDeconstructPath) {
@@ -17,13 +20,13 @@ export function mapTokenExtensions(refToken: TDesignTokenFormat, params: TDecons
   const groupName = $extensions?.[key] as TExtensionGeneratorGroup
 
   if (groupName?.[params.parentKey]) {
-    const $base = groupName[params.parentKey].$base ?? refToken.$value
+    const $base = groupName[params.parentKey].$base ?? null
     const map = {
       ...($extensions ?? {}),
       [params.groupName]: {
         [params.parentKey]: {
           ...groupName[params.parentKey],
-          $base,
+          ...($base ? { $base } : {}),
         },
       },
     }
@@ -33,21 +36,20 @@ export function mapTokenExtensions(refToken: TDesignTokenFormat, params: TDecons
   return $extensions
 }
 
-export async function processTokenExtension(token: TTokenData, params: TCreateTokenMetaData): Promise<{ token: TTokenData, variable: Variable | null }> {
+export async function processTokenExtension(token: TTokenData, params: TCreateTokenMetaData, payload: TJsonData): Promise<{ token: TTokenData, variable: Variable | null }> {
   let variable = null;
   const extensionPropType = token.type
 
   if (extensionPropType === EDTFTypes['COLOR']) {
     switch (token.modifier) {
       case EExtensionProp['ALPHA']:
-        const { token: updatedToken, variable: updatedVariable } = await processAlphaExtension(token, params) ?? {}
+        const { token: updatedToken, variable: updatedVariable } = await processAlphaExtension(token, params, payload) ?? {}
         variable = updatedVariable
         token = updatedToken
         break;
-      // case EExtensionProp['HUE']:
-      // break;
-      // default:
-      // break;
+      case EExtensionProp['HUE']:
+      default:
+        break;
     }
   }
 
@@ -69,15 +71,11 @@ export function getTokenExtensionModifier(groupName: TTokenData['groupName']): T
   }
 }
 
-async function processAlphaExtension(token: TTokenData, params: TCreateTokenMetaData): Promise<{ token: TTokenData, variable: Variable | null }> {
+async function processAlphaExtension(token: TTokenData, params: TCreateTokenMetaData, payload: TJsonData): Promise<{ token: TTokenData, variable: Variable | null }> {
   try {
     const variable = figma.variables.createVariable(token.name, params.collection.id, getResolvedTokenType(token.type))
 
-    token.value = await processColor({
-      value: token.prevValue,
-      extensions: token.extensions,
-      parentKey: token.parentKey
-    })
+    token.value = await processColor({ token }, payload) ?? token.value
 
     return {
       variable,
@@ -95,33 +93,64 @@ async function processAlphaExtension(token: TTokenData, params: TCreateTokenMeta
 }
 
 type TProcessColor = {
-  value: TTokenData['value'],
-  extensions: TTokenData['extensions'],
-  parentKey: TTokenData['parentKey']
+  token: TTokenData
   mode?: {
     id: string,
     name: string
   }
 }
 
-export async function processColor({ value, extensions, parentKey, mode }: TProcessColor): Promise<TTokenData['value']> {
+function hasModifierExtensions(extensions: TTokenData['extensions']) {
+  if (extensions) {
+    const extensionsKeys = Object.keys(extensions)
+    return extensionsKeys.includes(EExtensionProp.ALPHA) || extensionsKeys.includes(EExtensionProp.HUE)
+  }
+
+  return false
+}
+
+export async function processColor({ mode, token }: TProcessColor, payload: TJsonData): Promise<TTokenData['value'] | null> {
+  const value = token.prevValue
+  const isModifierColor = token.isExtension && hasModifierExtensions(token.extensions)
   const { name: modeName, id: modeId } = mode ?? {}
-  const modeColor = modeName ? extensions?.[EExtensionProp.MODE]?.[modeName] : null
-  const baseColor = extensions?.alpha?.[parentKey].$base
-  let newColor = modeColor ?? baseColor
+  const modeColor = modeName && token.extensions?.[EExtensionProp.MODE]?.[modeName] ? token.extensions[EExtensionProp.MODE][modeName] : null
+  const baseColor = isModifierColor && token.extensions?.alpha?.[token.parentKey].$base ? token.extensions?.alpha?.[token.parentKey].$base : null
+  let newColor: TTokenData['value'] | Variable | null = baseColor ?? modeColor
+  let checkPath, refColor
+
+  if (!modeColor && !baseColor) {
+    const { rootKey } = deconstructPath(token.path)
+    const [rootPath] = token.name.split(`${EConstants.TOKEN_NAME_DELIMITER}${rootKey}${EConstants.TOKEN_NAME_DELIMITER}`)
+    checkPath = computePathByName(`${rootPath}${EConstants.TOKEN_NAME_DELIMITER}${rootKey}`)
+    refColor = getValueByPath({ sourceData: payload }, checkPath) as TTokenData['value'] | undefined
+
+    if (refColor) {
+      newColor = refColor
+    }
+  }
 
   if (newColor) {
+
     if (hasAliasValue(newColor)) {
-      const resolvedValue = await getAliasAbsoluteValue(newColor, value, { modeId, modeName })
+      const resolvedValue = await getAliasAbsoluteValue(newColor as string, value, { modeId, modeName })
 
-      if (resolvedValue && typeof resolvedValue.r) {
-        return rgbaToHex({ ...resolvedValue, a: Number(value) / 100 })
+      if (typeof resolvedValue === 'object' && (resolvedValue as TRGBA)?.r && isModifierColor && typeof value === 'number') {
+        return rgbaToHex({ ...(resolvedValue as TRGBA), a: Number(value) / 100 })
+      } else if (typeof resolvedValue === 'object' && (resolvedValue as TRGBA)?.r) {
+        if (isModifierColor && typeof value === 'number') {
+          return rgbaToHex({ ...(resolvedValue as TRGBA), a: Number(value) / 100 })
+        } else if (typeof value === 'number') {
+          return rgbaToHex({ ...(resolvedValue as TRGBA), a: Number(value) / 100 })
+        } else if (typeof resolvedValue === 'object') {
+          return rgbaToHex({ ...(resolvedValue as TRGBA), a: 1 })
+        }
       } else if (hasAliasValue(newColor)) {
-        return await getAliasAbsoluteValue(newColor, value, { modeId, modeName })
+        return await getAliasAbsoluteValue(newColor as string, value, { modeId, modeName }) as string | number
       }
-
-    } else if (typeof value === 'number') {
+    } else if (typeof value === 'number' && typeof newColor === 'string') {
       return rgbaToHex({ ...hexToRgba(newColor), a: Number(value) / 100 })
+    } else if (typeof value === 'string' && typeof newColor === 'string') {
+      return rgbaToHex({ ...hexToRgba(newColor), a: 1 })
     }
   }
 
@@ -134,11 +163,11 @@ type TAliasRetrievalParams = {
   allVariables?: Variable[]
 }
 
-async function getAliasAbsoluteValue(value: any, startValue: TTokenData['prevValue'], params: TAliasRetrievalParams): Promise<any> {
+export async function getAliasAbsoluteValue(value: string | Variable, startValue: TTokenData['prevValue'], params: TAliasRetrievalParams): Promise<Variable['valuesByMode'][0] | string | number | Variable> {
   let { modeId, allVariables } = params
   allVariables = allVariables ?? figma.variables.getLocalVariables()
 
-  if (hasAliasValue(value)) {
+  if (typeof value === 'string' && hasAliasValue(value)) {
     const aliasValue = getValuePath(value)
     const refValue = allVariables.find(({ name }) => name === aliasValue)
 
@@ -162,10 +191,10 @@ async function getAliasAbsoluteValue(value: any, startValue: TTokenData['prevVal
         return refResolvedValue
       }
 
-      return refValue
+      return refValue.valuesByMode[modeId]
     }
 
-    return refValue
+    return value
   } else if (typeof value === 'object' && modeId && value.valuesByMode[modeId]) {
     const resolvedValue = allVariables.find(({ id }) => id === value.id)
     const resolvedValueByMode = resolvedValue?.valuesByMode?.[modeId] as unknown as Variable | undefined
@@ -174,11 +203,11 @@ async function getAliasAbsoluteValue(value: any, startValue: TTokenData['prevVal
       const alias = figma.variables.getVariableById(resolvedValueByMode.id)
       const resolvedColor = alias?.valuesByMode[modeId]
 
-      return resolvedColor
+      return resolvedColor ?? value
     }
 
-    return resolvedValue
+    return resolvedValue ?? value
   }
 
-  return await value
+  return value
 }

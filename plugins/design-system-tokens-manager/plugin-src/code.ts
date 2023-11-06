@@ -11,7 +11,10 @@ figma.showUI(__html__, {
 figma.ui.onmessage = async (action: TAction<any>) => {
   switch (action.type) {
     case EActions.CREATE_COLLECTION:
-      await init(action)
+      figma.notify(`Loading Design System`, { error: false })
+      setTimeout(async () => {
+        await init(action)
+      }, 0);
       break;
 
     default:

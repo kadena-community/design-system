@@ -1,4 +1,3 @@
-// config.js
 module.exports = {
   source: [`tokens/**/*.json`],
   platforms: {

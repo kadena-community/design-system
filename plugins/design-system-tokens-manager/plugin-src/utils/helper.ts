@@ -82,7 +82,9 @@ export function convertPropPath(path: string, value = '') {
 }
 
 export function transformExtentionPropFallbackPath(path: string) {
-  const [fallbackPath] = path?.trim().split(EConstants.EXTENSIONS)
+  if (!path) return path
+
+  const [fallbackPath] = path.trim().split(EConstants.EXTENSIONS)
 
   return fallbackPath
     .split(EConstants.DOT_PATH_DELIMITER)
@@ -90,9 +92,12 @@ export function transformExtentionPropFallbackPath(path: string) {
     .join(EConstants.TOKEN_NAME_DELIMITER)
 }
 
-export const hasAliasValue = (value: string) =>
-  typeof value === 'string' &&
-  /\{[^.]+\.+[^}]+\}$/.test(value)
+export const hasAliasValue = (value: string | number) => {
+  if (typeof value !== 'string') return false
+
+  return /\{[^.]+\.+[^}]+\}$/.test(value)
+}
+
 
 export const hasExtendedAliasValue = (value: VariableValue) =>
   typeof value === 'string' &&
@@ -106,14 +111,24 @@ export const getExtendedAliasValue = (value: VariableValue) => {
   return null
 }
 
-export const transformExtendedAliasPath = (value: string) => {
-  return getValuePath(value).split(EConstants.TOKEN_NAME_DELIMITER)
-    .filter((part) => part !== EConstants.EXTENSIONS)
-    .map((part) => [EExtensionProp.ALPHA, EExtensionProp.HUE].includes(part as EExtensionProp) ? EExtensionProp.ALPHA : part)
-    .join(EConstants.TOKEN_NAME_DELIMITER)
+export const transformExtendedAliasPath = (value: string | number) => {
+  if (typeof value !== 'string') return value
+
+  const valuePath = getValuePath(value)
+
+  if (typeof valuePath === 'string') {
+    return valuePath.split(EConstants.TOKEN_NAME_DELIMITER)
+      .filter((part) => part !== EConstants.EXTENSIONS)
+      .map((part) => [EExtensionProp.ALPHA, EExtensionProp.HUE].includes(part as EExtensionProp) ? EExtensionProp.ALPHA : part)
+      .join(EConstants.TOKEN_NAME_DELIMITER)
+  }
+
+  return value
 }
 
-export const getValuePath = (aliasValue: string) => {
+export const getValuePath = (aliasValue: string | number) => {
+  if (typeof aliasValue !== 'string') return aliasValue
+
   const path = convertPathToName(aliasValue.replace(/{|}/g, ''))
   const parts = path.split(EConstants.TOKEN_NAME_DELIMITER)
   const [lastPart] = [...parts].reverse()
@@ -126,6 +141,12 @@ export const getValuePath = (aliasValue: string) => {
   return parts.join(EConstants.TOKEN_NAME_DELIMITER)
 }
 
+export function computePathByName(name: string): string {
+  const nameParts = name.trim().split(EConstants.TOKEN_NAME_DELIMITER)
+
+  return nameParts.join(EConstants.DOT_PATH_DELIMITER) + `${EConstants.DOT_PATH_DELIMITER}${EConstants.VALUE_KEY}`
+}
+
 export function delay(ms: number): Promise<void> {
   return new Promise((resolve) => {
     setTimeout(resolve, ms);
@@ -135,8 +156,17 @@ export function delay(ms: number): Promise<void> {
 const matchUnitRegex = /^(\d+(?:\.\d+)?)([a-zA-Z]+)$/
 
 export function parseDimensionUnit(type: string, token: TTokenData, value: string | number, defaults = { unit: EDimensionUnit.AUTO }): { value?: number, unit: EDimensionUnit } {
-  if (type === 'lineHeight' && typeof value === 'number') {
+  if (type === EDTFTypes.NUMBER && typeof value === 'number') {
+    return { value, unit: EDimensionUnit.PIXELS }
+  } else if (type === 'lineHeight' && typeof value === 'number') {
     value = `${((token.value as TFontProps).fontSize ?? 1) * value}${EDimensionUnitSymbol.PIXELS}`
+  } else if (type === 'letterSpacing') {
+    if (typeof value === 'number') {
+      return {
+        value,
+        unit: EDimensionUnit.PIXELS
+      }
+    }
   }
 
   const match = RegExp(matchUnitRegex).exec(String(value)) ?? [];

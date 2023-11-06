@@ -11,8 +11,8 @@ export async function init(data: TAction<TCollectionPayload>, isInit = true) {
     const mappedData = await mapper(processedData, params as TCollectionPayload)
 
     if (isInit && Object.keys(processedData.$tokens).length !== mappedData.variables.local.length) {
-      setTimeout(() => {
-        init({
+      setTimeout(async () => {
+        await init({
           ...data,
           params: {
             ...data.params,

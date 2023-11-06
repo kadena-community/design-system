@@ -3,8 +3,6 @@ import { TRGBA } from '../types'
 
 const rgbaRegex = /^rgba\((\d{1,3}),\s*(\d{1,3}),\s*(\d{1,3}),\s*([01]?(\.\d+)?)\)$/
 const rgbRegex = /^rgb\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*\)$/
-// const rgbaRegex =
-//   /^rgba\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*([\d.]+)\s*\)$/
 const hslRegex = /^hsl\(\s*(\d{1,3})\s*,\s*(\d{1,3})%\s*,\s*(\d{1,3})%\s*\)$/
 const hslaRegex =
   /^hsla\(\s*(\d{1,3})\s*,\s*(\d{1,3})%\s*,\s*(\d{1,3})%\s*,\s*([\d.]+)\s*\)$/
@@ -48,48 +46,52 @@ export function isColorValue(value: string) {
 }
 
 export function parseColor(color: string) {
-  color = color?.trim()
+  try {
+    color = color?.trim()
 
-  if (!isColorValue(color)) throw new Error(`Invalid color format: "${color}"`)
+    if (!isColorValue(color)) throw new Error(`Invalid color format 2: "${color}"`)
 
-  if (rgbRegex.test(color)) {
-    const [, r, g, b] = RegExp(rgbRegex).exec(color) ?? []
-    return { r: parseInt(r) / 255, g: parseInt(g) / 255, b: parseInt(b) / 255 }
-  } else if (rgbaRegex.test(color)) {
-    const [, r, g, b, a] = RegExp(rgbaRegex).exec(color) ?? []
-    return {
-      r: parseInt(r) / 255,
-      g: parseInt(g) / 255,
-      b: parseInt(b) / 255,
-      a: parseFloat(a),
+    if (rgbRegex.test(color)) {
+      const [, r, g, b] = RegExp(rgbRegex).exec(color) ?? []
+      return { r: parseInt(r) / 255, g: parseInt(g) / 255, b: parseInt(b) / 255 }
+    } else if (rgbaRegex.test(color)) {
+      const [, r, g, b, a] = RegExp(rgbaRegex).exec(color) ?? []
+      return {
+        r: parseInt(r) / 255,
+        g: parseInt(g) / 255,
+        b: parseInt(b) / 255,
+        a: parseFloat(a),
+      }
+    } else if (hslRegex.test(color)) {
+      const [, h, s, l] = RegExp(hslRegex).exec(color) ?? []
+      return hslToRgbFloat(parseInt(h), parseInt(s) / 100, parseInt(l) / 100)
+    } else if (hslaRegex.test(color)) {
+      const [, h, s, l, a] = RegExp(hslaRegex).exec(color) ?? []
+      return Object.assign(
+        hslToRgbFloat(parseInt(h), parseInt(s) / 100, parseInt(l) / 100),
+        { a: parseFloat(a) }
+      )
+    } else if (hexRegex.test(color)) {
+      const hexValue = color.substring(1)
+      const expandedHex =
+        hexValue.length === 3
+          ? hexValue
+            .split("")
+            .map((char) => char + char)
+            .join("")
+          : hexValue
+      return {
+        r: parseInt(expandedHex.slice(0, 2), 16) / 255,
+        g: parseInt(expandedHex.slice(2, 4), 16) / 255,
+        b: parseInt(expandedHex.slice(4, 6), 16) / 255,
+      }
+    } else if (floatRgbRegex.test(color)) {
+      return JSON.parse(color)
+    } else {
+      throw new Error(`Invalid color format 1: "${color}"`)
     }
-  } else if (hslRegex.test(color)) {
-    const [, h, s, l] = RegExp(hslRegex).exec(color) ?? []
-    return hslToRgbFloat(parseInt(h), parseInt(s) / 100, parseInt(l) / 100)
-  } else if (hslaRegex.test(color)) {
-    const [, h, s, l, a] = RegExp(hslaRegex).exec(color) ?? []
-    return Object.assign(
-      hslToRgbFloat(parseInt(h), parseInt(s) / 100, parseInt(l) / 100),
-      { a: parseFloat(a) }
-    )
-  } else if (hexRegex.test(color)) {
-    const hexValue = color.substring(1)
-    const expandedHex =
-      hexValue.length === 3
-        ? hexValue
-          .split("")
-          .map((char) => char + char)
-          .join("")
-        : hexValue
-    return {
-      r: parseInt(expandedHex.slice(0, 2), 16) / 255,
-      g: parseInt(expandedHex.slice(2, 4), 16) / 255,
-      b: parseInt(expandedHex.slice(4, 6), 16) / 255,
-    }
-  } else if (floatRgbRegex.test(color)) {
-    return JSON.parse(color)
-  } else {
-    throw new Error(`Invalid color format: "${color}"`)
+  } catch (error) {
+    console.error(error)
   }
 }
 

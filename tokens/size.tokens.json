@@ -24,13 +24,31 @@
           "$type": "dimension",
           "$value": "0.75rem"
         },
+        "n4": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.radius.round.$value}",
+          "$extensions": {
+            "mode": {
+              "dark": "0.75rem"
+            }
+          }
+        },
+        "n5": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.radius.xs.$value}"
+        },
+        "n6": {
+          "$type": "dimension",
+          "$value": "0.75rem",
+          "$extensions": {
+            "mode": {
+              "dark": "{kda.foundation.radius.xs.$value}"
+            }
+          }
+        },
         "n10": {
           "$type": "dimension",
           "$value": "1rem"
-        },
-        "n4": {
-          "$type": "dimension",
-          "$value": "{kda.foundation.radius.round.$value}"
         }
       }
     }
