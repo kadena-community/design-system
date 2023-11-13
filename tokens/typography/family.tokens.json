@@ -16,12 +16,7 @@
             "$type": "fontFamily"
           },
           "bodyFont": {
-            "$value": [
-              "Haas Grot Disp",
-              "Helvetica",
-              "Arial",
-              "sans-serif"
-            ],
+            "$value": "Haas Grot Disp",
             "$type": "fontFamily"
           }
         }

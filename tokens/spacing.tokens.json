@@ -2,6 +2,10 @@
   "kda": {
     "foundation": {
       "spacing": {
+        "no": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n0.$value}"
+        },
         "xxs": {
           "$type": "dimension",
           "$value": "{kda.foundation.size.n1.$value}"

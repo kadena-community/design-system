@@ -20,6 +20,24 @@
               "$value": "75 Bold",
               "$type": "fontWeight"
             }
+          },
+          "bodyFont": {
+            "light": {
+              "$value": "45 Light",
+              "$type": "fontWeight"
+            },
+            "normal": {
+              "$value": "55 Roman",
+              "$type": "fontWeight"
+            },
+            "medium": {
+              "$value": "65 Medium",
+              "$type": "fontWeight"
+            },
+            "bold": {
+              "$value": "75 Bold",
+              "$type": "fontWeight"
+            }
           }
         }
       }

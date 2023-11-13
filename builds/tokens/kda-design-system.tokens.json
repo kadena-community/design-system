@@ -4869,6 +4869,10 @@
         }
       },
       "spacing": {
+        "no": {
+          "$type": "dimension",
+          "$value": 0
+        },
         "xxs": {
           "$type": "dimension",
           "$value": "0.125rem"
@@ -4917,12 +4921,7 @@
             "$type": "fontFamily"
           },
           "bodyFont": {
-            "$value": [
-              "Haas Grot Disp",
-              "Helvetica",
-              "Arial",
-              "sans-serif"
-            ],
+            "$value": "Haas Grot Disp",
             "$type": "fontFamily"
           }
         },
@@ -6636,6 +6635,852 @@
                 }
               }
             }
+          },
+          "small": {
+            "regular": {
+              "@xs": {
+                "$name": "paragraph",
+                "$description": "Small P @xs Description",
+                "$type": "typography",
+                "$title": "Small",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 14,
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@sm": {
+                "$name": "paragraph",
+                "$description": "Small P @sm Description",
+                "$type": "typography",
+                "$title": "Small",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 14,
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@md": {
+                "$name": "paragraph",
+                "$description": "Small P @md Description",
+                "$type": "typography",
+                "$title": "Small",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 14,
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@lg": {
+                "$name": "paragraph",
+                "$description": "Small P @lg Description",
+                "$type": "typography",
+                "$title": "Small",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 14,
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@xl": {
+                "$name": "paragraph",
+                "$description": "Small P @xl Description",
+                "$type": "typography",
+                "$title": "Small",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 14,
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@xxl": {
+                "$name": "paragraph",
+                "$description": "Small P @xxl Description",
+                "$type": "typography",
+                "$title": "Small",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 14,
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              }
+            },
+            "bold": {
+              "@xs": {
+                "$name": "paragraph",
+                "$description": "Small P Bold @ xs Description",
+                "$type": "typography",
+                "$title": "Small P Bold @ xs",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 14,
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@sm": {
+                "$name": "paragraph",
+                "$description": "Small P Bold @ sm Description",
+                "$type": "typography",
+                "$title": "Small P Bold @ sm",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 14,
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@md": {
+                "$name": "paragraph",
+                "$description": "Small P Bold @ md Description",
+                "$type": "typography",
+                "$title": "Small P Bold @ md",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 14,
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@lg": {
+                "$name": "paragraph",
+                "$description": "Small P Bold @ lg Description",
+                "$type": "typography",
+                "$title": "Small P Bold @ lg",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 14,
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@xl": {
+                "$name": "paragraph",
+                "$description": "Small P Bold @ xl Description",
+                "$type": "typography",
+                "$title": "Small P Bold @ xl",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 14,
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@xxl": {
+                "$name": "paragraph",
+                "$description": "Small P Bold @ xxl Description",
+                "$type": "typography",
+                "$title": "Small P Bold @ xxl",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 14,
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              }
+            }
+          },
+          "smallest": {
+            "regular": {
+              "@xs": {
+                "$name": "paragraph",
+                "$description": "Smallest P @xs Description",
+                "$type": "typography",
+                "$title": "Smallest",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 12,
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@sm": {
+                "$name": "paragraph",
+                "$description": "Smallest P @sm Description",
+                "$type": "typography",
+                "$title": "Smallest",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 12,
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@md": {
+                "$name": "paragraph",
+                "$description": "Smallest P @md Description",
+                "$type": "typography",
+                "$title": "Smallest",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 12,
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@lg": {
+                "$name": "paragraph",
+                "$description": "Smallest P @lg Description",
+                "$type": "typography",
+                "$title": "Smallest",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 12,
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@xl": {
+                "$name": "paragraph",
+                "$description": "Smallest P @xl Description",
+                "$type": "typography",
+                "$title": "Smallest",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 12,
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@xxl": {
+                "$name": "paragraph",
+                "$description": "Smallest P @xxl Description",
+                "$type": "typography",
+                "$title": "Smallest",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 12,
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              }
+            },
+            "bold": {
+              "@xs": {
+                "$name": "paragraph",
+                "$description": "Smallest P Bold @ xs Description",
+                "$type": "typography",
+                "$title": "Smallest P Bold @ xs",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 12,
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@sm": {
+                "$name": "paragraph",
+                "$description": "Smallest P Bold @ sm Description",
+                "$type": "typography",
+                "$title": "Smallest P Bold @ sm",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 12,
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@md": {
+                "$name": "paragraph",
+                "$description": "Smallest P Bold @ md Description",
+                "$type": "typography",
+                "$title": "Smallest P Bold @ md",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 12,
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@lg": {
+                "$name": "paragraph",
+                "$description": "Smallest P Bold @ lg Description",
+                "$type": "typography",
+                "$title": "Smallest P Bold @ lg",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 12,
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@xl": {
+                "$name": "paragraph",
+                "$description": "Smallest P Bold @ xl Description",
+                "$type": "typography",
+                "$title": "Smallest P Bold @ xl",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 12,
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@xxl": {
+                "$name": "paragraph",
+                "$description": "Smallest P Bold @ xxl Description",
+                "$type": "typography",
+                "$title": "Smallest P Bold @ xxl",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": 12,
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              }
+            }
+          },
+          "p": {
+            "regular": {
+              "@xs": {
+                "$name": "paragraph",
+                "$description": "P @xs Description",
+                "$type": "typography",
+                "$title": "P",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
+                  },
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@sm": {
+                "$name": "paragraph",
+                "$description": "P @sm Description",
+                "$type": "typography",
+                "$title": "P",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
+                  },
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@md": {
+                "$name": "paragraph",
+                "$description": "P @md Description",
+                "$type": "typography",
+                "$title": "P",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
+                  },
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@lg": {
+                "$name": "paragraph",
+                "$description": "P @lg Description",
+                "$type": "typography",
+                "$title": "P",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
+                  },
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@xl": {
+                "$name": "paragraph",
+                "$description": "P @xl Description",
+                "$type": "typography",
+                "$title": "P",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
+                  },
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@xxl": {
+                "$name": "paragraph",
+                "$description": "P @xxl Description",
+                "$type": "typography",
+                "$title": "P",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
+                  },
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              }
+            },
+            "bold": {
+              "@xs": {
+                "$name": "paragraph",
+                "$description": "P Bold @ xs Description",
+                "$type": "typography",
+                "$title": "P Bold @ xs",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
+                  },
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@sm": {
+                "$name": "paragraph",
+                "$description": "P Bold @ sm Description",
+                "$type": "typography",
+                "$title": "P Bold @ sm",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
+                  },
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@md": {
+                "$name": "paragraph",
+                "$description": "P Bold @ md Description",
+                "$type": "typography",
+                "$title": "P Bold @ md",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
+                  },
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@lg": {
+                "$name": "paragraph",
+                "$description": "P Bold @ lg Description",
+                "$type": "typography",
+                "$title": "P Bold @ lg",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
+                  },
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@xl": {
+                "$name": "paragraph",
+                "$description": "P Bold @ xl Description",
+                "$type": "typography",
+                "$title": "P Bold @ xl",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
+                  },
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              },
+              "@xxl": {
+                "$name": "paragraph",
+                "$description": "P Bold @ xxl Description",
+                "$type": "typography",
+                "$title": "P Bold @ xxl",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
+                  },
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": 0
+                  },
+                  "lineHeight": 1
+                }
+              }
+            }
           }
         },
         "fontSize": {
@@ -6769,6 +7614,24 @@
         },
         "weight": {
           "headingFont": {
+            "light": {
+              "$value": "45 Light",
+              "$type": "fontWeight"
+            },
+            "normal": {
+              "$value": "55 Roman",
+              "$type": "fontWeight"
+            },
+            "medium": {
+              "$value": "65 Medium",
+              "$type": "fontWeight"
+            },
+            "bold": {
+              "$value": "75 Bold",
+              "$type": "fontWeight"
+            }
+          },
+          "bodyFont": {
             "light": {
               "$value": "45 Light",
               "$type": "fontWeight"
