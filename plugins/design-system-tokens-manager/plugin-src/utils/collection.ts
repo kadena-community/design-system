@@ -11,7 +11,7 @@ export function initCollection(data: TCollectionPayload, source: TProcessedData)
       if (collection && isReset) {
         collection.remove()
         collection = null
-        figma.notify('Collection is removed', { error: true, timeout: 2000 })
+        figma.notify('Resetting your Collection', { error: false, timeout: 2000 })
       }
 
       if (!collection) {
@@ -23,7 +23,7 @@ export function initCollection(data: TCollectionPayload, source: TProcessedData)
       setCollectionModes(collection, source)
 
       if (collection) {
-        figma.notify(`Collection "${name}" ${isReset ? 'created' : 'updated'}`, { error: false, timeout: 2000 })
+        figma.notify(`Collection "${name}" ${isReset ? 'Created' : 'Updated'}`, { error: false, timeout: 2000 })
       }
     }
 

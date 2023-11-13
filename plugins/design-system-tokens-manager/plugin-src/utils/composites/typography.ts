@@ -1,13 +1,23 @@
-import { EConstants, EDimensionUnit, TFontProps, TJsonData, TTokenData, TTokenIterationArgs } from "../../types";
+import { EConstants, EDimensionUnit, TAction, TCollectionPayload, TDesignTokenFormat, TFontProps, TJsonData, TTokenData, TTokenIterationArgs } from "../../types";
 import { getAliasAbsoluteValue } from "../extension";
-import { hasAliasValue, parseDimensionUnit, parseFontSize } from "../helper";
+import { convertNameToPath, getValueByPath, hasAliasValue, parseDimensionUnit, parseFontSize } from "../helper";
 import { processTokenAliasValue } from "../variable";
 
-export async function processTypographyTokens({ type, value }: { type: TTokenData['type'], value: TFontProps }, token: TTokenData, params: TTokenIterationArgs, payload: TJsonData) {
+export async function processTypographyTokens({ type, value }: { type: TTokenData['type'], value: TFontProps }, token: TDesignTokenFormat, params: TTokenIterationArgs, payload: TJsonData) {
   try {
     let checkValue = {
       ...value as { [key: string]: any }
     }
+
+    const tokenData = {
+      ...token,
+      name: token[EConstants.METADATA_KEY_NAME],
+      description: token[EConstants.DESCRIPTION_KEY],
+      value: token[EConstants.VALUE_KEY],
+      type: token[EConstants.TYPE_KEY],
+      title: token[EConstants.TITLE_KEY],
+      prevValue: token[EConstants.VALUE_KEY],
+    } as unknown as TTokenData
 
     if (typeof checkValue === 'object') {
       checkValue = await Object.keys(checkValue).reduce(async (resolve, key) => {
@@ -26,7 +36,7 @@ export async function processTypographyTokens({ type, value }: { type: TTokenDat
         }
 
         if (typeof setValue === 'string' && ['fontSize', 'lineHeight'].includes(key)) {
-          setValue = parseDimensionUnit(type, token, setValue || 0).value ?? 0
+          setValue = parseDimensionUnit(type, tokenData, setValue || 0).value ?? 0
         }
 
         return {
@@ -36,7 +46,7 @@ export async function processTypographyTokens({ type, value }: { type: TTokenDat
       }, Promise.resolve({}))
     }
 
-    const textStyleName = token.name
+    const textStyleName = tokenData.name
     const {
       fontFamily,
       fontSize,
@@ -45,8 +55,12 @@ export async function processTypographyTokens({ type, value }: { type: TTokenDat
       lineHeight,
     } = checkValue
 
+    if (!params.allVariables.length) {
+      return JSON.stringify(value)
+    }
+
     const family = getFontFamily(fontFamily)
-    const style = getFontStyle(fontWeight)
+    const style = await getFontStyle(fontWeight, params)
 
     if (!family) {
       return value
@@ -56,18 +70,17 @@ export async function processTypographyTokens({ type, value }: { type: TTokenDat
 
     if (family) {
       try {
-        await figma.loadFontAsync({ family, style })
+        textStyle.name = textStyleName
+        textStyle.fontName = {
+          family,
+          style,
+        }
+        textStyle.fontSize = fontSize ? parseFontSize(fontSize) : EConstants.BASE_FONT_SIZE
       } catch (error) {
-        console.warn('Something happend while loading the font', error)
+        console.error('Error loading font', error)
       }
 
-      textStyle.name = textStyleName
-      textStyle.fontName = {
-        family,
-        style,
-      }
-      textStyle.fontSize = fontSize ? parseFontSize(fontSize) : EConstants.BASE_FONT_SIZE
-      const parsedLetterSpacing = parseDimensionUnit('letterSpacing', token, letterSpacing ?? 0) as LetterSpacing | undefined
+      const parsedLetterSpacing = parseDimensionUnit('letterSpacing', tokenData, letterSpacing ?? 0) as LetterSpacing | undefined
 
       if (parsedLetterSpacing) {
         textStyle.letterSpacing = parsedLetterSpacing
@@ -76,10 +89,10 @@ export async function processTypographyTokens({ type, value }: { type: TTokenDat
       }
 
       if (lineHeight) {
-        textStyle.lineHeight = parseDimensionUnit('lineHeight', token, lineHeight, { unit: EDimensionUnit.AUTO }) as LineHeight
+        textStyle.lineHeight = parseDimensionUnit('lineHeight', tokenData, lineHeight, { unit: EDimensionUnit.AUTO }) as LineHeight
       }
 
-      textStyle.description = token.description
+      textStyle.description = tokenData.description
     }
 
   } catch (error) {
@@ -121,8 +134,13 @@ function getFontFamily(value: TFontProps | string | null): string | null {
   return response ?? null
 }
 
-function getFontStyle(value: TFontProps['fontWeight']): string {
+async function getFontStyle(value: TFontProps['fontWeight'], params: TTokenIterationArgs): Promise<string> {
   if (typeof value === 'string') {
+    if (hasAliasValue(value)) {
+      const [{ modeId, name: modeName }] = params.collection.modes
+      value = await getAliasAbsoluteValue(value, value, { modeId, modeName, allVariables: params.allVariables }) as string
+    }
+
     return value
   } else if (typeof value === 'number') {
     switch (value) {
@@ -164,4 +182,23 @@ function getFontStyle(value: TFontProps['fontWeight']): string {
   }
 
   return value ?? 'Regular'
+}
+
+export type tokenStrings = string[]
+
+export async function getTypographyTokens(tokenStrings: tokenStrings, params: TTokenIterationArgs, payload: TJsonData) {
+  const tokens = await tokenStrings.reduce(async (res, tokenName) => {
+    const name = convertNameToPath(tokenName)
+    const token = getValueByPath({ sourceData: payload }, name)
+    token.$name = tokenName
+
+    if (token?.[EConstants.VALUE_KEY]) {
+      await processTypographyTokens({ type: token.type, value: token[EConstants.VALUE_KEY] as TFontProps }, token, params, payload)
+    }
+
+    return [
+      ...(await res),
+      token
+    ]
+  }, Promise.resolve([] as string[]))
 }

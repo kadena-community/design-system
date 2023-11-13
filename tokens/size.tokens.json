@@ -95,6 +95,10 @@
           "$type": "dimension",
           "$value": "6.25rem"
         },
+        "n30": {
+          "$type": "dimension",
+          "$value": "7.5rem"
+        },
         "n32": {
           "$type": "dimension",
           "$value": "8rem"

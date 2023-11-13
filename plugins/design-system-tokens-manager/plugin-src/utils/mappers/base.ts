@@ -3,6 +3,10 @@ import { initCollection } from "../collection"
 import { hasAliasValue, loadAllStyles } from "../helper"
 import { getLocalVariables, iterateTokens } from "../variable"
 
+let addedTokens: string[] = []
+let failedTokens: string[] = []
+let typographyTokens: string[] = []
+
 export async function prepareMapper(data: TProcessedData, payload: TCollectionPayload): Promise<TPreMappedData> {
   const aliases: TTokenData[] = []
   const tokens: TTokenData[] = []
@@ -45,9 +49,6 @@ export async function mapper(data: TProcessedData, params: TCollectionPayload): 
     aliases,
     styles,
   } = await prepareMapper(data, params)
-  let addedTokens: string[] = []
-  let failedTokens: string[] = []
-
   const {
     collection
   } = initCollection(params, data)
@@ -63,8 +64,8 @@ export async function mapper(data: TProcessedData, params: TCollectionPayload): 
   }
 
   if (payload && collection) {
-    const { added: tokensAdded, failed: tokensFailed } = await iterateTokens({ collection, data, allVariables, tokens, styles, payload })
-    const { added: aliasesAdded, failed: aliasesFailed } = await iterateTokens({ collection, data, allVariables, tokens: aliases, styles, isSkipStyles: true, payload })
+    const { added: tokensAdded, failed: tokensFailed, typography: tokensTypoFailed } = await iterateTokens({ collection, data, allVariables, tokens, styles, payload })
+    const { added: aliasesAdded, failed: aliasesFailed, typography: aliasesTypoFailed } = await iterateTokens({ collection, data, allVariables, tokens: aliases, styles, isSkipStyles: true, payload })
     addedTokens = [
       ...addedTokens,
       ...tokensAdded,
@@ -75,6 +76,11 @@ export async function mapper(data: TProcessedData, params: TCollectionPayload): 
       ...tokensFailed,
       ...aliasesFailed,
     ]
+    typographyTokens = [...new Set([
+      ...typographyTokens,
+      ...tokensTypoFailed,
+      ...aliasesTypoFailed
+    ])]
   }
 
   return {
@@ -94,6 +100,7 @@ export async function mapper(data: TProcessedData, params: TCollectionPayload): 
       tokens: {
         added: addedTokens,
         failed: failedTokens,
+        typography: typographyTokens,
       }
     }
   }

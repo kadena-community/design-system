@@ -1,0 +1,172 @@
+{
+  "kda": {
+    "foundation": {
+      "typography": {
+        "font": {
+          "h3": {
+            "regular": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H3 Description",
+                "$type": "typography",
+                "$title": "H3",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n8}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n12}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H3 Description",
+                "$type": "typography",
+                "$title": "H3",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n8}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n12}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H3 Description",
+                "$type": "typography",
+                "$title": "H3",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n15}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H3 Description",
+                "$type": "typography",
+                "$title": "H3",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n13}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n18}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H3 Description",
+                "$type": "typography",
+                "$title": "H3",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n16}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n24}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H3 Description",
+                "$type": "typography",
+                "$title": "H3",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n18}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n30}"
+                }
+              }
+            },
+            "bold": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H3 Bold @ xs Description",
+                "$type": "typography",
+                "$title": "H3 Bold @ xs",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n8}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n12}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H3 Bold @ sm Description",
+                "$type": "typography",
+                "$title": "H3 Bold @ sm",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n8}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n12}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H3 Bold @ md Description",
+                "$type": "typography",
+                "$title": "H3 Bold @ md",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n15}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H3 Bold @ lg Description",
+                "$type": "typography",
+                "$title": "H3 Bold @ lg",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n13}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n18}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H3 Bold @ xl Description",
+                "$type": "typography",
+                "$title": "H3 Bold @ xl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n16}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n24}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H3 Bold @ xxl Description",
+                "$type": "typography",
+                "$title": "H3 Bold @ xxl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n18}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n30}"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

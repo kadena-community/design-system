@@ -21,18 +21,20 @@ import { processBorderTokens } from "./composites/border"
 import { processEffectsTokens } from "./composites/effects"
 import { processDimensionsTokens } from "./composites/dimension"
 
+const added: string[] = []
+const failed: string[] = []
+const typography: string[] = []
+
 export async function iterateTokens(params: TTokenIterationArgs): Promise<TTranspiledData['status']['tokens']> {
   const { tokens, collection, allVariables, data, styles, isSkipStyles, payload } = params
   const resolvedValue = await tokens.reduce(async (response, token): Promise<TTranspiledData['status']['tokens']> => {
-    await response
-    const added = []
-    const failed = []
+    const d = await response
 
     if (collection) {
       try {
         switch (token.type) {
           case EDTFTypes.TYPOGRAPHY:
-            processTypographyTokens({ type: token.type, value: token.value as TFontProps }, token, params, payload)
+            typography.push(token.name)
             break;
           case EDTFTypes.BORDER:
             processBorderTokens({ type: token.type, value: token.value as TBorderProps }, token, params, payload)
@@ -45,7 +47,7 @@ export async function iterateTokens(params: TTokenIterationArgs): Promise<TTrans
             break;
           case EDTFTypes.NUMBER:
           case EDTFTypes.DIMENSION:
-            await processDimensionsTokens({ type: token.type, value: token.value as TEffectProps }, token, params, payload)
+            processDimensionsTokens({ type: token.type, value: token.value as TEffectProps }, token, params, payload)
             break;
 
           default:
@@ -63,21 +65,30 @@ export async function iterateTokens(params: TTokenIterationArgs): Promise<TTrans
     }
 
     return {
-      ...(await response),
+      ...d,
       added: [
-        ...(await response).added,
-        ...added,
+        ...new Set([
+          ...d.added,
+          ...added,
+        ])
       ],
       failed: [
-        ...(await response).failed,
-        ...failed
+        ...new Set([
+          ...d.failed,
+          ...failed,
+        ])
       ],
-
+      typography: [
+        ...new Set([
+          ...d.typography,
+          ...typography,
+        ])
+      ],
     }
-
   }, Promise.resolve({
-    added: [],
-    failed: [],
+    added,
+    failed,
+    typography,
   }) as Promise<TTranspiledData['status']['tokens']>)
 
   return resolvedValue
@@ -122,6 +133,15 @@ export async function setVariableModeValues(variable: Variable, token: TTokenDat
   availableModes.forEach((mode) => {
     if (token?.extensions?.[EExtensionProp.MODE]) {
       if (typeof token?.extensions?.[EExtensionProp.MODE][mode.name] !== 'undefined') {
+        const modeValue = token.extensions[EExtensionProp.MODE][mode.name]
+        if (hasAliasValue(modeValue)) {
+          const modeReferenceVariable = processTokenAliasValue(modeValue, params)
+
+          if (modeReferenceVariable?.id) {
+            token.variableAlias = figma.variables.createVariableAlias(modeReferenceVariable)
+          }
+        }
+
         token.value = token?.extensions?.[EExtensionProp.MODE][mode.name]
       }
 

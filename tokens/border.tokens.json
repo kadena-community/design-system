@@ -2,20 +2,42 @@
   "kda": {
     "foundation": {
       "border": {
-        "sm": {
-          "$type": "border",
-          "$value": {
-            "width": 1,
-            "style": "solid",
-            "color": "{kda.foundation.color.intent.tertiary.$value}"
+        "width": {
+          "hairline": {
+            "$type": "dimension",
+            "$value": 1
+          },
+          "normal": {
+            "$type": "dimension",
+            "$value": 2
+          },
+          "thick": {
+            "$type": "dimension",
+            "$value": 4
           }
         },
-        "md": {
+        "hairline": {
           "$type": "border",
           "$value": {
-            "width": 2,
+            "width": "{kda.foundation.border.width.hairline}",
             "style": "solid",
-            "color": "{kda.foundation.color.intent.tertiary.$value}"
+            "color": "{kda.foundation.color.border.base.default}"
+          }
+        },
+        "normal": {
+          "$type": "border",
+          "$value": {
+            "width": "{kda.foundation.border.width.normal}",
+            "style": "solid",
+            "color": "{kda.foundation.color.border.base.@bold}"
+          }
+        },
+        "thick": {
+          "$type": "border",
+          "$value": {
+            "width": "{kda.foundation.border.width.thick}",
+            "style": "solid",
+            "color": "{kda.foundation.color.border.base.@bold}"
           }
         }
       }

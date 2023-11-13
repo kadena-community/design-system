@@ -1,0 +1,140 @@
+{
+  "kda": {
+    "foundation": {
+      "color": {
+        "link": {
+          "base": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n70}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n80}"
+            },
+            "@focus": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n60}"
+            },
+            "@visited": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n80}"
+            }
+          },
+          "brand": {
+            "primary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n70}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n80}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n60}"
+              },
+              "@visited": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.purple.n80}"
+              }
+            },
+            "secondary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n70}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n80}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n60}"
+              },
+              "@visited": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.purple.n80}"
+              }
+            }
+          },
+          "semantic": {
+            "positive": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n90}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n95}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n80}"
+              },
+              "@visited": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.purple.n80}"
+              }
+            },
+            "negative": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n90}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n95}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n80}"
+              },
+              "@visited": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.purple.n80}"
+              }
+            },
+            "warning": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n90}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n95}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n80}"
+              },
+              "@visited": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.purple.n80}"
+              }
+            },
+            "info": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n90}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n95}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n80}"
+              },
+              "@visited": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.purple.n80}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

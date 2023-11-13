@@ -8,16 +8,18 @@ import { processTokens } from "../lib/helpers";
 export const Form = () => {
   const code = useRef<HTMLTextAreaElement>(null);
   const resetVariables = useRef<HTMLInputElement>(null);
+  const importTypos = useRef<HTMLInputElement>(null);
 
   const importHandler = useCallback(() => {
     try {
       const data: TJsonData = JSON.parse(code.current?.value || "{}");
       const isReset = resetVariables.current?.checked || false;
-      processTokens(data, isReset);
+      const isImportTypography = importTypos.current?.checked || false;
+      processTokens(data, { isReset, isImportTypography });
     } catch (error) {
       console.error("Error parsing data", error);
     }
-  }, [code, resetVariables]);
+  }, [code, resetVariables, importTypos]);
 
   return (
     <div className={styles.wrapper}>
@@ -41,6 +43,13 @@ export const Form = () => {
             value="true"
           />
           Reset existing variables
+        </label>
+      </div>
+      <div className={styles.input}>
+        <label>
+          <input type="checkbox" name="reset" ref={importTypos} value="true" />
+          Import Typography (importing text styles into Figma takes about 2
+          seconds)
         </label>
       </div>
       <div className={styles.footers}>

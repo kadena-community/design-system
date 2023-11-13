@@ -28,103 +28,2351 @@
         }
       },
       "color": {
-        "intent": {
-          "primary": {
-            "default": {
-              "background": {
-                "$type": "color",
-                "$description": "color description",
-                "$value": "#aabbcc"
+        "neutral": {
+          "$description": "Neutral Gray colors",
+          "n0": {
+            "$type": "color",
+            "$value": "#FFFFFF",
+            "$extensions": {
+              "mode": {
+                "dark": "#000000"
               }
             }
           },
-          "secondary": {
-            "$title": "Secondary Title",
+          "n5": {
             "$type": "color",
-            "$description": "color description",
-            "$value": "{kda.foundation.color.foreground.$value}"
-          },
-          "tertiary": {
-            "$type": "color",
-            "$description": "color description",
-            "$value": "#5794FF",
+            "$value": "#F8F8F8",
             "$extensions": {
               "mode": {
-                "dark": "#2012CC"
+                "dark": "#0F0F0F"
+              }
+            }
+          },
+          "n10": {
+            "$type": "color",
+            "$value": "#E6E6E6",
+            "$extensions": {
+              "mode": {
+                "dark": "#1A1A1A"
+              }
+            }
+          },
+          "n20": {
+            "$type": "color",
+            "$value": "#D5D5D5",
+            "$extensions": {
+              "mode": {
+                "dark": "#222222"
+              }
+            }
+          },
+          "n30": {
+            "$type": "color",
+            "$value": "#B1B1B1",
+            "$extensions": {
+              "mode": {
+                "dark": "#333333"
+              }
+            }
+          },
+          "n40": {
+            "$type": "color",
+            "$value": "#909090",
+            "$extensions": {
+              "mode": {
+                "dark": "#464646"
+              }
+            }
+          },
+          "n50": {
+            "$type": "color",
+            "$value": "#6D6D6D",
+            "$extensions": {
+              "mode": {
+                "dark": "#6D6D6D"
+              }
+            }
+          },
+          "n60": {
+            "$type": "color",
+            "$value": "#464646",
+            "$extensions": {
+              "mode": {
+                "dark": "#909090"
+              }
+            }
+          },
+          "n70": {
+            "$type": "color",
+            "$value": "#333333",
+            "$extensions": {
+              "mode": {
+                "dark": "#B1B1B1"
+              }
+            }
+          },
+          "n80": {
+            "$type": "color",
+            "$value": "#222222",
+            "$extensions": {
+              "mode": {
+                "dark": "#D5D5D5"
+              }
+            }
+          },
+          "n90": {
+            "$type": "color",
+            "$value": "#1A1A1A",
+            "$extensions": {
+              "mode": {
+                "dark": "#E6E6E6"
+              }
+            }
+          },
+          "n95": {
+            "$type": "color",
+            "$value": "#0F0F0F",
+            "$extensions": {
+              "mode": {
+                "dark": "#F8F8F8"
+              }
+            }
+          },
+          "n100": {
+            "$type": "color",
+            "$value": "#000000",
+            "$extensions": {
+              "mode": {
+                "dark": "#FFFFFF"
               }
             }
           }
         },
-        "categorical": {
-          "category1": {
-            "$type": "color",
-            "$description": "This is the category 1 color",
-            "$value": "#AABBCC",
-            "$extensions": {
-              "mode": {
-                "dark": "#CCBBAA"
+        "link": {
+          "base": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n70}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n80}"
+            },
+            "@focus": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n60}"
+            },
+            "@visited": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n80}"
+            }
+          },
+          "brand": {
+            "primary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n70}"
               },
-              "alpha": {
-                "@20": {
-                  "$value": 20,
-                  "$base": "{kda.foundation.color.categorical.category2.$value}"
-                },
-                "@40": {
-                  "$value": 40,
-                  "$base": "{kda.foundation.color.intent.primary.default.background.$value}"
-                },
-                "@60": {
-                  "$value": 60,
-                  "$base": "{kda.foundation.color.intent.secondary.$value}"
-                },
-                "@80": {
-                  "$value": 70,
-                  "$base": "{kda.foundation.color.intent.tertiary.$value}"
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n80}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n60}"
+              },
+              "@visited": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.purple.n80}"
+              }
+            },
+            "secondary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n70}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n80}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n60}"
+              },
+              "@visited": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.purple.n80}"
+              }
+            }
+          },
+          "semantic": {
+            "positive": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n90}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n95}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n80}"
+              },
+              "@visited": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.purple.n80}"
+              }
+            },
+            "negative": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n90}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n95}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n80}"
+              },
+              "@visited": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.purple.n80}"
+              }
+            },
+            "warning": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n90}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n95}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n80}"
+              },
+              "@visited": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.purple.n80}"
+              }
+            },
+            "info": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n90}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n95}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n80}"
+              },
+              "@visited": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.purple.n80}"
+              }
+            }
+          }
+        },
+        "icon": {
+          "base": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n80}"
+            },
+            "@bold": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n90}"
+            },
+            "@disabled": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n60}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n20}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n70}"
+            },
+            "@focus": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n60}"
+            }
+          },
+          "brand": {
+            "primary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n40}"
+              },
+              "@bold": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n50}"
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n20}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n0}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n50}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n60}"
+              }
+            },
+            "secondary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n40}"
+              },
+              "@bold": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n50}"
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n20}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n0}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n50}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n60}"
+              }
+            }
+          },
+          "semantic": {
+            "positive": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n80}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n20}"
+              }
+            },
+            "negative": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n80}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n20}"
+              }
+            },
+            "warning": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n80}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n20}"
+              }
+            },
+            "info": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n80}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n20}"
+              }
+            }
+          }
+        },
+        "brand": {
+          "primary": {
+            "n0": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n0}"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n1}"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n5}"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n10}"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n20}"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n30}"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n40}"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n50}"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n60}"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n70}"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n80}"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n90}"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n95}"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n99}"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n100}"
+            }
+          },
+          "secondary": {
+            "n0": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n0}"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n1}"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n5}"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n10}"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n20}"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n30}"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n40}"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n50}"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n60}"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n70}"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n80}"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n90}"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n95}"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n99}"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n100}"
+            }
+          }
+        },
+        "background": {
+          "base": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n20}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n10}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n80}"
+            }
+          },
+          "layer-1": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n10}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n20}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n90}"
+            }
+          },
+          "layer-2": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n5}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n0}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n95}"
+            }
+          },
+          "layer-3": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n0}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n5}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100}"
+            }
+          },
+          "brand": {
+            "primary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n1}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n5}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n99}"
+              }
+            },
+            "secondary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n1}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n5}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n99}"
+              }
+            }
+          },
+          "semantic": {
+            "positive": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n5}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n10}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n95}"
+              }
+            },
+            "negative": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n5}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n10}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n95}"
+              }
+            },
+            "warning": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n5}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n10}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n95}"
+              }
+            },
+            "info": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n5}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n10}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n95}"
+              }
+            }
+          }
+        },
+        "border": {
+          "base": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n10}"
+            },
+            "@bold": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n20}"
+            },
+            "@boldest": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n30}"
+            },
+            "@disabled": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n20}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n20}"
+            },
+            "@focus": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n60}"
+            }
+          },
+          "brand": {
+            "primary": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.brand.primary.n0}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.brand.secondary.n0}"
+            }
+          },
+          "semantic": {
+            "positive": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n60}"
+              },
+              "@subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n20}",
+                "$extensions": {
+                  "mode": {
+                    "dark": "{kda.foundation.color.semantic.positive.n5}"
+                  }
+                }
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n20}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n40}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n70}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n60}"
+              }
+            },
+            "negative": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n60}"
+              },
+              "@subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n20}",
+                "$extensions": {
+                  "mode": {
+                    "dark": "{kda.foundation.color.semantic.negative.n5}"
+                  }
+                }
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n20}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n40}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n70}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n60}"
+              }
+            },
+            "warning": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n60}"
+              },
+              "@subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n20}",
+                "$extensions": {
+                  "mode": {
+                    "dark": "{kda.foundation.color.semantic.warning.n5}"
+                  }
+                }
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n20}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n40}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n70}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n60}"
+              }
+            },
+            "info": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n60}"
+              },
+              "@subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n20}",
+                "$extensions": {
+                  "mode": {
+                    "dark": "{kda.foundation.color.semantic.info.n5}"
+                  }
+                }
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n20}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n40}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n70}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n60}"
+              }
+            }
+          }
+        },
+        "semantic": {
+          "info": {
+            "n0": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n0}"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n1}"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n5}"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n10}"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n20}"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n30}"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n40}"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n50}"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n60}"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n70}"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n80}"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n90}"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n95}"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n99}"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n100}"
+            }
+          },
+          "positive": {
+            "n0": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n0}"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n1}"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n5}"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n10}"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n20}"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n30}"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n40}"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n50}"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n60}"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n70}"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n80}"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n90}"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n95}"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n99}"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n100}"
+            }
+          },
+          "negative": {
+            "n0": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n0}"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n1}"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n5}"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n10}"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n20}"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n30}"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n40}"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n50}"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n60}"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n70}"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n80}"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n90}"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n95}"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n99}"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n100}"
+            }
+          },
+          "$description": "Colors to communicate purpose. They help users to convey messages.",
+          "warning": {
+            "n0": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n0}"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n1}"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n5}"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n10}"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n20}"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n30}"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n40}"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n50}"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n60}"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n70}"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n80}"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n90}"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n95}"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n99}"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n100}"
+            }
+          }
+        },
+        "categorical": {
+          "$description": "Colors intended for data visualisations. Adhere to the specified numerical order.",
+          "category1": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 1",
+              "$value": "#2898BD",
+              "$extensions": {
+                "mode": {
+                  "dark": "#2898BD"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 1 Hover State",
+              "$value": "#227D9B",
+              "$extensions": {
+                "mode": {
+                  "dark": "#42B2D7"
                 }
               }
             }
           },
           "category2": {
-            "$type": "color",
-            "$value": "#00FF00",
-            "$extensions": {
-              "mode": {
-                "dark": "#000000"
-              },
-              "alpha": {
-                "@20": {
-                  "$value": 20
-                },
-                "@40": {
-                  "$value": 30
-                },
-                "@60": {
-                  "$value": 40
-                },
-                "@80": {
-                  "$value": 50
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 2",
+              "$value": "#5E4DB2",
+              "$extensions": {
+                "mode": {
+                  "dark": "#B8ACF6"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 2 Hover State",
+              "$value": "#352C63",
+              "$extensions": {
+                "mode": {
+                  "dark": "#DFD8FD"
+                }
+              }
+            }
+          },
+          "category3": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 3",
+              "$value": "#E56910",
+              "$extensions": {
+                "mode": {
+                  "dark": "#E56910"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 3 Hover State",
+              "$value": "#C25100",
+              "$extensions": {
+                "mode": {
+                  "dark": "#F38A3F"
+                }
+              }
+            }
+          },
+          "category4": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 4",
+              "$value": "#943D73",
+              "$extensions": {
+                "mode": {
+                  "dark": "#F797D2"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 4 Hover State",
+              "$value": "#50253F",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FDD0EC"
+                }
+              }
+            }
+          },
+          "category5": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 5",
+              "$value": "#09326C",
+              "$extensions": {
+                "mode": {
+                  "dark": "#CCE0FF"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 5 Hover State",
+              "$value": "#1C2B41",
+              "$extensions": {
+                "mode": {
+                  "dark": "#E9F2FF"
+                }
+              }
+            }
+          },
+          "category6": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 6",
+              "$value": "#8F7EE7",
+              "$extensions": {
+                "mode": {
+                  "dark": "#8270DB"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 6 Hover State",
+              "$value": "#8270DB",
+              "$extensions": {
+                "mode": {
+                  "dark": "#8F7EE7"
+                }
+              }
+            }
+          },
+          "category7": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 7",
+              "$value": "#50253F",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FDD0EC"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 7 Hover State",
+              "$value": "#3D2232",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FFECF8"
+                }
+              }
+            }
+          },
+          "category8": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 8",
+              "$value": "#A54800",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FEC195"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 8 Hover State",
+              "$value": "#702E00",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FEDEC8"
                 }
               }
             }
           }
         },
-        "foreground": {
-          "$type": "color",
-          "$description": "primary foreground color",
-          "$value": "#aa4411",
-          "$extensions": {
-            "mode": {
-              "dark": "#cccccc"
+        "text": {
+          "base": {
+            "default": {
+              "$description": "Use for primary text, such as body copy, sentence case headers, and buttons.",
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n95}"
+            },
+            "@disabled": {
+              "$description": "Use for text in a disabled state.",
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n60}"
+            },
+            "@selected": {
+              "$description": "Use for text in selected or opened states, such as tabs and dropdown buttons.",
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n70}"
+            },
+            "@inverse": {
+              "$description": "Use for text on bold backgrounds.",
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n0}"
+            }
+          },
+          "gray": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n70}"
+            },
+            "@lighter": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n60}"
+            },
+            "@bolder": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n80}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n30}"
+            }
+          },
+          "subtle": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n70}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n80}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n30}"
+            }
+          },
+          "subtlest": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n60}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n50}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n40}"
+            }
+          },
+          "brand": {
+            "primary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n95}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n5}"
+              }
+            },
+            "secondary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n95}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n5}"
+              }
+            }
+          },
+          "semantic": {
+            "positive": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n90}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n10}"
+              }
+            },
+            "negative": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n90}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n10}"
+              }
+            },
+            "warning": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n90}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n10}"
+              }
+            },
+            "info": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n90}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n10}"
+              }
             }
           }
         },
-        "background": {
-          "$type": "color",
-          "$description": "primary background color",
-          "$value": "#ff0011",
-          "$extensions": {
-            "mode": {
-              "dark": "#0099CC"
+        "palette": {
+          "magenta": {
+            "$description": "Magenta colors",
+            "n0": {
+              "$type": "color",
+              "$value": "#FFF5FB",
+              "$extensions": {
+                "mode": {
+                  "dark": "#230115"
+                }
+              }
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#ffeaf1",
+              "$extensions": {
+                "mode": {
+                  "dark": "#54032a"
+                }
+              }
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#ffdce8",
+              "$extensions": {
+                "mode": {
+                  "dark": "#700037"
+                }
+              }
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#ffcadd",
+              "$extensions": {
+                "mode": {
+                  "dark": "#8e0045"
+                }
+              }
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#ffb2ce",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ad0955"
+                }
+              }
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#ff95bd",
+              "$extensions": {
+                "mode": {
+                  "dark": "#c82269"
+                }
+              }
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#fa77aa",
+              "$extensions": {
+                "mode": {
+                  "dark": "#de3d82"
+                }
+              }
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#ef5a98",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ef5a98"
+                }
+              }
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#de3d82",
+              "$extensions": {
+                "mode": {
+                  "dark": "#fa77aa"
+                }
+              }
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#c82269",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ff95bd"
+                }
+              }
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#ad0955",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ffb2ce"
+                }
+              }
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#8e0045",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ffcadd"
+                }
+              }
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#700037",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ffdce8"
+                }
+              }
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#54032a",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ffeaf1"
+                }
+              }
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#230115",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FFF5FB"
+                }
+              }
+            }
+          },
+          "red": {
+            "$description": "Red colors",
+            "n0": {
+              "$type": "color",
+              "$value": "#FFF5F5",
+              "$extensions": {
+                "mode": {
+                  "dark": "#240003"
+                }
+              }
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#ffebe7",
+              "$extensions": {
+                "mode": {
+                  "dark": "#590000"
+                }
+              }
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#ffddd6",
+              "$extensions": {
+                "mode": {
+                  "dark": "#740000"
+                }
+              }
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#ffcdc3",
+              "$extensions": {
+                "mode": {
+                  "dark": "#930000"
+                }
+              }
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#ffb7a9",
+              "$extensions": {
+                "mode": {
+                  "dark": "#b40000"
+                }
+              }
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#ff9b88",
+              "$extensions": {
+                "mode": {
+                  "dark": "#d31510"
+                }
+              }
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#ff7c65",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ea3829"
+                }
+              }
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#f75c46",
+              "$extensions": {
+                "mode": {
+                  "dark": "#f75c46"
+                }
+              }
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#ea3829",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ff7c65"
+                }
+              }
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#d31510",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ff9b88"
+                }
+              }
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#b40000",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ffb7a9"
+                }
+              }
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#930000",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ffcdc3"
+                }
+              }
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#740000",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ffddd6"
+                }
+              }
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#590000",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ffebe7"
+                }
+              }
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#240003",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FFF5F5"
+                }
+              }
+            }
+          },
+          "yellow": {
+            "$description": "Yellow colors",
+            "n0": {
+              "$type": "color",
+              "$value": "#FFFBF5",
+              "$extensions": {
+                "mode": {
+                  "dark": "#1F1300"
+                }
+              }
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#FCF4AC",
+              "$extensions": {
+                "mode": {
+                  "dark": "#362500"
+                }
+              }
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#f8e750",
+              "$extensions": {
+                "mode": {
+                  "dark": "#483300"
+                }
+              }
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#f8d904",
+              "$extensions": {
+                "mode": {
+                  "dark": "#5b4300"
+                }
+              }
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#e8c600",
+              "$extensions": {
+                "mode": {
+                  "dark": "#705300"
+                }
+              }
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#d7b300",
+              "$extensions": {
+                "mode": {
+                  "dark": "#856600"
+                }
+              }
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#c49f00",
+              "$extensions": {
+                "mode": {
+                  "dark": "#9b7800"
+                }
+              }
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#b08c00",
+              "$extensions": {
+                "mode": {
+                  "dark": "#b08c00"
+                }
+              }
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#9b7800",
+              "$extensions": {
+                "mode": {
+                  "dark": "#c49f00"
+                }
+              }
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#856600",
+              "$extensions": {
+                "mode": {
+                  "dark": "#d7b300"
+                }
+              }
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#705300",
+              "$extensions": {
+                "mode": {
+                  "dark": "#e8c600"
+                }
+              }
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#5b4300",
+              "$extensions": {
+                "mode": {
+                  "dark": "#f8d904"
+                }
+              }
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#483300",
+              "$extensions": {
+                "mode": {
+                  "dark": "#f8e750"
+                }
+              }
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#362500",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FCF4AC"
+                }
+              }
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#1F1300",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FFFBF5"
+                }
+              }
+            }
+          },
+          "lime": {
+            "$description": "Lime colors",
+            "n0": {
+              "$type": "color",
+              "$value": "#F8FFF5",
+              "$extensions": {
+                "mode": {
+                  "dark": "#0A1F00"
+                }
+              }
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#E6FD9B",
+              "$extensions": {
+                "mode": {
+                  "dark": "#212c00"
+                }
+              }
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#cbf443",
+              "$extensions": {
+                "mode": {
+                  "dark": "#2c3b00"
+                }
+              }
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#bce92a",
+              "$extensions": {
+                "mode": {
+                  "dark": "#3a4d00"
+                }
+              }
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#aad816",
+              "$extensions": {
+                "mode": {
+                  "dark": "#486000"
+                }
+              }
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#98c50a",
+              "$extensions": {
+                "mode": {
+                  "dark": "#577400"
+                }
+              }
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#87b103",
+              "$extensions": {
+                "mode": {
+                  "dark": "#678800"
+                }
+              }
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#769c00",
+              "$extensions": {
+                "mode": {
+                  "dark": "#769c00"
+                }
+              }
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#678800",
+              "$extensions": {
+                "mode": {
+                  "dark": "#87b103"
+                }
+              }
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#577400",
+              "$extensions": {
+                "mode": {
+                  "dark": "#98c50a"
+                }
+              }
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#486000",
+              "$extensions": {
+                "mode": {
+                  "dark": "#aad816"
+                }
+              }
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#3a4d00",
+              "$extensions": {
+                "mode": {
+                  "dark": "#bce92a"
+                }
+              }
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#2c3b00",
+              "$extensions": {
+                "mode": {
+                  "dark": "#cbf443"
+                }
+              }
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#212c00",
+              "$extensions": {
+                "mode": {
+                  "dark": "#E6FD9B"
+                }
+              }
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#0A1F00",
+              "$extensions": {
+                "mode": {
+                  "dark": "#F8FFF5"
+                }
+              }
+            }
+          },
+          "blue": {
+            "$description": "Blue colors",
+            "n0": {
+              "$type": "color",
+              "$value": "#FAFCFF",
+              "$extensions": {
+                "mode": {
+                  "dark": "#001329"
+                }
+              }
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#e0f2ff",
+              "$extensions": {
+                "mode": {
+                  "dark": "#002754"
+                }
+              }
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#cae8ff",
+              "$extensions": {
+                "mode": {
+                  "dark": "#003571"
+                }
+              }
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#b5deff",
+              "$extensions": {
+                "mode": {
+                  "dark": "#004491"
+                }
+              }
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#96cefd",
+              "$extensions": {
+                "mode": {
+                  "dark": "#0054b6"
+                }
+              }
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#78bbfa",
+              "$extensions": {
+                "mode": {
+                  "dark": "#0265dc"
+                }
+              }
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#59a7f6",
+              "$extensions": {
+                "mode": {
+                  "dark": "#147af3"
+                }
+              }
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#3892f3",
+              "$extensions": {
+                "mode": {
+                  "dark": "#3892f3"
+                }
+              }
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#147af3",
+              "$extensions": {
+                "mode": {
+                  "dark": "#59a7f6"
+                }
+              }
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#0265dc",
+              "$extensions": {
+                "mode": {
+                  "dark": "#78bbfa"
+                }
+              }
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#0054b6",
+              "$extensions": {
+                "mode": {
+                  "dark": "#96cefd"
+                }
+              }
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#004491",
+              "$extensions": {
+                "mode": {
+                  "dark": "#b5deff"
+                }
+              }
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#003571",
+              "$extensions": {
+                "mode": {
+                  "dark": "#cae8ff"
+                }
+              }
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#002754",
+              "$extensions": {
+                "mode": {
+                  "dark": "#e0f2ff"
+                }
+              }
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#001329",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FAFCFF"
+                }
+              }
+            }
+          },
+          "purple": {
+            "$description": "Purple colors",
+            "n0": {
+              "$type": "color",
+              "$value": "#FDFAFF",
+              "$extensions": {
+                "mode": {
+                  "dark": "#13001F"
+                }
+              }
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#f6ebff",
+              "$extensions": {
+                "mode": {
+                  "dark": "#33106a"
+                }
+              }
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#eeddff",
+              "$extensions": {
+                "mode": {
+                  "dark": "#470c94"
+                }
+              }
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#e6d0ff",
+              "$extensions": {
+                "mode": {
+                  "dark": "#5d13b7"
+                }
+              }
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#dbbbfe",
+              "$extensions": {
+                "mode": {
+                  "dark": "#7326d3"
+                }
+              }
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#cca4fd",
+              "$extensions": {
+                "mode": {
+                  "dark": "#893de7"
+                }
+              }
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#bd8bfc",
+              "$extensions": {
+                "mode": {
+                  "dark": "#9d57f4"
+                }
+              }
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#ae72f9",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ae72f9"
+                }
+              }
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#9d57f4",
+              "$extensions": {
+                "mode": {
+                  "dark": "#bd8bfc"
+                }
+              }
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#893de7",
+              "$extensions": {
+                "mode": {
+                  "dark": "#cca4fd"
+                }
+              }
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#7326d3",
+              "$extensions": {
+                "mode": {
+                  "dark": "#dbbbfe"
+                }
+              }
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#5d13b7",
+              "$extensions": {
+                "mode": {
+                  "dark": "#e6d0ff"
+                }
+              }
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#470c94",
+              "$extensions": {
+                "mode": {
+                  "dark": "#eeddff"
+                }
+              }
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#33106a",
+              "$extensions": {
+                "mode": {
+                  "dark": "#f6ebff"
+                }
+              }
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#13001F",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FDFAFF"
+                }
+              }
+            }
+          },
+          "indigo": {
+            "$description": "Indogo colors",
+            "n0": {
+              "$type": "color",
+              "$value": "#F7F7FD",
+              "$extensions": {
+                "mode": {
+                  "dark": "#0B0C28"
+                }
+              }
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#edeeff",
+              "$extensions": {
+                "mode": {
+                  "dark": "#1b1e64"
+                }
+              }
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#e0e2ff",
+              "$extensions": {
+                "mode": {
+                  "dark": "#262986"
+                }
+              }
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#d3d5ff",
+              "$extensions": {
+                "mode": {
+                  "dark": "#3236a8"
+                }
+              }
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#c1c4ff",
+              "$extensions": {
+                "mode": {
+                  "dark": "#4046ca"
+                }
+              }
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#acafff",
+              "$extensions": {
+                "mode": {
+                  "dark": "#5258e4"
+                }
+              }
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#9599ff",
+              "$extensions": {
+                "mode": {
+                  "dark": "#686df4"
+                }
+              }
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#7e84fc",
+              "$extensions": {
+                "mode": {
+                  "dark": "#7e84fc"
+                }
+              }
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#686df4",
+              "$extensions": {
+                "mode": {
+                  "dark": "#9599ff"
+                }
+              }
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#5258e4",
+              "$extensions": {
+                "mode": {
+                  "dark": "#acafff"
+                }
+              }
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#4046ca",
+              "$extensions": {
+                "mode": {
+                  "dark": "#c1c4ff"
+                }
+              }
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#3236a8",
+              "$extensions": {
+                "mode": {
+                  "dark": "#d3d5ff"
+                }
+              }
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#262986",
+              "$extensions": {
+                "mode": {
+                  "dark": "#e0e2ff"
+                }
+              }
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#1b1e64",
+              "$extensions": {
+                "mode": {
+                  "dark": "#edeeff"
+                }
+              }
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#0B0C28",
+              "$extensions": {
+                "mode": {
+                  "dark": "#F7F7FD"
+                }
+              }
             }
           }
         }
@@ -156,7 +2404,7 @@
           "$title": "Default Shadow",
           "$description": "This is the default shadow effect description",
           "$value": {
-            "color": "{kda.foundation.color.categorical.category1.$value}",
+            "color": "#000000",
             "offsetX": "4px",
             "offsetY": "0.5rem",
             "blur": "{kda.foundation.size.n3.$value}",
@@ -170,7 +2418,7 @@
             "$title": "Shadow Level 1",
             "$description": "This is the shadow 1 description",
             "$value": {
-              "color": "{kda.foundation.color.categorical.category1.$value}",
+              "color": "#000000",
               "offsetX": "4px",
               "offsetY": "0.5rem",
               "blur": "{kda.foundation.size.n3.$value}",
@@ -183,7 +2431,7 @@
             "$title": "Shadow Level 2",
             "$description": "This is the shadow 2 description",
             "$value": {
-              "color": "{kda.foundation.color.categorical.category2.$value}",
+              "color": "#000000",
               "offsetX": "4rem",
               "offsetY": "4rem",
               "blur": "{kda.foundation.size.n3.$value}",
@@ -196,7 +2444,7 @@
             "$title": "Shadow Level 3",
             "$description": "This is the shadow 3 description updated",
             "$value": {
-              "color": "{kda.foundation.color.categorical.category2.$value}",
+              "color": "#000000",
               "offsetX": 0,
               "offsetY": 0,
               "blur": "{kda.foundation.size.n3.$value}",
@@ -299,6 +2547,10 @@
           "$type": "dimension",
           "$value": "6.25rem"
         },
+        "n30": {
+          "$type": "dimension",
+          "$value": "7.5rem"
+        },
         "n32": {
           "$type": "dimension",
           "$value": "8rem"
@@ -359,20 +2611,42 @@
         }
       },
       "border": {
-        "sm": {
-          "$type": "border",
-          "$value": {
-            "width": 1,
-            "style": "solid",
-            "color": "{kda.foundation.color.intent.tertiary.$value}"
+        "width": {
+          "hairline": {
+            "$type": "dimension",
+            "$value": 1
+          },
+          "normal": {
+            "$type": "dimension",
+            "$value": 2
+          },
+          "thick": {
+            "$type": "dimension",
+            "$value": 4
           }
         },
-        "md": {
+        "hairline": {
           "$type": "border",
           "$value": {
-            "width": 2,
+            "width": "{kda.foundation.border.width.hairline}",
             "style": "solid",
-            "color": "{kda.foundation.color.intent.tertiary.$value}"
+            "color": "{kda.foundation.color.border.base.default}"
+          }
+        },
+        "normal": {
+          "$type": "border",
+          "$value": {
+            "width": "{kda.foundation.border.width.normal}",
+            "style": "solid",
+            "color": "{kda.foundation.color.border.base.@bold}"
+          }
+        },
+        "thick": {
+          "$type": "border",
+          "$value": {
+            "width": "{kda.foundation.border.width.thick}",
+            "style": "solid",
+            "color": "{kda.foundation.color.border.base.@bold}"
           }
         }
       },
@@ -527,157 +2801,860 @@
           }
         },
         "font": {
-          "Header 1": {
-            "$name": "heading",
-            "$description": "This is the codeblock description",
-            "$type": "typography",
-            "$title": "Header 1",
-            "$value": {
-              "fontFamily": "{kda.foundation.typography.family.headingFont.$value}",
-              "fontSize": 40,
-              "fontWeight": "75 Bold",
-              "letterSpacing": "0px",
-              "lineHeight": 1.9
+          "h2": {
+            "regular": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H2 Description",
+                "$type": "typography",
+                "$title": "H2",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n13}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H2 Description",
+                "$type": "typography",
+                "$title": "H2",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n13}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H2 Description",
+                "$type": "typography",
+                "$title": "H2",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n11}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n16}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H2 Description",
+                "$type": "typography",
+                "$title": "H2",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n14}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n19}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H2 Description",
+                "$type": "typography",
+                "$title": "H2",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n17}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n24}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H2 Description",
+                "$type": "typography",
+                "$title": "H2",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n19}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n30}"
+                }
+              }
+            },
+            "bold": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H2 Bold @ xs Description",
+                "$type": "typography",
+                "$title": "H2 Bold @ xs",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n13}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H2 Bold @ sm Description",
+                "$type": "typography",
+                "$title": "H2 Bold @ sm",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n13}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H2 Bold @ md Description",
+                "$type": "typography",
+                "$title": "H2 Bold @ md",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n11}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n16}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H2 Bold @ lg Description",
+                "$type": "typography",
+                "$title": "H2 Bold @ lg",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n14}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n19}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H2 Bold @ xl Description",
+                "$type": "typography",
+                "$title": "H2 Bold @ xl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n17}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n24}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H2 Bold @ xxl Description",
+                "$type": "typography",
+                "$title": "H2 Bold @ xxl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n19}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n30}"
+                }
+              }
             }
           },
-          "Code Block": {
-            "$name": "code",
-            "$description": "This is the codeblock description",
-            "$type": "typography",
-            "$title": "Code Block",
-            "$value": {
-              "fontFamily": "Kode Mono",
-              "fontSize": 40,
-              "fontWeight": 700,
-              "letterSpacing": "20px",
-              "lineHeight": 1.9
+          "h1": {
+            "regular": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H1 Description",
+                "$type": "typography",
+                "$title": "H1",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n14}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H1 Description",
+                "$type": "typography",
+                "$title": "H1",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n14}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H1 Description",
+                "$type": "typography",
+                "$title": "H1",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n12}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n17}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H1 Description",
+                "$type": "typography",
+                "$title": "H1",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n20}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H1 Description",
+                "$type": "typography",
+                "$title": "H1",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n18}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n25}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H1 Description",
+                "$type": "typography",
+                "$title": "H1",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n20}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n30}"
+                }
+              }
+            },
+            "bold": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H1 Bold @ xs Description",
+                "$type": "typography",
+                "$title": "H1 Bold @ xs",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n14}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H1 Bold @ sm Description",
+                "$type": "typography",
+                "$title": "H1 Bold @ sm",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n14}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H1 Bold @ md Description",
+                "$type": "typography",
+                "$title": "H1 Bold @ md",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n12}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n17}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H1 Bold @ lg Description",
+                "$type": "typography",
+                "$title": "H1 Bold @ lg",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n20}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H1 Bold @ xl Description",
+                "$type": "typography",
+                "$title": "H1 Bold @ xl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n18}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n25}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H1 Bold @ xxl Description",
+                "$type": "typography",
+                "$title": "H1 Bold @ xxl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n20}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n30}"
+                }
+              }
             }
           },
-          "Small Code Bloc": {
-            "$name": "smallCode",
-            "$description": "This is the small codeblock description",
-            "$type": "typography",
-            "$title": "Small Code Block",
-            "$value": {
-              "fontFamily": "{kda.foundation.typography.family.codeFont.$value}",
-              "fontSize": "{kda.foundation.size.n10.$value}",
-              "fontWeight": "Regular",
-              "letterSpacing": "{kda.foundation.size.n1.$value}",
-              "lineHeight": "24px"
+          "h4": {
+            "regular": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H4 Description",
+                "$type": "typography",
+                "$title": "H4",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n11}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H4 Description",
+                "$type": "typography",
+                "$title": "H4",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n11}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H4 Description",
+                "$type": "typography",
+                "$title": "H4",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n14}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H4 Description",
+                "$type": "typography",
+                "$title": "H4",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n12}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n17}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H4 Description",
+                "$type": "typography",
+                "$title": "H4",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n24}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H4 Description",
+                "$type": "typography",
+                "$title": "H4",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n17}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n25}"
+                }
+              }
+            },
+            "bold": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H4 Bold @ xs Description",
+                "$type": "typography",
+                "$title": "H4 Bold @ xs",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n11}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H4 Bold @ sm Description",
+                "$type": "typography",
+                "$title": "H4 Bold @ sm",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n11}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H4 Bold @ md Description",
+                "$type": "typography",
+                "$title": "H4 Bold @ md",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n14}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H4 Bold @ lg Description",
+                "$type": "typography",
+                "$title": "H4 Bold @ lg",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n12}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n17}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H4 Bold @ xl Description",
+                "$type": "typography",
+                "$title": "H4 Bold @ xl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n24}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H4 Bold @ xxl Description",
+                "$type": "typography",
+                "$title": "H4 Bold @ xxl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n17}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n25}"
+                }
+              }
+            }
+          },
+          "h3": {
+            "regular": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H3 Description",
+                "$type": "typography",
+                "$title": "H3",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n8}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n12}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H3 Description",
+                "$type": "typography",
+                "$title": "H3",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n8}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n12}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H3 Description",
+                "$type": "typography",
+                "$title": "H3",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n15}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H3 Description",
+                "$type": "typography",
+                "$title": "H3",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n13}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n18}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H3 Description",
+                "$type": "typography",
+                "$title": "H3",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n16}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n24}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H3 Description",
+                "$type": "typography",
+                "$title": "H3",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n18}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n30}"
+                }
+              }
+            },
+            "bold": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H3 Bold @ xs Description",
+                "$type": "typography",
+                "$title": "H3 Bold @ xs",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n8}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n12}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H3 Bold @ sm Description",
+                "$type": "typography",
+                "$title": "H3 Bold @ sm",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n8}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n12}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H3 Bold @ md Description",
+                "$type": "typography",
+                "$title": "H3 Bold @ md",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n15}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H3 Bold @ lg Description",
+                "$type": "typography",
+                "$title": "H3 Bold @ lg",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n13}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n18}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H3 Bold @ xl Description",
+                "$type": "typography",
+                "$title": "H3 Bold @ xl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n16}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n24}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H3 Bold @ xxl Description",
+                "$type": "typography",
+                "$title": "H3 Bold @ xxl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n18}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n30}"
+                }
+              }
+            }
+          },
+          "h5": {
+            "regular": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H5 Description",
+                "$type": "typography",
+                "$title": "H5",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n11}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H5 Description",
+                "$type": "typography",
+                "$title": "H5",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n11}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H5 Description",
+                "$type": "typography",
+                "$title": "H5",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n14}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H5 Description",
+                "$type": "typography",
+                "$title": "H5",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n12}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n17}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H5 Description",
+                "$type": "typography",
+                "$title": "H5",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n24}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H5 Description",
+                "$type": "typography",
+                "$title": "H5",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n17}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n25}"
+                }
+              }
+            },
+            "bold": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H5 Bold @ xs Description",
+                "$type": "typography",
+                "$title": "H5 Bold @ xs",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n11}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H5 Bold @ sm Description",
+                "$type": "typography",
+                "$title": "H5 Bold @ sm",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n11}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H5 Bold @ md Description",
+                "$type": "typography",
+                "$title": "H5 Bold @ md",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n14}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H5 Bold @ lg Description",
+                "$type": "typography",
+                "$title": "H5 Bold @ lg",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n12}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n17}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H5 Bold @ xl Description",
+                "$type": "typography",
+                "$title": "H5 Bold @ xl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n24}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H5 Bold @ xxl Description",
+                "$type": "typography",
+                "$title": "H5 Bold @ xxl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n17}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n25}"
+                }
+              }
             }
           }
         },
         "weight": {
-          "primaryFont": {
+          "headingFont": {
             "light": {
-              "$value": "300",
+              "$value": "45 Light",
               "$type": "fontWeight"
             },
             "normal": {
-              "$value": "400",
+              "$value": "55 Roman",
               "$type": "fontWeight"
             },
             "medium": {
-              "$value": "500",
-              "$type": "fontWeight"
-            },
-            "semiBold": {
-              "$value": "600",
+              "$value": "65 Medium",
               "$type": "fontWeight"
             },
             "bold": {
-              "$value": "700",
-              "$type": "fontWeight"
-            }
-          },
-          "secondaryFont": {
-            "light": {
-              "$value": "300",
-              "$type": "fontWeight"
-            },
-            "normal": {
-              "$value": "400",
-              "$type": "fontWeight"
-            },
-            "medium": {
-              "$value": "500",
-              "$type": "fontWeight"
-            },
-            "semiBold": {
-              "$value": "600",
-              "$type": "fontWeight"
-            },
-            "bold": {
-              "$value": "700",
-              "$type": "fontWeight"
-            }
-          },
-          "codeFont": {
-            "light": {
-              "$value": "300",
-              "$type": "fontWeight"
-            },
-            "normal": {
-              "$value": "400",
-              "$type": "fontWeight"
-            },
-            "medium": {
-              "$value": "500",
-              "$type": "fontWeight"
-            },
-            "semiBold": {
-              "$value": "600",
-              "$type": "fontWeight"
-            },
-            "bold": {
-              "$value": "700",
+              "$value": "75 Bold",
               "$type": "fontWeight"
             }
           }
         }
       }
     },
-    "button": {
-      "color": {
-        "foreground": {
-          "$type": "color",
-          "$description": "primary foreground color",
-          "$value": "#aa4411",
-          "$extensions": {
-            "mode": {
-              "dark": "{kda.foundation.color.background.$value}"
-            }
-          }
-        },
-        "background": {
-          "$type": "color",
-          "$description": "primary background color",
-          "$value": "{kda.foundation.color.background.$value}",
-          "$extensions": {
-            "mode": {
-              "dark": "{kda.foundation.color.foreground.$value}"
-            }
-          }
-        },
-        "intent": {
-          "primary": {
-            "default": {
-              "background": {
-                "$type": "color",
-                "$description": "color description",
-                "$value": "{kda.foundation.color.background.$value}"
-              }
-            }
-          },
-          "secondary": {
-            "$type": "color",
-            "$description": "color description",
-            "$value": "{kda.foundation.color.foreground.$value}"
-          }
-        }
-      }
-    }
+    "kda-notification": {},
+    "kda-button": {}
   },
   "$name": "Kode Design System",
-  "$version": "0.0.1"
+  "$version": "0.0.1",
+  "$fonts": [
+    {
+      "family": "Haas Grot Disp",
+      "style": "45 Light"
+    },
+    {
+      "family": "Haas Grot Disp",
+      "style": "55 Roman"
+    },
+    {
+      "family": "Haas Grot Disp",
+      "style": "65 Medium"
+    },
+    {
+      "family": "Haas Grot Disp",
+      "style": "75 Bold"
+    }
+  ]
 }

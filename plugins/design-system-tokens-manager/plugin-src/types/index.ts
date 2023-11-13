@@ -76,6 +76,7 @@ export type TDesignTokenFormat = {
   $description: string
   $title: string
   $extensions: TTokenExtensions
+  $name?: string
 }
 
 export type TExtensionTypeStyle = {
@@ -93,6 +94,7 @@ export type TAction<T> = {
 export type TCollectionPayload = {
   name: string
   isReset: boolean
+  isImportTypography: boolean
   payload: TJsonData
 }
 
@@ -214,6 +216,7 @@ export type TTranspiledData = {
     tokens: {
       added: string[],
       failed: string[]
+      typography: string[]
     }
   }
 }

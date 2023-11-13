@@ -72,6 +72,13 @@ export function convertPathToName(path: string) {
     .replace(/\./g, EConstants.TOKEN_NAME_DELIMITER)
 }
 
+export function convertNameToPath(name: string) {
+  return name
+    ?.trim()
+    .replace(new RegExp(/\/\$value$/), '')
+    .replace(/\//g, EConstants.DOT_PATH_DELIMITER)
+}
+
 export function convertPropPath(path: string, value = '') {
   return path
     ?.trim()
@@ -159,7 +166,7 @@ export function parseDimensionUnit(type: string, token: TTokenData, value: strin
   if (type === EDTFTypes.NUMBER && typeof value === 'number') {
     return { value, unit: EDimensionUnit.PIXELS }
   } else if (type === 'lineHeight' && typeof value === 'number') {
-    value = `${((token.value as TFontProps).fontSize ?? 1) * value}${EDimensionUnitSymbol.PIXELS}`
+    return { value, unit: EDimensionUnit.PIXELS }
   } else if (type === 'letterSpacing') {
     if (typeof value === 'number') {
       return {
