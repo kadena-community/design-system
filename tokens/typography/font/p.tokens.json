@@ -3,7 +3,7 @@
     "foundation": {
       "typography": {
         "font": {
-          "p": {
+          "base": {
             "regular": {
               "@xs": {
                 "$name": "paragraph",
