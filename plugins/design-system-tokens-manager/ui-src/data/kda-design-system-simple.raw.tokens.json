@@ -1,0 +1,1639 @@
+{
+  "$name": "Kode Design System Simple",
+  "$version": "0.0.1",
+  "kda": {
+    "foundation": {
+      "radius": {
+        "no": {
+          "$type": "number",
+          "$value": 0
+        },
+        "xs": {
+          "$type": "number",
+          "$value": 2
+        },
+        "sm": {
+          "$type": "number",
+          "$value": "{kda.foundation.size.n1.$value}"
+        },
+        "md": {
+          "$type": "number",
+          "$value": 6
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{kda.foundation.size.n2.$value}"
+        },
+        "round": {
+          "$type": "dimension",
+          "$value": "999rem"
+        }
+      },
+      "color": {
+        "neutral": {
+          "$description": "Neutral Gray colors",
+          "n0": {
+            "$type": "color",
+            "$value": "#FFFFFF"
+          },
+          "n5": {
+            "$type": "color",
+            "$value": "#F8F8F8"
+          },
+          "n10": {
+            "$type": "color",
+            "$value": "#E6E6E6"
+          },
+          "n20": {
+            "$type": "color",
+            "$value": "#D5D5D5"
+          },
+          "n30": {
+            "$type": "color",
+            "$value": "#B1B1B1"
+          },
+          "n40": {
+            "$type": "color",
+            "$value": "#909090"
+          },
+          "n50": {
+            "$type": "color",
+            "$value": "#6D6D6D"
+          },
+          "n60": {
+            "$type": "color",
+            "$value": "#464646"
+          },
+          "n70": {
+            "$type": "color",
+            "$value": "#333333"
+          },
+          "n80": {
+            "$type": "color",
+            "$value": "#222222"
+          },
+          "n90": {
+            "$type": "color",
+            "$value": "#1A1A1A"
+          },
+          "n95": {
+            "$type": "color",
+            "$value": "#0F0F0F"
+          },
+          "n100": {
+            "$type": "color",
+            "$value": "#000000"
+          }
+        },
+        "brand": {
+          "primary": {
+            "n0": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n0}"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n1}"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n5}"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n10}"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n20}"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n30}"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n40}"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n50}"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n60}"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n70}"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n80}"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n90}"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n95}"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n99}"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n100}"
+            }
+          },
+          "secondary": {
+            "n0": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n0}"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n1}"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n5}"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n10}"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n20}"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n30}"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n40}"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n50}"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n60}"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n70}"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n80}"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n90}"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n95}"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n99}"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.purple.n100}"
+            }
+          }
+        },
+        "background": {
+          "base": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n20}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n10}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n80}"
+            }
+          },
+          "layer-1": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n10}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n20}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n90}"
+            }
+          },
+          "layer-2": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n5}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n0}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n95}"
+            }
+          },
+          "layer-3": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n0}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n5}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100}"
+            }
+          },
+          "brand": {
+            "primary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n1}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n5}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n99}"
+              }
+            },
+            "secondary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n1}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n5}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n99}"
+              }
+            }
+          },
+          "semantic": {
+            "positive": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n5}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n10}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n95}"
+              }
+            },
+            "negative": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n5}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n10}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n95}"
+              }
+            },
+            "warning": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n5}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n10}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n95}"
+              }
+            },
+            "info": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n5}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n10}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n95}"
+              }
+            }
+          }
+        },
+        "border": {
+          "base": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n10}"
+            },
+            "@bold": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n20}"
+            },
+            "@boldest": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n30}"
+            },
+            "@disabled": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n20}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n20}"
+            },
+            "@focus": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n60}"
+            }
+          },
+          "brand": {
+            "primary": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.brand.primary.n0}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.brand.secondary.n0}"
+            }
+          },
+          "semantic": {
+            "positive": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n60}"
+              },
+              "@subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n20}"
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n20}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n40}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n70}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n60}"
+              }
+            },
+            "negative": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n60}"
+              },
+              "@subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n20}"
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n20}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n40}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n70}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n60}"
+              }
+            },
+            "warning": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n60}"
+              },
+              "@subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n20}"
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n20}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n40}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n70}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n60}"
+              }
+            },
+            "info": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n60}"
+              },
+              "@subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n20}"
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n20}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n40}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n70}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n60}"
+              }
+            }
+          }
+        },
+        "semantic": {
+          "info": {
+            "n0": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n0}"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n1}"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n5}"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n10}"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n20}"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n30}"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n40}"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n50}"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n60}"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n70}"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n80}"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n90}"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n95}"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n99}"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n100}"
+            }
+          },
+          "positive": {
+            "n0": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n0}"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n1}"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n5}"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n10}"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n20}"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n30}"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n40}"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n50}"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n60}"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n70}"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n80}"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n90}"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n95}"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n99}"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.lime.n100}"
+            }
+          },
+          "negative": {
+            "n0": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n0}"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n1}"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n5}"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n10}"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n20}"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n30}"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n40}"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n50}"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n60}"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n70}"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n80}"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n90}"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n95}"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n99}"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.red.n100}"
+            }
+          },
+          "$description": "Colors to communicate purpose. They help users to convey messages.",
+          "warning": {
+            "n0": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n0}"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n1}"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n5}"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n10}"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n20}"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n30}"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n40}"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n50}"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n60}"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n70}"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n80}"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n90}"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n95}"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n99}"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n100}"
+            }
+          }
+        },
+        "categorical": {
+          "$description": "Colors intended for data visualisations. Adhere to the specified numerical order.",
+          "category1": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 1",
+              "$value": "#2898BD"
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 1 Hover State",
+              "$value": "#227D9B"
+            }
+          },
+          "category2": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 2",
+              "$value": "#5E4DB2"
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 2 Hover State",
+              "$value": "#352C63"
+            }
+          },
+          "category3": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 3",
+              "$value": "#E56910"
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 3 Hover State",
+              "$value": "#C25100"
+            }
+          },
+          "category4": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 4",
+              "$value": "#943D73"
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 4 Hover State",
+              "$value": "#50253F"
+            }
+          },
+          "category5": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 5",
+              "$value": "#09326C"
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 5 Hover State",
+              "$value": "#1C2B41"
+            }
+          },
+          "category6": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 6",
+              "$value": "#8F7EE7"
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 6 Hover State",
+              "$value": "#8270DB"
+            }
+          },
+          "category7": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 7",
+              "$value": "#50253F"
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 7 Hover State",
+              "$value": "#3D2232"
+            }
+          },
+          "category8": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 8",
+              "$value": "#A54800"
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 8 Hover State",
+              "$value": "#702E00"
+            }
+          }
+        },
+        "text": {
+          "base": {
+            "default": {
+              "$description": "Use for primary text, such as body copy, sentence case headers, and buttons.",
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n95}"
+            },
+            "@disabled": {
+              "$description": "Use for text in a disabled state.",
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n60}"
+            },
+            "@selected": {
+              "$description": "Use for text in selected or opened states, such as tabs and dropdown buttons.",
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n70}"
+            },
+            "@inverse": {
+              "$description": "Use for text on bold backgrounds.",
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n0}"
+            }
+          },
+          "gray": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n70}"
+            },
+            "@lighter": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n60}"
+            },
+            "@bolder": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n80}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n30}"
+            }
+          },
+          "subtle": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n70}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n80}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n30}"
+            }
+          },
+          "subtlest": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n60}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n50}"
+            },
+            "@inverse": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n40}"
+            }
+          },
+          "brand": {
+            "primary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n95}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n5}"
+              }
+            },
+            "secondary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n95}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n5}"
+              }
+            }
+          },
+          "semantic": {
+            "positive": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n90}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n10}"
+              }
+            },
+            "negative": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n90}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n10}"
+              }
+            },
+            "warning": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n90}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n10}"
+              }
+            },
+            "info": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n90}"
+              },
+              "@inverse": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n10}"
+              }
+            }
+          }
+        },
+        "palette": {
+          "magenta": {
+            "$description": "Magenta colors",
+            "n0": {
+              "$type": "color",
+              "$value": "#FFF5FB"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#ffeaf1"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#ffdce8"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#ffcadd"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#ffb2ce"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#ff95bd"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#fa77aa"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#ef5a98"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#de3d82"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#c82269"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#ad0955"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#8e0045"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#700037"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#54032a"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#230115"
+            }
+          },
+          "red": {
+            "$description": "Red colors",
+            "n0": {
+              "$type": "color",
+              "$value": "#FFF5F5"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#ffebe7"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#ffddd6"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#ffcdc3"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#ffb7a9"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#ff9b88"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#ff7c65"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#f75c46"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#ea3829"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#d31510"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#b40000"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#930000"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#740000"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#590000"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#240003"
+            }
+          },
+          "yellow": {
+            "$description": "Yellow colors",
+            "n0": {
+              "$type": "color",
+              "$value": "#FFFBF5"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#FCF4AC"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#f8e750"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#f8d904"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#e8c600"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#d7b300"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#c49f00"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#b08c00"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#9b7800"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#856600"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#705300"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#5b4300"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#483300"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#362500"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#1F1300"
+            }
+          },
+          "lime": {
+            "$description": "Lime colors",
+            "n0": {
+              "$type": "color",
+              "$value": "#F8FFF5"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#E6FD9B"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#cbf443"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#bce92a"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#aad816"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#98c50a"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#87b103"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#769c00"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#678800"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#577400"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#486000"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#3a4d00"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#2c3b00"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#212c00"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#0A1F00"
+            }
+          },
+          "blue": {
+            "$description": "Blue colors",
+            "n0": {
+              "$type": "color",
+              "$value": "#FAFCFF"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#e0f2ff"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#cae8ff"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#b5deff"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#96cefd"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#78bbfa"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#59a7f6"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#3892f3"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#147af3"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#0265dc"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#0054b6"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#004491"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#003571"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#002754"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#001329"
+            }
+          },
+          "purple": {
+            "$description": "Purple colors",
+            "n0": {
+              "$type": "color",
+              "$value": "#FDFAFF"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#f6ebff"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#eeddff"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#e6d0ff"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#dbbbfe"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#cca4fd"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#bd8bfc"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#ae72f9"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#9d57f4"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#893de7"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#7326d3"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#5d13b7"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#470c94"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#33106a"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#13001F"
+            }
+          },
+          "indigo": {
+            "$description": "Indogo colors",
+            "n0": {
+              "$type": "color",
+              "$value": "#F7F7FD"
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#edeeff"
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#e0e2ff"
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#d3d5ff"
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#c1c4ff"
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#acafff"
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#9599ff"
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#7e84fc"
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#686df4"
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#5258e4"
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#4046ca"
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#3236a8"
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#262986"
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#1b1e64"
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#0B0C28"
+            }
+          }
+        }
+      },
+      "size": {
+        "$description": "Size units for sizing and spacing elements",
+        "n0": {
+          "$type": "dimension",
+          "$value": 0
+        },
+        "n1": {
+          "$type": "dimension",
+          "$value": "0.125rem"
+        },
+        "n2": {
+          "$type": "dimension",
+          "$value": "0.25rem"
+        },
+        "n3": {
+          "$type": "dimension",
+          "$value": "0.5rem"
+        },
+        "n4": {
+          "$type": "dimension",
+          "$value": "1rem"
+        },
+        "n5": {
+          "$type": "dimension",
+          "$value": "1.25rem"
+        },
+        "n6": {
+          "$type": "dimension",
+          "$value": "1.5rem"
+        },
+        "n7": {
+          "$type": "dimension",
+          "$value": "1.75rem"
+        },
+        "n8": {
+          "$type": "dimension",
+          "$value": "2rem"
+        },
+        "n9": {
+          "$type": "dimension",
+          "$value": "2.25rem"
+        },
+        "n10": {
+          "$type": "dimension",
+          "$value": "2.5rem"
+        },
+        "n11": {
+          "$type": "dimension",
+          "$value": "2.75rem"
+        },
+        "n12": {
+          "$type": "dimension",
+          "$value": "3rem"
+        },
+        "n13": {
+          "$type": "dimension",
+          "$value": "3.25rem"
+        },
+        "n14": {
+          "$type": "dimension",
+          "$value": "3.5rem"
+        },
+        "n15": {
+          "$type": "dimension",
+          "$value": "3.75rem"
+        },
+        "n16": {
+          "$type": "dimension",
+          "$value": "4rem"
+        },
+        "n17": {
+          "$type": "dimension",
+          "$value": "4.25rem"
+        },
+        "n18": {
+          "$type": "dimension",
+          "$value": "4.5rem"
+        },
+        "n19": {
+          "$type": "dimension",
+          "$value": "4.75rem"
+        },
+        "n20": {
+          "$type": "dimension",
+          "$value": "5rem"
+        },
+        "n24": {
+          "$type": "dimension",
+          "$value": "6rem"
+        },
+        "n25": {
+          "$type": "dimension",
+          "$value": "6.25rem"
+        },
+        "n30": {
+          "$type": "dimension",
+          "$value": "7.5rem"
+        },
+        "n32": {
+          "$type": "dimension",
+          "$value": "8rem"
+        },
+        "n35": {
+          "$type": "dimension",
+          "$value": "8.75rem"
+        },
+        "n40": {
+          "$type": "dimension",
+          "$value": "10rem"
+        },
+        "n48": {
+          "$type": "dimension",
+          "$value": "12rem"
+        },
+        "n56": {
+          "$type": "dimension",
+          "$value": "14rem"
+        },
+        "n64": {
+          "$type": "dimension",
+          "$value": "16rem"
+        }
+      },
+      "spacing": {
+        "no": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n0.$value}"
+        },
+        "xxs": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n1.$value}"
+        },
+        "xs": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n2.$value}"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n3.$value}"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n4.$value}"
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n6.$value}"
+        },
+        "xl": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n7.$value}"
+        },
+        "xxl": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n9.$value}"
+        },
+        "xxxl": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n10.$value}"
+        }
+      },
+      "border": {
+        "width": {
+          "hairline": {
+            "$type": "dimension",
+            "$value": 1
+          },
+          "normal": {
+            "$type": "dimension",
+            "$value": 2
+          },
+          "thick": {
+            "$type": "dimension",
+            "$value": 4
+          }
+        },
+        "hairline": {
+          "$type": "border",
+          "$value": {
+            "width": "{kda.foundation.border.width.hairline}",
+            "style": "solid",
+            "color": "{kda.foundation.color.border.base.default}"
+          }
+        },
+        "normal": {
+          "$type": "border",
+          "$value": {
+            "width": "{kda.foundation.border.width.normal}",
+            "style": "solid",
+            "color": "{kda.foundation.color.border.base.@bold}"
+          }
+        },
+        "thick": {
+          "$type": "border",
+          "$value": {
+            "width": "{kda.foundation.border.width.thick}",
+            "style": "solid",
+            "color": "{kda.foundation.color.border.base.@bold}"
+          }
+        }
+      }
+    }
+  }
+}

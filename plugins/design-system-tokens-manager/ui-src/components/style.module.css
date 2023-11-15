@@ -69,6 +69,7 @@
   text-align: left;
   flex-basis: fit-content;
   margin-top: 1px;
+  user-select: none;
 }
 
 .input > label:hover {
@@ -98,11 +99,37 @@
   height: 40px;
   border: 1px solid black;
   font-weight: bold;
+  margin-left: 12px;
+}
+
+.footers button.alt {
+  background: #eee;
+  border: 0;
+  padding: 4px 24px;
+  color: black;
+  height: 40px;
+  border: 1px solid black;
+  font-weight: bold;
 }
 
 .footers button:hover {
-  background-color: #eee;
+  background-color: green;
   border: 1px solid black;
-  color: black;
+  color: white;
   cursor: pointer;
+}
+
+.footers button.alt:hover {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  cursor: pointer;
+}
+
+
+.footers .divider {
+  display: block;
+  width: 24px;
+  height: 100%;
+  background-color: red;
 }

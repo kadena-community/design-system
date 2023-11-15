@@ -4,11 +4,11 @@
       "typography": {
         "family": {
           "primaryFont": {
-            "$value": "Haas Grot Disp",
+            "$value": "Inter",
             "$type": "fontFamily"
           },
           "headingFont": {
-            "$value": "Haas Grot Disp",
+            "$value": "Inter",
             "$type": "fontFamily"
           },
           "codeFont": {
@@ -16,7 +16,7 @@
             "$type": "fontFamily"
           },
           "bodyFont": {
-            "$value": "Haas Grot Disp",
+            "$value": "Inter",
             "$type": "fontFamily"
           }
         }

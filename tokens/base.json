@@ -3,19 +3,19 @@
   "$version": "0.0.1",
   "$fonts": [
     {
-      "family": "Haas Grot Disp",
+      "family": "Inter",
       "style": "45 Light"
     },
     {
-      "family": "Haas Grot Disp",
+      "family": "Inter",
       "style": "55 Roman"
     },
     {
-      "family": "Haas Grot Disp",
+      "family": "Inter",
       "style": "65 Medium"
     },
     {
-      "family": "Haas Grot Disp",
+      "family": "Inter",
       "style": "75 Bold"
     }
   ]

@@ -1,4 +1,24 @@
 {
+  "$name": "Kode Design System Advanced",
+  "$version": "0.0.1",
+  "$fonts": [
+    {
+      "family": "Inter",
+      "style": "Light"
+    },
+    {
+      "family": "Inter",
+      "style": "Regular"
+    },
+    {
+      "family": "Inter",
+      "style": "Medium"
+    },
+    {
+      "family": "Inter",
+      "style": "Bold"
+    }
+  ],
   "kda": {
     "foundation": {
       "radius": {
@@ -3164,28 +3184,6 @@
           }
         }
       }
-    },
-    "kda-notification": {},
-    "kda-button": {}
-  },
-  "$name": "Kode Design System",
-  "$version": "0.0.1",
-  "$fonts": [
-    {
-      "family": "Inter",
-      "style": "Light"
-    },
-    {
-      "family": "Inter",
-      "style": "Regular"
-    },
-    {
-      "family": "Inter",
-      "style": "Medium"
-    },
-    {
-      "family": "Inter",
-      "style": "Bold"
     }
-  ]
+  }
 }

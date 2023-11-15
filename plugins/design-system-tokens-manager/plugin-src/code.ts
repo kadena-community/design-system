@@ -3,7 +3,7 @@ import { TAction } from "./types";
 import { init } from "./utils/main";
 
 figma.showUI(__html__, {
-  height: 400,
+  height: 500,
   width: 520,
   themeColors: true,
 });
