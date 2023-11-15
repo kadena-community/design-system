@@ -4,7 +4,7 @@ import { init } from "./utils/main";
 
 figma.showUI(__html__, {
   height: 400,
-  width: 320,
+  width: 520,
   themeColors: true,
 });
 
@@ -32,5 +32,4 @@ figma.ui.onmessage = async (action: TAction<any>) => {
       figma.closePlugin();
       break;
   }
-
 };

@@ -31,7 +31,13 @@ export function initCollection(data: TCollectionPayload, source: TProcessedData)
       collection,
     }
   } catch (error) {
-    console.error(error)
+    let message = (error as any)?.message
+
+    if (message.includes('Limited to 1 modes')) {
+      message = 'You need to run this plugin with a Professional plan to support multiple modes. Remove the modes in your data to import the tokens or switch to a professional plan.'
+    }
+
+    figma.notify(message, { error: true })
     throw new Error('Error')
   }
 }

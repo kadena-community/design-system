@@ -5,6 +5,7 @@ import { getTypographyTokens } from "./composites/typography";
 
 export async function init(data: TAction<TCollectionPayload>, isInit = true) {
   const { params } = data
+
   if (params?.payload) {
     const preProcessedData = iterateJson(params.payload);
     const processedData = await processData(preProcessedData, params.payload)
@@ -18,7 +19,6 @@ export async function init(data: TAction<TCollectionPayload>, isInit = true) {
         payload: data.params?.payload,
         styles: mappedData.styles,
         tokens: mappedData.variables.tokens,
-
       }, params.payload)
     }
 
