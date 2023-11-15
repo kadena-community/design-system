@@ -92,7 +92,9 @@ export const Form = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.header}>
-        <p>Provide your Design Tokens Format in JSON</p>
+        <p>
+          Provide your Design Tokens Format in JSON. To be able to use the full
+        </p>
         <p>
           <a
             href="https://design-tokens.github.io/community-group/format/"
