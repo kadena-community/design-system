@@ -103,6 +103,33 @@
           }
         }
       },
+      "breakpoint": {
+        "$description": "Breakpoint sizes for viewports",
+        "xs": {
+          "$type": "dimension",
+          "$value": 640
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": 768
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": 1024
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": 1280
+        },
+        "xl": {
+          "$type": "dimension",
+          "$value": 1536
+        },
+        "xxl": {
+          "$type": "dimension",
+          "$value": 1980
+        }
+      },
       "color": {
         "background": {
           "base": {
@@ -4730,7 +4757,7 @@
         },
         "sm": {
           "$type": "number",
-          "$value": "0.125rem"
+          "$value": "0.25rem"
         },
         "md": {
           "$type": "number",
@@ -4738,7 +4765,15 @@
         },
         "lg": {
           "$type": "number",
-          "$value": "0.25rem"
+          "$value": "0.5rem"
+        },
+        "xl": {
+          "$type": "number",
+          "$value": "1rem"
+        },
+        "xxl": {
+          "$type": "number",
+          "$value": "1.5rem"
         },
         "round": {
           "$type": "dimension",
@@ -7176,7 +7211,7 @@
               }
             }
           },
-          "p": {
+          "base": {
             "regular": {
               "@xs": {
                 "$name": "paragraph",

@@ -12,7 +12,7 @@
         },
         "sm": {
           "$type": "number",
-          "$value": "{kda.foundation.size.n1.$value}"
+          "$value": "{kda.foundation.size.n2.$value}"
         },
         "md": {
           "$type": "number",
@@ -20,7 +20,15 @@
         },
         "lg": {
           "$type": "number",
-          "$value": "{kda.foundation.size.n2.$value}"
+          "$value": "{kda.foundation.size.n3.$value}"
+        },
+        "xl": {
+          "$type": "number",
+          "$value": "{kda.foundation.size.n4.$value}"
+        },
+        "xxl": {
+          "$type": "number",
+          "$value": "{kda.foundation.size.n6.$value}"
         },
         "round": {
           "$type": "dimension",

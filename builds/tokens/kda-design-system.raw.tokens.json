@@ -12,7 +12,7 @@
         },
         "sm": {
           "$type": "number",
-          "$value": "{kda.foundation.size.n1.$value}"
+          "$value": "{kda.foundation.size.n2.$value}"
         },
         "md": {
           "$type": "number",
@@ -20,11 +20,46 @@
         },
         "lg": {
           "$type": "number",
-          "$value": "{kda.foundation.size.n2.$value}"
+          "$value": "{kda.foundation.size.n3.$value}"
+        },
+        "xl": {
+          "$type": "number",
+          "$value": "{kda.foundation.size.n4.$value}"
+        },
+        "xxl": {
+          "$type": "number",
+          "$value": "{kda.foundation.size.n6.$value}"
         },
         "round": {
           "$type": "dimension",
           "$value": "999rem"
+        }
+      },
+      "breakpoint": {
+        "$description": "Breakpoint sizes for viewports",
+        "xs": {
+          "$type": "dimension",
+          "$value": 640
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": 768
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": 1024
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": 1280
+        },
+        "xl": {
+          "$type": "dimension",
+          "$value": 1536
+        },
+        "xxl": {
+          "$type": "dimension",
+          "$value": 1980
         }
       },
       "color": {
@@ -3286,7 +3321,7 @@
               }
             }
           },
-          "p": {
+          "base": {
             "regular": {
               "@xs": {
                 "$name": "paragraph",
