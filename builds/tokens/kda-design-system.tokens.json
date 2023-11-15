@@ -6671,6 +6671,348 @@
               }
             }
           },
+          "h6": {
+            "regular": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H6 Description",
+                "$type": "typography",
+                "$title": "H6",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  },
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": "0.125rem"
+                  },
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "2.5rem"
+                  }
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H6 Description",
+                "$type": "typography",
+                "$title": "H6",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  },
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": "0.125rem"
+                  },
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "2.5rem"
+                  }
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H6 Description",
+                "$type": "typography",
+                "$title": "H6",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2rem"
+                  },
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": "0.125rem"
+                  },
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "3.25rem"
+                  }
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H6 Description",
+                "$type": "typography",
+                "$title": "H6",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.75rem"
+                  },
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": "0.125rem"
+                  },
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "4rem"
+                  }
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H6 Description",
+                "$type": "typography",
+                "$title": "H6",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "3.25rem"
+                  },
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": "0.125rem"
+                  },
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "5rem"
+                  }
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H6 Description",
+                "$type": "typography",
+                "$title": "H6",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "4rem"
+                  },
+                  "fontWeight": {
+                    "$value": "45 Light",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": "0.125rem"
+                  },
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "5rem"
+                  }
+                }
+              }
+            },
+            "bold": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H6 Bold @ xs Description",
+                "$type": "typography",
+                "$title": "H6 Bold @ xs",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  },
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": "0.125rem"
+                  },
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "2.5rem"
+                  }
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H6 Bold @ sm Description",
+                "$type": "typography",
+                "$title": "H6 Bold @ sm",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  },
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": "0.125rem"
+                  },
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "2.5rem"
+                  }
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H6 Bold @ md Description",
+                "$type": "typography",
+                "$title": "H6 Bold @ md",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2rem"
+                  },
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": "0.125rem"
+                  },
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "3.25rem"
+                  }
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H6 Bold @ lg Description",
+                "$type": "typography",
+                "$title": "H6 Bold @ lg",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.75rem"
+                  },
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": "0.125rem"
+                  },
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "4rem"
+                  }
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H6 Bold @ xl Description",
+                "$type": "typography",
+                "$title": "H6 Bold @ xl",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "3.25rem"
+                  },
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": "0.125rem"
+                  },
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "5rem"
+                  }
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H6 Bold @ xxl Description",
+                "$type": "typography",
+                "$title": "H6 Bold @ xxl",
+                "$value": {
+                  "fontFamily": {
+                    "$value": "Haas Grot Disp",
+                    "$type": "fontFamily"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "4rem"
+                  },
+                  "fontWeight": {
+                    "$value": "75 Bold",
+                    "$type": "fontWeight"
+                  },
+                  "letterSpacing": {
+                    "$type": "dimension",
+                    "$value": "0.125rem"
+                  },
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "5rem"
+                  }
+                }
+              }
+            }
+          },
           "small": {
             "regular": {
               "@xs": {

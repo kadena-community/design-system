@@ -3969,6 +3969,168 @@
               }
             }
           },
+          "h6": {
+            "regular": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H6 Description",
+                "$type": "typography",
+                "$title": "H6",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n6}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n10}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H6 Description",
+                "$type": "typography",
+                "$title": "H6",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n6}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n10}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H6 Description",
+                "$type": "typography",
+                "$title": "H6",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n8}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n13}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H6 Description",
+                "$type": "typography",
+                "$title": "H6",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n11}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n16}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H6 Description",
+                "$type": "typography",
+                "$title": "H6",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n13}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n20}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H6 Description",
+                "$type": "typography",
+                "$title": "H6",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n16}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n20}"
+                }
+              }
+            },
+            "bold": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H6 Bold @ xs Description",
+                "$type": "typography",
+                "$title": "H6 Bold @ xs",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n6}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n10}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H6 Bold @ sm Description",
+                "$type": "typography",
+                "$title": "H6 Bold @ sm",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n6}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n10}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H6 Bold @ md Description",
+                "$type": "typography",
+                "$title": "H6 Bold @ md",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n8}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n13}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H6 Bold @ lg Description",
+                "$type": "typography",
+                "$title": "H6 Bold @ lg",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n11}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n16}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H6 Bold @ xl Description",
+                "$type": "typography",
+                "$title": "H6 Bold @ xl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n13}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n20}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H6 Bold @ xxl Description",
+                "$type": "typography",
+                "$title": "H6 Bold @ xxl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontSize": "{kda.foundation.size.n16}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "lineHeight": "{kda.foundation.size.n20}"
+                }
+              }
+            }
+          },
           "h5": {
             "regular": {
               "@xs": {
