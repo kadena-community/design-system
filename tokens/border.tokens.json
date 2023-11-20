@@ -3,16 +3,14 @@
     "foundation": {
       "border": {
         "width": {
+          "$type": "dimension",
           "hairline": {
-            "$type": "dimension",
             "$value": 1
           },
           "normal": {
-            "$type": "dimension",
             "$value": 2
           },
           "thick": {
-            "$type": "dimension",
             "$value": 4
           }
         },

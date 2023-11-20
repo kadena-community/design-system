@@ -11,12 +11,12 @@
             "color": "#000000",
             "offsetX": "4px",
             "offsetY": "0.5rem",
-            "blur": "{kda.foundation.size.n3.$value}",
+            "blur": "{kda.foundation.size.n3}",
             "spread": "4px"
           }
         },
-        "shadow": [
-          {
+        "shadow": {
+          "level1": {
             "$name": "level1",
             "$type": "shadow",
             "$title": "Shadow Level 1",
@@ -25,11 +25,11 @@
               "color": "#000000",
               "offsetX": "4px",
               "offsetY": "0.5rem",
-              "blur": "{kda.foundation.size.n3.$value}",
+              "blur": "{kda.foundation.size.n3}",
               "spread": "4px"
             }
           },
-          {
+          "level2": {
             "$name": "level2",
             "$type": "shadow",
             "$title": "Shadow Level 2",
@@ -38,11 +38,11 @@
               "color": "#000000",
               "offsetX": "4rem",
               "offsetY": "4rem",
-              "blur": "{kda.foundation.size.n3.$value}",
+              "blur": "{kda.foundation.size.n3}",
               "spread": "2rem"
             }
           },
-          {
+          "level3": {
             "$name": "level3",
             "$type": "shadow",
             "$title": "Shadow Level 3",
@@ -51,11 +51,11 @@
               "color": "#000000",
               "offsetX": 0,
               "offsetY": 0,
-              "blur": "{kda.foundation.size.n3.$value}",
+              "blur": "{kda.foundation.size.n3}",
               "spread": "24px"
             }
           }
-        ]
+        }
       }
     }
   }

@@ -2,89 +2,72 @@
   "kda": {
     "foundation": {
       "color": {
+        "$type": "color",
         "background": {
           "base": {
             "default": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n20}"
             },
             "@hover": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n10}"
             },
             "@inverse": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n80}"
             }
           },
           "layer-1": {
             "default": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n10}"
             },
             "@hover": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n20}"
             },
             "@inverse": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n90}"
             }
           },
           "layer-2": {
             "default": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n5}"
             },
             "@hover": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n0}"
             },
             "@inverse": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n95}"
             }
           },
           "layer-3": {
             "default": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n0}"
             },
             "@hover": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n5}"
             },
             "@inverse": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n100}"
             }
           },
           "brand": {
             "primary": {
               "default": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n1}"
               },
               "@hover": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n5}"
               },
               "@inverse": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n99}"
               }
             },
             "secondary": {
               "default": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n1}"
               },
               "@hover": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n5}"
               },
               "@inverse": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n99}"
               }
             }
@@ -92,57 +75,45 @@
           "semantic": {
             "positive": {
               "default": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.positive.n5}"
               },
               "@hover": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.positive.n10}"
               },
               "@inverse": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.positive.n95}"
               }
             },
             "negative": {
               "default": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.negative.n5}"
               },
               "@hover": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.negative.n10}"
               },
               "@inverse": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.negative.n95}"
               }
             },
             "warning": {
               "default": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.warning.n5}"
               },
               "@hover": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.warning.n10}"
               },
               "@inverse": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.warning.n95}"
               }
             },
             "info": {
               "default": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.info.n5}"
               },
               "@hover": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.info.n10}"
               },
               "@inverse": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.info.n95}"
               }
             }

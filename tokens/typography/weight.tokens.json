@@ -3,41 +3,18 @@
     "foundation": {
       "typography": {
         "weight": {
-          "headingFont": {
-            "light": {
-              "$value": "45 Light",
-              "$type": "fontWeight"
-            },
-            "normal": {
-              "$value": "55 Roman",
-              "$type": "fontWeight"
-            },
-            "medium": {
-              "$value": "65 Medium",
-              "$type": "fontWeight"
-            },
-            "bold": {
-              "$value": "75 Bold",
-              "$type": "fontWeight"
-            }
+          "$type": "fontWeight",
+          "light": {
+            "$value": "45 Light"
           },
-          "bodyFont": {
-            "light": {
-              "$value": "45 Light",
-              "$type": "fontWeight"
-            },
-            "normal": {
-              "$value": "55 Roman",
-              "$type": "fontWeight"
-            },
-            "medium": {
-              "$value": "65 Medium",
-              "$type": "fontWeight"
-            },
-            "bold": {
-              "$value": "75 Bold",
-              "$type": "fontWeight"
-            }
+          "normal": {
+            "$value": "55 Roman"
+          },
+          "medium": {
+            "$value": "65 Medium"
+          },
+          "bold": {
+            "$value": "75 Bold"
           }
         }
       }

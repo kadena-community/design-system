@@ -2,11 +2,11 @@
   "kda": {
     "foundation": {
       "color": {
+        "$type": "color",
         "palette": {
           "lime": {
             "$description": "Lime colors",
             "n0": {
-              "$type": "color",
               "$value": "#F8FFF5",
               "$extensions": {
                 "mode": {
@@ -15,7 +15,6 @@
               }
             },
             "n1": {
-              "$type": "color",
               "$value": "#E6FD9B",
               "$extensions": {
                 "mode": {
@@ -24,7 +23,6 @@
               }
             },
             "n5": {
-              "$type": "color",
               "$value": "#cbf443",
               "$extensions": {
                 "mode": {
@@ -33,7 +31,6 @@
               }
             },
             "n10": {
-              "$type": "color",
               "$value": "#bce92a",
               "$extensions": {
                 "mode": {
@@ -42,7 +39,6 @@
               }
             },
             "n20": {
-              "$type": "color",
               "$value": "#aad816",
               "$extensions": {
                 "mode": {
@@ -51,7 +47,6 @@
               }
             },
             "n30": {
-              "$type": "color",
               "$value": "#98c50a",
               "$extensions": {
                 "mode": {
@@ -60,7 +55,6 @@
               }
             },
             "n40": {
-              "$type": "color",
               "$value": "#87b103",
               "$extensions": {
                 "mode": {
@@ -69,7 +63,6 @@
               }
             },
             "n50": {
-              "$type": "color",
               "$value": "#769c00",
               "$extensions": {
                 "mode": {
@@ -78,7 +71,6 @@
               }
             },
             "n60": {
-              "$type": "color",
               "$value": "#678800",
               "$extensions": {
                 "mode": {
@@ -87,7 +79,6 @@
               }
             },
             "n70": {
-              "$type": "color",
               "$value": "#577400",
               "$extensions": {
                 "mode": {
@@ -96,7 +87,6 @@
               }
             },
             "n80": {
-              "$type": "color",
               "$value": "#486000",
               "$extensions": {
                 "mode": {
@@ -105,7 +95,6 @@
               }
             },
             "n90": {
-              "$type": "color",
               "$value": "#3a4d00",
               "$extensions": {
                 "mode": {
@@ -114,7 +103,6 @@
               }
             },
             "n95": {
-              "$type": "color",
               "$value": "#2c3b00",
               "$extensions": {
                 "mode": {
@@ -123,7 +111,6 @@
               }
             },
             "n99": {
-              "$type": "color",
               "$value": "#212c00",
               "$extensions": {
                 "mode": {
@@ -132,7 +119,6 @@
               }
             },
             "n100": {
-              "$type": "color",
               "$value": "#0A1F00",
               "$extensions": {
                 "mode": {

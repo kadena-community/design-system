@@ -2,8 +2,12 @@
   "kda": {
     "foundation": {
       "color": {
+        "$type": "color",
         "semantic": {
           "$description": "Colors to communicate purpose. They help users to convey messages."
+        },
+        "palette": {
+          "$description": "Scaled color palettes"
         }
       }
     }

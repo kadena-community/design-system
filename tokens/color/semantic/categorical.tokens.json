@@ -2,11 +2,11 @@
   "kda": {
     "foundation": {
       "color": {
+        "$type": "color",
         "categorical": {
           "$description": "Colors intended for data visualisations. Adhere to the specified numerical order.",
           "category1": {
             "default": {
-              "$type": "color",
               "$description": "Visualisation Color 1",
               "$value": "#2898BD",
               "$extensions": {
@@ -16,7 +16,6 @@
               }
             },
             "@hover": {
-              "$type": "color",
               "$description": "Visualisation Color 1 Hover State",
               "$value": "#227D9B",
               "$extensions": {
@@ -28,7 +27,6 @@
           },
           "category2": {
             "default": {
-              "$type": "color",
               "$description": "Visualisation Color 2",
               "$value": "#5E4DB2",
               "$extensions": {
@@ -38,7 +36,6 @@
               }
             },
             "@hover": {
-              "$type": "color",
               "$description": "Visualisation Color 2 Hover State",
               "$value": "#352C63",
               "$extensions": {
@@ -50,7 +47,6 @@
           },
           "category3": {
             "default": {
-              "$type": "color",
               "$description": "Visualisation Color 3",
               "$value": "#E56910",
               "$extensions": {
@@ -60,7 +56,6 @@
               }
             },
             "@hover": {
-              "$type": "color",
               "$description": "Visualisation Color 3 Hover State",
               "$value": "#C25100",
               "$extensions": {
@@ -72,7 +67,6 @@
           },
           "category4": {
             "default": {
-              "$type": "color",
               "$description": "Visualisation Color 4",
               "$value": "#943D73",
               "$extensions": {
@@ -82,7 +76,6 @@
               }
             },
             "@hover": {
-              "$type": "color",
               "$description": "Visualisation Color 4 Hover State",
               "$value": "#50253F",
               "$extensions": {
@@ -94,7 +87,6 @@
           },
           "category5": {
             "default": {
-              "$type": "color",
               "$description": "Visualisation Color 5",
               "$value": "#09326C",
               "$extensions": {
@@ -104,7 +96,6 @@
               }
             },
             "@hover": {
-              "$type": "color",
               "$description": "Visualisation Color 5 Hover State",
               "$value": "#1C2B41",
               "$extensions": {
@@ -116,7 +107,6 @@
           },
           "category6": {
             "default": {
-              "$type": "color",
               "$description": "Visualisation Color 6",
               "$value": "#8F7EE7",
               "$extensions": {
@@ -126,7 +116,6 @@
               }
             },
             "@hover": {
-              "$type": "color",
               "$description": "Visualisation Color 6 Hover State",
               "$value": "#8270DB",
               "$extensions": {
@@ -138,7 +127,6 @@
           },
           "category7": {
             "default": {
-              "$type": "color",
               "$description": "Visualisation Color 7",
               "$value": "#50253F",
               "$extensions": {
@@ -148,7 +136,6 @@
               }
             },
             "@hover": {
-              "$type": "color",
               "$description": "Visualisation Color 7 Hover State",
               "$value": "#3D2232",
               "$extensions": {
@@ -160,7 +147,6 @@
           },
           "category8": {
             "default": {
-              "$type": "color",
               "$description": "Visualisation Color 8",
               "$value": "#A54800",
               "$extensions": {
@@ -170,7 +156,6 @@
               }
             },
             "@hover": {
-              "$type": "color",
               "$description": "Visualisation Color 8 Hover State",
               "$value": "#702E00",
               "$extensions": {

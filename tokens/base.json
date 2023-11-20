@@ -1,6 +1,12 @@
 {
   "$name": "Kode Design System",
   "$version": "0.0.1",
+  "$extensions": {
+    "modes": {
+      "defaultMode": "light",
+      "requiredModes": ["light", "dark"]
+    }
+  },
   "$fonts": [
     {
       "family": "Haas Grot Disp",

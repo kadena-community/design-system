@@ -2,83 +2,66 @@
   "kda": {
     "foundation": {
       "color": {
+        "$type": "color",
         "icon": {
           "base": {
             "default": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n80}"
             },
             "@bold": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n90}"
             },
             "@disabled": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n60}"
             },
             "@inverse": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n20}"
             },
             "@hover": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n70}"
             },
             "@focus": {
-              "$type": "color",
               "$value": "{kda.foundation.color.neutral.n60}"
             }
           },
           "brand": {
             "primary": {
               "default": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n40}"
               },
               "@bold": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n50}"
               },
               "@disabled": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n20}"
               },
               "@inverse": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n0}"
               },
               "@hover": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n50}"
               },
               "@focus": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n60}"
               }
             },
             "secondary": {
               "default": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n40}"
               },
               "@bold": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n50}"
               },
               "@disabled": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n20}"
               },
               "@inverse": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n0}"
               },
               "@hover": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n50}"
               },
               "@focus": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n60}"
               }
             }
@@ -86,41 +69,33 @@
           "semantic": {
             "positive": {
               "default": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.positive.n80}"
               },
               "@inverse": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.positive.n20}"
               }
             },
             "negative": {
               "default": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.negative.n80}"
               },
               "@inverse": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.negative.n20}"
               }
             },
             "warning": {
               "default": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.warning.n80}"
               },
               "@inverse": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.warning.n20}"
               }
             },
             "info": {
               "default": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.info.n80}"
               },
               "@inverse": {
-                "$type": "color",
                 "$value": "{kda.foundation.color.semantic.info.n20}"
               }
             }

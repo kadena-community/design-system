@@ -2,10 +2,10 @@
   "kda": {
     "foundation": {
       "color": {
+        "$type": "color",
         "neutral": {
           "$description": "Neutral Gray colors",
           "n0": {
-            "$type": "color",
             "$value": "#FFFFFF",
             "$extensions": {
               "mode": {
@@ -14,7 +14,6 @@
             }
           },
           "n5": {
-            "$type": "color",
             "$value": "#F8F8F8",
             "$extensions": {
               "mode": {
@@ -23,7 +22,6 @@
             }
           },
           "n10": {
-            "$type": "color",
             "$value": "#E6E6E6",
             "$extensions": {
               "mode": {
@@ -32,7 +30,6 @@
             }
           },
           "n20": {
-            "$type": "color",
             "$value": "#D5D5D5",
             "$extensions": {
               "mode": {
@@ -41,7 +38,6 @@
             }
           },
           "n30": {
-            "$type": "color",
             "$value": "#B1B1B1",
             "$extensions": {
               "mode": {
@@ -50,7 +46,6 @@
             }
           },
           "n40": {
-            "$type": "color",
             "$value": "#909090",
             "$extensions": {
               "mode": {
@@ -59,7 +54,6 @@
             }
           },
           "n50": {
-            "$type": "color",
             "$value": "#6D6D6D",
             "$extensions": {
               "mode": {
@@ -68,7 +62,6 @@
             }
           },
           "n60": {
-            "$type": "color",
             "$value": "#464646",
             "$extensions": {
               "mode": {
@@ -77,7 +70,6 @@
             }
           },
           "n70": {
-            "$type": "color",
             "$value": "#333333",
             "$extensions": {
               "mode": {
@@ -86,7 +78,6 @@
             }
           },
           "n80": {
-            "$type": "color",
             "$value": "#222222",
             "$extensions": {
               "mode": {
@@ -95,7 +86,6 @@
             }
           },
           "n90": {
-            "$type": "color",
             "$value": "#1A1A1A",
             "$extensions": {
               "mode": {
@@ -104,7 +94,6 @@
             }
           },
           "n95": {
-            "$type": "color",
             "$value": "#0F0F0F",
             "$extensions": {
               "mode": {
@@ -113,7 +102,6 @@
             }
           },
           "n100": {
-            "$type": "color",
             "$value": "#000000",
             "$extensions": {
               "mode": {

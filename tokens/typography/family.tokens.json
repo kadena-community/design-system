@@ -3,21 +3,18 @@
     "foundation": {
       "typography": {
         "family": {
+          "$type": "fontFamily",
           "primaryFont": {
-            "$value": "Haas Grot Disp",
-            "$type": "fontFamily"
+            "$value": "Haas Grot Disp"
           },
           "headingFont": {
-            "$value": "Haas Grot Disp",
-            "$type": "fontFamily"
+            "$value": "Haas Grot Disp"
           },
           "codeFont": {
-            "$value": "Kode Mono",
-            "$type": "fontFamily"
+            "$value": "Kode Mono"
           },
           "bodyFont": {
-            "$value": "Haas Grot Disp",
-            "$type": "fontFamily"
+            "$value": "Haas Grot Disp"
           }
         }
       }

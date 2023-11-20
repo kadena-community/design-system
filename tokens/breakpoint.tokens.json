@@ -3,28 +3,23 @@
     "foundation": {
       "breakpoint": {
         "$description": "Breakpoint sizes for viewports",
+        "$type": "dimension",
         "xs": {
-          "$type": "dimension",
           "$value": 640
         },
         "sm": {
-          "$type": "dimension",
           "$value": 768
         },
         "md": {
-          "$type": "dimension",
           "$value": 1024
         },
         "lg": {
-          "$type": "dimension",
           "$value": 1280
         },
         "xl": {
-          "$type": "dimension",
           "$value": 1536
         },
         "xxl": {
-          "$type": "dimension",
           "$value": 1980
         }
       }
