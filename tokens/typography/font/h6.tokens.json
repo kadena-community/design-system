@@ -12,10 +12,10 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n6}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n10}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@sm": {
@@ -25,10 +25,10 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n6}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n10}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@md": {
@@ -38,10 +38,10 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n8}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n13}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@lg": {
@@ -51,10 +51,10 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n11}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n16}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xl": {
@@ -64,10 +64,10 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n13}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n20}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n7}"
                 }
               },
               "@xxl": {
@@ -77,10 +77,10 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n16}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n20}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n7}"
                 }
               }
             },
@@ -92,10 +92,10 @@
                 "$title": "H6 Bold @ xs",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n6}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n10}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@sm": {
@@ -105,10 +105,10 @@
                 "$title": "H6 Bold @ sm",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n6}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n10}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@md": {
@@ -118,10 +118,10 @@
                 "$title": "H6 Bold @ md",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n8}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n13}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@lg": {
@@ -131,10 +131,10 @@
                 "$title": "H6 Bold @ lg",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n11}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n16}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xl": {
@@ -144,10 +144,10 @@
                 "$title": "H6 Bold @ xl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n13}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n20}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n7}"
                 }
               },
               "@xxl": {
@@ -157,10 +157,10 @@
                 "$title": "H6 Bold @ xxl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n16}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n20}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n7}"
                 }
               }
             }

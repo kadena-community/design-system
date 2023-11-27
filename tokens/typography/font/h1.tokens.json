@@ -12,9 +12,9 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n10}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n14}"
                 }
               },
@@ -25,9 +25,9 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n10}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n14}"
                 }
               },
@@ -38,9 +38,9 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n12}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n12}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n17}"
                 }
               },
@@ -51,9 +51,9 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n15}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n20}"
                 }
               },
@@ -64,9 +64,9 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n18}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n18}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n25}"
                 }
               },
@@ -77,9 +77,9 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n20}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n20}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n30}"
                 }
               }
@@ -92,9 +92,9 @@
                 "$title": "H1 Bold @ xs",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n10}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n14}"
                 }
               },
@@ -105,9 +105,9 @@
                 "$title": "H1 Bold @ sm",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n10}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n14}"
                 }
               },
@@ -118,9 +118,9 @@
                 "$title": "H1 Bold @ md",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n12}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n12}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n17}"
                 }
               },
@@ -131,9 +131,9 @@
                 "$title": "H1 Bold @ lg",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n15}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n20}"
                 }
               },
@@ -144,9 +144,9 @@
                 "$title": "H1 Bold @ xl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n18}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n18}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n25}"
                 }
               },
@@ -157,9 +157,9 @@
                 "$title": "H1 Bold @ xxl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n20}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n20}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n30}"
                 }
               }

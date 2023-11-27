@@ -2844,10 +2844,10 @@
                 "$title": "Smallest",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 12,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": "{kda.foundation.size.n3}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@sm": {
@@ -2857,10 +2857,10 @@
                 "$title": "Smallest",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 12,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": "{kda.foundation.size.n3}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@md": {
@@ -2870,10 +2870,10 @@
                 "$title": "Smallest",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 12,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": "{kda.foundation.size.n3}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@lg": {
@@ -2883,10 +2883,10 @@
                 "$title": "Smallest",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 12,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": "{kda.foundation.size.n3}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xl": {
@@ -2896,10 +2896,10 @@
                 "$title": "Smallest",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 12,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": "{kda.foundation.size.n3}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xxl": {
@@ -2909,10 +2909,10 @@
                 "$title": "Smallest",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 12,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": "{kda.foundation.size.n3}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               }
             },
@@ -2924,10 +2924,10 @@
                 "$title": "Smallest P Bold @ xs",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 12,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": "{kda.foundation.size.n3}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@sm": {
@@ -2937,10 +2937,10 @@
                 "$title": "Smallest P Bold @ sm",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 12,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": "{kda.foundation.size.n3}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@md": {
@@ -2950,10 +2950,10 @@
                 "$title": "Smallest P Bold @ md",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 12,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": "{kda.foundation.size.n3}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@lg": {
@@ -2963,10 +2963,10 @@
                 "$title": "Smallest P Bold @ lg",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 12,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": "{kda.foundation.size.n3}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xl": {
@@ -2976,10 +2976,10 @@
                 "$title": "Smallest P Bold @ xl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 12,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": "{kda.foundation.size.n3}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xxl": {
@@ -2989,10 +2989,10 @@
                 "$title": "Smallest P Bold @ xxl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 12,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": "{kda.foundation.size.n3}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               }
             }
@@ -3006,9 +3006,9 @@
                 "$title": "H2",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n9}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n13}"
                 }
               },
@@ -3019,9 +3019,9 @@
                 "$title": "H2",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n9}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n13}"
                 }
               },
@@ -3032,10 +3032,10 @@
                 "$title": "H2",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n11}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n16}"
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n13}"
                 }
               },
               "@lg": {
@@ -3045,10 +3045,10 @@
                 "$title": "H2",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n14}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n19}"
+                  "fontSize": "{kda.foundation.size.n11}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n16}"
                 }
               },
               "@xl": {
@@ -3058,10 +3058,10 @@
                 "$title": "H2",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n17}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n24}"
+                  "fontSize": "{kda.foundation.size.n13}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n19}"
                 }
               },
               "@xxl": {
@@ -3071,10 +3071,10 @@
                 "$title": "H2",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n19}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n30}"
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n20}"
                 }
               }
             },
@@ -3086,9 +3086,9 @@
                 "$title": "H2 Bold @ xs",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n9}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n13}"
                 }
               },
@@ -3099,9 +3099,9 @@
                 "$title": "H2 Bold @ sm",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n9}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n13}"
                 }
               },
@@ -3112,10 +3112,10 @@
                 "$title": "H2 Bold @ md",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n11}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n16}"
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n13}"
                 }
               },
               "@lg": {
@@ -3125,10 +3125,10 @@
                 "$title": "H2 Bold @ lg",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n14}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n19}"
+                  "fontSize": "{kda.foundation.size.n11}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n16}"
                 }
               },
               "@xl": {
@@ -3138,10 +3138,10 @@
                 "$title": "H2 Bold @ xl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n17}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n24}"
+                  "fontSize": "{kda.foundation.size.n13}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n19}"
                 }
               },
               "@xxl": {
@@ -3151,10 +3151,10 @@
                 "$title": "H2 Bold @ xxl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n19}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n30}"
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n20}"
                 }
               }
             }
@@ -3168,9 +3168,9 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n10}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n14}"
                 }
               },
@@ -3181,9 +3181,9 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n10}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n14}"
                 }
               },
@@ -3194,9 +3194,9 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n12}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n12}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n17}"
                 }
               },
@@ -3207,9 +3207,9 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n15}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n20}"
                 }
               },
@@ -3220,9 +3220,9 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n18}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n18}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n25}"
                 }
               },
@@ -3233,9 +3233,9 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n20}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n20}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n30}"
                 }
               }
@@ -3248,9 +3248,9 @@
                 "$title": "H1 Bold @ xs",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n10}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n14}"
                 }
               },
@@ -3261,9 +3261,9 @@
                 "$title": "H1 Bold @ sm",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n10}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n14}"
                 }
               },
@@ -3274,9 +3274,9 @@
                 "$title": "H1 Bold @ md",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n12}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n12}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n17}"
                 }
               },
@@ -3287,9 +3287,9 @@
                 "$title": "H1 Bold @ lg",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n15}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n20}"
                 }
               },
@@ -3300,9 +3300,9 @@
                 "$title": "H1 Bold @ xl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n18}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n18}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n25}"
                 }
               },
@@ -3313,9 +3313,9 @@
                 "$title": "H1 Bold @ xxl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n20}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
+                  "fontSize": "{kda.foundation.size.n20}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n30}"
                 }
               }
@@ -3330,10 +3330,10 @@
                 "$title": "P",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": "{kda.foundation.size.n4}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@sm": {
@@ -3343,10 +3343,10 @@
                 "$title": "P",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": "{kda.foundation.size.n4}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@md": {
@@ -3356,10 +3356,10 @@
                 "$title": "P",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": "{kda.foundation.size.n4}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@lg": {
@@ -3369,10 +3369,10 @@
                 "$title": "P",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": "{kda.foundation.size.n4}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xl": {
@@ -3382,10 +3382,10 @@
                 "$title": "P",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": "{kda.foundation.size.n4}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xxl": {
@@ -3395,10 +3395,10 @@
                 "$title": "P",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": "{kda.foundation.size.n4}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               }
             },
@@ -3410,10 +3410,10 @@
                 "$title": "P Bold @ xs",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": "{kda.foundation.size.n4}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@sm": {
@@ -3423,10 +3423,10 @@
                 "$title": "P Bold @ sm",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": "{kda.foundation.size.n4}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@md": {
@@ -3436,10 +3436,10 @@
                 "$title": "P Bold @ md",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": "{kda.foundation.size.n4}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@lg": {
@@ -3449,10 +3449,10 @@
                 "$title": "P Bold @ lg",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": "{kda.foundation.size.n4}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xl": {
@@ -3462,10 +3462,10 @@
                 "$title": "P Bold @ xl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": "{kda.foundation.size.n4}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xxl": {
@@ -3475,10 +3475,10 @@
                 "$title": "P Bold @ xxl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": "{kda.foundation.size.n4}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               }
             }
@@ -3492,10 +3492,10 @@
                 "$title": "H4",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n7}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n11}"
+                  "fontSize": "{kda.foundation.size.n6}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n9}"
                 }
               },
               "@sm": {
@@ -3505,10 +3505,10 @@
                 "$title": "H4",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n7}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n11}"
+                  "fontSize": "{kda.foundation.size.n6}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n9}"
                 }
               },
               "@md": {
@@ -3518,10 +3518,10 @@
                 "$title": "H4",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n9}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n14}"
+                  "fontSize": "{kda.foundation.size.n6}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n9}"
                 }
               },
               "@lg": {
@@ -3531,10 +3531,10 @@
                 "$title": "H4",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n12}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n17}"
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n11}"
                 }
               },
               "@xl": {
@@ -3544,10 +3544,10 @@
                 "$title": "H4",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n15}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n24}"
+                  "fontSize": "{kda.foundation.size.n8}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n12}"
                 }
               },
               "@xxl": {
@@ -3557,10 +3557,10 @@
                 "$title": "H4",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n17}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n25}"
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n13}"
                 }
               }
             },
@@ -3572,10 +3572,10 @@
                 "$title": "H4 Bold @ xs",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n7}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n11}"
+                  "fontSize": "{kda.foundation.size.n6}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n9}"
                 }
               },
               "@sm": {
@@ -3585,10 +3585,10 @@
                 "$title": "H4 Bold @ sm",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n7}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n11}"
+                  "fontSize": "{kda.foundation.size.n6}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n9}"
                 }
               },
               "@md": {
@@ -3598,10 +3598,10 @@
                 "$title": "H4 Bold @ md",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n9}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n14}"
+                  "fontSize": "{kda.foundation.size.n6}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n9}"
                 }
               },
               "@lg": {
@@ -3611,10 +3611,10 @@
                 "$title": "H4 Bold @ lg",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n12}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n17}"
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n11}"
                 }
               },
               "@xl": {
@@ -3624,10 +3624,10 @@
                 "$title": "H4 Bold @ xl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n15}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n24}"
+                  "fontSize": "{kda.foundation.size.n8}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n12}"
                 }
               },
               "@xxl": {
@@ -3637,10 +3637,10 @@
                 "$title": "H4 Bold @ xxl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n17}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n25}"
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n13}"
                 }
               }
             }
@@ -3654,10 +3654,10 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n8}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n12}"
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n11}"
                 }
               },
               "@sm": {
@@ -3667,10 +3667,10 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n8}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n12}"
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n11}"
                 }
               },
               "@md": {
@@ -3680,10 +3680,10 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n10}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n15}"
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n11}"
                 }
               },
               "@lg": {
@@ -3693,10 +3693,10 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n13}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n18}"
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n13}"
                 }
               },
               "@xl": {
@@ -3706,10 +3706,10 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n16}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n24}"
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n15}"
                 }
               },
               "@xxl": {
@@ -3719,10 +3719,10 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n18}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n30}"
+                  "fontSize": "{kda.foundation.size.n11}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n17}"
                 }
               }
             },
@@ -3734,10 +3734,10 @@
                 "$title": "H3 Bold @ xs",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n8}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n12}"
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n11}"
                 }
               },
               "@sm": {
@@ -3747,10 +3747,10 @@
                 "$title": "H3 Bold @ sm",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n8}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n12}"
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n11}"
                 }
               },
               "@md": {
@@ -3760,10 +3760,10 @@
                 "$title": "H3 Bold @ md",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n10}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n15}"
+                  "fontSize": "{kda.foundation.size.n7}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n11}"
                 }
               },
               "@lg": {
@@ -3773,10 +3773,10 @@
                 "$title": "H3 Bold @ lg",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n13}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n18}"
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n13}"
                 }
               },
               "@xl": {
@@ -3786,10 +3786,10 @@
                 "$title": "H3 Bold @ xl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n16}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n24}"
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n15}"
                 }
               },
               "@xxl": {
@@ -3799,10 +3799,10 @@
                 "$title": "H3 Bold @ xxl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n18}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n30}"
+                  "fontSize": "{kda.foundation.size.n11}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n17}"
                 }
               }
             }
@@ -3816,10 +3816,10 @@
                 "$title": "Small",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 14,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": 14,
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@sm": {
@@ -3829,10 +3829,10 @@
                 "$title": "Small",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 14,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": 14,
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@md": {
@@ -3842,10 +3842,10 @@
                 "$title": "Small",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 14,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": 14,
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@lg": {
@@ -3855,10 +3855,10 @@
                 "$title": "Small",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 14,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": 14,
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xl": {
@@ -3868,10 +3868,10 @@
                 "$title": "Small",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 14,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": 14,
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xxl": {
@@ -3881,10 +3881,10 @@
                 "$title": "Small",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 14,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                  "fontSize": 14,
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               }
             },
@@ -3896,10 +3896,10 @@
                 "$title": "Small P Bold @ xs",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 14,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": 14,
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@sm": {
@@ -3909,10 +3909,10 @@
                 "$title": "Small P Bold @ sm",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 14,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": 14,
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@md": {
@@ -3922,10 +3922,10 @@
                 "$title": "Small P Bold @ md",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 14,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": 14,
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@lg": {
@@ -3935,10 +3935,10 @@
                 "$title": "Small P Bold @ lg",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 14,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": 14,
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xl": {
@@ -3948,10 +3948,10 @@
                 "$title": "Small P Bold @ xl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 14,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": 14,
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xxl": {
@@ -3961,10 +3961,10 @@
                 "$title": "Small P Bold @ xxl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontSize": 14,
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                  "fontSize": 14,
                   "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": 1
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               }
             }
@@ -3978,10 +3978,10 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n6}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n10}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@sm": {
@@ -3991,10 +3991,10 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n6}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n10}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@md": {
@@ -4004,10 +4004,10 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n8}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n13}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@lg": {
@@ -4017,10 +4017,10 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n11}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n16}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xl": {
@@ -4030,10 +4030,10 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n13}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n20}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n7}"
                 }
               },
               "@xxl": {
@@ -4043,10 +4043,10 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n16}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n20}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n7}"
                 }
               }
             },
@@ -4058,10 +4058,10 @@
                 "$title": "H6 Bold @ xs",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n6}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n10}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@sm": {
@@ -4071,10 +4071,10 @@
                 "$title": "H6 Bold @ sm",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n6}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n10}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@md": {
@@ -4084,10 +4084,10 @@
                 "$title": "H6 Bold @ md",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n8}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n13}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@lg": {
@@ -4097,10 +4097,10 @@
                 "$title": "H6 Bold @ lg",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n11}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n16}"
+                  "fontSize": "{kda.foundation.size.n4}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n6}"
                 }
               },
               "@xl": {
@@ -4110,10 +4110,10 @@
                 "$title": "H6 Bold @ xl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n13}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n20}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n7}"
                 }
               },
               "@xxl": {
@@ -4123,10 +4123,10 @@
                 "$title": "H6 Bold @ xxl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n16}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n20}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n7}"
                 }
               }
             }
@@ -4140,10 +4140,10 @@
                 "$title": "H5",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n7}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n11}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n8}"
                 }
               },
               "@sm": {
@@ -4153,10 +4153,10 @@
                 "$title": "H5",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n7}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n11}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n8}"
                 }
               },
               "@md": {
@@ -4166,10 +4166,10 @@
                 "$title": "H5",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n9}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n14}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n8}"
                 }
               },
               "@lg": {
@@ -4179,10 +4179,10 @@
                 "$title": "H5",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n12}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n17}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n8}"
                 }
               },
               "@xl": {
@@ -4192,10 +4192,10 @@
                 "$title": "H5",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n15}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n24}"
+                  "fontSize": "{kda.foundation.size.n6}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n9}"
                 }
               },
               "@xxl": {
@@ -4205,10 +4205,10 @@
                 "$title": "H5",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n17}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n25}"
+                  "fontSize": "{kda.foundation.size.n6}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n9}"
                 }
               }
             },
@@ -4220,10 +4220,10 @@
                 "$title": "H5 Bold @ xs",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n7}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n11}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n8}"
                 }
               },
               "@sm": {
@@ -4233,10 +4233,10 @@
                 "$title": "H5 Bold @ sm",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n7}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n11}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n8}"
                 }
               },
               "@md": {
@@ -4246,10 +4246,10 @@
                 "$title": "H5 Bold @ md",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n9}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n14}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n8}"
                 }
               },
               "@lg": {
@@ -4259,10 +4259,10 @@
                 "$title": "H5 Bold @ lg",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n12}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n17}"
+                  "fontSize": "{kda.foundation.size.n5}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n8}"
                 }
               },
               "@xl": {
@@ -4272,10 +4272,10 @@
                 "$title": "H5 Bold @ xl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n15}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n24}"
+                  "fontSize": "{kda.foundation.size.n6}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n9}"
                 }
               },
               "@xxl": {
@@ -4285,10 +4285,10 @@
                 "$title": "H5 Bold @ xxl",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontSize": "{kda.foundation.size.n17}",
                   "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "letterSpacing": "{kda.foundation.spacing.xxs}",
-                  "lineHeight": "{kda.foundation.size.n25}"
+                  "fontSize": "{kda.foundation.size.n6}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n9}"
                 }
               }
             }

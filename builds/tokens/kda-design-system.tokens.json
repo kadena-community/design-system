@@ -4973,13 +4973,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.5rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5001,13 +5001,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.5rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5029,13 +5029,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "3rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5057,13 +5057,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.75rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "3.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5085,13 +5085,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4.5rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "4.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5113,13 +5113,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "5rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5143,13 +5143,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.5rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5171,13 +5171,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.5rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5199,13 +5199,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "3rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5227,13 +5227,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.75rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "3.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5255,13 +5255,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4.5rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "4.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5283,13 +5283,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "5rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5315,13 +5315,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5343,13 +5343,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5371,13 +5371,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5385,7 +5385,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "4rem"
+                    "$value": "3.25rem"
                   }
                 }
               },
@@ -5399,13 +5399,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.5rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5413,7 +5413,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "4.75rem"
+                    "$value": "4rem"
                   }
                 }
               },
@@ -5427,13 +5427,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4.25rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "3.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5441,7 +5441,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "6rem"
+                    "$value": "4.75rem"
                   }
                 }
               },
@@ -5455,13 +5455,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4.75rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "3.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5469,7 +5469,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "7.5rem"
+                    "$value": "5rem"
                   }
                 }
               }
@@ -5485,13 +5485,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5513,13 +5513,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5541,13 +5541,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5555,7 +5555,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "4rem"
+                    "$value": "3.25rem"
                   }
                 }
               },
@@ -5569,13 +5569,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.5rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5583,7 +5583,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "4.75rem"
+                    "$value": "4rem"
                   }
                 }
               },
@@ -5597,13 +5597,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4.25rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "3.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5611,7 +5611,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "6rem"
+                    "$value": "4.75rem"
                   }
                 }
               },
@@ -5625,13 +5625,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4.75rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "3.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5639,7 +5639,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "7.5rem"
+                    "$value": "5rem"
                   }
                 }
               }
@@ -5657,13 +5657,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5671,7 +5671,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "3rem"
+                    "$value": "2.75rem"
                   }
                 }
               },
@@ -5685,13 +5685,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5699,7 +5699,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "3rem"
+                    "$value": "2.75rem"
                   }
                 }
               },
@@ -5713,13 +5713,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.5rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5727,7 +5727,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "3.75rem"
+                    "$value": "2.75rem"
                   }
                 }
               },
@@ -5741,13 +5741,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5755,7 +5755,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "4.5rem"
+                    "$value": "3.25rem"
                   }
                 }
               },
@@ -5769,13 +5769,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5783,7 +5783,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "6rem"
+                    "$value": "3.75rem"
                   }
                 }
               },
@@ -5797,13 +5797,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4.5rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5811,7 +5811,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "7.5rem"
+                    "$value": "4.25rem"
                   }
                 }
               }
@@ -5827,13 +5827,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5841,7 +5841,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "3rem"
+                    "$value": "2.75rem"
                   }
                 }
               },
@@ -5855,13 +5855,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5869,7 +5869,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "3rem"
+                    "$value": "2.75rem"
                   }
                 }
               },
@@ -5883,13 +5883,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.5rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5897,7 +5897,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "3.75rem"
+                    "$value": "2.75rem"
                   }
                 }
               },
@@ -5911,13 +5911,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5925,7 +5925,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "4.5rem"
+                    "$value": "3.25rem"
                   }
                 }
               },
@@ -5939,13 +5939,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5953,7 +5953,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "6rem"
+                    "$value": "3.75rem"
                   }
                 }
               },
@@ -5967,13 +5967,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4.5rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -5981,7 +5981,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "7.5rem"
+                    "$value": "4.25rem"
                   }
                 }
               }
@@ -5999,13 +5999,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6013,7 +6013,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "2.75rem"
+                    "$value": "2.25rem"
                   }
                 }
               },
@@ -6027,13 +6027,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6041,7 +6041,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "2.75rem"
+                    "$value": "2.25rem"
                   }
                 }
               },
@@ -6055,13 +6055,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6069,7 +6069,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "3.5rem"
+                    "$value": "2.25rem"
                   }
                 }
               },
@@ -6083,13 +6083,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6097,7 +6097,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "4.25rem"
+                    "$value": "2.75rem"
                   }
                 }
               },
@@ -6111,13 +6111,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.75rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6125,7 +6125,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "6rem"
+                    "$value": "3rem"
                   }
                 }
               },
@@ -6139,13 +6139,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4.25rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6153,7 +6153,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "6.25rem"
+                    "$value": "3.25rem"
                   }
                 }
               }
@@ -6169,13 +6169,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6183,7 +6183,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "2.75rem"
+                    "$value": "2.25rem"
                   }
                 }
               },
@@ -6197,13 +6197,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6211,7 +6211,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "2.75rem"
+                    "$value": "2.25rem"
                   }
                 }
               },
@@ -6225,13 +6225,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6239,7 +6239,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "3.5rem"
+                    "$value": "2.25rem"
                   }
                 }
               },
@@ -6253,13 +6253,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.75rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6267,7 +6267,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "4.25rem"
+                    "$value": "2.75rem"
                   }
                 }
               },
@@ -6281,13 +6281,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.75rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6295,7 +6295,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "6rem"
+                    "$value": "3rem"
                   }
                 }
               },
@@ -6309,13 +6309,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4.25rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "2.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6323,7 +6323,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "6.25rem"
+                    "$value": "3.25rem"
                   }
                 }
               }
@@ -6341,13 +6341,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6355,7 +6355,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "2.75rem"
+                    "$value": "2rem"
                   }
                 }
               },
@@ -6369,13 +6369,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6383,7 +6383,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "2.75rem"
+                    "$value": "2rem"
                   }
                 }
               },
@@ -6397,13 +6397,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6411,7 +6411,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "3.5rem"
+                    "$value": "2rem"
                   }
                 }
               },
@@ -6425,13 +6425,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6439,7 +6439,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "4.25rem"
+                    "$value": "2rem"
                   }
                 }
               },
@@ -6453,13 +6453,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.75rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6467,7 +6467,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "6rem"
+                    "$value": "2.25rem"
                   }
                 }
               },
@@ -6481,13 +6481,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4.25rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6495,7 +6495,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "6.25rem"
+                    "$value": "2.25rem"
                   }
                 }
               }
@@ -6511,13 +6511,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6525,7 +6525,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "2.75rem"
+                    "$value": "2rem"
                   }
                 }
               },
@@ -6539,13 +6539,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6553,7 +6553,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "2.75rem"
+                    "$value": "2rem"
                   }
                 }
               },
@@ -6567,13 +6567,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6581,7 +6581,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "3.5rem"
+                    "$value": "2rem"
                   }
                 }
               },
@@ -6595,13 +6595,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6609,7 +6609,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "4.25rem"
+                    "$value": "2rem"
                   }
                 }
               },
@@ -6623,13 +6623,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.75rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6637,7 +6637,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "6rem"
+                    "$value": "2.25rem"
                   }
                 }
               },
@@ -6651,13 +6651,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4.25rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6665,7 +6665,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "6.25rem"
+                    "$value": "2.25rem"
                   }
                 }
               }
@@ -6683,13 +6683,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6697,7 +6697,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "2.5rem"
+                    "$value": "1.5rem"
                   }
                 }
               },
@@ -6711,13 +6711,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6725,7 +6725,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "2.5rem"
+                    "$value": "1.5rem"
                   }
                 }
               },
@@ -6739,13 +6739,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6753,7 +6753,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "3.25rem"
+                    "$value": "1.5rem"
                   }
                 }
               },
@@ -6767,13 +6767,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6781,7 +6781,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "4rem"
+                    "$value": "1.5rem"
                   }
                 }
               },
@@ -6795,13 +6795,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6809,7 +6809,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "5rem"
+                    "$value": "1.75rem"
                   }
                 }
               },
@@ -6823,13 +6823,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6837,7 +6837,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "5rem"
+                    "$value": "1.75rem"
                   }
                 }
               }
@@ -6853,13 +6853,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6867,7 +6867,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "2.5rem"
+                    "$value": "1.5rem"
                   }
                 }
               },
@@ -6881,13 +6881,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6895,7 +6895,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "2.5rem"
+                    "$value": "1.5rem"
                   }
                 }
               },
@@ -6909,13 +6909,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6923,7 +6923,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "3.25rem"
+                    "$value": "1.5rem"
                   }
                 }
               },
@@ -6937,13 +6937,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6951,7 +6951,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "4rem"
+                    "$value": "1.5rem"
                   }
                 }
               },
@@ -6965,13 +6965,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -6979,7 +6979,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "5rem"
+                    "$value": "1.75rem"
                   }
                 }
               },
@@ -6993,13 +6993,13 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1.25rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
@@ -7007,7 +7007,7 @@
                   },
                   "lineHeight": {
                     "$type": "dimension",
-                    "$value": "5rem"
+                    "$value": "1.75rem"
                   }
                 }
               }
@@ -7025,16 +7025,19 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 14,
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
                   },
+                  "fontSize": 14,
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@sm": {
@@ -7047,16 +7050,19 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 14,
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
                   },
+                  "fontSize": 14,
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@md": {
@@ -7069,16 +7075,19 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 14,
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
                   },
+                  "fontSize": 14,
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@lg": {
@@ -7091,16 +7100,19 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 14,
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
                   },
+                  "fontSize": 14,
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@xl": {
@@ -7113,16 +7125,19 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 14,
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
                   },
+                  "fontSize": 14,
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@xxl": {
@@ -7135,16 +7150,19 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 14,
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
                   },
+                  "fontSize": 14,
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               }
             },
@@ -7159,16 +7177,19 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 14,
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
                   },
+                  "fontSize": 14,
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@sm": {
@@ -7181,16 +7202,19 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 14,
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
                   },
+                  "fontSize": 14,
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@md": {
@@ -7203,16 +7227,19 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 14,
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
                   },
+                  "fontSize": 14,
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@lg": {
@@ -7225,16 +7252,19 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 14,
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
                   },
+                  "fontSize": 14,
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@xl": {
@@ -7247,16 +7277,19 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 14,
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
                   },
+                  "fontSize": 14,
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@xxl": {
@@ -7269,16 +7302,19 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 14,
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
                   },
+                  "fontSize": 14,
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               }
             }
@@ -7295,16 +7331,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 12,
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "0.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@sm": {
@@ -7317,16 +7359,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 12,
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "0.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@md": {
@@ -7339,16 +7387,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 12,
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "0.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@lg": {
@@ -7361,16 +7415,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 12,
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "0.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@xl": {
@@ -7383,16 +7443,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 12,
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "0.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@xxl": {
@@ -7405,16 +7471,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 12,
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "0.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               }
             },
@@ -7429,16 +7501,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 12,
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "0.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@sm": {
@@ -7451,16 +7529,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 12,
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "0.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@md": {
@@ -7473,16 +7557,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 12,
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "0.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@lg": {
@@ -7495,16 +7585,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 12,
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "0.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@xl": {
@@ -7517,16 +7613,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 12,
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "0.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@xxl": {
@@ -7539,16 +7641,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": 12,
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "0.5rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               }
             }
@@ -7565,19 +7673,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@sm": {
@@ -7590,19 +7701,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@md": {
@@ -7615,19 +7729,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@lg": {
@@ -7640,19 +7757,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@xl": {
@@ -7665,19 +7785,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@xxl": {
@@ -7690,19 +7813,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
                   "fontWeight": {
                     "$value": "45 Light",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               }
             },
@@ -7717,19 +7843,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@sm": {
@@ -7742,19 +7871,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@md": {
@@ -7767,19 +7899,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@lg": {
@@ -7792,19 +7927,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@xl": {
@@ -7817,19 +7955,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               },
               "@xxl": {
@@ -7842,19 +7983,22 @@
                     "$value": "Haas Grot Disp",
                     "$type": "fontFamily"
                   },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
                   "fontWeight": {
                     "$value": "75 Bold",
                     "$type": "fontWeight"
+                  },
+                  "fontSize": {
+                    "$type": "dimension",
+                    "$value": "1rem"
                   },
                   "letterSpacing": {
                     "$type": "dimension",
                     "$value": 0
                   },
-                  "lineHeight": 1
+                  "lineHeight": {
+                    "$type": "dimension",
+                    "$value": "1.5rem"
+                  }
                 }
               }
             }
