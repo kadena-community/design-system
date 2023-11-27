@@ -1,3 +1,5 @@
+![Design System Token Manager](https://raw.githubusercontent.com/kadena-community/design-system/main/cover.png)
+
 ## Introduction:
 Welcome to the __Kode Design System__ repository, your central hub for maintaining and utilizing our design system. This repository houses the essential elements and guidelines to ensure consistency and efficiency in our product design and development process.
 
