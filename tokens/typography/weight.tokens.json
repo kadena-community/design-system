@@ -5,37 +5,61 @@
         "weight": {
           "headingFont": {
             "light": {
-              "$value": "45 Light",
+              "$value": 300,
+              "$extensions": {
+                "weightTag": "45 Light"
+              },
               "$type": "fontWeight"
             },
             "normal": {
-              "$value": "55 Roman",
+              "$value": 400,
+              "$extensions": {
+                "weightTag": "55 Roman"
+              },
               "$type": "fontWeight"
             },
             "medium": {
-              "$value": "65 Medium",
+              "$value": 500,
+              "$extensions": {
+                "weightTag": "65 Medium"
+              },
               "$type": "fontWeight"
             },
             "bold": {
-              "$value": "75 Bold",
+              "$value": 700,
+              "$extensions": {
+                "weightTag": "75 Bold"
+              },
               "$type": "fontWeight"
             }
           },
           "bodyFont": {
             "light": {
-              "$value": "45 Light",
+              "$value": 300,
+              "$extensions": {
+                "weightTag": "45 Light"
+              },
               "$type": "fontWeight"
             },
             "normal": {
-              "$value": "55 Roman",
+              "$value": 400,
+              "$extensions": {
+                "weightTag": "55 Roman"
+              },
               "$type": "fontWeight"
             },
             "medium": {
-              "$value": "65 Medium",
+              "$value": 500,
+              "$extensions": {
+                "weightTag": "65 Medium"
+              },
               "$type": "fontWeight"
             },
             "bold": {
-              "$value": "75 Bold",
+              "$value": 700,
+              "$extensions": {
+                "weightTag": "75 Bold"
+              },
               "$type": "fontWeight"
             }
           }
