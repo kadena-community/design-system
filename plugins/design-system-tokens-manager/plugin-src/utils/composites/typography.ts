@@ -1,4 +1,4 @@
-import { EConstants, EDimensionUnit, TAction, TCollectionPayload, TDesignTokenFormat, TFontProps, TJsonData, TTokenData, TTokenIterationArgs } from "../../types";
+import { EConstants, EDimensionUnit, TAction, TCollectionPayload, TDesignTokenFormat, TFontProps, TJsonData, TTokenData, TTokenExtensions, EExtensionProp, TTokenIterationArgs } from "../../types";
 import { getAliasAbsoluteValue } from "../extension";
 import { convertNameToPath, getValueByPath, hasAliasValue, parseDimensionUnit, parseFontSize } from "../helper";
 import { processTokenAliasValue } from "../variable";
@@ -60,7 +60,7 @@ export async function processTypographyTokens({ type, value }: { type: TTokenDat
     }
 
     const family = getFontFamily(fontFamily)
-    const style = await getFontStyle(fontWeight, params)
+    const style = await getFontStyle(fontWeight, params, tokenData.extensions)
 
     if (!family) {
       return value
@@ -134,11 +134,13 @@ function getFontFamily(value: TFontProps | string | null): string | null {
   return response ?? null
 }
 
-async function getFontStyle(value: TFontProps['fontWeight'], params: TTokenIterationArgs): Promise<string> {
+async function getFontStyle(value: TFontProps['fontWeight'], params: TTokenIterationArgs, extensions: TTokenExtensions | null): Promise<string> {
   if (typeof value === 'string') {
     if (hasAliasValue(value)) {
       const [{ modeId, name: modeName }] = params.collection.modes
       value = await getAliasAbsoluteValue(value, value, { modeId, modeName, allVariables: params.allVariables }) as string
+    }  else if (extensions && extensions[EExtensionProp.WEIGHT]) {
+      value = extensions[EExtensionProp.WEIGHT] as string;
     }
 
     return value

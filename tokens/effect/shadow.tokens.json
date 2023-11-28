@@ -2,21 +2,8 @@
   "kda": {
     "foundation": {
       "effect": {
-        "defaultShadow": {
-          "$name": "main",
-          "$type": "shadow",
-          "$title": "Default Shadow",
-          "$description": "This is the default shadow effect description",
-          "$value": {
-            "color": "#000000",
-            "offsetX": "4px",
-            "offsetY": "0.5rem",
-            "blur": "{kda.foundation.size.n3.$value}",
-            "spread": "4px"
-          }
-        },
-        "shadow": [
-          {
+        "shadow": {
+          "level1": {
             "$name": "level1",
             "$type": "shadow",
             "$title": "Shadow Level 1",
@@ -29,7 +16,7 @@
               "spread": "4px"
             }
           },
-          {
+          "level2": {
             "$name": "level2",
             "$type": "shadow",
             "$title": "Shadow Level 2",
@@ -42,7 +29,7 @@
               "spread": "2rem"
             }
           },
-          {
+          "level3": {
             "$name": "level3",
             "$type": "shadow",
             "$title": "Shadow Level 3",
@@ -55,7 +42,7 @@
               "spread": "24px"
             }
           }
-        ]
+        }
       }
     }
   }

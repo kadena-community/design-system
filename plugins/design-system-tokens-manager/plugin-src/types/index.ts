@@ -56,6 +56,7 @@ export enum ETokenResolvedType {
 export enum EExtensionProp {
   MODE = 'mode',
   ALPHA = 'alpha',
+  WEIGHT = 'weightTag',
   HUE = 'hue', /* next iteration */
 }
 
@@ -139,6 +140,7 @@ type TExtensionGeneratorKeys = EExtensionProp.ALPHA | EExtensionProp.HUE
 type TExtensionKeys = EExtensionProp.MODE | TExtensionGeneratorKeys
 
 
+
 export type TExtension = {
   [key in TExtensionKeys]?: any
 }
@@ -158,7 +160,11 @@ export type TTokenModeProps = {
     [key: string]: string
   }
 }
-export interface TTokenExtensions extends TTokenGeneratorProps, TTokenModeProps { }
+export type TTokenTypographyProps = {
+  [EExtensionProp.WEIGHT]: string;
+};
+
+export interface TTokenExtensions extends TTokenGeneratorProps, TTokenModeProps, TTokenTypographyProps  { }
 export type TTokenKey = string
 export type TTokenData = {
   name: string,
