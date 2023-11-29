@@ -13,7 +13,7 @@
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                  "fontSize": 14,
+                  "fontSize": "14px",
                   "letterSpacing": "{kda.foundation.spacing.no}",
                   "lineHeight": "{kda.foundation.size.n6}"
                 }
@@ -26,7 +26,7 @@
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                  "fontSize": 14,
+                  "fontSize": "14px",
                   "letterSpacing": "{kda.foundation.spacing.no}",
                   "lineHeight": "{kda.foundation.size.n6}"
                 }
@@ -39,7 +39,7 @@
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                  "fontSize": 14,
+                  "fontSize": "14px",
                   "letterSpacing": "{kda.foundation.spacing.no}",
                   "lineHeight": "{kda.foundation.size.n6}"
                 }
@@ -52,7 +52,7 @@
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                  "fontSize": 14,
+                  "fontSize": "14px",
                   "letterSpacing": "{kda.foundation.spacing.no}",
                   "lineHeight": "{kda.foundation.size.n6}"
                 }
@@ -65,7 +65,7 @@
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                  "fontSize": 14,
+                  "fontSize": "14px",
                   "letterSpacing": "{kda.foundation.spacing.no}",
                   "lineHeight": "{kda.foundation.size.n6}"
                 }
@@ -78,7 +78,7 @@
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                  "fontSize": 14,
+                  "fontSize": "14px",
                   "letterSpacing": "{kda.foundation.spacing.no}",
                   "lineHeight": "{kda.foundation.size.n6}"
                 }
@@ -93,7 +93,7 @@
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                  "fontSize": 14,
+                  "fontSize": "14px",
                   "letterSpacing": "{kda.foundation.spacing.no}",
                   "lineHeight": "{kda.foundation.size.n6}"
                 }
@@ -106,7 +106,7 @@
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                  "fontSize": 14,
+                  "fontSize": "14px",
                   "letterSpacing": "{kda.foundation.spacing.no}",
                   "lineHeight": "{kda.foundation.size.n6}"
                 }
@@ -119,7 +119,7 @@
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                  "fontSize": 14,
+                  "fontSize": "14px",
                   "letterSpacing": "{kda.foundation.spacing.no}",
                   "lineHeight": "{kda.foundation.size.n6}"
                 }
@@ -132,7 +132,7 @@
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                  "fontSize": 14,
+                  "fontSize": "14px",
                   "letterSpacing": "{kda.foundation.spacing.no}",
                   "lineHeight": "{kda.foundation.size.n6}"
                 }
@@ -145,7 +145,7 @@
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                  "fontSize": 14,
+                  "fontSize": "14px",
                   "letterSpacing": "{kda.foundation.spacing.no}",
                   "lineHeight": "{kda.foundation.size.n6}"
                 }
@@ -158,7 +158,7 @@
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.bodyFont}",
                   "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                  "fontSize": 14,
+                  "fontSize": "14px",
                   "letterSpacing": "{kda.foundation.spacing.no}",
                   "lineHeight": "{kda.foundation.size.n6}"
                 }
