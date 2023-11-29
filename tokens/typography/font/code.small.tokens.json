@@ -3,83 +3,83 @@
     "foundation": {
       "typography": {
         "font": {
-          "body": {
-            "base": {
+          "code": {
+            "small": {
               "regular": {
                 "@xs": {
-                  "$name": "paragraph",
-                  "$description": "P @xs Description",
+                  "$name": "code",
+                  "$description": "Small Code @xs Description",
                   "$type": "typography",
-                  "$title": "P",
+                  "$title": "Small",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
                     "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
                   }
                 },
                 "@sm": {
-                  "$name": "paragraph",
-                  "$description": "P @sm Description",
+                  "$name": "code",
+                  "$description": "Small Code @sm Description",
                   "$type": "typography",
-                  "$title": "P",
+                  "$title": "Small",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
                     "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
                   }
                 },
                 "@md": {
-                  "$name": "paragraph",
-                  "$description": "P @md Description",
+                  "$name": "code",
+                  "$description": "Small Code @md Description",
                   "$type": "typography",
-                  "$title": "P",
+                  "$title": "Small",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
                     "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
                   }
                 },
                 "@lg": {
-                  "$name": "paragraph",
-                  "$description": "P @lg Description",
+                  "$name": "code",
+                  "$description": "Small Code @lg Description",
                   "$type": "typography",
-                  "$title": "P",
+                  "$title": "Small",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
                     "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
                   }
                 },
                 "@xl": {
-                  "$name": "paragraph",
-                  "$description": "P @xl Description",
+                  "$name": "code",
+                  "$description": "Small Code @xl Description",
                   "$type": "typography",
-                  "$title": "P",
+                  "$title": "Small",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
                     "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
                   }
                 },
                 "@xxl": {
-                  "$name": "paragraph",
-                  "$description": "P @xxl Description",
+                  "$name": "code",
+                  "$description": "Small Code @xxl Description",
                   "$type": "typography",
-                  "$title": "P",
+                  "$title": "Small",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
                     "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
                   }
@@ -87,79 +87,79 @@
               },
               "bold": {
                 "@xs": {
-                  "$name": "paragraph",
-                  "$description": "P Bold @ xs Description",
+                  "$name": "code",
+                  "$description": "Small Code Bold @ xs Description",
                   "$type": "typography",
-                  "$title": "P Bold @ xs",
+                  "$title": "Small Code Bold @ xs",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
                     "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
                   }
                 },
                 "@sm": {
-                  "$name": "paragraph",
-                  "$description": "P Bold @ sm Description",
+                  "$name": "code",
+                  "$description": "Small Code Bold @ sm Description",
                   "$type": "typography",
-                  "$title": "P Bold @ sm",
+                  "$title": "Small Code Bold @ sm",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
                     "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
                   }
                 },
                 "@md": {
-                  "$name": "paragraph",
-                  "$description": "P Bold @ md Description",
+                  "$name": "code",
+                  "$description": "Small Code Bold @ md Description",
                   "$type": "typography",
-                  "$title": "P Bold @ md",
+                  "$title": "Small Code Bold @ md",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
                     "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
                   }
                 },
                 "@lg": {
-                  "$name": "paragraph",
-                  "$description": "P Bold @ lg Description",
+                  "$name": "code",
+                  "$description": "Small Code Bold @ lg Description",
                   "$type": "typography",
-                  "$title": "P Bold @ lg",
+                  "$title": "Small Code Bold @ lg",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
                     "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
                   }
                 },
                 "@xl": {
-                  "$name": "paragraph",
-                  "$description": "P Bold @ xl Description",
+                  "$name": "code",
+                  "$description": "Small Code Bold @ xl Description",
                   "$type": "typography",
-                  "$title": "P Bold @ xl",
+                  "$title": "Small Code Bold @ xl",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
                     "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
                   }
                 },
                 "@xxl": {
-                  "$name": "paragraph",
-                  "$description": "P Bold @ xxl Description",
+                  "$name": "code",
+                  "$description": "Small Code Bold @ xxl Description",
                   "$type": "typography",
-                  "$title": "P Bold @ xxl",
+                  "$title": "Small Code Bold @ xxl",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
                     "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
                   }

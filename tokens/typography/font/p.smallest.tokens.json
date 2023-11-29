@@ -2,165 +2,167 @@
   "kda": {
     "foundation": {
       "typography": {
-        "font": {
-          "smallest": {
-            "regular": {
-              "@xs": {
-                "$name": "paragraph",
-                "$description": "Smallest P @xs Description",
-                "$type": "typography",
-                "$title": "Smallest",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                  "fontSize": "{kda.foundation.size.n3}",
-                  "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": "{kda.foundation.size.n6}"
+        "body": {
+          "font": {
+            "smallest": {
+              "regular": {
+                "@xs": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @xs Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@sm": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @sm Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@md": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @md Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@lg": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @lg Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xl": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @xl Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xxl": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @xxl Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
                 }
               },
-              "@sm": {
-                "$name": "paragraph",
-                "$description": "Smallest P @sm Description",
-                "$type": "typography",
-                "$title": "Smallest",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                  "fontSize": "{kda.foundation.size.n3}",
-                  "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": "{kda.foundation.size.n6}"
-                }
-              },
-              "@md": {
-                "$name": "paragraph",
-                "$description": "Smallest P @md Description",
-                "$type": "typography",
-                "$title": "Smallest",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                  "fontSize": "{kda.foundation.size.n3}",
-                  "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": "{kda.foundation.size.n6}"
-                }
-              },
-              "@lg": {
-                "$name": "paragraph",
-                "$description": "Smallest P @lg Description",
-                "$type": "typography",
-                "$title": "Smallest",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                  "fontSize": "{kda.foundation.size.n3}",
-                  "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": "{kda.foundation.size.n6}"
-                }
-              },
-              "@xl": {
-                "$name": "paragraph",
-                "$description": "Smallest P @xl Description",
-                "$type": "typography",
-                "$title": "Smallest",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                  "fontSize": "{kda.foundation.size.n3}",
-                  "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": "{kda.foundation.size.n6}"
-                }
-              },
-              "@xxl": {
-                "$name": "paragraph",
-                "$description": "Smallest P @xxl Description",
-                "$type": "typography",
-                "$title": "Smallest",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
-                  "fontSize": "{kda.foundation.size.n3}",
-                  "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": "{kda.foundation.size.n6}"
-                }
-              }
-            },
-            "bold": {
-              "@xs": {
-                "$name": "paragraph",
-                "$description": "Smallest P Bold @ xs Description",
-                "$type": "typography",
-                "$title": "Smallest P Bold @ xs",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                  "fontSize": "{kda.foundation.size.n3}",
-                  "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": "{kda.foundation.size.n6}"
-                }
-              },
-              "@sm": {
-                "$name": "paragraph",
-                "$description": "Smallest P Bold @ sm Description",
-                "$type": "typography",
-                "$title": "Smallest P Bold @ sm",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                  "fontSize": "{kda.foundation.size.n3}",
-                  "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": "{kda.foundation.size.n6}"
-                }
-              },
-              "@md": {
-                "$name": "paragraph",
-                "$description": "Smallest P Bold @ md Description",
-                "$type": "typography",
-                "$title": "Smallest P Bold @ md",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                  "fontSize": "{kda.foundation.size.n3}",
-                  "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": "{kda.foundation.size.n6}"
-                }
-              },
-              "@lg": {
-                "$name": "paragraph",
-                "$description": "Smallest P Bold @ lg Description",
-                "$type": "typography",
-                "$title": "Smallest P Bold @ lg",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                  "fontSize": "{kda.foundation.size.n3}",
-                  "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": "{kda.foundation.size.n6}"
-                }
-              },
-              "@xl": {
-                "$name": "paragraph",
-                "$description": "Smallest P Bold @ xl Description",
-                "$type": "typography",
-                "$title": "Smallest P Bold @ xl",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                  "fontSize": "{kda.foundation.size.n3}",
-                  "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": "{kda.foundation.size.n6}"
-                }
-              },
-              "@xxl": {
-                "$name": "paragraph",
-                "$description": "Smallest P Bold @ xxl Description",
-                "$type": "typography",
-                "$title": "Smallest P Bold @ xxl",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                  "fontSize": "{kda.foundation.size.n3}",
-                  "letterSpacing": "{kda.foundation.spacing.no}",
-                  "lineHeight": "{kda.foundation.size.n6}"
+              "bold": {
+                "@xs": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ xs Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ xs",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@sm": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ sm Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ sm",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@md": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ md Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ md",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@lg": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ lg Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ lg",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xl": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ xl Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ xl",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xxl": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ xxl Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ xxl",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
                 }
               }
             }
