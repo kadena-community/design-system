@@ -4691,21 +4691,8 @@
             }
           }
         ],
-        "defaultShadow": {
-          "$name": "main",
-          "$type": "shadow",
-          "$title": "Default Shadow",
-          "$description": "This is the default shadow effect description",
-          "$value": {
-            "color": "#000000",
-            "offsetX": "4px",
-            "offsetY": "0.5rem",
-            "blur": "0.5rem",
-            "spread": "4px"
-          }
-        },
-        "shadow": [
-          {
+        "shadow": {
+          "level1": {
             "$name": "level1",
             "$type": "shadow",
             "$title": "Shadow Level 1",
@@ -4718,7 +4705,7 @@
               "spread": "4px"
             }
           },
-          {
+          "level2": {
             "$name": "level2",
             "$type": "shadow",
             "$title": "Shadow Level 2",
@@ -4731,7 +4718,7 @@
               "spread": "2rem"
             }
           },
-          {
+          "level3": {
             "$name": "level3",
             "$type": "shadow",
             "$title": "Shadow Level 3",
@@ -4744,7 +4731,7 @@
               "spread": "24px"
             }
           }
-        ]
+        }
       },
       "radius": {
         "no": {
@@ -4961,6 +4948,1106 @@
           }
         },
         "font": {
+          "code": {
+            "small": {
+              "regular": {
+                "@xs": {
+                  "$name": "code",
+                  "$description": "Small Code @xs Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@sm": {
+                  "$name": "code",
+                  "$description": "Small Code @sm Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@md": {
+                  "$name": "code",
+                  "$description": "Small Code @md Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@lg": {
+                  "$name": "code",
+                  "$description": "Small Code @lg Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xl": {
+                  "$name": "code",
+                  "$description": "Small Code @xl Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "code",
+                  "$description": "Small Code @xxl Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                }
+              },
+              "bold": {
+                "@xs": {
+                  "$name": "code",
+                  "$description": "Small Code Bold @ xs Description",
+                  "$type": "typography",
+                  "$title": "Small Code Bold @ xs",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@sm": {
+                  "$name": "code",
+                  "$description": "Small Code Bold @ sm Description",
+                  "$type": "typography",
+                  "$title": "Small Code Bold @ sm",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@md": {
+                  "$name": "code",
+                  "$description": "Small Code Bold @ md Description",
+                  "$type": "typography",
+                  "$title": "Small Code Bold @ md",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@lg": {
+                  "$name": "code",
+                  "$description": "Small Code Bold @ lg Description",
+                  "$type": "typography",
+                  "$title": "Small Code Bold @ lg",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xl": {
+                  "$name": "code",
+                  "$description": "Small Code Bold @ xl Description",
+                  "$type": "typography",
+                  "$title": "Small Code Bold @ xl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "code",
+                  "$description": "Small Code Bold @ xxl Description",
+                  "$type": "typography",
+                  "$title": "Small Code Bold @ xxl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                }
+              }
+            },
+            "smallest": {
+              "regular": {
+                "@xs": {
+                  "$name": "code",
+                  "$description": "Smallest Code @xs Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@sm": {
+                  "$name": "code",
+                  "$description": "Smallest Code @sm Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@md": {
+                  "$name": "code",
+                  "$description": "Smallest Code @md Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@lg": {
+                  "$name": "code",
+                  "$description": "Smallest Code @lg Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xl": {
+                  "$name": "code",
+                  "$description": "Smallest Code @xl Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "code",
+                  "$description": "Smallest Code @xxl Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                }
+              },
+              "bold": {
+                "@xs": {
+                  "$name": "code",
+                  "$description": "Smallest Code Bold @ xs Description",
+                  "$type": "typography",
+                  "$title": "Smallest Code Bold @ xs",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@sm": {
+                  "$name": "code",
+                  "$description": "Smallest Code Bold @ sm Description",
+                  "$type": "typography",
+                  "$title": "Smallest Code Bold @ sm",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@md": {
+                  "$name": "code",
+                  "$description": "Smallest Code Bold @ md Description",
+                  "$type": "typography",
+                  "$title": "Smallest Code Bold @ md",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@lg": {
+                  "$name": "code",
+                  "$description": "Smallest Code Bold @ lg Description",
+                  "$type": "typography",
+                  "$title": "Smallest Code Bold @ lg",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xl": {
+                  "$name": "code",
+                  "$description": "Smallest Code Bold @ xl Description",
+                  "$type": "typography",
+                  "$title": "Smallest Code Bold @ xl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "code",
+                  "$description": "Smallest Code Bold @ xxl Description",
+                  "$type": "typography",
+                  "$title": "Smallest Code Bold @ xxl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                }
+              }
+            },
+            "base": {
+              "regular": {
+                "@xs": {
+                  "$name": "code",
+                  "$description": "Code @xs Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@sm": {
+                  "$name": "code",
+                  "$description": "Code @sm Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@md": {
+                  "$name": "code",
+                  "$description": "Code @md Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@lg": {
+                  "$name": "code",
+                  "$description": "Code @lg Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xl": {
+                  "$name": "code",
+                  "$description": "Code @xl Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "code",
+                  "$description": "Code @xxl Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 300,
+                      "$extensions": {
+                        "weightTag": "45 Light"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                }
+              },
+              "bold": {
+                "@xs": {
+                  "$name": "code",
+                  "$description": "Code Bold @ xs Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ xs",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@sm": {
+                  "$name": "code",
+                  "$description": "Code Bold @ sm Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ sm",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@md": {
+                  "$name": "code",
+                  "$description": "Code Bold @ md Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ md",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@lg": {
+                  "$name": "code",
+                  "$description": "Code Bold @ lg Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ lg",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xl": {
+                  "$name": "code",
+                  "$description": "Code Bold @ xl Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ xl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "code",
+                  "$description": "Code Bold @ xxl Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ xxl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                }
+              }
+            }
+          },
           "h1": {
             "regular": {
               "@xs": {
@@ -4974,7 +6061,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5002,7 +6092,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5030,7 +6123,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5058,7 +6154,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5086,7 +6185,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5114,7 +6216,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5144,7 +6249,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5172,7 +6280,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5200,7 +6311,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5228,7 +6342,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5256,7 +6373,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5284,7 +6404,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5316,7 +6439,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5344,7 +6470,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5372,7 +6501,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5400,7 +6532,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5428,7 +6563,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5456,7 +6594,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5486,7 +6627,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5514,7 +6658,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5542,7 +6689,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5570,7 +6720,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5598,7 +6751,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5626,7 +6782,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5658,7 +6817,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5686,7 +6848,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5714,7 +6879,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5742,7 +6910,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5770,7 +6941,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5798,7 +6972,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5828,7 +7005,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5856,7 +7036,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5884,7 +7067,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5912,7 +7098,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5940,7 +7129,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -5968,7 +7160,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6000,7 +7195,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6028,7 +7226,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6056,7 +7257,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6084,7 +7288,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6112,7 +7319,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6140,7 +7350,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6170,7 +7383,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6198,7 +7414,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6226,7 +7445,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6254,7 +7476,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6282,7 +7507,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6310,7 +7538,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6342,7 +7573,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6370,7 +7604,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6398,7 +7635,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6426,7 +7666,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6454,7 +7697,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6482,7 +7728,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6512,7 +7761,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6540,7 +7792,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6568,7 +7823,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6596,7 +7854,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6624,7 +7885,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6652,7 +7916,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6684,7 +7951,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6712,7 +7982,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6740,7 +8013,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6768,7 +8044,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6796,7 +8075,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6824,7 +8106,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "45 Light",
+                    "$value": 300,
+                    "$extensions": {
+                      "weightTag": "45 Light"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6854,7 +8139,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6882,7 +8170,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6910,7 +8201,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6938,7 +8232,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6966,7 +8263,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -6994,7 +8294,10 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": "75 Bold",
+                    "$value": 700,
+                    "$extensions": {
+                      "weightTag": "75 Bold"
+                    },
                     "$type": "fontWeight"
                   },
                   "fontSize": {
@@ -7013,991 +8316,1105 @@
               }
             }
           },
-          "small": {
-            "regular": {
-              "@xs": {
-                "$name": "paragraph",
-                "$description": "Small P @xs Description",
-                "$type": "typography",
-                "$title": "Small",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": 14,
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+          "body": {
+            "small": {
+              "regular": {
+                "@xs": {
+                  "$name": "paragraph",
+                  "$description": "Small P @xs Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@sm": {
+                  "$name": "paragraph",
+                  "$description": "Small P @sm Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@md": {
+                  "$name": "paragraph",
+                  "$description": "Small P @md Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@lg": {
+                  "$name": "paragraph",
+                  "$description": "Small P @lg Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xl": {
+                  "$name": "paragraph",
+                  "$description": "Small P @xl Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "paragraph",
+                  "$description": "Small P @xxl Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
                 }
               },
-              "@sm": {
-                "$name": "paragraph",
-                "$description": "Small P @sm Description",
-                "$type": "typography",
-                "$title": "Small",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": 14,
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+              "bold": {
+                "@xs": {
+                  "$name": "paragraph",
+                  "$description": "Small P Bold @ xs Description",
+                  "$type": "typography",
+                  "$title": "Small P Bold @ xs",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
-                }
-              },
-              "@md": {
-                "$name": "paragraph",
-                "$description": "Small P @md Description",
-                "$type": "typography",
-                "$title": "Small",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": 14,
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+                },
+                "@sm": {
+                  "$name": "paragraph",
+                  "$description": "Small P Bold @ sm Description",
+                  "$type": "typography",
+                  "$title": "Small P Bold @ sm",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
-                }
-              },
-              "@lg": {
-                "$name": "paragraph",
-                "$description": "Small P @lg Description",
-                "$type": "typography",
-                "$title": "Small",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": 14,
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+                },
+                "@md": {
+                  "$name": "paragraph",
+                  "$description": "Small P Bold @ md Description",
+                  "$type": "typography",
+                  "$title": "Small P Bold @ md",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
-                }
-              },
-              "@xl": {
-                "$name": "paragraph",
-                "$description": "Small P @xl Description",
-                "$type": "typography",
-                "$title": "Small",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": 14,
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+                },
+                "@lg": {
+                  "$name": "paragraph",
+                  "$description": "Small P Bold @ lg Description",
+                  "$type": "typography",
+                  "$title": "Small P Bold @ lg",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
-                }
-              },
-              "@xxl": {
-                "$name": "paragraph",
-                "$description": "Small P @xxl Description",
-                "$type": "typography",
-                "$title": "Small",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": 14,
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+                },
+                "@xl": {
+                  "$name": "paragraph",
+                  "$description": "Small P Bold @ xl Description",
+                  "$type": "typography",
+                  "$title": "Small P Bold @ xl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "paragraph",
+                  "$description": "Small P Bold @ xxl Description",
+                  "$type": "typography",
+                  "$title": "Small P Bold @ xxl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": "14px",
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
                 }
               }
             },
-            "bold": {
-              "@xs": {
-                "$name": "paragraph",
-                "$description": "Small P Bold @ xs Description",
-                "$type": "typography",
-                "$title": "Small P Bold @ xs",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": 14,
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+            "base": {
+              "regular": {
+                "@xs": {
+                  "$name": "paragraph",
+                  "$description": "P @xs Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@sm": {
+                  "$name": "paragraph",
+                  "$description": "P @sm Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@md": {
+                  "$name": "paragraph",
+                  "$description": "P @md Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@lg": {
+                  "$name": "paragraph",
+                  "$description": "P @lg Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xl": {
+                  "$name": "paragraph",
+                  "$description": "P @xl Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "paragraph",
+                  "$description": "P @xxl Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
                 }
               },
-              "@sm": {
-                "$name": "paragraph",
-                "$description": "Small P Bold @ sm Description",
-                "$type": "typography",
-                "$title": "Small P Bold @ sm",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": 14,
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+              "bold": {
+                "@xs": {
+                  "$name": "paragraph",
+                  "$description": "P Bold @ xs Description",
+                  "$type": "typography",
+                  "$title": "P Bold @ xs",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
-                }
-              },
-              "@md": {
-                "$name": "paragraph",
-                "$description": "Small P Bold @ md Description",
-                "$type": "typography",
-                "$title": "Small P Bold @ md",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": 14,
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+                },
+                "@sm": {
+                  "$name": "paragraph",
+                  "$description": "P Bold @ sm Description",
+                  "$type": "typography",
+                  "$title": "P Bold @ sm",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
-                }
-              },
-              "@lg": {
-                "$name": "paragraph",
-                "$description": "Small P Bold @ lg Description",
-                "$type": "typography",
-                "$title": "Small P Bold @ lg",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": 14,
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+                },
+                "@md": {
+                  "$name": "paragraph",
+                  "$description": "P Bold @ md Description",
+                  "$type": "typography",
+                  "$title": "P Bold @ md",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
-                }
-              },
-              "@xl": {
-                "$name": "paragraph",
-                "$description": "Small P Bold @ xl Description",
-                "$type": "typography",
-                "$title": "Small P Bold @ xl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": 14,
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+                },
+                "@lg": {
+                  "$name": "paragraph",
+                  "$description": "P Bold @ lg Description",
+                  "$type": "typography",
+                  "$title": "P Bold @ lg",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
-                }
-              },
-              "@xxl": {
-                "$name": "paragraph",
-                "$description": "Small P Bold @ xxl Description",
-                "$type": "typography",
-                "$title": "Small P Bold @ xxl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": 14,
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+                },
+                "@xl": {
+                  "$name": "paragraph",
+                  "$description": "P Bold @ xl Description",
+                  "$type": "typography",
+                  "$title": "P Bold @ xl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "paragraph",
+                  "$description": "P Bold @ xxl Description",
+                  "$type": "typography",
+                  "$title": "P Bold @ xxl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
                 }
               }
             }
-          },
-          "smallest": {
-            "regular": {
-              "@xs": {
-                "$name": "paragraph",
-                "$description": "Smallest P @xs Description",
-                "$type": "typography",
-                "$title": "Smallest",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "0.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+          }
+        },
+        "body": {
+          "font": {
+            "smallest": {
+              "regular": {
+                "@xs": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @xs Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@sm": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @sm Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@md": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @md Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@lg": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @lg Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xl": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @xl Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @xxl Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "55 Roman"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
                 }
               },
-              "@sm": {
-                "$name": "paragraph",
-                "$description": "Smallest P @sm Description",
-                "$type": "typography",
-                "$title": "Smallest",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "0.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+              "bold": {
+                "@xs": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ xs Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ xs",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
-                }
-              },
-              "@md": {
-                "$name": "paragraph",
-                "$description": "Smallest P @md Description",
-                "$type": "typography",
-                "$title": "Smallest",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "0.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+                },
+                "@sm": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ sm Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ sm",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
-                }
-              },
-              "@lg": {
-                "$name": "paragraph",
-                "$description": "Smallest P @lg Description",
-                "$type": "typography",
-                "$title": "Smallest",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "0.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+                },
+                "@md": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ md Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ md",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
-                }
-              },
-              "@xl": {
-                "$name": "paragraph",
-                "$description": "Smallest P @xl Description",
-                "$type": "typography",
-                "$title": "Smallest",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "0.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+                },
+                "@lg": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ lg Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ lg",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
-                }
-              },
-              "@xxl": {
-                "$name": "paragraph",
-                "$description": "Smallest P @xxl Description",
-                "$type": "typography",
-                "$title": "Smallest",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "0.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+                },
+                "@xl": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ xl Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ xl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
-                }
-              }
-            },
-            "bold": {
-              "@xs": {
-                "$name": "paragraph",
-                "$description": "Smallest P Bold @ xs Description",
-                "$type": "typography",
-                "$title": "Smallest P Bold @ xs",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "0.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@sm": {
-                "$name": "paragraph",
-                "$description": "Smallest P Bold @ sm Description",
-                "$type": "typography",
-                "$title": "Smallest P Bold @ sm",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "0.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@md": {
-                "$name": "paragraph",
-                "$description": "Smallest P Bold @ md Description",
-                "$type": "typography",
-                "$title": "Smallest P Bold @ md",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "0.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@lg": {
-                "$name": "paragraph",
-                "$description": "Smallest P Bold @ lg Description",
-                "$type": "typography",
-                "$title": "Smallest P Bold @ lg",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "0.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@xl": {
-                "$name": "paragraph",
-                "$description": "Smallest P Bold @ xl Description",
-                "$type": "typography",
-                "$title": "Smallest P Bold @ xl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "0.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "paragraph",
-                "$description": "Smallest P Bold @ xxl Description",
-                "$type": "typography",
-                "$title": "Smallest P Bold @ xxl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "0.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              }
-            }
-          },
-          "base": {
-            "regular": {
-              "@xs": {
-                "$name": "paragraph",
-                "$description": "P @xs Description",
-                "$type": "typography",
-                "$title": "P",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@sm": {
-                "$name": "paragraph",
-                "$description": "P @sm Description",
-                "$type": "typography",
-                "$title": "P",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@md": {
-                "$name": "paragraph",
-                "$description": "P @md Description",
-                "$type": "typography",
-                "$title": "P",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@lg": {
-                "$name": "paragraph",
-                "$description": "P @lg Description",
-                "$type": "typography",
-                "$title": "P",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@xl": {
-                "$name": "paragraph",
-                "$description": "P @xl Description",
-                "$type": "typography",
-                "$title": "P",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "paragraph",
-                "$description": "P @xxl Description",
-                "$type": "typography",
-                "$title": "P",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "45 Light",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              }
-            },
-            "bold": {
-              "@xs": {
-                "$name": "paragraph",
-                "$description": "P Bold @ xs Description",
-                "$type": "typography",
-                "$title": "P Bold @ xs",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@sm": {
-                "$name": "paragraph",
-                "$description": "P Bold @ sm Description",
-                "$type": "typography",
-                "$title": "P Bold @ sm",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@md": {
-                "$name": "paragraph",
-                "$description": "P Bold @ md Description",
-                "$type": "typography",
-                "$title": "P Bold @ md",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@lg": {
-                "$name": "paragraph",
-                "$description": "P Bold @ lg Description",
-                "$type": "typography",
-                "$title": "P Bold @ lg",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@xl": {
-                "$name": "paragraph",
-                "$description": "P Bold @ xl Description",
-                "$type": "typography",
-                "$title": "P Bold @ xl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "paragraph",
-                "$description": "P Bold @ xxl Description",
-                "$type": "typography",
-                "$title": "P Bold @ xxl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": "75 Bold",
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
+                },
+                "@xxl": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ xxl Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ xxl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Haas Grot Disp",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 700,
+                      "$extensions": {
+                        "weightTag": "75 Bold"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.5rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$type": "dimension",
+                      "$value": "1.5rem"
+                    }
                   }
                 }
               }
@@ -8078,95 +9495,77 @@
           }
         },
         "lineHeight": {
-          "primaryFont": {
-            "initial": {
-              "$value": "initial",
-              "$type": "custom"
-            },
-            "normal": {
-              "$value": "normal",
-              "$type": "fontWeight"
-            },
-            "base": {
-              "$value": 1.4,
-              "$type": "number"
-            },
-            "lg": {
-              "$value": 1.9,
-              "$type": "number"
-            }
+          "normal": {
+            "$value": "normal",
+            "$type": "fontWeight"
           },
-          "secondaryFont": {
-            "initial": {
-              "$value": "initial",
-              "$type": "custom"
-            },
-            "normal": {
-              "$value": "normal",
-              "$type": "fontWeight"
-            },
-            "base": {
-              "$value": 1.4,
-              "$type": "number"
-            },
-            "lg": {
-              "$value": 1.9,
-              "$type": "number"
-            }
+          "base": {
+            "$value": 1.4,
+            "$type": "number"
           },
-          "codeFont": {
-            "initial": {
-              "$value": "initial",
-              "$type": "custom"
-            },
-            "normal": {
-              "$value": "normal",
-              "$type": "fontWeight"
-            },
-            "base": {
-              "$value": 1.4,
-              "$type": "number"
-            },
-            "lg": {
-              "$value": 1.9,
-              "$type": "number"
-            }
+          "lg": {
+            "$value": 1.9,
+            "$type": "number"
           }
         },
         "weight": {
           "headingFont": {
             "light": {
-              "$value": "45 Light",
+              "$value": 300,
+              "$extensions": {
+                "weightTag": "45 Light"
+              },
               "$type": "fontWeight"
             },
             "normal": {
-              "$value": "55 Roman",
+              "$value": 400,
+              "$extensions": {
+                "weightTag": "55 Roman"
+              },
               "$type": "fontWeight"
             },
             "medium": {
-              "$value": "65 Medium",
+              "$value": 500,
+              "$extensions": {
+                "weightTag": "65 Medium"
+              },
               "$type": "fontWeight"
             },
             "bold": {
-              "$value": "75 Bold",
+              "$value": 700,
+              "$extensions": {
+                "weightTag": "75 Bold"
+              },
               "$type": "fontWeight"
             }
           },
           "bodyFont": {
             "light": {
-              "$value": "45 Light",
+              "$value": 300,
+              "$extensions": {
+                "weightTag": "45 Light"
+              },
               "$type": "fontWeight"
             },
             "normal": {
-              "$value": "55 Roman",
+              "$value": 400,
+              "$extensions": {
+                "weightTag": "55 Roman"
+              },
               "$type": "fontWeight"
             },
             "medium": {
-              "$value": "65 Medium",
+              "$value": 500,
+              "$extensions": {
+                "weightTag": "65 Medium"
+              },
               "$type": "fontWeight"
             },
             "bold": {
-              "$value": "75 Bold",
+              "$value": 700,
+              "$extensions": {
+                "weightTag": "75 Bold"
+              },
               "$type": "fontWeight"
             }
           }
