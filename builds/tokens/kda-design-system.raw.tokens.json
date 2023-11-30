@@ -12,7 +12,7 @@
         },
         "sm": {
           "$type": "number",
-          "$value": "{kda.foundation.size.n2.$value}"
+          "$value": 4
         },
         "md": {
           "$type": "number",
@@ -20,15 +20,15 @@
         },
         "lg": {
           "$type": "number",
-          "$value": "{kda.foundation.size.n3.$value}"
+          "$value": 8
         },
         "xl": {
           "$type": "number",
-          "$value": "{kda.foundation.size.n4.$value}"
+          "$value": 16
         },
         "xxl": {
           "$type": "number",
-          "$value": "{kda.foundation.size.n6.$value}"
+          "$value": 24
         },
         "round": {
           "$type": "dimension",
@@ -39,27 +39,27 @@
         "$description": "Breakpoint sizes for viewports",
         "xs": {
           "$type": "dimension",
-          "$value": 640
+          "$value": "0rem"
         },
         "sm": {
           "$type": "dimension",
-          "$value": 768
+          "$value": "40rem"
         },
         "md": {
           "$type": "dimension",
-          "$value": 1024
+          "$value": "48rem"
         },
         "lg": {
           "$type": "dimension",
-          "$value": 1280
+          "$value": "64rem"
         },
         "xl": {
           "$type": "dimension",
-          "$value": 1536
+          "$value": "80rem"
         },
         "xxl": {
           "$type": "dimension",
-          "$value": 1980
+          "$value": "96rem"
         }
       },
       "color": {
