@@ -2790,7 +2790,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n3}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -2803,7 +2803,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n3}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -2816,7 +2816,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n3}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -2829,7 +2829,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n3}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -2842,7 +2842,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n3}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -2855,7 +2855,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n3}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -2955,7 +2955,7 @@
                 "$title": "H2",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n9}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n13}"
@@ -2968,7 +2968,7 @@
                 "$title": "H2",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n9}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n13}"
@@ -2981,7 +2981,7 @@
                 "$title": "H2",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n9}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n13}"
@@ -2994,7 +2994,7 @@
                 "$title": "H2",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n11}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n16}"
@@ -3007,7 +3007,7 @@
                 "$title": "H2",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n13}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n19}"
@@ -3020,7 +3020,7 @@
                 "$title": "H2",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n15}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n20}"
@@ -3118,7 +3118,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3131,7 +3131,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3144,7 +3144,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3157,7 +3157,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3170,7 +3170,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3183,7 +3183,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3280,7 +3280,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3293,7 +3293,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3306,7 +3306,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3319,7 +3319,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3332,7 +3332,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3345,7 +3345,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3442,7 +3442,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n3}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3455,7 +3455,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n3}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3468,7 +3468,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n3}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3481,7 +3481,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n3}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3494,7 +3494,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n3}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3507,7 +3507,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.light}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n3}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3605,7 +3605,7 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n10}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n14}"
@@ -3618,7 +3618,7 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n10}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n14}"
@@ -3631,7 +3631,7 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n12}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n17}"
@@ -3644,7 +3644,7 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n15}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n20}"
@@ -3657,7 +3657,7 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n18}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n25}"
@@ -3670,7 +3670,7 @@
                 "$title": "H1",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n20}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n30}"
@@ -3768,7 +3768,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3781,7 +3781,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3794,7 +3794,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3807,7 +3807,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3820,7 +3820,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3833,7 +3833,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3930,7 +3930,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3943,7 +3943,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3956,7 +3956,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3969,7 +3969,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3982,7 +3982,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -3995,7 +3995,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "14px",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -4093,7 +4093,7 @@
                 "$title": "H4",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n6}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n9}"
@@ -4106,7 +4106,7 @@
                 "$title": "H4",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n6}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n9}"
@@ -4119,7 +4119,7 @@
                 "$title": "H4",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n6}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n9}"
@@ -4132,7 +4132,7 @@
                 "$title": "H4",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n7}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n11}"
@@ -4145,7 +4145,7 @@
                 "$title": "H4",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n8}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n12}"
@@ -4158,7 +4158,7 @@
                 "$title": "H4",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n9}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n13}"
@@ -4255,7 +4255,7 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n7}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n11}"
@@ -4268,7 +4268,7 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n7}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n11}"
@@ -4281,7 +4281,7 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n7}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n11}"
@@ -4294,7 +4294,7 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n9}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n13}"
@@ -4307,7 +4307,7 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n10}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n15}"
@@ -4320,7 +4320,7 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n11}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n17}"
@@ -4417,7 +4417,7 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n6}"
@@ -4430,7 +4430,7 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n6}"
@@ -4443,7 +4443,7 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n6}"
@@ -4456,7 +4456,7 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n4}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n6}"
@@ -4469,7 +4469,7 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n5}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n7}"
@@ -4482,7 +4482,7 @@
                 "$title": "H6",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n5}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n7}"
@@ -4579,7 +4579,7 @@
                 "$title": "H5",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n5}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n8}"
@@ -4592,7 +4592,7 @@
                 "$title": "H5",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n5}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n8}"
@@ -4605,7 +4605,7 @@
                 "$title": "H5",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n5}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n8}"
@@ -4618,7 +4618,7 @@
                 "$title": "H5",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n5}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n8}"
@@ -4631,7 +4631,7 @@
                 "$title": "H5",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n6}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n9}"
@@ -4644,7 +4644,7 @@
                 "$title": "H5",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n6}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n9}"
@@ -4735,14 +4735,7 @@
         },
         "weight": {
           "headingFont": {
-            "light": {
-              "$value": 300,
-              "$extensions": {
-                "weightTag": "45 Light"
-              },
-              "$type": "fontWeight"
-            },
-            "normal": {
+            "regular": {
               "$value": 400,
               "$extensions": {
                 "weightTag": "55 Roman"
@@ -4760,19 +4753,19 @@
               "$value": 700,
               "$extensions": {
                 "weightTag": "75 Bold"
+              },
+              "$type": "fontWeight"
+            },
+            "black": {
+              "$value": 700,
+              "$extensions": {
+                "weightTag": "95 Black"
               },
               "$type": "fontWeight"
             }
           },
           "bodyFont": {
-            "light": {
-              "$value": 300,
-              "$extensions": {
-                "weightTag": "45 Light"
-              },
-              "$type": "fontWeight"
-            },
-            "normal": {
+            "regular": {
               "$value": 400,
               "$extensions": {
                 "weightTag": "55 Roman"
@@ -4787,10 +4780,35 @@
               "$type": "fontWeight"
             },
             "bold": {
-              "$value": 700,
+              "$value": 600,
               "$extensions": {
                 "weightTag": "75 Bold"
               },
+              "$type": "fontWeight"
+            },
+            "black": {
+              "$value": 700,
+              "$extensions": {
+                "weightTag": "95 Black"
+              },
+              "$type": "fontWeight"
+            }
+          },
+          "monoFont": {
+            "regular": {
+              "$value": 400,
+              "$type": "fontWeight"
+            },
+            "medium": {
+              "$value": 500,
+              "$type": "fontWeight"
+            },
+            "semiBold": {
+              "$value": 600,
+              "$type": "fontWeight"
+            },
+            "bold": {
+              "$value": 700,
               "$type": "fontWeight"
             }
           }

@@ -13,7 +13,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -26,7 +26,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -39,7 +39,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -52,7 +52,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -65,7 +65,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -78,7 +78,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.normal}",
+                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"

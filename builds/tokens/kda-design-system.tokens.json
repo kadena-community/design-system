@@ -4962,9 +4962,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -4990,9 +4990,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5018,9 +5018,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5046,9 +5046,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5074,9 +5074,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5102,9 +5102,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5132,7 +5132,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5160,7 +5160,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5188,7 +5188,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5216,7 +5216,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5244,7 +5244,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5272,7 +5272,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5304,9 +5304,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5335,9 +5335,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5366,9 +5366,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5397,9 +5397,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5428,9 +5428,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5459,9 +5459,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5492,7 +5492,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5523,7 +5523,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5554,7 +5554,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5585,7 +5585,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5616,7 +5616,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5647,7 +5647,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5682,9 +5682,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5713,9 +5713,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5744,9 +5744,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5775,9 +5775,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5806,9 +5806,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5837,9 +5837,9 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 300,
+                      "$value": 400,
                       "$extensions": {
-                        "weightTag": "45 Light"
+                        "weightTag": "55 Roman"
                       },
                       "$type": "fontWeight"
                     },
@@ -5870,7 +5870,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5901,7 +5901,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5932,7 +5932,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5963,7 +5963,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -5994,7 +5994,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -6025,7 +6025,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -6061,9 +6061,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6092,9 +6092,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6123,9 +6123,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6154,9 +6154,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6185,9 +6185,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6216,9 +6216,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6439,9 +6439,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6470,9 +6470,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6501,9 +6501,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6532,9 +6532,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6563,9 +6563,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6594,9 +6594,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6817,9 +6817,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6848,9 +6848,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6879,9 +6879,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6910,9 +6910,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6941,9 +6941,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -6972,9 +6972,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -7195,9 +7195,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -7226,9 +7226,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -7257,9 +7257,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -7288,9 +7288,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -7319,9 +7319,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -7350,9 +7350,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -7573,9 +7573,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -7604,9 +7604,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -7635,9 +7635,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -7666,9 +7666,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -7697,9 +7697,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -7728,9 +7728,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -7951,9 +7951,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -7982,9 +7982,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -8013,9 +8013,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -8044,9 +8044,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -8075,9 +8075,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -8106,9 +8106,9 @@
                     "$type": "fontFamily"
                   },
                   "fontWeight": {
-                    "$value": 300,
+                    "$value": 400,
                     "$extensions": {
-                      "weightTag": "45 Light"
+                      "weightTag": "55 Roman"
                     },
                     "$type": "fontWeight"
                   },
@@ -8500,7 +8500,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -8528,7 +8528,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -8556,7 +8556,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -8584,7 +8584,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -8612,7 +8612,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -8640,7 +8640,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -8860,7 +8860,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -8891,7 +8891,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -8922,7 +8922,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -8953,7 +8953,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -8984,7 +8984,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -9015,7 +9015,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -9242,7 +9242,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -9273,7 +9273,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -9304,7 +9304,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -9335,7 +9335,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -9366,7 +9366,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -9397,7 +9397,7 @@
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
-                      "$value": 700,
+                      "$value": 600,
                       "$extensions": {
                         "weightTag": "75 Bold"
                       },
@@ -9510,14 +9510,7 @@
         },
         "weight": {
           "headingFont": {
-            "light": {
-              "$value": 300,
-              "$extensions": {
-                "weightTag": "45 Light"
-              },
-              "$type": "fontWeight"
-            },
-            "normal": {
+            "regular": {
               "$value": 400,
               "$extensions": {
                 "weightTag": "55 Roman"
@@ -9535,19 +9528,19 @@
               "$value": 700,
               "$extensions": {
                 "weightTag": "75 Bold"
+              },
+              "$type": "fontWeight"
+            },
+            "black": {
+              "$value": 700,
+              "$extensions": {
+                "weightTag": "95 Black"
               },
               "$type": "fontWeight"
             }
           },
           "bodyFont": {
-            "light": {
-              "$value": 300,
-              "$extensions": {
-                "weightTag": "45 Light"
-              },
-              "$type": "fontWeight"
-            },
-            "normal": {
+            "regular": {
               "$value": 400,
               "$extensions": {
                 "weightTag": "55 Roman"
@@ -9562,10 +9555,35 @@
               "$type": "fontWeight"
             },
             "bold": {
-              "$value": 700,
+              "$value": 600,
               "$extensions": {
                 "weightTag": "75 Bold"
               },
+              "$type": "fontWeight"
+            },
+            "black": {
+              "$value": 700,
+              "$extensions": {
+                "weightTag": "95 Black"
+              },
+              "$type": "fontWeight"
+            }
+          },
+          "monoFont": {
+            "regular": {
+              "$value": 400,
+              "$type": "fontWeight"
+            },
+            "medium": {
+              "$value": 500,
+              "$type": "fontWeight"
+            },
+            "semiBold": {
+              "$value": 600,
+              "$type": "fontWeight"
+            },
+            "bold": {
+              "$value": 700,
               "$type": "fontWeight"
             }
           }

@@ -12,7 +12,7 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n7}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n11}"
@@ -25,7 +25,7 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n7}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n11}"
@@ -38,7 +38,7 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n7}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n11}"
@@ -51,7 +51,7 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n9}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n13}"
@@ -64,7 +64,7 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n10}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n15}"
@@ -77,7 +77,7 @@
                 "$title": "H3",
                 "$value": {
                   "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.light}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
                   "fontSize": "{kda.foundation.size.n11}",
                   "letterSpacing": "{kda.foundation.size.n1}",
                   "lineHeight": "{kda.foundation.size.n17}"
