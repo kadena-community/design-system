@@ -16,7 +16,6 @@ import {
 import { parseColor } from './color'
 import { processColor, processTokenExtension } from "./extension"
 import { getExtendedAliasValue, getValuePath, hasAliasValue, hasExtendedAliasValue, parseDimensionUnit } from "./helper"
-import { processTypographyTokens } from "./composites/typography"
 import { processBorderTokens } from "./composites/border"
 import { processEffectsTokens } from "./composites/effects"
 import { processDimensionsTokens } from "./composites/dimension"
@@ -132,8 +131,9 @@ export async function setVariableModeValues(variable: Variable, token: TTokenDat
 
   availableModes.forEach((mode) => {
     if (token?.extensions?.[EExtensionProp.MODE]) {
-      if (typeof token?.extensions?.[EExtensionProp.MODE][mode.name] !== 'undefined') {
+      if (typeof token?.extensions?.[EExtensionProp.MODE]?.[mode.name] !== 'undefined') {
         const modeValue = token.extensions[EExtensionProp.MODE][mode.name]
+
         if (hasAliasValue(modeValue)) {
           const modeReferenceVariable = processTokenAliasValue(modeValue, params)
 
@@ -158,10 +158,10 @@ async function setValueForMode({ mode: { modeId, name }, defaultMode }: TValueFo
       return doSaveValueForMode(variable, modeId, token.variableAlias, token)
     }
 
-    if (name === defaultMode || !token.extensions?.[EExtensionProp.MODE][name]) {
+    if (name === defaultMode || !token.extensions?.[EExtensionProp.MODE]?.[name]) {
       token = processTokenUnitValue(token)
       doSaveValueForMode(variable, modeId, token.value, token)
-    } else if (token.extensions?.[EExtensionProp.MODE][name]) {
+    } else if (token.extensions?.[EExtensionProp.MODE]?.[name]) {
       const root = token.extensions[EExtensionProp.MODE]
       const rootMode = root[name]
 

@@ -52,10 +52,12 @@ export function processToken(pathData: TPathData, payloadData: TProcessPathDataA
     path,
     rootKey,
     modifier: getTokenExtensionModifier(groupName),
-    extensions: isExtension || !!modeVariants ? mapTokenExtensions(refToken, pathDataConst) : null,
+    extensions: isExtension || !!modeVariants ? mapTokenExtensions(refToken, pathDataConst) : refToken?.[EConstants.EXTENSIONS] || null,
     isExtension,
     ...altTokenData,
   }
+
+  token.isExtension = !!token.extensions
 
   return parseToken(token)
 }

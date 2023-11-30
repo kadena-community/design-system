@@ -2,8 +2,8 @@
   "kda": {
     "foundation": {
       "typography": {
-        "body": {
-          "font": {
+        "font": {
+          "body": {
             "smallest": {
               "regular": {
                 "@xs": {

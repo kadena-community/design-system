@@ -1,7 +1,7 @@
-import { EConstants, EDimensionUnit, TAction, TCollectionPayload, TDesignTokenFormat, TFontProps, TJsonData, TTokenData, TTokenExtensions, EExtensionProp, TTokenIterationArgs } from "../../types";
+import { EConstants, EDimensionUnit, TAction, TCollectionPayload, TDesignTokenFormat, TFontProps, TJsonData, TTokenData, TTokenExtensions, EExtensionProp, TTokenIterationArgs, TCreateTokenMetaData } from "../../types";
 import { getAliasAbsoluteValue } from "../extension";
 import { convertNameToPath, getValueByPath, hasAliasValue, parseDimensionUnit, parseFontSize } from "../helper";
-import { processTokenAliasValue } from "../variable";
+import { getResolvedTokenType, processTokenAliasValue } from "../variable";
 
 export async function processTypographyTokens({ type, value }: { type: TTokenData['type'], value: TFontProps }, token: TDesignTokenFormat, params: TTokenIterationArgs, payload: TJsonData) {
   try {
@@ -139,8 +139,6 @@ async function getFontStyle(value: TFontProps['fontWeight'], params: TTokenItera
     if (hasAliasValue(value)) {
       const [{ modeId, name: modeName }] = params.collection.modes
       value = await getAliasAbsoluteValue(value, value, { modeId, modeName, allVariables: params.allVariables }) as string
-    }  else if (extensions && extensions[EExtensionProp.WEIGHT]) {
-      value = extensions[EExtensionProp.WEIGHT] as string;
     }
 
     return value

@@ -3,10 +3,6 @@
     "foundation": {
       "typography": {
         "lineHeight": {
-          "normal": {
-            "$value": "normal",
-            "$type": "fontWeight"
-          },
           "base": {
             "$value": 1.4,
             "$type": "number"

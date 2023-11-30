@@ -2766,10 +2766,6 @@
           }
         },
         "lineHeight": {
-          "normal": {
-            "$value": "normal",
-            "$type": "fontWeight"
-          },
           "base": {
             "$value": 1.4,
             "$type": "number"
@@ -2779,8 +2775,8 @@
             "$type": "number"
           }
         },
-        "body": {
-          "font": {
+        "font": {
+          "body": {
             "smallest": {
               "regular": {
                 "@xs": {
@@ -2942,823 +2938,7 @@
                   }
                 }
               }
-            }
-          }
-        },
-        "font": {
-          "h2": {
-            "regular": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n9}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n13}"
-                }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n9}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n13}"
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n9}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n13}"
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n11}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n16}"
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n13}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n19}"
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n15}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n20}"
-                }
-              }
             },
-            "bold": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H2 Bold @ xs Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ xs",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n9}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n13}"
-                }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H2 Bold @ sm Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ sm",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n9}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n13}"
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H2 Bold @ md Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ md",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n9}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n13}"
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H2 Bold @ lg Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ lg",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n11}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n16}"
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H2 Bold @ xl Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ xl",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n13}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n19}"
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H2 Bold @ xxl Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ xxl",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n15}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n20}"
-                }
-              }
-            }
-          },
-          "code": {
-            "base": {
-              "regular": {
-                "@xs": {
-                  "$name": "code",
-                  "$description": "Code @xs Description",
-                  "$type": "typography",
-                  "$title": "P",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n4}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@sm": {
-                  "$name": "code",
-                  "$description": "Code @sm Description",
-                  "$type": "typography",
-                  "$title": "P",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n4}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@md": {
-                  "$name": "code",
-                  "$description": "Code @md Description",
-                  "$type": "typography",
-                  "$title": "P",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n4}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@lg": {
-                  "$name": "code",
-                  "$description": "Code @lg Description",
-                  "$type": "typography",
-                  "$title": "P",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n4}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@xl": {
-                  "$name": "code",
-                  "$description": "Code @xl Description",
-                  "$type": "typography",
-                  "$title": "P",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n4}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@xxl": {
-                  "$name": "code",
-                  "$description": "Code @xxl Description",
-                  "$type": "typography",
-                  "$title": "P",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n4}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                }
-              },
-              "bold": {
-                "@xs": {
-                  "$name": "code",
-                  "$description": "Code Bold @ xs Description",
-                  "$type": "typography",
-                  "$title": "Code Bold @ xs",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@sm": {
-                  "$name": "code",
-                  "$description": "Code Bold @ sm Description",
-                  "$type": "typography",
-                  "$title": "Code Bold @ sm",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@md": {
-                  "$name": "code",
-                  "$description": "Code Bold @ md Description",
-                  "$type": "typography",
-                  "$title": "Code Bold @ md",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@lg": {
-                  "$name": "code",
-                  "$description": "Code Bold @ lg Description",
-                  "$type": "typography",
-                  "$title": "Code Bold @ lg",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@xl": {
-                  "$name": "code",
-                  "$description": "Code Bold @ xl Description",
-                  "$type": "typography",
-                  "$title": "Code Bold @ xl",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@xxl": {
-                  "$name": "code",
-                  "$description": "Code Bold @ xxl Description",
-                  "$type": "typography",
-                  "$title": "Code Bold @ xxl",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                }
-              }
-            },
-            "small": {
-              "regular": {
-                "@xs": {
-                  "$name": "code",
-                  "$description": "Small Code @xs Description",
-                  "$type": "typography",
-                  "$title": "Small",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "14px",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@sm": {
-                  "$name": "code",
-                  "$description": "Small Code @sm Description",
-                  "$type": "typography",
-                  "$title": "Small",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "14px",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@md": {
-                  "$name": "code",
-                  "$description": "Small Code @md Description",
-                  "$type": "typography",
-                  "$title": "Small",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "14px",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@lg": {
-                  "$name": "code",
-                  "$description": "Small Code @lg Description",
-                  "$type": "typography",
-                  "$title": "Small",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "14px",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@xl": {
-                  "$name": "code",
-                  "$description": "Small Code @xl Description",
-                  "$type": "typography",
-                  "$title": "Small",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "14px",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@xxl": {
-                  "$name": "code",
-                  "$description": "Small Code @xxl Description",
-                  "$type": "typography",
-                  "$title": "Small",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "14px",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                }
-              },
-              "bold": {
-                "@xs": {
-                  "$name": "code",
-                  "$description": "Small Code Bold @ xs Description",
-                  "$type": "typography",
-                  "$title": "Small Code Bold @ xs",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "14px",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@sm": {
-                  "$name": "code",
-                  "$description": "Small Code Bold @ sm Description",
-                  "$type": "typography",
-                  "$title": "Small Code Bold @ sm",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "14px",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@md": {
-                  "$name": "code",
-                  "$description": "Small Code Bold @ md Description",
-                  "$type": "typography",
-                  "$title": "Small Code Bold @ md",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "14px",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@lg": {
-                  "$name": "code",
-                  "$description": "Small Code Bold @ lg Description",
-                  "$type": "typography",
-                  "$title": "Small Code Bold @ lg",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "14px",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@xl": {
-                  "$name": "code",
-                  "$description": "Small Code Bold @ xl Description",
-                  "$type": "typography",
-                  "$title": "Small Code Bold @ xl",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "14px",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@xxl": {
-                  "$name": "code",
-                  "$description": "Small Code Bold @ xxl Description",
-                  "$type": "typography",
-                  "$title": "Small Code Bold @ xxl",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "14px",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                }
-              }
-            },
-            "smallest": {
-              "regular": {
-                "@xs": {
-                  "$name": "code",
-                  "$description": "Smallest Code @xs Description",
-                  "$type": "typography",
-                  "$title": "Smallest",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n3}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@sm": {
-                  "$name": "code",
-                  "$description": "Smallest Code @sm Description",
-                  "$type": "typography",
-                  "$title": "Smallest",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n3}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@md": {
-                  "$name": "code",
-                  "$description": "Smallest Code @md Description",
-                  "$type": "typography",
-                  "$title": "Smallest",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n3}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@lg": {
-                  "$name": "code",
-                  "$description": "Smallest Code @lg Description",
-                  "$type": "typography",
-                  "$title": "Smallest",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n3}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@xl": {
-                  "$name": "code",
-                  "$description": "Smallest Code @xl Description",
-                  "$type": "typography",
-                  "$title": "Smallest",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n3}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@xxl": {
-                  "$name": "code",
-                  "$description": "Smallest Code @xxl Description",
-                  "$type": "typography",
-                  "$title": "Smallest",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n3}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                }
-              },
-              "bold": {
-                "@xs": {
-                  "$name": "code",
-                  "$description": "Smallest Code Bold @ xs Description",
-                  "$type": "typography",
-                  "$title": "Smallest Code Bold @ xs",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n3}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@sm": {
-                  "$name": "code",
-                  "$description": "Smallest Code Bold @ sm Description",
-                  "$type": "typography",
-                  "$title": "Smallest Code Bold @ sm",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n3}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@md": {
-                  "$name": "code",
-                  "$description": "Smallest Code Bold @ md Description",
-                  "$type": "typography",
-                  "$title": "Smallest Code Bold @ md",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n3}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@lg": {
-                  "$name": "code",
-                  "$description": "Smallest Code Bold @ lg Description",
-                  "$type": "typography",
-                  "$title": "Smallest Code Bold @ lg",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n3}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@xl": {
-                  "$name": "code",
-                  "$description": "Smallest Code Bold @ xl Description",
-                  "$type": "typography",
-                  "$title": "Smallest Code Bold @ xl",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n3}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                },
-                "@xxl": {
-                  "$name": "code",
-                  "$description": "Smallest Code Bold @ xxl Description",
-                  "$type": "typography",
-                  "$title": "Smallest Code Bold @ xxl",
-                  "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n3}",
-                    "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
-                  }
-                }
-              }
-            }
-          },
-          "h1": {
-            "regular": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n10}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n14}"
-                }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n10}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n14}"
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n12}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n17}"
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n15}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n20}"
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n18}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n25}"
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n20}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n30}"
-                }
-              }
-            },
-            "bold": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H1 Bold @ xs Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ xs",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n10}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n14}"
-                }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H1 Bold @ sm Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ sm",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n10}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n14}"
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H1 Bold @ md Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ md",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n12}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n17}"
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H1 Bold @ lg Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ lg",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n15}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n20}"
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H1 Bold @ xl Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ xl",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n18}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n25}"
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H1 Bold @ xxl Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ xxl",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n20}",
-                  "letterSpacing": "{kda.foundation.size.n1}",
-                  "lineHeight": "{kda.foundation.size.n30}"
-                }
-              }
-            }
-          },
-          "body": {
             "base": {
               "regular": {
                 "@xs": {
@@ -4080,6 +3260,818 @@
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
                   }
+                }
+              }
+            }
+          },
+          "h2": {
+            "regular": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H2 Description",
+                "$type": "typography",
+                "$title": "H2",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n13}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H2 Description",
+                "$type": "typography",
+                "$title": "H2",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n13}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H2 Description",
+                "$type": "typography",
+                "$title": "H2",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n13}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H2 Description",
+                "$type": "typography",
+                "$title": "H2",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
+                  "fontSize": "{kda.foundation.size.n11}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n16}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H2 Description",
+                "$type": "typography",
+                "$title": "H2",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
+                  "fontSize": "{kda.foundation.size.n13}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n19}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H2 Description",
+                "$type": "typography",
+                "$title": "H2",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n20}"
+                }
+              }
+            },
+            "bold": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H2 Bold @ xs Description",
+                "$type": "typography",
+                "$title": "H2 Bold @ xs",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n13}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H2 Bold @ sm Description",
+                "$type": "typography",
+                "$title": "H2 Bold @ sm",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n13}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H2 Bold @ md Description",
+                "$type": "typography",
+                "$title": "H2 Bold @ md",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "fontSize": "{kda.foundation.size.n9}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n13}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H2 Bold @ lg Description",
+                "$type": "typography",
+                "$title": "H2 Bold @ lg",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "fontSize": "{kda.foundation.size.n11}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n16}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H2 Bold @ xl Description",
+                "$type": "typography",
+                "$title": "H2 Bold @ xl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "fontSize": "{kda.foundation.size.n13}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n19}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H2 Bold @ xxl Description",
+                "$type": "typography",
+                "$title": "H2 Bold @ xxl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n20}"
+                }
+              }
+            }
+          },
+          "code": {
+            "base": {
+              "regular": {
+                "@xs": {
+                  "$name": "code",
+                  "$description": "Code @xs Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "{kda.foundation.size.n4}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@sm": {
+                  "$name": "code",
+                  "$description": "Code @sm Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "{kda.foundation.size.n4}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@md": {
+                  "$name": "code",
+                  "$description": "Code @md Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "{kda.foundation.size.n4}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@lg": {
+                  "$name": "code",
+                  "$description": "Code @lg Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "{kda.foundation.size.n4}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xl": {
+                  "$name": "code",
+                  "$description": "Code @xl Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "{kda.foundation.size.n4}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xxl": {
+                  "$name": "code",
+                  "$description": "Code @xxl Description",
+                  "$type": "typography",
+                  "$title": "P",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "{kda.foundation.size.n4}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                }
+              },
+              "bold": {
+                "@xs": {
+                  "$name": "code",
+                  "$description": "Code Bold @ xs Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ xs",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "{kda.foundation.size.n4}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@sm": {
+                  "$name": "code",
+                  "$description": "Code Bold @ sm Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ sm",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "{kda.foundation.size.n4}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@md": {
+                  "$name": "code",
+                  "$description": "Code Bold @ md Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ md",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "{kda.foundation.size.n4}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@lg": {
+                  "$name": "code",
+                  "$description": "Code Bold @ lg Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ lg",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "{kda.foundation.size.n4}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xl": {
+                  "$name": "code",
+                  "$description": "Code Bold @ xl Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ xl",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "{kda.foundation.size.n4}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xxl": {
+                  "$name": "code",
+                  "$description": "Code Bold @ xxl Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ xxl",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "{kda.foundation.size.n4}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                }
+              }
+            },
+            "small": {
+              "regular": {
+                "@xs": {
+                  "$name": "code",
+                  "$description": "Small Code @xs Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "14px",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@sm": {
+                  "$name": "code",
+                  "$description": "Small Code @sm Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "14px",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@md": {
+                  "$name": "code",
+                  "$description": "Small Code @md Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "14px",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@lg": {
+                  "$name": "code",
+                  "$description": "Small Code @lg Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "14px",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xl": {
+                  "$name": "code",
+                  "$description": "Small Code @xl Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "14px",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xxl": {
+                  "$name": "code",
+                  "$description": "Small Code @xxl Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "14px",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                }
+              },
+              "bold": {
+                "@xs": {
+                  "$name": "code",
+                  "$description": "Small Code Bold @ xs Description",
+                  "$type": "typography",
+                  "$title": "Small Code Bold @ xs",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "14px",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@sm": {
+                  "$name": "code",
+                  "$description": "Small Code Bold @ sm Description",
+                  "$type": "typography",
+                  "$title": "Small Code Bold @ sm",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "14px",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@md": {
+                  "$name": "code",
+                  "$description": "Small Code Bold @ md Description",
+                  "$type": "typography",
+                  "$title": "Small Code Bold @ md",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "14px",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@lg": {
+                  "$name": "code",
+                  "$description": "Small Code Bold @ lg Description",
+                  "$type": "typography",
+                  "$title": "Small Code Bold @ lg",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "14px",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xl": {
+                  "$name": "code",
+                  "$description": "Small Code Bold @ xl Description",
+                  "$type": "typography",
+                  "$title": "Small Code Bold @ xl",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "14px",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xxl": {
+                  "$name": "code",
+                  "$description": "Small Code Bold @ xxl Description",
+                  "$type": "typography",
+                  "$title": "Small Code Bold @ xxl",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "14px",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                }
+              }
+            },
+            "smallest": {
+              "regular": {
+                "@xs": {
+                  "$name": "code",
+                  "$description": "Smallest Code @xs Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@sm": {
+                  "$name": "code",
+                  "$description": "Smallest Code @sm Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@md": {
+                  "$name": "code",
+                  "$description": "Smallest Code @md Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@lg": {
+                  "$name": "code",
+                  "$description": "Smallest Code @lg Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xl": {
+                  "$name": "code",
+                  "$description": "Smallest Code @xl Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xxl": {
+                  "$name": "code",
+                  "$description": "Smallest Code @xxl Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                }
+              },
+              "bold": {
+                "@xs": {
+                  "$name": "code",
+                  "$description": "Smallest Code Bold @ xs Description",
+                  "$type": "typography",
+                  "$title": "Smallest Code Bold @ xs",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@sm": {
+                  "$name": "code",
+                  "$description": "Smallest Code Bold @ sm Description",
+                  "$type": "typography",
+                  "$title": "Smallest Code Bold @ sm",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@md": {
+                  "$name": "code",
+                  "$description": "Smallest Code Bold @ md Description",
+                  "$type": "typography",
+                  "$title": "Smallest Code Bold @ md",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@lg": {
+                  "$name": "code",
+                  "$description": "Smallest Code Bold @ lg Description",
+                  "$type": "typography",
+                  "$title": "Smallest Code Bold @ lg",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xl": {
+                  "$name": "code",
+                  "$description": "Smallest Code Bold @ xl Description",
+                  "$type": "typography",
+                  "$title": "Smallest Code Bold @ xl",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                },
+                "@xxl": {
+                  "$name": "code",
+                  "$description": "Smallest Code Bold @ xxl Description",
+                  "$type": "typography",
+                  "$title": "Smallest Code Bold @ xxl",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.codeFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
+                    "fontSize": "{kda.foundation.size.n3}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.size.n6}"
+                  }
+                }
+              }
+            }
+          },
+          "h1": {
+            "regular": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H1 Description",
+                "$type": "typography",
+                "$title": "H1",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n14}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H1 Description",
+                "$type": "typography",
+                "$title": "H1",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n14}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H1 Description",
+                "$type": "typography",
+                "$title": "H1",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
+                  "fontSize": "{kda.foundation.size.n12}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n17}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H1 Description",
+                "$type": "typography",
+                "$title": "H1",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n20}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H1 Description",
+                "$type": "typography",
+                "$title": "H1",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
+                  "fontSize": "{kda.foundation.size.n18}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n25}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H1 Description",
+                "$type": "typography",
+                "$title": "H1",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
+                  "fontSize": "{kda.foundation.size.n20}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n30}"
+                }
+              }
+            },
+            "bold": {
+              "@xs": {
+                "$name": "heading",
+                "$description": "H1 Bold @ xs Description",
+                "$type": "typography",
+                "$title": "H1 Bold @ xs",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n14}"
+                }
+              },
+              "@sm": {
+                "$name": "heading",
+                "$description": "H1 Bold @ sm Description",
+                "$type": "typography",
+                "$title": "H1 Bold @ sm",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "fontSize": "{kda.foundation.size.n10}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n14}"
+                }
+              },
+              "@md": {
+                "$name": "heading",
+                "$description": "H1 Bold @ md Description",
+                "$type": "typography",
+                "$title": "H1 Bold @ md",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "fontSize": "{kda.foundation.size.n12}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n17}"
+                }
+              },
+              "@lg": {
+                "$name": "heading",
+                "$description": "H1 Bold @ lg Description",
+                "$type": "typography",
+                "$title": "H1 Bold @ lg",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "fontSize": "{kda.foundation.size.n15}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n20}"
+                }
+              },
+              "@xl": {
+                "$name": "heading",
+                "$description": "H1 Bold @ xl Description",
+                "$type": "typography",
+                "$title": "H1 Bold @ xl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "fontSize": "{kda.foundation.size.n18}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n25}"
+                }
+              },
+              "@xxl": {
+                "$name": "heading",
+                "$description": "H1 Bold @ xxl Description",
+                "$type": "typography",
+                "$title": "H1 Bold @ xxl",
+                "$value": {
+                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
+                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
+                  "fontSize": "{kda.foundation.size.n20}",
+                  "letterSpacing": "{kda.foundation.size.n1}",
+                  "lineHeight": "{kda.foundation.size.n30}"
                 }
               }
             }
@@ -4797,18 +4789,30 @@
           "monoFont": {
             "regular": {
               "$value": 400,
+              "$extensions": {
+                "weightTag": "Regular"
+              },
               "$type": "fontWeight"
             },
             "medium": {
               "$value": 500,
+              "$extensions": {
+                "weightTag": "Medium"
+              },
               "$type": "fontWeight"
             },
             "semiBold": {
               "$value": 600,
+              "$extensions": {
+                "weightTag": "SemiBold"
+              },
               "$type": "fontWeight"
             },
             "bold": {
               "$value": 700,
+              "$extensions": {
+                "weightTag": "Bold"
+              },
               "$type": "fontWeight"
             }
           }
@@ -4823,10 +4827,6 @@
   "$fonts": [
     {
       "family": "Haas Grot Disp",
-      "style": "45 Light"
-    },
-    {
-      "family": "Haas Grot Disp",
       "style": "55 Roman"
     },
     {
@@ -4836,6 +4836,26 @@
     {
       "family": "Haas Grot Disp",
       "style": "75 Bold"
+    },
+    {
+      "family": "Haas Grot Disp",
+      "style": "95 Black"
+    },
+    {
+      "family": "Kode Mono",
+      "style": "Regular"
+    },
+    {
+      "family": "Kode Mono",
+      "style": "Medium"
+    },
+    {
+      "family": "Kode Mono",
+      "style": "SemiBold"
+    },
+    {
+      "family": "Kode Mono",
+      "style": "Bold"
     }
   ]
 }

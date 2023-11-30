@@ -13,7 +13,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -26,7 +26,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -39,7 +39,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -52,7 +52,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -65,7 +65,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -78,7 +78,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.regular}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -93,7 +93,7 @@
                   "$title": "Code Bold @ xs",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -106,7 +106,7 @@
                   "$title": "Code Bold @ sm",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -119,7 +119,7 @@
                   "$title": "Code Bold @ md",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -132,7 +132,7 @@
                   "$title": "Code Bold @ lg",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -145,7 +145,7 @@
                   "$title": "Code Bold @ xl",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"
@@ -158,7 +158,7 @@
                   "$title": "Code Bold @ xxl",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.codeFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.monoFont.bold}",
                     "fontSize": "{kda.foundation.size.n4}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.size.n6}"

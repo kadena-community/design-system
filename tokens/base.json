@@ -4,10 +4,6 @@
   "$fonts": [
     {
       "family": "Haas Grot Disp",
-      "style": "45 Light"
-    },
-    {
-      "family": "Haas Grot Disp",
       "style": "55 Roman"
     },
     {
@@ -17,6 +13,26 @@
     {
       "family": "Haas Grot Disp",
       "style": "75 Bold"
+    },
+    {
+      "family": "Haas Grot Disp",
+      "style": "95 Black"
+    },
+    {
+      "family": "Kode Mono",
+      "style": "Regular"
+    },
+    {
+      "family": "Kode Mono",
+      "style": "Medium"
+    },
+    {
+      "family": "Kode Mono",
+      "style": "SemiBold"
+    },
+    {
+      "family": "Kode Mono",
+      "style": "Bold"
     }
   ]
 }

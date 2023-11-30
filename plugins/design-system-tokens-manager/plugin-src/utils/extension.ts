@@ -177,9 +177,7 @@ export async function getAliasAbsoluteValue(value: string | Variable, startValue
       if (nestedVariable?.valuesByMode?.[modeId]) {
         return nestedVariable.valuesByMode[modeId]
       }
-    }
 
-    if (refValue && modeId) {
       const refResolvedValue: any /* VariableAlias */ = refValue['valuesByMode'][modeId]
 
       if ((refResolvedValue as VariableAlias).type === "VARIABLE_ALIAS") {

@@ -1,9 +1,18 @@
-import { EConstants, EExtensionProp, TTokenData } from "../../types";
+import { EConstants, EDTFTypes, EExtensionProp, TTokenData } from "../../types";
 import { deconstructPath } from "../helper";
 
 export function parseToken(token: TTokenData): { [key: string]: TTokenData } {
   if (token.isExtension) {
-    token = parseExtensionToken(token)
+    switch (token.type) {
+      case EDTFTypes.FONTWEIGHT:
+        token = parseExtensionTypographyWeightToken(token)
+        break;
+
+      case EDTFTypes.COLOR:
+      default:
+        token = parseExtensionColorToken(token)
+        break;
+    }
   } else {
     token = parseSimpleToken(token)
   }
@@ -17,7 +26,7 @@ function parseSimpleToken(token: TTokenData): TTokenData {
   return token
 }
 
-function parseExtensionToken(token: TTokenData): TTokenData {
+function parseExtensionColorToken(token: TTokenData): TTokenData {
   token.name = token.name.replace(`${EConstants.TOKEN_NAME_DELIMITER}${EConstants.EXTENSIONS}`, '')
   token.path = token.path.replace(`${EConstants.DOT_PATH_DELIMITER}${EConstants.EXTENSIONS}`, '')
 
@@ -42,4 +51,12 @@ function parseExtensionToken(token: TTokenData): TTokenData {
 function setColorAlphaValue(token: TTokenData): TTokenData['value'] {
   token.description = `${token.description ?? ''} (${token.modifier} ${token.parentKey})`.trim()
   return token.value
+}
+
+function parseExtensionTypographyWeightToken(token: TTokenData): TTokenData {
+  if (typeof token.value === 'number') {
+    token.value = token.extensions?.[EExtensionProp.WEIGHT] || token.value
+  }
+
+  return token
 }
