@@ -5,27 +5,27 @@
         "$description": "Breakpoint sizes for viewports",
         "xs": {
           "$type": "dimension",
-          "$value": 640
+          "$value": "0rem"
         },
         "sm": {
           "$type": "dimension",
-          "$value": 768
+          "$value": "40rem"
         },
         "md": {
           "$type": "dimension",
-          "$value": 1024
+          "$value": "48rem"
         },
         "lg": {
           "$type": "dimension",
-          "$value": 1280
+          "$value": "64rem"
         },
         "xl": {
           "$type": "dimension",
-          "$value": 1536
+          "$value": "80rem"
         },
         "xxl": {
           "$type": "dimension",
-          "$value": 1980
+          "$value": "96rem"
         }
       }
     }
