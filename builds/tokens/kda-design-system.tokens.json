@@ -107,27 +107,27 @@
         "$description": "Breakpoint sizes for viewports",
         "xs": {
           "$type": "dimension",
-          "$value": 640
+          "$value": "0rem"
         },
         "sm": {
           "$type": "dimension",
-          "$value": 768
+          "$value": "40rem"
         },
         "md": {
           "$type": "dimension",
-          "$value": 1024
+          "$value": "48rem"
         },
         "lg": {
           "$type": "dimension",
-          "$value": 1280
+          "$value": "64rem"
         },
         "xl": {
           "$type": "dimension",
-          "$value": 1536
+          "$value": "80rem"
         },
         "xxl": {
           "$type": "dimension",
-          "$value": 1980
+          "$value": "96rem"
         }
       },
       "color": {
@@ -4744,7 +4744,7 @@
         },
         "sm": {
           "$type": "number",
-          "$value": "0.25rem"
+          "$value": 4
         },
         "md": {
           "$type": "number",
@@ -4752,15 +4752,15 @@
         },
         "lg": {
           "$type": "number",
-          "$value": "0.5rem"
+          "$value": 8
         },
         "xl": {
           "$type": "number",
-          "$value": "1rem"
+          "$value": 16
         },
         "xxl": {
           "$type": "number",
-          "$value": "1.5rem"
+          "$value": 24
         },
         "round": {
           "$type": "dimension",
