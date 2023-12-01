@@ -36,6 +36,8 @@
     }
   ],
   "kda": {
+    "kda-button": {},
+    "kda-notification": {},
     "foundation": {
       "border": {
         "width": {
@@ -9513,8 +9515,6 @@
           }
         }
       }
-    },
-    "kda-button": {},
-    "kda-notification": {}
+    }
   }
 }
