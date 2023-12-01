@@ -12,7 +12,7 @@
               "color": "#000000",
               "offsetX": "4px",
               "offsetY": "0.5rem",
-              "blur": "{kda.foundation.size.n3.$value}",
+              "blur": "{kda.foundation.size.n2.$value}",
               "spread": "4px"
             }
           },
@@ -25,7 +25,7 @@
               "color": "#000000",
               "offsetX": "4rem",
               "offsetY": "4rem",
-              "blur": "{kda.foundation.size.n3.$value}",
+              "blur": "{kda.foundation.size.n2.$value}",
               "spread": "2rem"
             }
           },
@@ -38,7 +38,7 @@
               "color": "#000000",
               "offsetX": 0,
               "offsetY": 0,
-              "blur": "{kda.foundation.size.n3.$value}",
+              "blur": "{kda.foundation.size.n2.$value}",
               "spread": "24px"
             }
           }

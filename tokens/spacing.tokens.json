@@ -8,15 +8,15 @@
         },
         "xxs": {
           "$type": "dimension",
-          "$value": "{kda.foundation.size.n1.$value}"
+          "$value": "0.125rem"
         },
         "xs": {
           "$type": "dimension",
-          "$value": "{kda.foundation.size.n2.$value}"
+          "$value": "{kda.foundation.size.n1.$value}"
         },
         "sm": {
           "$type": "dimension",
-          "$value": "{kda.foundation.size.n3.$value}"
+          "$value": "{kda.foundation.size.n2.$value}"
         },
         "md": {
           "$type": "dimension",

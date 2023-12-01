@@ -2443,7 +2443,7 @@
               "color": "#000000",
               "offsetX": "4px",
               "offsetY": "0.5rem",
-              "blur": "{kda.foundation.size.n3.$value}",
+              "blur": "{kda.foundation.size.n2.$value}",
               "spread": "4px"
             }
           },
@@ -2456,7 +2456,7 @@
               "color": "#000000",
               "offsetX": "4rem",
               "offsetY": "4rem",
-              "blur": "{kda.foundation.size.n3.$value}",
+              "blur": "{kda.foundation.size.n2.$value}",
               "spread": "2rem"
             }
           },
@@ -2469,7 +2469,7 @@
               "color": "#000000",
               "offsetX": 0,
               "offsetY": 0,
-              "blur": "{kda.foundation.size.n3.$value}",
+              "blur": "{kda.foundation.size.n2.$value}",
               "spread": "24px"
             }
           }
@@ -2483,15 +2483,15 @@
         },
         "n1": {
           "$type": "dimension",
-          "$value": "0.125rem"
+          "$value": "0.25rem"
         },
         "n2": {
           "$type": "dimension",
-          "$value": "0.25rem"
+          "$value": "0.5rem"
         },
         "n3": {
           "$type": "dimension",
-          "$value": "0.5rem"
+          "$value": "0.75rem"
         },
         "n4": {
           "$type": "dimension",
@@ -2605,15 +2605,15 @@
         },
         "xxs": {
           "$type": "dimension",
-          "$value": "{kda.foundation.size.n1.$value}"
+          "$value": "0.125rem"
         },
         "xs": {
           "$type": "dimension",
-          "$value": "{kda.foundation.size.n2.$value}"
+          "$value": "{kda.foundation.size.n1.$value}"
         },
         "sm": {
           "$type": "dimension",
-          "$value": "{kda.foundation.size.n3.$value}"
+          "$value": "{kda.foundation.size.n2.$value}"
         },
         "md": {
           "$type": "dimension",

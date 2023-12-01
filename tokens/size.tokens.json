@@ -9,15 +9,15 @@
         },
         "n1": {
           "$type": "dimension",
-          "$value": "0.125rem"
+          "$value": "0.25rem"
         },
         "n2": {
           "$type": "dimension",
-          "$value": "0.25rem"
+          "$value": "0.5rem"
         },
         "n3": {
           "$type": "dimension",
-          "$value": "0.5rem"
+          "$value": "0.75rem"
         },
         "n4": {
           "$type": "dimension",
