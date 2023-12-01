@@ -10,6 +10,10 @@ Welcome to the __Kode Design System__ repository, your central hub for maintaini
 4. __Accessibility Standards__: Inclusive design guidelines and resources to make our products accessible to all users.
 5. __Version Control__: Enabling easy tracking of changes and contributions.
 
+## Flow
+
+![Design System Flow](https://raw.githubusercontent.com/kadena-community/design-system/main/design-system-workflow.jpg)
+
 ## Getting Started:
 If you're new to our design system, start with the following:
 - __Design Tokens__: Familiarize yourself with our design tokens to maintain visual consistency.

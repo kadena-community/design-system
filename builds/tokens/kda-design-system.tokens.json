@@ -6099,10 +6099,7 @@
                     "$type": "dimension",
                     "$value": "2.5rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "3.5rem"
@@ -6130,10 +6127,7 @@
                     "$type": "dimension",
                     "$value": "2.5rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "3.5rem"
@@ -6161,10 +6155,7 @@
                     "$type": "dimension",
                     "$value": "3rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "4.25rem"
@@ -6192,10 +6183,7 @@
                     "$type": "dimension",
                     "$value": "3.75rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "5rem"
@@ -6223,10 +6211,7 @@
                     "$type": "dimension",
                     "$value": "4.5rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "6.25rem"
@@ -6254,10 +6239,7 @@
                     "$type": "dimension",
                     "$value": "5rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "7.5rem"
@@ -6287,10 +6269,7 @@
                     "$type": "dimension",
                     "$value": "2.5rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "3.5rem"
@@ -6318,10 +6297,7 @@
                     "$type": "dimension",
                     "$value": "2.5rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "3.5rem"
@@ -6349,10 +6325,7 @@
                     "$type": "dimension",
                     "$value": "3rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "4.25rem"
@@ -6380,10 +6353,7 @@
                     "$type": "dimension",
                     "$value": "3.75rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "5rem"
@@ -6411,10 +6381,7 @@
                     "$type": "dimension",
                     "$value": "4.5rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "6.25rem"
@@ -6442,10 +6409,7 @@
                     "$type": "dimension",
                     "$value": "5rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "7.5rem"
@@ -6477,10 +6441,7 @@
                     "$type": "dimension",
                     "$value": "2.25rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "3.25rem"
@@ -6508,10 +6469,7 @@
                     "$type": "dimension",
                     "$value": "2.25rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "3.25rem"
@@ -6539,10 +6497,7 @@
                     "$type": "dimension",
                     "$value": "2.25rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "3.25rem"
@@ -6570,10 +6525,7 @@
                     "$type": "dimension",
                     "$value": "2.75rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "4rem"
@@ -6601,10 +6553,7 @@
                     "$type": "dimension",
                     "$value": "3.25rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "4.75rem"
@@ -6632,10 +6581,7 @@
                     "$type": "dimension",
                     "$value": "3.75rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "5rem"
@@ -6665,10 +6611,7 @@
                     "$type": "dimension",
                     "$value": "2.25rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "3.25rem"
@@ -6696,10 +6639,7 @@
                     "$type": "dimension",
                     "$value": "2.25rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "3.25rem"
@@ -6727,10 +6667,7 @@
                     "$type": "dimension",
                     "$value": "2.25rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "3.25rem"
@@ -6758,10 +6695,7 @@
                     "$type": "dimension",
                     "$value": "2.75rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "4rem"
@@ -6789,10 +6723,7 @@
                     "$type": "dimension",
                     "$value": "3.25rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "4.75rem"
@@ -6820,10 +6751,7 @@
                     "$type": "dimension",
                     "$value": "3.75rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "5rem"
@@ -6855,10 +6783,7 @@
                     "$type": "dimension",
                     "$value": "1.75rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "2.75rem"
@@ -6886,10 +6811,7 @@
                     "$type": "dimension",
                     "$value": "1.75rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "2.75rem"
@@ -6917,10 +6839,7 @@
                     "$type": "dimension",
                     "$value": "1.75rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "2.75rem"
@@ -6948,10 +6867,7 @@
                     "$type": "dimension",
                     "$value": "2.25rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "3.25rem"
@@ -6979,10 +6895,7 @@
                     "$type": "dimension",
                     "$value": "2.5rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "3.75rem"
@@ -7010,10 +6923,7 @@
                     "$type": "dimension",
                     "$value": "2.75rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "4.25rem"
@@ -7043,10 +6953,7 @@
                     "$type": "dimension",
                     "$value": "1.75rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "2.75rem"
@@ -7074,10 +6981,7 @@
                     "$type": "dimension",
                     "$value": "1.75rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "2.75rem"
@@ -7105,10 +7009,7 @@
                     "$type": "dimension",
                     "$value": "1.75rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "2.75rem"
@@ -7136,10 +7037,7 @@
                     "$type": "dimension",
                     "$value": "2.25rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "3.25rem"
@@ -7167,10 +7065,7 @@
                     "$type": "dimension",
                     "$value": "2.5rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "3.75rem"
@@ -7198,10 +7093,7 @@
                     "$type": "dimension",
                     "$value": "2.75rem"
                   },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": "0.25rem"
-                  },
+                  "letterSpacing": "0.125rem",
                   "lineHeight": {
                     "$type": "dimension",
                     "$value": "4.25rem"
@@ -7235,7 +7127,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7266,7 +7158,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7297,7 +7189,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7328,7 +7220,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7359,7 +7251,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7390,7 +7282,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7423,7 +7315,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7454,7 +7346,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7485,7 +7377,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7516,7 +7408,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7547,7 +7439,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7578,7 +7470,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7613,7 +7505,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7644,7 +7536,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7675,7 +7567,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7706,7 +7598,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7737,7 +7629,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7768,7 +7660,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7801,7 +7693,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7832,7 +7724,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7863,7 +7755,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7894,7 +7786,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7925,7 +7817,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7956,7 +7848,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -7991,7 +7883,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -8022,7 +7914,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -8053,7 +7945,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -8084,7 +7976,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -8115,7 +8007,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -8146,7 +8038,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -8179,7 +8071,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -8210,7 +8102,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -8241,7 +8133,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -8272,7 +8164,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -8303,7 +8195,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
@@ -8334,7 +8226,7 @@
                   },
                   "letterSpacing": {
                     "$type": "dimension",
-                    "$value": "0.25rem"
+                    "$value": 0
                   },
                   "lineHeight": {
                     "$type": "dimension",
