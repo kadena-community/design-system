@@ -19,3 +19,7 @@ If you're new to our design system, start with the following:
 - __Design Tokens__: Familiarize yourself with our design tokens to maintain visual consistency.
 - __Component Library__: Explore our component library and how to integrate it into your projects.
 - __Documentation__: Review the guidelines and documentation to understand how to use our design system effectively.
+
+## File Structure & Token Schema
+
+![File Structure & Token Schema](https://raw.githubusercontent.com/kadena-community/design-system/main/token-structure-schema.jpg)
