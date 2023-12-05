@@ -31,6 +31,34 @@
           "yellow": {
             "$type": "color",
             "$value": "{kda.foundation.color.palette.yellow.n70}"
+          },
+          "brand": {
+            "primary": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.brand.primary.n70}"
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.brand.secondary.n70}"
+            }
+          },
+          "semantic": {
+            "info": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.semantic.info.n70}"
+            },
+            "warning": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.semantic.warning.n70}"
+            },
+            "positive": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.semantic.positive.n70}"
+            },
+            "negative": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.semantic.negative.n70}"
+            }
           }
         }
       }

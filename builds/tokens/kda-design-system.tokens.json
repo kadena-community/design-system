@@ -234,6 +234,100 @@
                 }
               }
             }
+          },
+          "brand": {
+            "primary": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#0265dc",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#78bbfa"
+                    }
+                  }
+                }
+              }
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#893de7",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#cca4fd"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "semantic": {
+            "info": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#0265dc",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#78bbfa"
+                    }
+                  }
+                }
+              }
+            },
+            "warning": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#856600",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#d7b300"
+                    }
+                  }
+                }
+              }
+            },
+            "positive": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#577400",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#98c50a"
+                    }
+                  }
+                }
+              }
+            },
+            "negative": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#d31510",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#ff9b88"
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "background": {
