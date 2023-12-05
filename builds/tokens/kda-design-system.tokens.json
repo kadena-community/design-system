@@ -149,6 +149,93 @@
         }
       },
       "color": {
+        "accent": {
+          "$description": "Accent colors",
+          "blue": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#0265dc",
+              "$extensions": {
+                "mode": {
+                  "dark": "#78bbfa"
+                }
+              }
+            }
+          },
+          "indigo": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#5258e4",
+              "$extensions": {
+                "mode": {
+                  "dark": "#acafff"
+                }
+              }
+            }
+          },
+          "lime": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#577400",
+              "$extensions": {
+                "mode": {
+                  "dark": "#98c50a"
+                }
+              }
+            }
+          },
+          "magenta": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#c82269",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ff95bd"
+                }
+              }
+            }
+          },
+          "purple": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#893de7",
+              "$extensions": {
+                "mode": {
+                  "dark": "#cca4fd"
+                }
+              }
+            }
+          },
+          "red": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#d31510",
+              "$extensions": {
+                "mode": {
+                  "dark": "#ff9b88"
+                }
+              }
+            }
+          },
+          "yellow": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#856600",
+              "$extensions": {
+                "mode": {
+                  "dark": "#d7b300"
+                }
+              }
+            }
+          }
+        },
         "background": {
           "base": {
             "default": {

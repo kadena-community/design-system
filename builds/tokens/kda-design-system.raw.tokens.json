@@ -1321,6 +1321,37 @@
             }
           }
         },
+        "accent": {
+          "$description": "Accent colors",
+          "blue": {
+            "$type": "color",
+            "$value": "{kda.foundation.color.palette.blue.n70}"
+          },
+          "indigo": {
+            "$type": "color",
+            "$value": "{kda.foundation.color.palette.indigo.n70}"
+          },
+          "lime": {
+            "$type": "color",
+            "$value": "{kda.foundation.color.palette.lime.n70}"
+          },
+          "magenta": {
+            "$type": "color",
+            "$value": "{kda.foundation.color.palette.magenta.n70}"
+          },
+          "purple": {
+            "$type": "color",
+            "$value": "{kda.foundation.color.palette.purple.n70}"
+          },
+          "red": {
+            "$type": "color",
+            "$value": "{kda.foundation.color.palette.red.n70}"
+          },
+          "yellow": {
+            "$type": "color",
+            "$value": "{kda.foundation.color.palette.yellow.n70}"
+          }
+        },
         "text": {
           "base": {
             "default": {
