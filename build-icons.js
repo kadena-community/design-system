@@ -47,7 +47,7 @@ async function getFiles(dir) {
     }
   }
 
-  const writeFile = join(__dirname, './tokens/foundation/icon.tokens.json')
+  const writeFile = join(__dirname, './tokens/foundation/icon/svg.tokens.json')
   writeFileSync(writeFile, JSON.stringify(result, null, 2), 'utf8')
 })()
 

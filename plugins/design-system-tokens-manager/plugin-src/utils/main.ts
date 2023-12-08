@@ -13,8 +13,6 @@ export async function init(data: TAction<TCollectionPayload>, isInit = true) {
       if (!iconsPage) {
         iconsPage = figma.createPage()
         iconsPage.name = EConstants.PAGE_ICONS
-      } else {
-        iconsPage.children.forEach(node => node.name === EConstants.ICONS_FRAME_NAME && node.remove())
       }
     }
 

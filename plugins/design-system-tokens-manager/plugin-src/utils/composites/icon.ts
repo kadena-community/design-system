@@ -5,8 +5,6 @@ type TSVGMetaData = {
   $path: string[]
 }
 
-
-
 export function createSVG(metaData: TSVGMetaData, svg: string, iconToken: null | Variable) {
   try {
     let currentPage = figma.currentPage
@@ -30,32 +28,6 @@ export function createSVG(metaData: TSVGMetaData, svg: string, iconToken: null |
       return
     }
 
-    const component = figma.createComponent()
-
-    component.resizeWithoutConstraints(width, height)
-    component.name = [...path.reverse(), name.split('_').join('-')].join(EConstants.TOKEN_NAME_DELIMITER)
-
-    if (metaData.$description) {
-      component.description = metaData.$description
-    }
-
-    const svgComponent = figma.createNodeFromSvg(svg)
-    svgComponent.name = `icon@${width}x${height}`
-    svgComponent.fills = []
-
-    const svgPaths = [...new Set(svgComponent.children)] as unknown as VectorNode[]
-    svgPaths.forEach(node => {
-      const [fill] = node.fills as Paint[]
-
-      if (fill.type === 'SOLID' && iconToken) {
-        node.fills = [figma.variables.setBoundVariableForPaint(fill, EDTFTypes.COLOR, iconToken)]
-      }
-
-      return node
-    })
-
-    component.appendChild(svgComponent)
-
     if (!frame) {
       frame = figma.createFrame()
       frame.x = 0
@@ -73,6 +45,47 @@ export function createSVG(metaData: TSVGMetaData, svg: string, iconToken: null |
       frame.fills = []
     }
 
+    const componentName = [...path.reverse(), name.split('_').join('-')].join(EConstants.TOKEN_NAME_DELIMITER)
+
+    const existingComponent = frame.children.find(node => node.name === componentName) as ComponentNode
+    let newComponent
+
+    console.log('existingComponent', frame.children, existingComponent)
+
+    if (!existingComponent) {
+      newComponent = figma.createComponent()
+      newComponent.resizeWithoutConstraints(width, height)
+      newComponent.name = componentName
+    } else {
+      existingComponent.children.forEach(vector => vector.remove())
+    }
+
+    const component = existingComponent || newComponent
+
+    if (metaData.$description) {
+      component.description = metaData.$description
+    }
+
+    const svgComponent = figma.createNodeFromSvg(svg)
+    svgComponent.name = `icon@${width}x${height}`
+    svgComponent.constraints = {
+      horizontal: "SCALE",
+      vertical: "SCALE"
+    }
+    svgComponent.fills = []
+
+    const svgPaths = [...new Set(svgComponent.children)] as unknown as VectorNode[]
+    svgPaths.forEach(node => {
+      const [fill] = node.fills as Paint[]
+
+      if (fill.type === 'SOLID' && iconToken) {
+        node.fills = [figma.variables.setBoundVariableForPaint(fill, EDTFTypes.COLOR, iconToken)]
+      }
+
+      return node
+    })
+
+    component.appendChild(svgComponent)
     frame.appendChild(component)
   } catch (error) {
     console.error('Error creating SVG icon', error)

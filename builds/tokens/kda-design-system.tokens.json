@@ -4933,6 +4933,57 @@
         }
       },
       "icon": {
+        "size": {
+          "xxs": {
+            "$type": "dimension",
+            "$value": {
+              "$type": "dimension",
+              "$value": "0.75rem"
+            }
+          },
+          "xs": {
+            "$type": "dimension",
+            "$value": {
+              "$type": "dimension",
+              "$value": "1rem"
+            }
+          },
+          "sm": {
+            "$type": "dimension",
+            "$value": {
+              "$type": "dimension",
+              "$value": "1.25rem"
+            }
+          },
+          "base": {
+            "$type": "dimension",
+            "$value": {
+              "$type": "dimension",
+              "$value": "1.5rem"
+            }
+          },
+          "lg": {
+            "$type": "dimension",
+            "$value": {
+              "$type": "dimension",
+              "$value": "2rem"
+            }
+          },
+          "xl": {
+            "$type": "dimension",
+            "$value": {
+              "$type": "dimension",
+              "$value": "2.5rem"
+            }
+          },
+          "xxl": {
+            "$type": "dimension",
+            "$value": {
+              "$type": "dimension",
+              "$value": "4rem"
+            }
+          }
+        },
         "sharp": {
           "123": {
             "$type": "icon",
