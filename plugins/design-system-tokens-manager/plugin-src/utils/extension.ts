@@ -49,8 +49,11 @@ export async function processTokenExtension(token: TTokenData, params: TCreateTo
         break;
       case EExtensionProp.HUE:
       default:
+        variable = figma.variables.createVariable(token.name, params.collection.id, getResolvedTokenType(token.type))
         break;
     }
+  } else if (extensionPropType === EDTFTypes.FONTWEIGHT) {
+    variable = figma.variables.createVariable(token.name, params.collection.id, getResolvedTokenType(token.type))
   }
 
   return {

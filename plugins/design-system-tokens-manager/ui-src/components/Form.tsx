@@ -1,10 +1,4 @@
-import React, {
-  ChangeEventHandler,
-  useCallback,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import styles from "./style.module.css";
 
 import jsonData from "../../../../builds/tokens/kda-design-system.raw.tokens.json";
@@ -23,9 +17,15 @@ export const Form = () => {
   const code = useRef<HTMLTextAreaElement>(null);
   const resetVariables = useRef<HTMLInputElement>(null);
   const importTypos = useRef<HTMLInputElement>(null);
+  const importIcons = useRef<HTMLInputElement>(null);
   const [typeStyles, setTypeStyles] = useState<any[]>([]);
-  const defaultDurationMessage = "approx. 2 seconds per style";
-  const [duration, setDuration] = useState<string>(defaultDurationMessage);
+  const [icons, setIcons] = useState<any[]>([]);
+  const defaultTypoDurationMessage = "approx. 0.3 seconds per style";
+  const defaultIconsDurationMessage = "approx. 0.6 seconds per icon";
+  const [duration, setDuration] = useState<string>(defaultTypoDurationMessage);
+  const [iconsDuration, setIconsDuration] = useState<string>(
+    defaultTypoDurationMessage
+  );
 
   const getValue = useCallback(
     (value: string) => {
@@ -37,9 +37,19 @@ export const Form = () => {
             EDTFCompositeTypes.TYPOGRAPHY
           )
         );
+
+        setIcons(
+          findAllKeyValuePairs(
+            JSON.parse(value),
+            EConstants.TYPE_KEY as string,
+            EDTFCompositeTypes.ICON
+          )
+        );
       } catch (error) {
         setTypeStyles([]);
-        setDuration(defaultDurationMessage);
+        setIcons([]);
+        setDuration(defaultTypoDurationMessage);
+        setIconsDuration(defaultIconsDurationMessage);
         console.error(
           "Failed parsing the value, provide a valid JSON.",
           error,
@@ -47,7 +57,7 @@ export const Form = () => {
         );
       }
     },
-    [setTypeStyles]
+    [setTypeStyles, setIcons]
   );
   const changeHandler = useCallback(
     (evt: React.ChangeEvent<HTMLTextAreaElement>) => {
@@ -63,25 +73,37 @@ export const Form = () => {
       const data: TJsonData = JSON.parse(code.current?.value || "{}");
       const isReset = resetVariables.current?.checked || false;
       const isImportTypography = importTypos.current?.checked || false;
-      processTokens(data, { isReset, isImportTypography });
+      const isImportIcons = importIcons.current?.checked || false;
+      processTokens(data, { isReset, isImportTypography, isImportIcons });
     } catch (error) {
       console.error("Error parsing data", error);
     }
   }, [code, resetVariables, importTypos]);
 
   const calcDuration = useCallback(() => {
-    if (!typeStyles.length) return defaultDurationMessage;
+    if (!typeStyles.length) return defaultTypoDurationMessage;
 
     setDuration(
-      `${formatDuration(typeStyles.length)} for ${
+      `${formatDuration(Math.ceil(typeStyles.length * 0.3))} for ${
         typeStyles.length
       } text styles`
     );
   }, [typeStyles, setDuration]);
 
+  const calcIconDuration = useCallback(() => {
+    if (!icons.length) return defaultIconsDurationMessage;
+
+    setIconsDuration(
+      `${formatDuration(Math.ceil(icons.length * 0.07))} for ${
+        icons.length
+      } icons`
+    );
+  }, [icons, setIconsDuration]);
+
   useEffect(() => {
     calcDuration();
-  }, [typeStyles]);
+    calcIconDuration();
+  }, [typeStyles, icons]);
 
   useEffect(() => {
     if (code.current?.value) {
@@ -135,9 +157,20 @@ export const Form = () => {
         <label>
           <input type="checkbox" name="reset" ref={importTypos} value="true" />
           <span>
-            Import Typography. Please note that importing{" "}
-            {typeStyles.length ? "these" : ""} text styles into Figma takes{" "}
+            <strong>Import {typeStyles.length} Text Styles.</strong> Please note
+            that importing {typeStyles.length ? "these" : ""} text styles into
+            Figma takes{" "}
             <strong style={{ color: "#ff6600" }}>about {duration}</strong>.
+          </span>
+        </label>
+      </div>
+      <div className={styles.input}>
+        <label>
+          <input type="checkbox" name="icons" ref={importIcons} value="true" />
+          <span>
+            <strong>Import {icons.length} Icons.</strong> Please note that
+            importing {icons.length ? "these" : ""} text styles into Figma takes{" "}
+            <strong style={{ color: "#ff6600" }}>about {iconsDuration}</strong>.
           </span>
         </label>
       </div>

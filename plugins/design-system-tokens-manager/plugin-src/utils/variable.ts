@@ -6,7 +6,6 @@ import {
   TCreateTokenMetaData,
   TEffectProps,
   TExtension,
-  TFontProps,
   TJsonData,
   TTokenData,
   TTokenIterationArgs,
@@ -239,7 +238,6 @@ async function setValueForModeExtension({ mode: { modeId, name }, defaultMode }:
         }
         break;
 
-      case EDTFTypes.NUMBER:
       default:
         token.value = `${token.value}`.trim()
         break;
@@ -352,6 +350,7 @@ export function getResolvedTokenType(type: TTokenData['type']) {
 
     case EDTFTypes.TYPOGRAPHY:
     case EDTFTypes.FONTFAMILY:
+    case EDTFTypes.FONTWEIGHT:
     case EDTFTypes.SHADOW:
     case EDTFTypes.BLUR:
     case EDTFTypes.BORDER:

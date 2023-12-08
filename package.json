@@ -4,7 +4,8 @@
   "$description": "Welcome to the __Kode Design System__ repository, your central hub for maintaining and utilizing our design system. This repository houses the essential elements and guidelines to ensure consistency and efficiency in our product design and development process.",
   "main": "index.js",
   "scripts": {
-    "build": "style-dictionary build --config ./config.js && npm run merge",
+    "build-icons": "node build-icons.js",
+    "build": "npm run build-icons && style-dictionary build --config ./config.js && npm run merge",
     "merge": "find tokens -name '*.json' -exec jq -s 'reduce .[] as $item ({}; . * $item)' {} + > builds/tokens/kda-design-system.raw.tokens.json"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/kadena-community/design-system#readme",
   "devDependencies": {
     "style-dictionary": "^3.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }

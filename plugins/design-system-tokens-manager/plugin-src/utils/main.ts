@@ -1,4 +1,4 @@
-import { TAction, TCollectionPayload } from "../types";
+import { EConstants, TAction, TCollectionPayload } from "../types";
 import { iterateJson, processData } from "./core";
 import { mapper } from '../utils/mappers/base'
 import { getTypographyTokens } from "./composites/typography";
@@ -7,7 +7,18 @@ export async function init(data: TAction<TCollectionPayload>, isInit = true) {
   const { params } = data
 
   if (params?.payload) {
-    const preProcessedData = iterateJson(params.payload);
+    if (params.isImportIcons && !isInit) {
+      let iconsPage = figma.root.children.find(p => p.name === EConstants.PAGE_ICONS)
+
+      if (!iconsPage) {
+        iconsPage = figma.createPage()
+        iconsPage.name = EConstants.PAGE_ICONS
+      } else {
+        iconsPage.children.forEach(node => node.name === EConstants.ICONS_FRAME_NAME && node.remove())
+      }
+    }
+
+    const preProcessedData = iterateJson(params.payload, [], isInit, params as TCollectionPayload);
     const processedData = await processData(preProcessedData, params.payload)
     const mappedData = await mapper(processedData, params as TCollectionPayload)
 

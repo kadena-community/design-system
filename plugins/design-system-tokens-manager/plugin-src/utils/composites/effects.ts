@@ -75,21 +75,25 @@ function processShadowEffect(effectStyle: EffectStyle, token: TTokenData, props:
 }
 
 function processBlurEffect(effectStyle: EffectStyle, token: TTokenData, props: TBlurEffectProps) {
-  const { name, description } = token
-  const effectValue = iterateEffectProps<TBlurEffectProps>(props, token)
+  try {
+    const { name, description } = token
+    const effectValue = iterateEffectProps<TBlurEffectProps>(props, token)
 
-  if (effectValue.radius) {
-    const effectProps: BlurEffect = {
-      type: "LAYER_BLUR",
-      radius: effectValue.radius ?? 0,
-      visible: props.visible || true,
+    if (effectValue.radius) {
+      const effectProps: BlurEffect = {
+        type: "LAYER_BLUR",
+        radius: effectValue.radius ?? 0,
+        visible: props.visible ?? true,
+      }
+
+      effectStyle.name = name
+      effectStyle.description = description
+      effectStyle.effects = [effectProps]
+
+    } else {
+      effectStyle.remove()
     }
-
-    effectStyle.name = name
-    effectStyle.description = description
-    effectStyle.effects = [effectProps]
-
-  } else {
-    effectStyle.remove()
+  } catch (error) {
+    console.error('Effects error', error)
   }
 }

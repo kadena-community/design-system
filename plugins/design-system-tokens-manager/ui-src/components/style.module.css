@@ -53,7 +53,7 @@
   border-radius: 4px;
 }
 
-.input > label > input[type="checkbox"] {
+.input > label input[type="checkbox"] {
   display: flex;
   width: 16px;
   height: 16px;
@@ -65,7 +65,7 @@
   margin-right: 8px;
 }
 
-.input > label > span {
+.input > label span {
   text-align: left;
   flex-basis: fit-content;
   margin-top: 1px;

@@ -17,6 +17,12 @@ export enum EConstants {
 
   DEFAULT_MODE = 'light',
   BASE_FONT_SIZE = 16,
+
+  NAMESPACE_ROOT = 'kda',
+  NAMESPACE_FOUNDATION = 'foundation',
+
+  PAGE_ICONS = 'System Icons',
+  ICONS_FRAME_NAME = 'icon',
 }
 
 export enum EDTFTypes {
@@ -37,6 +43,7 @@ export enum EDTFTypes {
 }
 
 export enum EDTFCompositeTypes {
+  ICON = 'icon',
   BORDER = 'border',
   TRANSITION = 'transition',
   SHADOW = 'shadow',
@@ -96,6 +103,7 @@ export type TCollectionPayload = {
   name: string
   isReset: boolean
   isImportTypography: boolean
+  isImportIcons: boolean
   payload: TJsonData
 }
 

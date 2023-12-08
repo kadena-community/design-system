@@ -1,9 +1,19 @@
-import { EConstants, EDTFCompositeTypes, EExtensionProp, METADATA_KEYS, TCollectionPayload, TPathData, TPreProcessedDataObject, TProcessedData, TTokenData } from "../types";
+import { EConstants, EDTFCompositeTypes, EDTFTypes, EExtensionProp, METADATA_KEYS, TCollectionPayload, TPathData, TPreProcessedDataObject, TProcessedData } from "../types";
 import { getCollectionName, getCollectionVersion } from "./collection";
+import { createSVG } from "./composites/icon";
 import { deconstructPath, getValueByPath } from "./helper";
 import { processToken } from './mappers/token'
 
-export function iterateJson(jsonObj: any, path: string[] = []): TPreProcessedDataObject {
+let iconToken: null | Variable = null
+
+export function iterateJson(jsonObj: any, path: string[], isInit: boolean, params: TCollectionPayload): TPreProcessedDataObject {
+  if (!isInit && !iconToken && params.isImportIcons) {
+    const [_iconToken] = figma.variables.getLocalVariables().filter(v => v.name.includes(`${EConstants.NAMESPACE_ROOT}${EConstants.TOKEN_NAME_DELIMITER}${EConstants.NAMESPACE_FOUNDATION}${EConstants.TOKEN_NAME_DELIMITER}${EDTFTypes.COLOR}${EConstants.TOKEN_NAME_DELIMITER}${EDTFCompositeTypes.ICON}${EConstants.TOKEN_NAME_DELIMITER}base${EConstants.TOKEN_NAME_DELIMITER}default`))
+    if (_iconToken) {
+      iconToken = _iconToken
+    }
+  }
+
   try {
     const { key } = deconstructPath(path)
 
@@ -15,6 +25,11 @@ export function iterateJson(jsonObj: any, path: string[] = []): TPreProcessedDat
 
     if (typeof jsonObj === 'object') {
       switch (type) {
+        case EDTFCompositeTypes.ICON:
+          if (!isInit && params.isImportIcons) {
+            createSVG({ $path: path, $description: jsonObj.$description }, jsonObj.$value, iconToken)
+          }
+          return []
         case EDTFCompositeTypes.TYPOGRAPHY:
         case EDTFCompositeTypes.BORDER:
         case EDTFCompositeTypes.SHADOW:
@@ -55,7 +70,7 @@ export function iterateJson(jsonObj: any, path: string[] = []): TPreProcessedDat
             return Object.keys(jsonObj).reduce((acc, key) => {
               const value = jsonObj[key];
               const newPath = [...path, key];
-              return acc.concat(iterateJson(value, newPath));
+              return acc.concat(iterateJson(value, newPath, isInit, params));
             }, [] as { path: string; value: any }[]);
           }
       }

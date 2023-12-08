@@ -3,16 +3,17 @@ import { publish } from "../main";
 import { EActions } from "../types";
 
 type TOptions = {
-  isReset: boolean, isImportTypography: boolean
+  isReset: boolean, isImportTypography: boolean, isImportIcons: boolean
 }
 
-export const processTokens = (jsonData: TJsonData, { isReset, isImportTypography }: TOptions) => {
+export const processTokens = (jsonData: TJsonData, { isReset, isImportTypography, isImportIcons }: TOptions) => {
   publish({
     type: EActions.CREATE_COLLECTION,
     params: {
       name: getCollectionName(jsonData),
       isReset,
       isImportTypography,
+      isImportIcons,
       payload: jsonData,
     },
   });
