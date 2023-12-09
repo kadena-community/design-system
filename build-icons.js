@@ -33,6 +33,7 @@ async function getFiles(dir) {
   const jsonFile = svgs.reduce((memo, svg) => {
     set(memo, svg.folder.join('.'), {
       "$type": "icon",
+      "$name": svg.name,
       "$description": svg.description,
       "$value": svg.content,
       ...get(memo, svg.folder.join('.'))

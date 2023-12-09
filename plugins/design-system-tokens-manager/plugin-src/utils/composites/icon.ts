@@ -5,62 +5,72 @@ type TSVGMetaData = {
   $path: string[]
 }
 
+export let frame: FrameNode | null
+let vectorPaint: SolidPaint | undefined
+
+export function clearState() {
+  frame = null
+}
+
+function createFrame() {
+  const frameGroup = EConstants.ICONS_FRAME_NAME
+  frame = figma.currentPage.findOne(n => n.name === frameGroup) as FrameNode | null
+
+  if (!frame) {
+    frame = figma.createFrame()
+    frame.x = 0
+    frame.y = 0
+    frame.name = frameGroup
+    frame.layoutMode = 'HORIZONTAL'
+    frame.layoutSizingHorizontal = 'HUG'
+    frame.layoutSizingVertical = 'HUG'
+    frame.layoutPositioning = 'AUTO'
+    frame.overflowDirection = 'HORIZONTAL'
+    frame.minWidth = 24 * 20 + (19 * 16)
+    frame.maxWidth = 24 * 20 + (19 * 16)
+    frame.layoutWrap = 'WRAP'
+    frame.itemSpacing = 16
+    frame.counterAxisSpacing = 16
+    frame.fills = []
+  }
+
+  return frame
+}
+
+function setCurrentPageToIcons() {
+  let currentPage = figma.currentPage
+
+  if (currentPage.name !== EConstants.PAGE_ICONS) {
+    currentPage = figma.root.children.find(p => p.name === EConstants.PAGE_ICONS) || figma.currentPage
+
+    if (currentPage) {
+      figma.currentPage = currentPage
+    }
+  }
+}
+
 export function createSVG(metaData: TSVGMetaData, svg: string, iconToken: null | Variable) {
   try {
-    let currentPage = figma.currentPage
-
-    if (currentPage.name !== EConstants.PAGE_ICONS) {
-      currentPage = figma.root.children.find(p => p.name === EConstants.PAGE_ICONS) || figma.currentPage
-
-      if (currentPage) {
-        figma.currentPage = currentPage
-      }
-    }
+    setCurrentPageToIcons()
 
     const [width, height] = [24, 24]
-    let [name, ...path] = metaData.$path.reverse()
-    const checkComponent = figma.currentPage.findOne(n => n.name === name)
-    const frameGroup = EConstants.ICONS_FRAME_NAME
-    let frame = figma.currentPage.findOne(n => n.name === frameGroup) as FrameNode | null
-    path = path.filter(d => !([EConstants.NAMESPACE_ROOT, EConstants.NAMESPACE_FOUNDATION, frameGroup] as string[]).includes(d))
-
-    if (checkComponent) {
-      return
-    }
+    let name = metaData.$path.pop()
+    const path = metaData.$path.join(EConstants.TOKEN_NAME_DELIMITER)
 
     if (!frame) {
-      frame = figma.createFrame()
-      frame.x = 0
-      frame.y = 0
-      frame.name = frameGroup
-      frame.layoutMode = 'HORIZONTAL'
-      frame.layoutSizingHorizontal = 'HUG'
-      frame.layoutSizingVertical = 'HUG'
-      frame.layoutPositioning = 'AUTO'
-      frame.overflowDirection = 'HORIZONTAL'
-      frame.maxWidth = 100 * width
-      frame.layoutWrap = 'WRAP'
-      frame.itemSpacing = 16
-      frame.counterAxisSpacing = 16
-      frame.fills = []
+      frame = createFrame()
     }
 
-    const componentName = [...path.reverse(), name.split('_').join('-')].join(EConstants.TOKEN_NAME_DELIMITER)
+    const componentName = `${path}${EConstants.TOKEN_NAME_DELIMITER}${name}`
+    let component = frame.children.find(node => node.name === componentName) as ComponentNode | undefined
 
-    const existingComponent = frame.children.find(node => node.name === componentName) as ComponentNode
-    let newComponent
-
-    console.log('existingComponent', frame.children, existingComponent)
-
-    if (!existingComponent) {
-      newComponent = figma.createComponent()
-      newComponent.resizeWithoutConstraints(width, height)
-      newComponent.name = componentName
+    if (!component) {
+      component = figma.createComponent()
+      component.resizeWithoutConstraints(width, height)
+      component.name = componentName
     } else {
-      existingComponent.children.forEach(vector => vector.remove())
+      component.children.forEach(vector => vector.remove())
     }
-
-    const component = existingComponent || newComponent
 
     if (metaData.$description) {
       component.description = metaData.$description
@@ -74,20 +84,44 @@ export function createSVG(metaData: TSVGMetaData, svg: string, iconToken: null |
     }
     svgComponent.fills = []
 
-    const svgPaths = [...new Set(svgComponent.children)] as unknown as VectorNode[]
-    svgPaths.forEach(node => {
-      const [fill] = node.fills as Paint[]
+    const svgPaths = [...svgComponent.children] as VectorNode[]
 
-      if (fill.type === 'SOLID' && iconToken) {
-        node.fills = [figma.variables.setBoundVariableForPaint(fill, EDTFTypes.COLOR, iconToken)]
+    svgPaths.forEach(node => {
+      if (!vectorPaint && iconToken) {
+        const [fill] = node.fills as SolidPaint[]
+
+        vectorPaint = figma.variables.setBoundVariableForPaint(fill, EDTFTypes.COLOR, iconToken)
       }
 
-      return node
+      if (vectorPaint) {
+        node.fills = [vectorPaint]
+      }
     })
 
     component.appendChild(svgComponent)
     frame.appendChild(component)
+
+    return true
   } catch (error) {
     console.error('Error creating SVG icon', error)
+    return false
   }
+}
+
+export async function clearUnusedIcons(paths: string[]): Promise<void> {
+  setCurrentPageToIcons()
+
+  const unusedIcons = frame?.children.filter(node => !paths.includes(node.name)) || []
+
+  if (!unusedIcons.length) {
+    return Promise.resolve()
+  }
+
+  unusedIcons.forEach(async (node, index) => {
+    node.remove()
+
+    if (unusedIcons.length - 1 === index) {
+      return Promise.resolve(true)
+    }
+  })
 }

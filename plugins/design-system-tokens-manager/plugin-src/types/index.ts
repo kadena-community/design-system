@@ -231,6 +231,7 @@ export type TTranspiledData = {
       added: string[],
       failed: string[]
       typography: string[]
+      icons: string[]
     }
   }
 }

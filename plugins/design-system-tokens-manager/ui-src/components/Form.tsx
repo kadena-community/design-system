@@ -24,7 +24,7 @@ export const Form = () => {
   const defaultIconsDurationMessage = "approx. 0.6 seconds per icon";
   const [duration, setDuration] = useState<string>(defaultTypoDurationMessage);
   const [iconsDuration, setIconsDuration] = useState<string>(
-    defaultTypoDurationMessage
+    defaultIconsDurationMessage
   );
 
   const getValue = useCallback(

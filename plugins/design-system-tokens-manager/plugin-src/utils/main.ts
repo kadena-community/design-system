@@ -2,6 +2,7 @@ import { EConstants, TAction, TCollectionPayload } from "../types";
 import { iterateJson, processData } from "./core";
 import { mapper } from '../utils/mappers/base'
 import { getTypographyTokens } from "./composites/typography";
+import { clearUnusedIcons } from "./composites/icon";
 
 export async function init(data: TAction<TCollectionPayload>, isInit = true) {
   const { params } = data
@@ -29,6 +30,10 @@ export async function init(data: TAction<TCollectionPayload>, isInit = true) {
         styles: mappedData.styles,
         tokens: mappedData.variables.tokens,
       }, params.payload)
+    }
+
+    if (!isInit && params.isImportIcons) {
+      await clearUnusedIcons(mappedData.status.tokens.icons)
     }
 
     if (isInit && Object.keys(processedData.$tokens).length !== mappedData.variables.local.length) {

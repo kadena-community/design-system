@@ -1,6 +1,6 @@
 import { EConstants, EDTFCompositeTypes, EDTFTypes, EExtensionProp, METADATA_KEYS, TCollectionPayload, TPathData, TPreProcessedDataObject, TProcessedData } from "../types";
 import { getCollectionName, getCollectionVersion } from "./collection";
-import { createSVG } from "./composites/icon";
+import { clearState, createSVG, frame } from "./composites/icon";
 import { deconstructPath, getValueByPath } from "./helper";
 import { processToken } from './mappers/token'
 
@@ -26,10 +26,24 @@ export function iterateJson(jsonObj: any, path: string[], isInit: boolean, param
     if (typeof jsonObj === 'object') {
       switch (type) {
         case EDTFCompositeTypes.ICON:
+          let isAdded = false
+
           if (!isInit && params.isImportIcons) {
-            createSVG({ $path: path, $description: jsonObj.$description }, jsonObj.$value, iconToken)
+            isAdded = createSVG({ $path: path, $description: jsonObj.$description }, jsonObj.$value, iconToken)
+          } else if (isInit && params.isImportIcons && frame) {
+            clearState()
           }
-          return []
+
+          return isAdded ? [
+            {
+              path: `${[...path, jsonObj.$name].join(EConstants.DOT_PATH_DELIMITER)}.${EConstants.TYPE_KEY}`,
+              value: jsonObj.$type
+            },
+            {
+              path: `${[...path, jsonObj.$name].join(EConstants.DOT_PATH_DELIMITER)}.${EConstants.VALUE_KEY}`,
+              value: jsonObj.$value
+            },
+          ] : []
         case EDTFCompositeTypes.TYPOGRAPHY:
         case EDTFCompositeTypes.BORDER:
         case EDTFCompositeTypes.SHADOW:

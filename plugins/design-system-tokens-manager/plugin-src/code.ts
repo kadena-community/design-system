@@ -25,11 +25,11 @@ figma.ui.onmessage = async (action: TAction<any>) => {
 
       setTimeout(async () => {
         await init(action)
-      }, 0);
+      }, 0)
       break;
 
     default:
-      figma.closePlugin();
+      figma.closePlugin()
       break;
   }
 };

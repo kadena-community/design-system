@@ -6,6 +6,7 @@ import { getLocalVariables, iterateTokens } from "../variable"
 let addedTokens: string[] = []
 let failedTokens: string[] = []
 let typographyTokens: string[] = []
+let iconsTokens: string[] = []
 
 export async function prepareMapper(data: TProcessedData, payload: TCollectionPayload): Promise<TPreMappedData> {
   const aliases: TTokenData[] = []
@@ -64,7 +65,7 @@ export async function mapper(data: TProcessedData, params: TCollectionPayload): 
   }
 
   if (payload && collection) {
-    const { added: tokensAdded, failed: tokensFailed, typography: tokensTypoFailed } = await iterateTokens({ collection, data, allVariables, tokens, styles, payload })
+    const { added: tokensAdded, failed: tokensFailed, typography: tokensTypoFailed, icons } = await iterateTokens({ collection, data, allVariables, tokens, styles, payload })
     const { added: aliasesAdded, failed: aliasesFailed, typography: aliasesTypoFailed } = await iterateTokens({ collection, data, allVariables, tokens: aliases, styles, isSkipStyles: true, payload })
     addedTokens = [
       ...addedTokens,
@@ -80,6 +81,10 @@ export async function mapper(data: TProcessedData, params: TCollectionPayload): 
       ...typographyTokens,
       ...tokensTypoFailed,
       ...aliasesTypoFailed
+    ])]
+    iconsTokens = [...new Set([
+      ...iconsTokens,
+      ...icons,
     ])]
   }
 
@@ -101,6 +106,7 @@ export async function mapper(data: TProcessedData, params: TCollectionPayload): 
         added: addedTokens,
         failed: failedTokens,
         typography: typographyTokens,
+        icons: iconsTokens,
       }
     }
   }

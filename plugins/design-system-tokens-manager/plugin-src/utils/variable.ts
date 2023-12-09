@@ -1,4 +1,5 @@
 import {
+  EDTFCompositeTypes,
   EDTFTypes,
   EExtensionProp,
   ETokenResolvedType,
@@ -22,6 +23,7 @@ import { processDimensionsTokens } from "./composites/dimension"
 const added: string[] = []
 const failed: string[] = []
 const typography: string[] = []
+const icons: string[] = []
 
 export async function iterateTokens(params: TTokenIterationArgs): Promise<TTranspiledData['status']['tokens']> {
   const { tokens, collection, allVariables, data, styles, isSkipStyles, payload } = params
@@ -30,9 +32,12 @@ export async function iterateTokens(params: TTokenIterationArgs): Promise<TTrans
 
     if (collection) {
       try {
-        switch (token.type) {
+        switch (token.type as EDTFTypes | EDTFCompositeTypes) {
           case EDTFTypes.TYPOGRAPHY:
             typography.push(token.name)
+            break;
+          case EDTFCompositeTypes.ICON:
+            icons.push(token.name)
             break;
           case EDTFTypes.BORDER:
             processBorderTokens({ type: token.type, value: token.value as TBorderProps }, token, params, payload)
@@ -82,11 +87,18 @@ export async function iterateTokens(params: TTokenIterationArgs): Promise<TTrans
           ...typography,
         ])
       ],
+      icons: [
+        ...new Set([
+          ...d.icons,
+          ...icons,
+        ])
+      ],
     }
   }, Promise.resolve({
     added,
     failed,
     typography,
+    icons,
   }) as Promise<TTranspiledData['status']['tokens']>)
 
   return resolvedValue
