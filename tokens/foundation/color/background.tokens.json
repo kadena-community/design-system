@@ -93,7 +93,7 @@
             "positive": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.positive.n5}"
+                "$value": "{kda.foundation.color.semantic.positive.n1}"
               },
               "@hover": {
                 "$type": "color",
@@ -107,7 +107,7 @@
             "negative": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.negative.n5}"
+                "$value": "{kda.foundation.color.semantic.negative.n1}"
               },
               "@hover": {
                 "$type": "color",
@@ -121,7 +121,7 @@
             "warning": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.warning.n5}"
+                "$value": "{kda.foundation.color.semantic.warning.n1}"
               },
               "@hover": {
                 "$type": "color",
@@ -135,7 +135,7 @@
             "info": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.info.n5}"
+                "$value": "{kda.foundation.color.semantic.info.n1}"
               },
               "@hover": {
                 "$type": "color",
