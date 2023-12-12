@@ -1,4 +1,4 @@
-![Design System Token Manager](https://raw.githubusercontent.com/kadena-community/design-system/main/cover.png)
+![Design System Token Manager](https://raw.githubusercontent.com/kadena-community/design-system/main/assets/images/doc/cover.png)
 
 ## Introduction:
 Welcome to the __Kode Design System__ repository, your central hub for maintaining and utilizing our design system. This repository houses the essential elements and guidelines to ensure consistency and efficiency in our product design and development process.
@@ -12,7 +12,7 @@ Welcome to the __Kode Design System__ repository, your central hub for maintaini
 
 ## Flow
 
-![Design System Flow](https://raw.githubusercontent.com/kadena-community/design-system/main/design-system-workflow.jpg)
+![Design System Flow](https://raw.githubusercontent.com/kadena-community/design-system/main/assets/images/doc/design-system-workflow.jpg)
 
 ## Getting Started:
 If you're new to our design system, start with the following:
@@ -22,4 +22,4 @@ If you're new to our design system, start with the following:
 
 ## File Structure & Token Schema
 
-![File Structure & Token Schema](https://raw.githubusercontent.com/kadena-community/design-system/main/token-structure-schema.jpg)
+![File Structure & Token Schema](https://raw.githubusercontent.com/kadena-community/design-system/main/assets/images/doc/token-structure-schema.jpg)
