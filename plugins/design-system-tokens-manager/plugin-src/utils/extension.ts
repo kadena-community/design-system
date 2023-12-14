@@ -37,7 +37,7 @@ export function mapTokenExtensions(refToken: TDesignTokenFormat, params: TDecons
 }
 
 export async function processTokenExtension(token: TTokenData, params: TCreateTokenMetaData, payload: TJsonData): Promise<{ token: TTokenData, variable: Variable | null }> {
-  let variable = null;
+  let variable = null
   const extensionPropType = token.type
 
   if (extensionPropType === EDTFTypes.COLOR) {
@@ -76,9 +76,28 @@ export function getTokenExtensionModifier(groupName: TTokenData['groupName']): T
 
 async function processAlphaExtension(token: TTokenData, params: TCreateTokenMetaData, payload: TJsonData): Promise<{ token: TTokenData, variable: Variable | null }> {
   try {
-    const variable = figma.variables.createVariable(token.name, params.collection.id, getResolvedTokenType(token.type))
+    let variable = params.allVariables.find((_variable) => _variable.name === token.name) || null
 
-    token.value = await processColor({ token }, payload) ?? token.value
+    if (hasAliasValue(token.value)) {
+      if (!variable) {
+        variable = figma.variables.createVariable(token.name, params.collection.id, getResolvedTokenType(token.type))
+      }
+
+      if (variable) {
+        params.collection.modes.forEach(async (mode) => {
+          const aliasParams: TAliasRetrievalParams = {
+            modeId: mode.modeId,
+            modeName: mode.name,
+            allVariables: params.allVariables
+          }
+
+          if (variable && token.extensions?.[EExtensionProp.ALPHA]) {
+            const absValue = await getAliasAbsoluteValue(token.value as string, token.prevValue, aliasParams)
+            variable.setValueForMode(mode.modeId, figma.util.rgba({ ...absValue as RGBA, a: Number(token.extensions[EExtensionProp.ALPHA]) / 100 }))
+          }
+        })
+      }
+    }
 
     return {
       variable,
@@ -117,7 +136,7 @@ export async function processColor({ mode, token }: TProcessColor, payload: TJso
   const isModifierColor = token.isExtension && hasModifierExtensions(token.extensions)
   const { name: modeName, id: modeId } = mode ?? {}
   const modeColor = modeName && token.extensions?.[EExtensionProp.MODE]?.[modeName] ? token.extensions[EExtensionProp.MODE][modeName] : null
-  const baseColor = isModifierColor && token.extensions?.alpha?.[token.parentKey].$base ? token.extensions?.alpha?.[token.parentKey].$base : null
+  const baseColor = isModifierColor && token.extensions?.alpha?.[token.parentKey]?.$base ? token.extensions?.alpha?.[token.parentKey].$base : null
   let newColor: TTokenData['value'] | Variable | null = baseColor ?? modeColor
   let checkPath, refColor
 

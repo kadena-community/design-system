@@ -15,7 +15,7 @@ import {
 } from "../types"
 import { parseColor } from './color'
 import { processColor, processTokenExtension } from "./extension"
-import { getExtendedAliasValue, getValuePath, hasAliasValue, hasExtendedAliasValue, parseDimensionUnit } from "./helper"
+import { getExtendedAliasValue, getValuePath, hasAliasValue, hasExtendedAliasValue, hasModifierExtensions, parseDimensionUnit } from "./helper"
 import { processBorderTokens } from "./composites/border"
 import { processEffectsTokens } from "./composites/effects"
 import { processDimensionsTokens } from "./composites/dimension"
@@ -54,12 +54,16 @@ export async function iterateTokens(params: TTokenIterationArgs): Promise<TTrans
             break;
 
           default:
-            await createToken(token, {
-              collection,
-              metaData: data.$metaData,
-              allVariables,
-              styles,
-            }, payload) ? added.push(token.name) : failed.push(token.name)
+            if (hasModifierExtensions(token.extensions) && token.type === EDTFTypes.COLOR) {
+              processTokenExtension(token, { allVariables: params.allVariables, collection: params.collection, styles: params.styles, metaData: params.data.$metaData }, payload)
+            } else {
+              await createToken(token, {
+                collection,
+                metaData: data.$metaData,
+                allVariables,
+                styles,
+              }, payload) ? added.push(token.name) : failed.push(token.name)
+            }
             break;
         }
       } catch (error) {
@@ -122,6 +126,7 @@ export async function createToken(token: TTokenData, params: TCreateTokenMetaDat
         variableData = figma.variables.createVariable(token.name, collection.id, getResolvedTokenType(token.type))
       }
     }
+
 
     if (variableData) {
       await setVariableModeValues(variableData, token, { metaData, collection, allVariables, styles: params.styles }, payload)
@@ -208,7 +213,7 @@ export function doSaveValueForMode(variable: Variable, modeId: TValueForMode['mo
   }
 }
 
-async function setValueForModeExtension({ mode: { modeId, name }, defaultMode }: TValueForMode, variable: Variable, token: TTokenData, params: TCreateTokenMetaData, payload: TJsonData) {
+async function setValueForModeExtension({ mode: { modeId, name } }: TValueForMode, variable: Variable, token: TTokenData, params: TCreateTokenMetaData, payload: TJsonData) {
   try {
     const modeVariant = token.extensions?.[EExtensionProp.MODE][name]
 

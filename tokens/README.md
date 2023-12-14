@@ -42,4 +42,6 @@ Choose tokens based on meaning where applicable, not specific values.
 ![Avoid using tokens just because the color appears to match. This can break the experience in other applications or themes.](https://raw.githubusercontent.com/kadena-community/design-system/main/assets/images/doc/dont-meaning.png)
 
 
+...WIP...
+
 By adhering to these principles and practices, Kadena ensures a cohesive and efficient design and development process, fostering visual consistency across its products. The structured approach to design tokens facilitates collaboration and scalability in the evolving product design landscape.

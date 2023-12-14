@@ -179,7 +179,7 @@ export type TTokenData = {
   type: TDesignTokenFormat['$type'],
   title: string,
   description: string,
-  value: string | number,
+  value: string | number | RGB | RGBA,
   prevValue: string | number,
   variableAlias?: VariableAlias,
   key: string,

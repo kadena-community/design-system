@@ -13,9 +13,18 @@
               }
             }
           },
+          "n1": {
+            "$type": "color",
+            "$value": "#FAFAFA",
+            "$extensions": {
+              "mode": {
+                "dark": "#050505"
+              }
+            }
+          },
           "n5": {
             "$type": "color",
-            "$value": "#F8F8F8",
+            "$value": "#F0F0F0",
             "$extensions": {
               "mode": {
                 "dark": "#0F0F0F"
@@ -108,7 +117,16 @@
             "$value": "#0F0F0F",
             "$extensions": {
               "mode": {
-                "dark": "#F8F8F8"
+                "dark": "#F0F0F0"
+              }
+            }
+          },
+          "n99": {
+            "$type": "color",
+            "$value": "#050505",
+            "$extensions": {
+              "mode": {
+                "dark": "#FAFAFA"
               }
             }
           },
@@ -118,6 +136,29 @@
             "$extensions": {
               "mode": {
                 "dark": "#FFFFFF"
+              }
+            }
+          },
+          "alpha": {
+            "n100@5": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100}",
+              "$extensions": {
+                "alpha": 5
+              }
+            },
+            "n100@10": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100}",
+              "$extensions": {
+                "alpha": 10
+              }
+            },
+            "n100@20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100}",
+              "$extensions": {
+                "alpha": 20
               }
             }
           }

@@ -86,9 +86,18 @@
               }
             }
           },
+          "n1": {
+            "$type": "color",
+            "$value": "#FAFAFA",
+            "$extensions": {
+              "mode": {
+                "dark": "#050505"
+              }
+            }
+          },
           "n5": {
             "$type": "color",
-            "$value": "#F8F8F8",
+            "$value": "#F0F0F0",
             "$extensions": {
               "mode": {
                 "dark": "#0F0F0F"
@@ -181,7 +190,16 @@
             "$value": "#0F0F0F",
             "$extensions": {
               "mode": {
-                "dark": "#F8F8F8"
+                "dark": "#F0F0F0"
+              }
+            }
+          },
+          "n99": {
+            "$type": "color",
+            "$value": "#050505",
+            "$extensions": {
+              "mode": {
+                "dark": "#FAFAFA"
               }
             }
           },
@@ -191,6 +209,29 @@
             "$extensions": {
               "mode": {
                 "dark": "#FFFFFF"
+              }
+            }
+          },
+          "alpha": {
+            "n100@5": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100}",
+              "$extensions": {
+                "alpha": 5
+              }
+            },
+            "n100@10": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100}",
+              "$extensions": {
+                "alpha": 10
+              }
+            },
+            "n100@20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100}",
+              "$extensions": {
+                "alpha": 20
               }
             }
           }
@@ -333,17 +374,13 @@
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n80}"
             },
-            "@bold": {
+            "bold": {
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n90}"
             },
             "@disabled": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n60}"
-            },
-            "@inverse": {
-              "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n20}"
+              "$value": "{kda.foundation.color.neutral.n30}"
             },
             "@hover": {
               "$type": "color",
@@ -352,6 +389,20 @@
             "@focus": {
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n60}"
+            },
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n20}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n10}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n5}"
+              }
             }
           },
           "brand": {
@@ -360,17 +411,13 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n40}"
               },
-              "@bold": {
+              "bold": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n50}"
               },
               "@disabled": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n20}"
-              },
-              "@inverse": {
-                "$type": "color",
-                "$value": "{kda.foundation.color.brand.primary.n0}"
               },
               "@hover": {
                 "$type": "color",
@@ -379,6 +426,20 @@
               "@focus": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n60}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n10}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n5}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n1}"
+                }
               }
             },
             "secondary": {
@@ -386,17 +447,13 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n40}"
               },
-              "@bold": {
+              "bold": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n50}"
               },
               "@disabled": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n20}"
-              },
-              "@inverse": {
-                "$type": "color",
-                "$value": "{kda.foundation.color.brand.secondary.n0}"
               },
               "@hover": {
                 "$type": "color",
@@ -405,6 +462,20 @@
               "@focus": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n60}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.secondary.n10}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.secondary.n5}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.secondary.n1}"
+                }
               }
             }
           },
@@ -414,9 +485,27 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.positive.n80}"
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.positive.n20}"
+                "$value": "{kda.foundation.color.semantic.positive.n70}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n60}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.positive.n20}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.positive.n10}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.positive.n5}"
+                }
               }
             },
             "negative": {
@@ -424,9 +513,27 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.negative.n80}"
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.negative.n20}"
+                "$value": "{kda.foundation.color.semantic.negative.n70}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n60}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.negative.n20}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.negative.n10}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.negative.n5}"
+                }
               }
             },
             "warning": {
@@ -434,9 +541,27 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.warning.n80}"
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.warning.n20}"
+                "$value": "{kda.foundation.color.semantic.warning.n70}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n60}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.warning.n20}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.warning.n10}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.warning.n5}"
+                }
               }
             },
             "info": {
@@ -444,9 +569,27 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.info.n80}"
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.info.n20}"
+                "$value": "{kda.foundation.color.semantic.info.n70}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n60}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.info.n20}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.info.n10}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.info.n5}"
+                }
               }
             }
           }
@@ -581,72 +724,118 @@
           "base": {
             "default": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n20}"
+              "$value": "{kda.foundation.color.neutral.n20}",
+              "$extensions": {
+                "mode": {
+                  "dark": "{kda.foundation.color.neutral.n30}"
+                }
+              }
             },
             "@hover": {
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n10}"
             },
-            "@inverse": {
+            "@disabled": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n80}"
+              "$value": "{kda.foundation.color.neutral.n20}"
+            },
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n80}"
+              }
             }
           },
           "layer-1": {
             "default": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n10}"
+              "$value": "{kda.foundation.color.neutral.n10}",
+              "$extensions": {
+                "mode": {
+                  "dark": "{kda.foundation.color.neutral.n20}"
+                }
+              }
             },
             "@hover": {
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n20}"
             },
-            "@inverse": {
-              "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n90}"
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n90}"
+              }
             }
           },
           "layer-2": {
             "default": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n5}"
+              "$value": "{kda.foundation.color.neutral.n5}",
+              "$extensions": {
+                "mode": {
+                  "dark": "{kda.foundation.color.neutral.n10}"
+                }
+              }
             },
             "@hover": {
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n0}"
             },
-            "@inverse": {
-              "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n95}"
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n95}"
+              }
             }
           },
           "layer-3": {
             "default": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n0}"
+              "$value": "{kda.foundation.color.neutral.n0}",
+              "$extensions": {
+                "mode": {
+                  "dark": "{kda.foundation.color.neutral.n5}"
+                }
+              }
             },
             "@hover": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n5}"
+              "$value": "{kda.foundation.color.neutral.n1}"
             },
-            "@inverse": {
-              "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n100}"
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n100}"
+              }
             }
           },
           "brand": {
             "primary": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.brand.primary.n1}"
+                "$value": "{kda.foundation.color.brand.primary.n5}"
               },
               "@hover": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.brand.primary.n5}"
+                "$value": "{kda.foundation.color.brand.primary.n10}"
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.brand.primary.n99}"
+                "$value": "{kda.foundation.color.brand.primary.n10}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n95}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n80}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n80}"
+                }
               }
             },
             "secondary": {
@@ -658,9 +847,23 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n5}"
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.brand.secondary.n99}"
+                "$value": "{kda.foundation.color.brand.secondary.n5}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.secondary.n99}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.secondary.n80}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.secondary.n80}"
+                }
               }
             }
           },
@@ -674,9 +877,23 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.positive.n10}"
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.positive.n95}"
+                "$value": "{kda.foundation.color.semantic.positive.n10}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.positive.n95}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.positive.n90}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.positive.n90}"
+                }
               }
             },
             "negative": {
@@ -688,9 +905,23 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.negative.n10}"
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.negative.n95}"
+                "$value": "{kda.foundation.color.semantic.negative.n10}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.negative.n95}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.negative.n90}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.negative.n90}"
+                }
               }
             },
             "warning": {
@@ -702,9 +933,23 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.warning.n10}"
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.warning.n95}"
+                "$value": "{kda.foundation.color.semantic.warning.n10}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.warning.n95}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.warning.n90}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.warning.n90}"
+                }
               }
             },
             "info": {
@@ -716,9 +961,23 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.info.n10}"
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.info.n95}"
+                "$value": "{kda.foundation.color.semantic.info.n10}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.info.n95}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.info.n90}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.info.n90}"
+                }
               }
             }
           }
@@ -727,23 +986,19 @@
           "base": {
             "default": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n10}"
+              "$value": "{kda.foundation.color.neutral.alpha.n100@5}"
             },
-            "@bold": {
+            "bold": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n20}"
+              "$value": "{kda.foundation.color.neutral.alpha.n100@10}"
             },
-            "@boldest": {
+            "boldest": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n30}"
+              "$value": "{kda.foundation.color.neutral.alpha.n100@20}"
             },
             "@disabled": {
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n20}"
-            },
-            "@inverse": {
-              "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n100}"
             },
             "@hover": {
               "$type": "color",
@@ -752,16 +1007,86 @@
             "@focus": {
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n60}"
+            },
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n100}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n95}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n90}"
+              }
             }
           },
           "brand": {
             "primary": {
-              "$type": "color",
-              "$value": "{kda.foundation.color.brand.primary.n0}"
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n40}"
+              },
+              "subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n20}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n60}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n70}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n80}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n70}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n60}"
+                }
+              }
             },
             "secondary": {
-              "$type": "color",
-              "$value": "{kda.foundation.color.brand.secondary.n0}"
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n40}"
+              },
+              "subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n20}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n60}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n70}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.secondary.n80}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.secondary.n70}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.secondary.n60}"
+                }
+              }
             }
           },
           "semantic": {
@@ -770,7 +1095,7 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.positive.n60}"
               },
-              "@subtle": {
+              "subtle": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.positive.n20}",
                 "$extensions": {
@@ -783,10 +1108,6 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.positive.n20}"
               },
-              "@inverse": {
-                "$type": "color",
-                "$value": "{kda.foundation.color.semantic.positive.n40}"
-              },
               "@hover": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.positive.n70}"
@@ -794,6 +1115,20 @@
               "@focus": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.positive.n60}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.positive.n40}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.positive.n30}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.positive.n20}"
+                }
               }
             },
             "negative": {
@@ -801,7 +1136,7 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.negative.n60}"
               },
-              "@subtle": {
+              "subtle": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.negative.n20}",
                 "$extensions": {
@@ -814,10 +1149,6 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.negative.n20}"
               },
-              "@inverse": {
-                "$type": "color",
-                "$value": "{kda.foundation.color.semantic.negative.n40}"
-              },
               "@hover": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.negative.n70}"
@@ -825,6 +1156,20 @@
               "@focus": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.negative.n60}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.negative.n40}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.negative.n30}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.negative.n20}"
+                }
               }
             },
             "warning": {
@@ -832,7 +1177,7 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.warning.n60}"
               },
-              "@subtle": {
+              "subtle": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.warning.n20}",
                 "$extensions": {
@@ -845,10 +1190,6 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.warning.n20}"
               },
-              "@inverse": {
-                "$type": "color",
-                "$value": "{kda.foundation.color.semantic.warning.n40}"
-              },
               "@hover": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.warning.n70}"
@@ -856,6 +1197,20 @@
               "@focus": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.warning.n60}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.warning.n40}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.warning.n30}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.warning.n20}"
+                }
               }
             },
             "info": {
@@ -863,7 +1218,7 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.info.n60}"
               },
-              "@subtle": {
+              "subtle": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.info.n20}",
                 "$extensions": {
@@ -876,10 +1231,6 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.info.n20}"
               },
-              "@inverse": {
-                "$type": "color",
-                "$value": "{kda.foundation.color.semantic.info.n40}"
-              },
               "@hover": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.info.n70}"
@@ -887,6 +1238,20 @@
               "@focus": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.info.n60}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.info.n40}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.info.n30}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.info.n20}"
+                }
               }
             }
           }
@@ -1390,17 +1755,19 @@
             "@disabled": {
               "$description": "Use for text in a disabled state.",
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n60}"
+              "$value": "{kda.foundation.color.neutral.n40}"
             },
             "@selected": {
               "$description": "Use for text in selected or opened states, such as tabs and dropdown buttons.",
               "$type": "color",
               "$value": "{kda.foundation.color.palette.blue.n70}"
             },
-            "@inverse": {
-              "$description": "Use for text on bold backgrounds.",
-              "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n0}"
+            "inverse": {
+              "default": {
+                "$description": "Use for text on bold backgrounds.",
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n0}"
+              }
             }
           },
           "gray": {
@@ -1408,17 +1775,19 @@
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n70}"
             },
-            "@lighter": {
+            "lighter": {
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n60}"
             },
-            "@bolder": {
+            "bolder": {
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n80}"
             },
-            "@inverse": {
-              "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n30}"
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n30}"
+              }
             }
           },
           "subtle": {
@@ -1430,9 +1799,11 @@
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n80}"
             },
-            "@inverse": {
-              "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n30}"
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n30}"
+              }
             }
           },
           "subtlest": {
@@ -1444,30 +1815,68 @@
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n50}"
             },
-            "@inverse": {
-              "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n40}"
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n40}"
+              }
             }
           },
           "brand": {
             "primary": {
               "default": {
                 "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n90}"
+              },
+              "@hover": {
+                "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n95}"
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.brand.primary.n5}"
+                "$value": "{kda.foundation.color.brand.primary.n99}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n10}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n5}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n1}"
+                }
               }
             },
             "secondary": {
               "default": {
                 "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n90}"
+              },
+              "@hover": {
+                "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n95}"
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.brand.secondary.n5}"
+                "$value": "{kda.foundation.color.brand.secondary.n99}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.secondary.n10}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.secondary.n5}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.secondary.n1}"
+                }
               }
             }
           },
@@ -1477,9 +1886,27 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.positive.n90}"
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.positive.n10}"
+                "$value": "{kda.foundation.color.semantic.positive.n95}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n99}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.positive.n10}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.positive.n5}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.positive.n1}"
+                }
               }
             },
             "negative": {
@@ -1487,9 +1914,27 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.negative.n90}"
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.negative.n10}"
+                "$value": "{kda.foundation.color.semantic.negative.n95}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n99}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.negative.n10}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.negative.n5}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.negative.n1}"
+                }
               }
             },
             "warning": {
@@ -1497,9 +1942,27 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.warning.n90}"
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.warning.n10}"
+                "$value": "{kda.foundation.color.semantic.warning.n95}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n99}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.warning.n10}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.warning.n5}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.warning.n1}"
+                }
               }
             },
             "info": {
@@ -1507,9 +1970,27 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.semantic.info.n90}"
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.info.n10}"
+                "$value": "{kda.foundation.color.semantic.info.n95}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n99}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.info.n10}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.info.n5}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.info.n1}"
+                }
               }
             }
           }
@@ -2735,7 +3216,7 @@
           "$value": {
             "width": "{kda.foundation.border.width.normal}",
             "style": "solid",
-            "color": "{kda.foundation.color.border.base.@bold}"
+            "color": "{kda.foundation.color.border.base.bold}"
           }
         },
         "thick": {
@@ -2743,7 +3224,7 @@
           "$value": {
             "width": "{kda.foundation.border.width.thick}",
             "style": "solid",
-            "color": "{kda.foundation.color.border.base.@bold}"
+            "color": "{kda.foundation.color.border.base.bold}"
           }
         }
       },
@@ -12427,9 +12908,7 @@
           "$value": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"m15 3 2.3 2.3-2.89 2.87 1.42 1.42L18.7 6.7 21 9V3h-6zM3 9l2.3-2.3 2.87 2.89 1.42-1.42L6.7 5.3 9 3H3v6zm6 12-2.3-2.3 2.89-2.87-1.42-1.42L5.3 17.3 3 15v6h6zm12-6-2.3 2.3-2.87-2.89-1.42 1.42 2.89 2.87L15 21h6v-6z\"/></svg>"
         }
       }
-    },
-    "kda-notification": {},
-    "kda-button": {}
+    }
   },
   "$name": "Kode Design System",
   "$version": "0.0.1",

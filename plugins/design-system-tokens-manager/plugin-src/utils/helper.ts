@@ -99,12 +99,19 @@ export function transformExtentionPropFallbackPath(path: string) {
     .join(EConstants.TOKEN_NAME_DELIMITER)
 }
 
-export const hasAliasValue = (value: string | number) => {
+export const hasAliasValue = (value: TTokenData['value']) => {
   if (typeof value !== 'string') return false
 
   return /\{[^.]+\.+[^}]+\}$/.test(value)
 }
 
+export const hasModifierExtensions = (extensions: TTokenData['extensions']): boolean => {
+  if (!extensions) {
+    return false
+  }
+
+  return !!Object.keys(extensions).find(d => d === EExtensionProp.ALPHA || d === EExtensionProp.HUE)
+}
 
 export const hasExtendedAliasValue = (value: VariableValue) =>
   typeof value === 'string' &&
@@ -118,7 +125,7 @@ export const getExtendedAliasValue = (value: VariableValue) => {
   return null
 }
 
-export const transformExtendedAliasPath = (value: string | number) => {
+export const transformExtendedAliasPath = (value: TTokenData['value']) => {
   if (typeof value !== 'string') return value
 
   const valuePath = getValuePath(value)
@@ -133,7 +140,7 @@ export const transformExtendedAliasPath = (value: string | number) => {
   return value
 }
 
-export const getValuePath = (aliasValue: string | number) => {
+export const getValuePath = (aliasValue: TTokenData['value']) => {
   if (typeof aliasValue !== 'string') return aliasValue
 
   const path = convertPathToName(aliasValue.replace(/{|}/g, ''))
@@ -162,7 +169,7 @@ export function delay(ms: number): Promise<void> {
 
 const matchUnitRegex = /^(\d+(?:\.\d+)?)([a-zA-Z]+)$/
 
-export function parseDimensionUnit(type: string, token: TTokenData, value: string | number, defaults = { unit: EDimensionUnit.AUTO }): { value?: number, unit: EDimensionUnit } {
+export function parseDimensionUnit(type: string, token: TTokenData, value: TTokenData['value'], defaults = { unit: EDimensionUnit.AUTO }): { value?: number, unit: EDimensionUnit } {
   if (type === EDTFTypes.NUMBER && typeof value === 'number') {
     return { value, unit: EDimensionUnit.PIXELS }
   } else if (type === 'lineHeight' && typeof value === 'number') {

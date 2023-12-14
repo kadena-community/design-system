@@ -36,8 +36,6 @@
     }
   ],
   "kda": {
-    "kda-button": {},
-    "kda-notification": {},
     "foundation": {
       "border": {
         "width": {
@@ -66,11 +64,17 @@
               "$type": "color",
               "$value": {
                 "$type": "color",
-                "$value": "#E6E6E6",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#1A1A1A"
+                "$value": {
+                  "$type": "color",
+                  "$value": "#000000",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#FFFFFF"
+                    }
                   }
+                },
+                "$extensions": {
+                  "alpha": 5
                 }
               }
             }
@@ -88,11 +92,17 @@
               "$type": "color",
               "$value": {
                 "$type": "color",
-                "$value": "#D5D5D5",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#222222"
+                "$value": {
+                  "$type": "color",
+                  "$value": "#000000",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#FFFFFF"
+                    }
                   }
+                },
+                "$extensions": {
+                  "alpha": 10
                 }
               }
             }
@@ -110,11 +120,17 @@
               "$type": "color",
               "$value": {
                 "$type": "color",
-                "$value": "#D5D5D5",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#222222"
+                "$value": {
+                  "$type": "color",
+                  "$value": "#000000",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#FFFFFF"
+                    }
                   }
+                },
+                "$extensions": {
+                  "alpha": 10
                 }
               }
             }
@@ -342,6 +358,19 @@
                     "dark": "#222222"
                   }
                 }
+              },
+              "$extensions": {
+                "mode": {
+                  "dark": {
+                    "$type": "color",
+                    "$value": "#B1B1B1",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#333333"
+                      }
+                    }
+                  }
+                }
               }
             },
             "@hover": {
@@ -356,14 +385,28 @@
                 }
               }
             },
-            "@inverse": {
+            "@disabled": {
               "$type": "color",
               "$value": {
                 "$type": "color",
-                "$value": "#222222",
+                "$value": "#D5D5D5",
                 "$extensions": {
                   "mode": {
-                    "dark": "#D5D5D5"
+                    "dark": "#222222"
+                  }
+                }
+              }
+            },
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#222222",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#D5D5D5"
+                    }
                   }
                 }
               }
@@ -380,6 +423,19 @@
                     "dark": "#1A1A1A"
                   }
                 }
+              },
+              "$extensions": {
+                "mode": {
+                  "dark": {
+                    "$type": "color",
+                    "$value": "#D5D5D5",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#222222"
+                      }
+                    }
+                  }
+                }
               }
             },
             "@hover": {
@@ -394,14 +450,16 @@
                 }
               }
             },
-            "@inverse": {
-              "$type": "color",
-              "$value": {
+            "inverse": {
+              "default": {
                 "$type": "color",
-                "$value": "#1A1A1A",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#E6E6E6"
+                "$value": {
+                  "$type": "color",
+                  "$value": "#1A1A1A",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#E6E6E6"
+                    }
                   }
                 }
               }
@@ -412,10 +470,23 @@
               "$type": "color",
               "$value": {
                 "$type": "color",
-                "$value": "#F8F8F8",
+                "$value": "#F0F0F0",
                 "$extensions": {
                   "mode": {
                     "dark": "#0F0F0F"
+                  }
+                }
+              },
+              "$extensions": {
+                "mode": {
+                  "dark": {
+                    "$type": "color",
+                    "$value": "#E6E6E6",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#1A1A1A"
+                      }
+                    }
                   }
                 }
               }
@@ -432,14 +503,16 @@
                 }
               }
             },
-            "@inverse": {
-              "$type": "color",
-              "$value": {
+            "inverse": {
+              "default": {
                 "$type": "color",
-                "$value": "#0F0F0F",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#F8F8F8"
+                "$value": {
+                  "$type": "color",
+                  "$value": "#0F0F0F",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#F0F0F0"
+                    }
                   }
                 }
               }
@@ -456,28 +529,43 @@
                     "dark": "#000000"
                   }
                 }
+              },
+              "$extensions": {
+                "mode": {
+                  "dark": {
+                    "$type": "color",
+                    "$value": "#F0F0F0",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#0F0F0F"
+                      }
+                    }
+                  }
+                }
               }
             },
             "@hover": {
               "$type": "color",
               "$value": {
                 "$type": "color",
-                "$value": "#F8F8F8",
+                "$value": "#FAFAFA",
                 "$extensions": {
                   "mode": {
-                    "dark": "#0F0F0F"
+                    "dark": "#050505"
                   }
                 }
               }
             },
-            "@inverse": {
-              "$type": "color",
-              "$value": {
+            "inverse": {
+              "default": {
                 "$type": "color",
-                "$value": "#000000",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#FFFFFF"
+                "$value": {
+                  "$type": "color",
+                  "$value": "#000000",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#FFFFFF"
+                    }
                   }
                 }
               }
@@ -486,21 +574,6 @@
           "brand": {
             "primary": {
               "default": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#e0f2ff",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#002754"
-                      }
-                    }
-                  }
-                }
-              },
-              "@hover": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
@@ -515,16 +588,78 @@
                   }
                 }
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#002754",
+                    "$value": "#b5deff",
                     "$extensions": {
                       "mode": {
-                        "dark": "#e0f2ff"
+                        "dark": "#004491"
+                      }
+                    }
+                  }
+                }
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#b5deff",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#004491"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#003571",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#cae8ff"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#0054b6",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#96cefd"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#0054b6",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#96cefd"
+                        }
                       }
                     }
                   }
@@ -562,16 +697,63 @@
                   }
                 }
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#33106a",
+                    "$value": "#eeddff",
                     "$extensions": {
                       "mode": {
-                        "dark": "#f6ebff"
+                        "dark": "#470c94"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#33106a",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#f6ebff"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#7326d3",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#dbbbfe"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#7326d3",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#dbbbfe"
+                        }
                       }
                     }
                   }
@@ -611,16 +793,63 @@
                   }
                 }
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#2c3b00",
+                    "$value": "#bce92a",
                     "$extensions": {
                       "mode": {
-                        "dark": "#cbf443"
+                        "dark": "#3a4d00"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#2c3b00",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#cbf443"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#3a4d00",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#bce92a"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#3a4d00",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#bce92a"
+                        }
                       }
                     }
                   }
@@ -658,16 +887,63 @@
                   }
                 }
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#740000",
+                    "$value": "#ffcdc3",
                     "$extensions": {
                       "mode": {
-                        "dark": "#ffddd6"
+                        "dark": "#930000"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#740000",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#ffddd6"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#930000",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#ffcdc3"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#930000",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#ffcdc3"
+                        }
                       }
                     }
                   }
@@ -705,16 +981,63 @@
                   }
                 }
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#483300",
+                    "$value": "#f8d904",
                     "$extensions": {
                       "mode": {
-                        "dark": "#f8e750"
+                        "dark": "#5b4300"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#483300",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#f8e750"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#5b4300",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#f8d904"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#5b4300",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#f8d904"
+                        }
                       }
                     }
                   }
@@ -752,16 +1075,63 @@
                   }
                 }
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#003571",
+                    "$value": "#b5deff",
                     "$extensions": {
                       "mode": {
-                        "dark": "#cae8ff"
+                        "dark": "#004491"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#003571",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#cae8ff"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#004491",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#b5deff"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#004491",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#b5deff"
+                        }
                       }
                     }
                   }
@@ -776,35 +1146,53 @@
               "$type": "color",
               "$value": {
                 "$type": "color",
-                "$value": "#E6E6E6",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#1A1A1A"
+                "$value": {
+                  "$type": "color",
+                  "$value": "#000000",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#FFFFFF"
+                    }
                   }
+                },
+                "$extensions": {
+                  "alpha": 5
                 }
               }
             },
-            "@bold": {
+            "bold": {
               "$type": "color",
               "$value": {
                 "$type": "color",
-                "$value": "#D5D5D5",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#222222"
+                "$value": {
+                  "$type": "color",
+                  "$value": "#000000",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#FFFFFF"
+                    }
                   }
+                },
+                "$extensions": {
+                  "alpha": 10
                 }
               }
             },
-            "@boldest": {
+            "boldest": {
               "$type": "color",
               "$value": {
                 "$type": "color",
-                "$value": "#B1B1B1",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#333333"
+                "$value": {
+                  "$type": "color",
+                  "$value": "#000000",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#FFFFFF"
+                    }
                   }
+                },
+                "$extensions": {
+                  "alpha": 20
                 }
               }
             },
@@ -816,18 +1204,6 @@
                 "$extensions": {
                   "mode": {
                     "dark": "#222222"
-                  }
-                }
-              }
-            },
-            "@inverse": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": "#000000",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#FFFFFF"
                   }
                 }
               }
@@ -855,34 +1231,260 @@
                   }
                 }
               }
+            },
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#000000",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#FFFFFF"
+                    }
+                  }
+                }
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#0F0F0F",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#F0F0F0"
+                    }
+                  }
+                }
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#1A1A1A",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#E6E6E6"
+                    }
+                  }
+                }
+              }
             }
           },
           "brand": {
             "primary": {
-              "$type": "color",
-              "$value": {
+              "default": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
-                  "$value": "#FAFCFF",
-                  "$extensions": {
-                    "mode": {
-                      "dark": "#001329"
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#59a7f6",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#147af3"
+                      }
+                    }
+                  }
+                }
+              },
+              "subtle": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#96cefd",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#0054b6"
+                      }
+                    }
+                  }
+                }
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#147af3",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#59a7f6"
+                      }
+                    }
+                  }
+                }
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#0265dc",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#78bbfa"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#0054b6",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#96cefd"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#0265dc",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#78bbfa"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#147af3",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#59a7f6"
+                        }
+                      }
                     }
                   }
                 }
               }
             },
             "secondary": {
-              "$type": "color",
-              "$value": {
+              "default": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
-                  "$value": "#FDFAFF",
-                  "$extensions": {
-                    "mode": {
-                      "dark": "#13001F"
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#bd8bfc",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#9d57f4"
+                      }
+                    }
+                  }
+                }
+              },
+              "subtle": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#dbbbfe",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#7326d3"
+                      }
+                    }
+                  }
+                }
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#9d57f4",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#bd8bfc"
+                      }
+                    }
+                  }
+                }
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#893de7",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#cca4fd"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#7326d3",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#dbbbfe"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#893de7",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#cca4fd"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#9d57f4",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#bd8bfc"
+                        }
+                      }
                     }
                   }
                 }
@@ -906,7 +1508,7 @@
                   }
                 }
               },
-              "@subtle": {
+              "subtle": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
@@ -952,21 +1554,6 @@
                   }
                 }
               },
-              "@inverse": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#87b103",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#678800"
-                      }
-                    }
-                  }
-                }
-              },
               "@hover": {
                 "$type": "color",
                 "$value": {
@@ -996,6 +1583,53 @@
                     }
                   }
                 }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#87b103",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#678800"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#98c50a",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#577400"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#aad816",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#486000"
+                        }
+                      }
+                    }
+                  }
+                }
               }
             },
             "negative": {
@@ -1014,7 +1648,7 @@
                   }
                 }
               },
-              "@subtle": {
+              "subtle": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
@@ -1060,21 +1694,6 @@
                   }
                 }
               },
-              "@inverse": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#ff7c65",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#ea3829"
-                      }
-                    }
-                  }
-                }
-              },
               "@hover": {
                 "$type": "color",
                 "$value": {
@@ -1104,6 +1723,53 @@
                     }
                   }
                 }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#ff7c65",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#ea3829"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#ff9b88",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#d31510"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#ffb7a9",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#b40000"
+                        }
+                      }
+                    }
+                  }
+                }
               }
             },
             "warning": {
@@ -1122,7 +1788,7 @@
                   }
                 }
               },
-              "@subtle": {
+              "subtle": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
@@ -1168,21 +1834,6 @@
                   }
                 }
               },
-              "@inverse": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#c49f00",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#9b7800"
-                      }
-                    }
-                  }
-                }
-              },
               "@hover": {
                 "$type": "color",
                 "$value": {
@@ -1212,6 +1863,53 @@
                     }
                   }
                 }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#c49f00",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#9b7800"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#d7b300",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#856600"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#e8c600",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#705300"
+                        }
+                      }
+                    }
+                  }
+                }
               }
             },
             "info": {
@@ -1230,7 +1928,7 @@
                   }
                 }
               },
-              "@subtle": {
+              "subtle": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
@@ -1276,21 +1974,6 @@
                   }
                 }
               },
-              "@inverse": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#59a7f6",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#147af3"
-                      }
-                    }
-                  }
-                }
-              },
               "@hover": {
                 "$type": "color",
                 "$value": {
@@ -1316,6 +1999,53 @@
                     "$extensions": {
                       "mode": {
                         "dark": "#59a7f6"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#59a7f6",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#147af3"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#78bbfa",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#0265dc"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#96cefd",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#0054b6"
+                        }
                       }
                     }
                   }
@@ -1704,7 +2434,7 @@
                 }
               }
             },
-            "@bold": {
+            "bold": {
               "$type": "color",
               "$value": {
                 "$type": "color",
@@ -1720,22 +2450,10 @@
               "$type": "color",
               "$value": {
                 "$type": "color",
-                "$value": "#464646",
+                "$value": "#B1B1B1",
                 "$extensions": {
                   "mode": {
-                    "dark": "#909090"
-                  }
-                }
-              }
-            },
-            "@inverse": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": "#D5D5D5",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#222222"
+                    "dark": "#333333"
                   }
                 }
               }
@@ -1763,6 +2481,44 @@
                   }
                 }
               }
+            },
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#D5D5D5",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#222222"
+                    }
+                  }
+                }
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#E6E6E6",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#1A1A1A"
+                    }
+                  }
+                }
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#F0F0F0",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#0F0F0F"
+                    }
+                  }
+                }
+              }
             }
           },
           "brand": {
@@ -1782,7 +2538,7 @@
                   }
                 }
               },
-              "@bold": {
+              "bold": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
@@ -1807,21 +2563,6 @@
                     "$extensions": {
                       "mode": {
                         "dark": "#0054b6"
-                      }
-                    }
-                  }
-                }
-              },
-              "@inverse": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#FAFCFF",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#001329"
                       }
                     }
                   }
@@ -1856,6 +2597,53 @@
                     }
                   }
                 }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#b5deff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#004491"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#cae8ff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#003571"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#e0f2ff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#002754"
+                        }
+                      }
+                    }
+                  }
+                }
               }
             },
             "secondary": {
@@ -1874,7 +2662,7 @@
                   }
                 }
               },
-              "@bold": {
+              "bold": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
@@ -1899,21 +2687,6 @@
                     "$extensions": {
                       "mode": {
                         "dark": "#7326d3"
-                      }
-                    }
-                  }
-                }
-              },
-              "@inverse": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#FDFAFF",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#13001F"
                       }
                     }
                   }
@@ -1948,6 +2721,53 @@
                     }
                   }
                 }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#e6d0ff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#5d13b7"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#eeddff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#470c94"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#f6ebff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#33106a"
+                        }
+                      }
+                    }
+                  }
+                }
               }
             }
           },
@@ -1968,16 +2788,78 @@
                   }
                 }
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#aad816",
+                    "$value": "#577400",
                     "$extensions": {
                       "mode": {
-                        "dark": "#486000"
+                        "dark": "#98c50a"
+                      }
+                    }
+                  }
+                }
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#678800",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#87b103"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#aad816",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#486000"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#bce92a",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#3a4d00"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#cbf443",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#2c3b00"
+                        }
                       }
                     }
                   }
@@ -2000,16 +2882,78 @@
                   }
                 }
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#ffb7a9",
+                    "$value": "#d31510",
                     "$extensions": {
                       "mode": {
-                        "dark": "#b40000"
+                        "dark": "#ff9b88"
+                      }
+                    }
+                  }
+                }
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#ea3829",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#ff7c65"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#ffb7a9",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#b40000"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#ffcdc3",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#930000"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#ffddd6",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#740000"
+                        }
                       }
                     }
                   }
@@ -2032,16 +2976,78 @@
                   }
                 }
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#e8c600",
+                    "$value": "#856600",
                     "$extensions": {
                       "mode": {
-                        "dark": "#705300"
+                        "dark": "#d7b300"
+                      }
+                    }
+                  }
+                }
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#9b7800",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#c49f00"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#e8c600",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#705300"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#f8d904",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#5b4300"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#f8e750",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#483300"
+                        }
                       }
                     }
                   }
@@ -2064,16 +3070,78 @@
                   }
                 }
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#96cefd",
+                    "$value": "#0265dc",
                     "$extensions": {
                       "mode": {
-                        "dark": "#0054b6"
+                        "dark": "#78bbfa"
+                      }
+                    }
+                  }
+                }
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#147af3",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#59a7f6"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#96cefd",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#0054b6"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#b5deff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#004491"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#cae8ff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#003571"
+                        }
                       }
                     }
                   }
@@ -2503,9 +3571,18 @@
               }
             }
           },
+          "n1": {
+            "$type": "color",
+            "$value": "#FAFAFA",
+            "$extensions": {
+              "mode": {
+                "dark": "#050505"
+              }
+            }
+          },
           "n5": {
             "$type": "color",
-            "$value": "#F8F8F8",
+            "$value": "#F0F0F0",
             "$extensions": {
               "mode": {
                 "dark": "#0F0F0F"
@@ -2598,7 +3675,16 @@
             "$value": "#0F0F0F",
             "$extensions": {
               "mode": {
-                "dark": "#F8F8F8"
+                "dark": "#F0F0F0"
+              }
+            }
+          },
+          "n99": {
+            "$type": "color",
+            "$value": "#050505",
+            "$extensions": {
+              "mode": {
+                "dark": "#FAFAFA"
               }
             }
           },
@@ -2608,6 +3694,53 @@
             "$extensions": {
               "mode": {
                 "dark": "#FFFFFF"
+              }
+            }
+          },
+          "alpha": {
+            "n100@5": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#000000",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#FFFFFF"
+                  }
+                }
+              },
+              "$extensions": {
+                "alpha": 5
+              }
+            },
+            "n100@10": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#000000",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#FFFFFF"
+                  }
+                }
+              },
+              "$extensions": {
+                "alpha": 10
+              }
+            },
+            "n100@20": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#000000",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#FFFFFF"
+                  }
+                }
+              },
+              "$extensions": {
+                "alpha": 20
               }
             }
           }
@@ -4500,7 +5633,7 @@
                 "$value": "#0F0F0F",
                 "$extensions": {
                   "mode": {
-                    "dark": "#F8F8F8"
+                    "dark": "#F0F0F0"
                   }
                 }
               }
@@ -4510,10 +5643,10 @@
               "$type": "color",
               "$value": {
                 "$type": "color",
-                "$value": "#464646",
+                "$value": "#909090",
                 "$extensions": {
                   "mode": {
-                    "dark": "#909090"
+                    "dark": "#464646"
                   }
                 }
               }
@@ -4531,15 +5664,17 @@
                 }
               }
             },
-            "@inverse": {
-              "$description": "Use for text on bold backgrounds.",
-              "$type": "color",
-              "$value": {
+            "inverse": {
+              "default": {
+                "$description": "Use for text on bold backgrounds.",
                 "$type": "color",
-                "$value": "#FFFFFF",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#000000"
+                "$value": {
+                  "$type": "color",
+                  "$value": "#FFFFFF",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#000000"
+                    }
                   }
                 }
               }
@@ -4558,7 +5693,7 @@
                 }
               }
             },
-            "@lighter": {
+            "lighter": {
               "$type": "color",
               "$value": {
                 "$type": "color",
@@ -4570,7 +5705,7 @@
                 }
               }
             },
-            "@bolder": {
+            "bolder": {
               "$type": "color",
               "$value": {
                 "$type": "color",
@@ -4582,14 +5717,16 @@
                 }
               }
             },
-            "@inverse": {
-              "$type": "color",
-              "$value": {
+            "inverse": {
+              "default": {
                 "$type": "color",
-                "$value": "#B1B1B1",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#333333"
+                "$value": {
+                  "$type": "color",
+                  "$value": "#B1B1B1",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#333333"
+                    }
                   }
                 }
               }
@@ -4620,14 +5757,16 @@
                 }
               }
             },
-            "@inverse": {
-              "$type": "color",
-              "$value": {
+            "inverse": {
+              "default": {
                 "$type": "color",
-                "$value": "#B1B1B1",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#333333"
+                "$value": {
+                  "$type": "color",
+                  "$value": "#B1B1B1",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#333333"
+                    }
                   }
                 }
               }
@@ -4658,14 +5797,16 @@
                 }
               }
             },
-            "@inverse": {
-              "$type": "color",
-              "$value": {
+            "inverse": {
+              "default": {
                 "$type": "color",
-                "$value": "#909090",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#464646"
+                "$value": {
+                  "$type": "color",
+                  "$value": "#909090",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#464646"
+                    }
                   }
                 }
               }
@@ -4674,6 +5815,21 @@
           "brand": {
             "primary": {
               "default": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#004491",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#b5deff"
+                      }
+                    }
+                  }
+                }
+              },
+              "@hover": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
@@ -4688,16 +5844,63 @@
                   }
                 }
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#cae8ff",
+                    "$value": "#002754",
                     "$extensions": {
                       "mode": {
-                        "dark": "#003571"
+                        "dark": "#e0f2ff"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#b5deff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#004491"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#cae8ff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#003571"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#e0f2ff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#002754"
+                        }
                       }
                     }
                   }
@@ -4706,6 +5909,21 @@
             },
             "secondary": {
               "default": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#5d13b7",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#e6d0ff"
+                      }
+                    }
+                  }
+                }
+              },
+              "@hover": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
@@ -4720,16 +5938,63 @@
                   }
                 }
               },
-              "@inverse": {
+              "@focus": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#eeddff",
+                    "$value": "#33106a",
                     "$extensions": {
                       "mode": {
-                        "dark": "#470c94"
+                        "dark": "#f6ebff"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#e6d0ff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#5d13b7"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#eeddff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#470c94"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#f6ebff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#33106a"
+                        }
                       }
                     }
                   }
@@ -4754,16 +6019,78 @@
                   }
                 }
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#bce92a",
+                    "$value": "#2c3b00",
                     "$extensions": {
                       "mode": {
-                        "dark": "#3a4d00"
+                        "dark": "#cbf443"
+                      }
+                    }
+                  }
+                }
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#212c00",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#E6FD9B"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#bce92a",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#3a4d00"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#cbf443",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#2c3b00"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#E6FD9B",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#212c00"
+                        }
                       }
                     }
                   }
@@ -4786,16 +6113,78 @@
                   }
                 }
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#ffcdc3",
+                    "$value": "#740000",
                     "$extensions": {
                       "mode": {
-                        "dark": "#930000"
+                        "dark": "#ffddd6"
+                      }
+                    }
+                  }
+                }
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#590000",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#ffebe7"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#ffcdc3",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#930000"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#ffddd6",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#740000"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#ffebe7",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#590000"
+                        }
                       }
                     }
                   }
@@ -4818,16 +6207,78 @@
                   }
                 }
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#f8d904",
+                    "$value": "#483300",
                     "$extensions": {
                       "mode": {
-                        "dark": "#5b4300"
+                        "dark": "#f8e750"
+                      }
+                    }
+                  }
+                }
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#362500",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#FCF4AC"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#f8d904",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#5b4300"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#f8e750",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#483300"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#FCF4AC",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#362500"
+                        }
                       }
                     }
                   }
@@ -4850,16 +6301,78 @@
                   }
                 }
               },
-              "@inverse": {
+              "@hover": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#b5deff",
+                    "$value": "#003571",
                     "$extensions": {
                       "mode": {
-                        "dark": "#004491"
+                        "dark": "#cae8ff"
+                      }
+                    }
+                  }
+                }
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#002754",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#e0f2ff"
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#b5deff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#004491"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#cae8ff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#003571"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#e0f2ff",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#002754"
+                        }
                       }
                     }
                   }
