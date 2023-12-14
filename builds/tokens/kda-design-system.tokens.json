@@ -18779,6 +18779,52 @@
             }
           }
         }
+      },
+      "zIndex": {
+        "deepdive": {
+          "$type": "dimension",
+          "$value": -99999
+        },
+        "default": {
+          "$type": "dimension",
+          "$value": 1
+        },
+        "dialog": {
+          "$type": "dimension",
+          "$value": 6000
+        },
+        "surface": {
+          "$type": "dimension",
+          "$value": 4
+        },
+        "dropdown": {
+          "$type": "dimension",
+          "$value": 7000
+        },
+        "modal": {
+          "$type": "dimension",
+          "$value": 9000
+        },
+        "overlay": {
+          "$type": "dimension",
+          "$value": 8000
+        },
+        "popup": {
+          "$type": "dimension",
+          "$value": 5000
+        },
+        "spinner": {
+          "$type": "dimension",
+          "$value": 9050
+        },
+        "sticky": {
+          "$type": "dimension",
+          "$value": 100
+        },
+        "toast": {
+          "$type": "dimension",
+          "$value": 10000
+        }
       }
     }
   }
