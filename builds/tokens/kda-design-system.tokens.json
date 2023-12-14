@@ -1196,6 +1196,18 @@
                 }
               }
             },
+            "high-contrast": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#000000",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#FFFFFF"
+                  }
+                }
+              }
+            },
             "@disabled": {
               "$type": "color",
               "$value": {

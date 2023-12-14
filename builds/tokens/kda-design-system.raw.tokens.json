@@ -996,6 +996,10 @@
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.alpha.n100@20}"
             },
+            "high-contrast": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100}"
+            },
             "@disabled": {
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n20}"
