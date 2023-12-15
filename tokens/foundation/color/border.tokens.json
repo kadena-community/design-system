@@ -6,15 +6,15 @@
           "base": {
             "default": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.alpha.n100@5}"
+              "$value": "{kda.foundation.color.neutral.n100@alpha5}"
             },
             "bold": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.alpha.n100@10}"
+              "$value": "{kda.foundation.color.neutral.n100@alpha10}"
             },
             "boldest": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.alpha.n100@20}"
+              "$value": "{kda.foundation.color.neutral.n100@alpha20}"
             },
             "high-contrast": {
               "$type": "color",
