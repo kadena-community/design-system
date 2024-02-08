@@ -4,4 +4,10 @@ echo "***** Running build scripts ******"
 
 npm run build
 
-git add .
+if [ $? -eq 0 ]; then
+    echo OK
+    git add .
+else
+    echo FAIL
+    git reset
+fi
