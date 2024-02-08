@@ -70,7 +70,19 @@
                   "$extensions": {
                     "mode": {
                       "dark": "#FFFFFF"
-                    }
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha5": 5,
+                          "@alpha10": 10,
+                          "@alpha20": 20
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
                   }
                 },
                 "$extensions": {
@@ -98,7 +110,19 @@
                   "$extensions": {
                     "mode": {
                       "dark": "#FFFFFF"
-                    }
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha5": 5,
+                          "@alpha10": 10,
+                          "@alpha20": 20
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
                   }
                 },
                 "$extensions": {
@@ -126,7 +150,19 @@
                   "$extensions": {
                     "mode": {
                       "dark": "#FFFFFF"
-                    }
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha5": 5,
+                          "@alpha10": 10,
+                          "@alpha20": 20
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
                   }
                 },
                 "$extensions": {
@@ -565,7 +601,19 @@
                   "$extensions": {
                     "mode": {
                       "dark": "#FFFFFF"
-                    }
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha5": 5,
+                          "@alpha10": 10,
+                          "@alpha20": 20
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
                   }
                 }
               }
@@ -1152,7 +1200,19 @@
                   "$extensions": {
                     "mode": {
                       "dark": "#FFFFFF"
-                    }
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha5": 5,
+                          "@alpha10": 10,
+                          "@alpha20": 20
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
                   }
                 },
                 "$extensions": {
@@ -1170,7 +1230,19 @@
                   "$extensions": {
                     "mode": {
                       "dark": "#FFFFFF"
-                    }
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha5": 5,
+                          "@alpha10": 10,
+                          "@alpha20": 20
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
                   }
                 },
                 "$extensions": {
@@ -1188,7 +1260,19 @@
                   "$extensions": {
                     "mode": {
                       "dark": "#FFFFFF"
-                    }
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha5": 5,
+                          "@alpha10": 10,
+                          "@alpha20": 20
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
                   }
                 },
                 "$extensions": {
@@ -1204,7 +1288,19 @@
                 "$extensions": {
                   "mode": {
                     "dark": "#FFFFFF"
-                  }
+                  },
+                  "generators": [
+                    {
+                      "type": "alpha",
+                      "value": {
+                        "@alpha5": 5,
+                        "@alpha10": 10,
+                        "@alpha20": 20
+                      },
+                      "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                      "isSource": true
+                    }
+                  ]
                 }
               }
             },
@@ -1253,7 +1349,19 @@
                   "$extensions": {
                     "mode": {
                       "dark": "#FFFFFF"
-                    }
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha5": 5,
+                          "@alpha10": 10,
+                          "@alpha20": 20
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
                   }
                 }
               },
@@ -3706,54 +3814,100 @@
             "$extensions": {
               "mode": {
                 "dark": "#FFFFFF"
-              }
+              },
+              "generators": [
+                {
+                  "type": "alpha",
+                  "value": {
+                    "@alpha5": 5,
+                    "@alpha10": 10,
+                    "@alpha20": 20
+                  },
+                  "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                  "isSource": true
+                }
+              ]
             }
           },
-          "alpha": {
-            "n100@5": {
+          "n100@alpha5": {
+            "$type": "color",
+            "$value": {
               "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": "#000000",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#FFFFFF"
-                  }
-                }
-              },
+              "$value": "#000000",
               "$extensions": {
-                "alpha": 5
+                "mode": {
+                  "dark": "#FFFFFF"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha5": 5,
+                      "@alpha10": 10,
+                      "@alpha20": 20
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
               }
             },
-            "n100@10": {
+            "$extensions": {
+              "alpha": 5
+            }
+          },
+          "n100@alpha10": {
+            "$type": "color",
+            "$value": {
               "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": "#000000",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#FFFFFF"
-                  }
-                }
-              },
+              "$value": "#000000",
               "$extensions": {
-                "alpha": 10
+                "mode": {
+                  "dark": "#FFFFFF"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha5": 5,
+                      "@alpha10": 10,
+                      "@alpha20": 20
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
               }
             },
-            "n100@20": {
+            "$extensions": {
+              "alpha": 10
+            }
+          },
+          "n100@alpha20": {
+            "$type": "color",
+            "$value": {
               "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": "#000000",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#FFFFFF"
-                  }
-                }
-              },
+              "$value": "#000000",
               "$extensions": {
-                "alpha": 20
+                "mode": {
+                  "dark": "#FFFFFF"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha5": 5,
+                      "@alpha10": 10,
+                      "@alpha20": 20
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
               }
+            },
+            "$extensions": {
+              "alpha": 20
             }
           }
         },
@@ -4725,8 +4879,186 @@
             }
           }
         },
+        "categorical": {
+          "$description": "Colors intended for data visualisations. Adhere to the specified numerical order.",
+          "category1": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 1",
+              "$value": "#2898BD",
+              "$extensions": {
+                "mode": {
+                  "dark": "#2898BD"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 1 Hover State",
+              "$value": "#227D9B",
+              "$extensions": {
+                "mode": {
+                  "dark": "#42B2D7"
+                }
+              }
+            }
+          },
+          "category2": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 2",
+              "$value": "#5E4DB2",
+              "$extensions": {
+                "mode": {
+                  "dark": "#B8ACF6"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 2 Hover State",
+              "$value": "#352C63",
+              "$extensions": {
+                "mode": {
+                  "dark": "#DFD8FD"
+                }
+              }
+            }
+          },
+          "category3": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 3",
+              "$value": "#E56910",
+              "$extensions": {
+                "mode": {
+                  "dark": "#E56910"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 3 Hover State",
+              "$value": "#C25100",
+              "$extensions": {
+                "mode": {
+                  "dark": "#F38A3F"
+                }
+              }
+            }
+          },
+          "category4": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 4",
+              "$value": "#943D73",
+              "$extensions": {
+                "mode": {
+                  "dark": "#F797D2"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 4 Hover State",
+              "$value": "#50253F",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FDD0EC"
+                }
+              }
+            }
+          },
+          "category5": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 5",
+              "$value": "#09326C",
+              "$extensions": {
+                "mode": {
+                  "dark": "#CCE0FF"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 5 Hover State",
+              "$value": "#1C2B41",
+              "$extensions": {
+                "mode": {
+                  "dark": "#E9F2FF"
+                }
+              }
+            }
+          },
+          "category6": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 6",
+              "$value": "#8F7EE7",
+              "$extensions": {
+                "mode": {
+                  "dark": "#8270DB"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 6 Hover State",
+              "$value": "#8270DB",
+              "$extensions": {
+                "mode": {
+                  "dark": "#8F7EE7"
+                }
+              }
+            }
+          },
+          "category7": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 7",
+              "$value": "#50253F",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FDD0EC"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 7 Hover State",
+              "$value": "#3D2232",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FFECF8"
+                }
+              }
+            }
+          },
+          "category8": {
+            "default": {
+              "$type": "color",
+              "$description": "Visualisation Color 8",
+              "$value": "#A54800",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FEC195"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$description": "Visualisation Color 8 Hover State",
+              "$value": "#702E00",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FEDEC8"
+                }
+              }
+            }
+          }
+        },
         "semantic": {
-          "$description": "Colors to communicate purpose. They help users to convey messages.",
           "info": {
             "n0": {
               "$type": "color",
@@ -5451,185 +5783,6 @@
                   "mode": {
                     "dark": "#FFFBF5"
                   }
-                }
-              }
-            }
-          }
-        },
-        "categorical": {
-          "$description": "Colors intended for data visualisations. Adhere to the specified numerical order.",
-          "category1": {
-            "default": {
-              "$type": "color",
-              "$description": "Visualisation Color 1",
-              "$value": "#2898BD",
-              "$extensions": {
-                "mode": {
-                  "dark": "#2898BD"
-                }
-              }
-            },
-            "@hover": {
-              "$type": "color",
-              "$description": "Visualisation Color 1 Hover State",
-              "$value": "#227D9B",
-              "$extensions": {
-                "mode": {
-                  "dark": "#42B2D7"
-                }
-              }
-            }
-          },
-          "category2": {
-            "default": {
-              "$type": "color",
-              "$description": "Visualisation Color 2",
-              "$value": "#5E4DB2",
-              "$extensions": {
-                "mode": {
-                  "dark": "#B8ACF6"
-                }
-              }
-            },
-            "@hover": {
-              "$type": "color",
-              "$description": "Visualisation Color 2 Hover State",
-              "$value": "#352C63",
-              "$extensions": {
-                "mode": {
-                  "dark": "#DFD8FD"
-                }
-              }
-            }
-          },
-          "category3": {
-            "default": {
-              "$type": "color",
-              "$description": "Visualisation Color 3",
-              "$value": "#E56910",
-              "$extensions": {
-                "mode": {
-                  "dark": "#E56910"
-                }
-              }
-            },
-            "@hover": {
-              "$type": "color",
-              "$description": "Visualisation Color 3 Hover State",
-              "$value": "#C25100",
-              "$extensions": {
-                "mode": {
-                  "dark": "#F38A3F"
-                }
-              }
-            }
-          },
-          "category4": {
-            "default": {
-              "$type": "color",
-              "$description": "Visualisation Color 4",
-              "$value": "#943D73",
-              "$extensions": {
-                "mode": {
-                  "dark": "#F797D2"
-                }
-              }
-            },
-            "@hover": {
-              "$type": "color",
-              "$description": "Visualisation Color 4 Hover State",
-              "$value": "#50253F",
-              "$extensions": {
-                "mode": {
-                  "dark": "#FDD0EC"
-                }
-              }
-            }
-          },
-          "category5": {
-            "default": {
-              "$type": "color",
-              "$description": "Visualisation Color 5",
-              "$value": "#09326C",
-              "$extensions": {
-                "mode": {
-                  "dark": "#CCE0FF"
-                }
-              }
-            },
-            "@hover": {
-              "$type": "color",
-              "$description": "Visualisation Color 5 Hover State",
-              "$value": "#1C2B41",
-              "$extensions": {
-                "mode": {
-                  "dark": "#E9F2FF"
-                }
-              }
-            }
-          },
-          "category6": {
-            "default": {
-              "$type": "color",
-              "$description": "Visualisation Color 6",
-              "$value": "#8F7EE7",
-              "$extensions": {
-                "mode": {
-                  "dark": "#8270DB"
-                }
-              }
-            },
-            "@hover": {
-              "$type": "color",
-              "$description": "Visualisation Color 6 Hover State",
-              "$value": "#8270DB",
-              "$extensions": {
-                "mode": {
-                  "dark": "#8F7EE7"
-                }
-              }
-            }
-          },
-          "category7": {
-            "default": {
-              "$type": "color",
-              "$description": "Visualisation Color 7",
-              "$value": "#50253F",
-              "$extensions": {
-                "mode": {
-                  "dark": "#FDD0EC"
-                }
-              }
-            },
-            "@hover": {
-              "$type": "color",
-              "$description": "Visualisation Color 7 Hover State",
-              "$value": "#3D2232",
-              "$extensions": {
-                "mode": {
-                  "dark": "#FFECF8"
-                }
-              }
-            }
-          },
-          "category8": {
-            "default": {
-              "$type": "color",
-              "$description": "Visualisation Color 8",
-              "$value": "#A54800",
-              "$extensions": {
-                "mode": {
-                  "dark": "#FEC195"
-                }
-              }
-            },
-            "@hover": {
-              "$type": "color",
-              "$description": "Visualisation Color 8 Hover State",
-              "$value": "#702E00",
-              "$extensions": {
-                "mode": {
-                  "dark": "#FEDEC8"
                 }
               }
             }
@@ -9923,6 +10076,18 @@
           "$description": "",
           "$value": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M8.4 18.2c.38.5.6 1.12.6 1.8 0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3c.44 0 .85.09 1.23.26l1.41-1.77a4.504 4.504 0 0 1-1.09-3.69l-2.03-.68A2.997 2.997 0 0 1 0 9.5c0-1.66 1.34-3 3-3s3 1.34 3 3c0 .07 0 .14-.01.21l2.03.68a4.468 4.468 0 0 1 3.22-2.32V5.91A3.018 3.018 0 0 1 9 3c0-1.66 1.34-3 3-3s3 1.34 3 3c0 1.4-.96 2.57-2.25 2.91v2.16c1.4.23 2.58 1.11 3.22 2.32L18 9.71V9.5c0-1.66 1.34-3 3-3s3 1.34 3 3-1.34 3-3 3c-1.06 0-1.98-.55-2.52-1.37l-2.03.68a4.49 4.49 0 0 1-1.09 3.69l1.41 1.77c.38-.18.79-.27 1.23-.27 1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3c0-.68.22-1.3.6-1.8l-1.41-1.77c-1.35.75-3.01.76-4.37 0L8.4 18.2z\"/></svg>"
         },
+        "incoming_funds": {
+          "$type": "icon",
+          "$name": "incoming_funds",
+          "$description": "",
+          "$value": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M17.36 7.67999C17.73 7.28999 17.72 6.66999 17.34 6.28999C16.96 5.90999 16.34 5.90999 15.95 6.26999L8.12 14.09L6 11.97V17.63H11.66L9.54 15.51L17.36 7.67999Z\"/></svg>"
+        },
+        "incoming_multichain_funds": {
+          "$type": "icon",
+          "$name": "incoming_multichain_funds",
+          "$description": "",
+          "$value": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M13.1 9.12002L8.12 14.1L6 11.98V17.64H11.66L9.54 15.52L14.52 10.54C14.91 10.15 14.91 9.51002 14.52 9.13002C14.13 8.74002 13.49 8.74002 13.11 9.13002L13.1 9.12002Z\" /><path d=\"M17.34 6.29C16.95 5.9 16.31 5.9 15.93 6.29C15.54 6.68 15.54 7.32 15.93 7.7C16.32 8.08 16.96 8.09 17.34 7.7C17.73 7.31 17.73 6.67 17.34 6.29Z\" /></svg>\n"
+        },
         "info": {
           "$type": "icon",
           "$name": "info",
@@ -11140,6 +11305,18 @@
           "$name": "outbound",
           "$description": "",
           "$value": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.88 9.54L8.92 16.5l-1.41-1.41 4.96-4.96L10.34 8l5.65.01.01 5.65-2.12-2.12z\"/></svg>"
+        },
+        "outgoing_funds": {
+          "$type": "icon",
+          "$name": "outgoing_funds",
+          "$description": "",
+          "$value": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M11.97 6L14.09 8.12L6.26999 15.95C5.89999 16.35 5.90999 16.96 6.28999 17.34C6.66999 17.72 7.28999 17.72 7.67999 17.36L15.51 9.54L17.63 11.66V6H11.97Z\"/></svg>\n"
+        },
+        "outgoing_multichain_funds": {
+          "$type": "icon",
+          "$name": "outgoing_multichain_funds",
+          "$description": "",
+          "$value": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M11.98 6L14.1 8.12L9.12001 13.1C8.73001 13.49 8.73001 14.13 9.12001 14.51C9.51001 14.9 10.15 14.9 10.53 14.51L15.51 9.53L17.63 11.65V6H11.97H11.98Z\"/><path d=\"M6.29 15.93C5.9 16.32 5.9 16.96 6.29 17.34C6.68 17.72 7.32 17.73 7.7 17.34C8.08 16.95 8.09 16.31 7.7 15.93C7.31 15.54 6.67 15.54 6.29 15.93Z\"/></svg>\n"
         },
         "outlined_flag": {
           "$type": "icon",
@@ -18782,47 +18959,47 @@
       },
       "zIndex": {
         "deepdive": {
-          "$type": "dimension",
+          "$type": "number",
           "$value": -99999
         },
         "default": {
-          "$type": "dimension",
+          "$type": "number",
           "$value": 1
         },
         "dialog": {
-          "$type": "dimension",
+          "$type": "number",
           "$value": 6000
         },
         "surface": {
-          "$type": "dimension",
+          "$type": "number",
           "$value": 4
         },
         "dropdown": {
-          "$type": "dimension",
+          "$type": "number",
           "$value": 7000
         },
         "modal": {
-          "$type": "dimension",
+          "$type": "number",
           "$value": 9000
         },
         "overlay": {
-          "$type": "dimension",
+          "$type": "number",
           "$value": 8000
         },
         "popup": {
-          "$type": "dimension",
+          "$type": "number",
           "$value": 5000
         },
         "spinner": {
-          "$type": "dimension",
+          "$type": "number",
           "$value": 9050
         },
         "sticky": {
-          "$type": "dimension",
+          "$type": "number",
           "$value": 100
         },
         "toast": {
-          "$type": "dimension",
+          "$type": "number",
           "$value": 10000
         }
       }

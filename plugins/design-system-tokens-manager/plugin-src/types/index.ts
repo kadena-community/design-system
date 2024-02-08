@@ -144,7 +144,7 @@ export type TProcessedData = {
   }
 }
 
-type TExtensionGeneratorKeys = EExtensionProp.ALPHA | EExtensionProp.HUE
+export type TExtensionGeneratorKeys = EExtensionProp.ALPHA | EExtensionProp.HUE
 type TExtensionKeys = EExtensionProp.MODE | TExtensionGeneratorKeys
 
 

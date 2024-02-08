@@ -5,6 +5,7 @@ import {
   TCreateTokenMetaData,
   TDesignTokenFormat,
   TExtensionGeneratorGroup,
+  TExtensionGeneratorKeys,
   TJsonData,
   TRGBA,
   TTokenData,
@@ -62,15 +63,13 @@ export async function processTokenExtension(token: TTokenData, params: TCreateTo
   }
 }
 
-export function getTokenExtensionModifier(groupName: TTokenData['groupName']): TTokenData['modifier'] {
-  switch (groupName) {
-    case EExtensionProp.ALPHA:
-      return EExtensionProp.ALPHA
-    case EExtensionProp.HUE:
-      return EExtensionProp.HUE
-
-    default:
-      return groupName as TTokenData['modifier']
+export function getTokenExtensionModifier(extensions: TTokenData['extensions']): TExtensionGeneratorKeys | null {
+  if (extensions?.hasOwnProperty(EExtensionProp.ALPHA)) {
+    return EExtensionProp.ALPHA
+  } else if (extensions?.hasOwnProperty(EExtensionProp.HUE)) {
+    return EExtensionProp.HUE
+  } else {
+    return null
   }
 }
 

@@ -51,7 +51,7 @@ export function processToken(pathData: TPathData, payloadData: TProcessPathDataA
     groupName,
     path,
     rootKey,
-    modifier: getTokenExtensionModifier(groupName),
+    modifier: getTokenExtensionModifier(refToken?.$extensions),
     extensions: isExtension || !!modeVariants ? mapTokenExtensions(refToken, pathDataConst) : refToken?.[EConstants.EXTENSIONS] || null,
     isExtension,
     ...altTokenData,

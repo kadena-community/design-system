@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+echo "***** Running build scripts ******"
+
+npm run build
+
+git add .
