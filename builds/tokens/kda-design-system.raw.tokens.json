@@ -428,6 +428,10 @@
         },
         "border": {
           "base": {
+            "subtle": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100@alpha2}"
+            },
             "default": {
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n100@alpha5}"
@@ -1327,12 +1331,20 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha2": 2,
                     "@alpha5": 5,
                     "@alpha10": 10,
                     "@alpha20": 20
                   }
                 }
               ]
+            }
+          },
+          "n100@alpha2": {
+            "$type": "color",
+            "$value": "{kda.foundation.color.neutral.n100}",
+            "$extensions": {
+              "alpha": 2
             }
           },
           "n100@alpha5": {

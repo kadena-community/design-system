@@ -141,6 +141,7 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha2": 2,
                     "@alpha5": 5,
                     "@alpha10": 10,
                     "@alpha20": 20

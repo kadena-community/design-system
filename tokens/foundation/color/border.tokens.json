@@ -4,6 +4,10 @@
       "color": {
         "border": {
           "base": {
+            "subtle": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100@alpha2}"
+            },
             "default": {
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n100@alpha5}"
