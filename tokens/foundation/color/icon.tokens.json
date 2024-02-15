@@ -6,11 +6,11 @@
           "base": {
             "default": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n80}"
+              "$value": "{kda.foundation.color.neutral.n95}"
             },
             "bold": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n90}"
+              "$value": "{kda.foundation.color.neutral.n99}"
             },
             "@disabled": {
               "$type": "color",
@@ -27,7 +27,11 @@
             "inverse": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.neutral.n20}"
+                "$value": "{kda.foundation.color.neutral.n5}"
+              },
+              "bold": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1}"
               },
               "@hover": {
                 "$type": "color",
@@ -40,6 +44,23 @@
             }
           },
           "brand": {
+            "logo": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n50}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.neutral.n1}",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "{kda.foundation.color.neutralwarm.n99}"
+                    }
+                  }
+                }
+              }
+            },
             "primary": {
               "default": {
                 "$type": "color",

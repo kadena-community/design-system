@@ -72,6 +72,10 @@ export function convertPathToName(path: string) {
     .replace(/\./g, EConstants.TOKEN_NAME_DELIMITER)
 }
 
+export function stripVariableName(aliasValue: string) {
+  return convertPathToName(aliasValue.replace(/{|}/g, ''))
+}
+
 export function convertNameToPath(name: string) {
   return name
     ?.trim()

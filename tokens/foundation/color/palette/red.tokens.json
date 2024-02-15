@@ -10,7 +10,7 @@
               "$value": "#FFF5F5",
               "$extensions": {
                 "mode": {
-                  "dark": "#240003"
+                  "dark": "#330000"
                 }
               }
             },
@@ -47,7 +47,15 @@
               "$extensions": {
                 "mode": {
                   "dark": "#b40000"
-                }
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha20": 20
+                    }
+                  }
+                ]
               }
             },
             "n30": {
@@ -101,7 +109,15 @@
               "$extensions": {
                 "mode": {
                   "dark": "#ffb7a9"
-                }
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha20": 20
+                    }
+                  }
+                ]
               }
             },
             "n90": {
@@ -133,7 +149,7 @@
             },
             "n100": {
               "$type": "color",
-              "$value": "#240003",
+              "$value": "#330000",
               "$extensions": {
                 "mode": {
                   "dark": "#FFF5F5"

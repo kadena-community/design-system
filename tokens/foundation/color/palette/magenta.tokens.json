@@ -4,139 +4,139 @@
       "color": {
         "palette": {
           "magenta": {
-            "$description": "Magenta colors",
+            "$description": "Kadena Magenta Color Palette",
             "n0": {
               "$type": "color",
-              "$value": "#FFF5FB",
+              "$value": "#FFF7FA",
               "$extensions": {
                 "mode": {
-                  "dark": "#230115"
+                  "dark": "#470820"
                 }
               }
             },
             "n1": {
               "$type": "color",
-              "$value": "#ffeaf1",
+              "$value": "#FFEAF1",
               "$extensions": {
                 "mode": {
-                  "dark": "#54032a"
+                  "dark": "#660B2E"
                 }
               }
             },
             "n5": {
               "$type": "color",
-              "$value": "#ffdce8",
+              "$value": "#FBC7DA",
               "$extensions": {
                 "mode": {
-                  "dark": "#700037"
+                  "dark": "#7B0D38"
                 }
               }
             },
             "n10": {
               "$type": "color",
-              "$value": "#ffcadd",
+              "$value": "#F6A4C3",
               "$extensions": {
                 "mode": {
-                  "dark": "#8e0045"
+                  "dark": "#901041"
                 }
               }
             },
             "n20": {
               "$type": "color",
-              "$value": "#ffb2ce",
+              "$value": "#F282AD",
               "$extensions": {
                 "mode": {
-                  "dark": "#ad0955"
+                  "dark": "#A5124B"
                 }
               }
             },
             "n30": {
               "$type": "color",
-              "$value": "#ff95bd",
+              "$value": "#ED5F96",
               "$extensions": {
                 "mode": {
-                  "dark": "#c82269"
+                  "dark": "#BA1455"
                 }
               }
             },
             "n40": {
               "$type": "color",
-              "$value": "#fa77aa",
+              "$value": "#E93C7F",
               "$extensions": {
                 "mode": {
-                  "dark": "#de3d82"
+                  "dark": "#CF175E"
                 }
               }
             },
             "n50": {
               "$type": "color",
-              "$value": "#ef5a98",
+              "$value": "#E41968",
               "$extensions": {
                 "mode": {
-                  "dark": "#ef5a98"
+                  "dark": "#E41968"
                 }
               }
             },
             "n60": {
               "$type": "color",
-              "$value": "#de3d82",
+              "$value": "#CF175E",
               "$extensions": {
                 "mode": {
-                  "dark": "#fa77aa"
+                  "dark": "#E93C7F"
                 }
               }
             },
             "n70": {
               "$type": "color",
-              "$value": "#c82269",
+              "$value": "#BA1455",
               "$extensions": {
                 "mode": {
-                  "dark": "#ff95bd"
+                  "dark": "#ED5F96"
                 }
               }
             },
             "n80": {
               "$type": "color",
-              "$value": "#ad0955",
+              "$value": "#A5124B",
               "$extensions": {
                 "mode": {
-                  "dark": "#ffb2ce"
+                  "dark": "#F282AD"
                 }
               }
             },
             "n90": {
               "$type": "color",
-              "$value": "#8e0045",
+              "$value": "#901041",
               "$extensions": {
                 "mode": {
-                  "dark": "#ffcadd"
+                  "dark": "#F6A4C3"
                 }
               }
             },
             "n95": {
               "$type": "color",
-              "$value": "#700037",
+              "$value": "#7B0D38",
               "$extensions": {
                 "mode": {
-                  "dark": "#ffdce8"
+                  "dark": "#FBC7DA"
                 }
               }
             },
             "n99": {
               "$type": "color",
-              "$value": "#54032a",
+              "$value": "#660B2E",
               "$extensions": {
                 "mode": {
-                  "dark": "#ffeaf1"
+                  "dark": "#FFEAF1"
                 }
               }
             },
             "n100": {
               "$type": "color",
-              "$value": "#230115",
+              "$value": "#470820",
               "$extensions": {
                 "mode": {
-                  "dark": "#FFF5FB"
+                  "dark": "#FFF7FA"
                 }
               }
             }

@@ -1,0 +1,6 @@
+<svg data-style="kdacolor" width="64" height="64" viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg">
+  <path d="M52.7144 52L38.2208 51.9926L20.1554 37.8923L27.503 32L52.7144 52Z" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4A9079"/>
+  <path d="M52.7144 12H38.2282L20.1554 26.1077L27.503 32L52.7144 12Z" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4A9079"/>
+  <path d="M20.1504 51.9928L11.1559 44.8861V19.1142L20.1504 12.0075V51.9928Z" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4A9079"/>
+</svg>

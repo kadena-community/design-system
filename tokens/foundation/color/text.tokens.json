@@ -7,7 +7,7 @@
             "default": {
               "$description": "Use for primary text, such as body copy, sentence case headers, and buttons.",
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n95}"
+              "$value": "{kda.foundation.color.neutralwarm.n90}"
             },
             "@disabled": {
               "$description": "Use for text in a disabled state.",
@@ -50,36 +50,48 @@
           "subtle": {
             "default": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n70}"
+              "$value": "{kda.foundation.color.neutralwarm.n70}"
             },
             "@hover": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n80}"
+              "$value": "{kda.foundation.color.neutralwarm.n80}"
             },
             "inverse": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.neutral.n30}"
+                "$value": "{kda.foundation.color.neutralwarm.n30}"
               }
             }
           },
           "subtlest": {
             "default": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n60}"
+              "$value": "{kda.foundation.color.neutralwarm.n60}"
             },
             "@hover": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n50}"
+              "$value": "{kda.foundation.color.neutralwarm.n50}"
             },
             "inverse": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.neutral.n40}"
+                "$value": "{kda.foundation.color.neutralwarm.n40}"
               }
             }
           },
           "brand": {
+            "wordmark": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutralwarm.n99}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.neutralwarm.n1}"
+                }
+              }
+            },
             "primary": {
               "default": {
                 "$type": "color",

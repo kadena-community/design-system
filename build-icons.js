@@ -1,8 +1,9 @@
 const { resolve, relative, join } = require('path');
-const { readFileSync, writeFileSync } = require('fs');
+const { readFileSync } = require('fs');
 const { readdir } = require('fs').promises;
 const set = require('lodash/set')
-const get = require('lodash/get')
+const get = require('lodash/get');
+const { writeFile } = require('fs/promises');
 
 async function getFiles(dir) {
   const dirents = await readdir(dir, { withFileTypes: true });
@@ -19,13 +20,19 @@ async function getFiles(dir) {
     const content = readFileSync(svg, 'utf8');
     const file = relative('./icons', svg).split('/').pop();
     const name = (content.match(/name="(.*?)"/) ?? [])[1] ?? file.replace('.svg', '');
+    const style = (content.match(/data\-style="(.*?)"/) ?? [])[1];
     const description = (content.match(/description="(.*?)"/) ?? [])[1];
+    const width = +(content.match(/width="(.*?)"/) ?? [])[1];
+    const height = +(content.match(/height="(.*?)"/) ?? [])[1];
+
     return {
       path: svg,
-      folder: relative('./icons', svg).split('/').slice(0, -1).concat(name),
+      folder: relative('./icons', svg).split('/').slice(0, -1).concat(`${style}_${name}`),
       file,
+      style,
       content,
       name,
+      dimensions: { width, height },
       description: description ?? ''
     }
   });
@@ -35,20 +42,24 @@ async function getFiles(dir) {
       "$type": "icon",
       "$name": svg.name,
       "$description": svg.description,
+      "$style": svg.style,
       "$value": svg.content,
+      "$dimensions": svg.dimensions,
       ...get(memo, svg.folder.join('.'))
     })
     return memo;
   }, {});
 
-
-  const result = {
-    kda: {
-      foundation: { icon: jsonFile }
-    }
-  }
-
-  const writeFile = join(__dirname, './tokens/foundation/icon/svg.tokens.json')
-  writeFileSync(writeFile, JSON.stringify(result, null, 2), 'utf8')
+  Object.keys(jsonFile).forEach(async (iconType) => {
+    const writeFilePath = join(__dirname, `./tokens/foundation/icon/${iconType}/svg.${iconType}.tokens.json`)
+    await writeFile(writeFilePath, JSON.stringify({
+      kda: {
+        foundation: {
+          icon: {
+            [iconType]: jsonFile[iconType]
+          }
+        }
+      }
+    }, null, 2), { flag: 'w', encoding: 'utf-8' })
+  })
 })()
-

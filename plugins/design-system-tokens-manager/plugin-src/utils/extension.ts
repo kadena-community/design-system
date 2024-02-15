@@ -50,11 +50,11 @@ export async function processTokenExtension(token: TTokenData, params: TCreateTo
         break;
       case EExtensionProp.HUE:
       default:
-        variable = figma.variables.createVariable(token.name, params.collection.id, getResolvedTokenType(token.type))
+        variable = figma.variables.createVariable(token.name, params.collection, getResolvedTokenType(token.type))
         break;
     }
   } else if (extensionPropType === EDTFTypes.FONTWEIGHT) {
-    variable = figma.variables.createVariable(token.name, params.collection.id, getResolvedTokenType(token.type))
+    variable = figma.variables.createVariable(token.name, params.collection, getResolvedTokenType(token.type))
   }
 
   return {
@@ -79,7 +79,7 @@ async function processAlphaExtension(token: TTokenData, params: TCreateTokenMeta
 
     if (hasAliasValue(token.value)) {
       if (!variable) {
-        variable = figma.variables.createVariable(token.name, params.collection.id, getResolvedTokenType(token.type))
+        variable = figma.variables.createVariable(token.name, params.collection, getResolvedTokenType(token.type))
       }
 
       if (variable) {

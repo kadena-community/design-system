@@ -7,16 +7,16 @@
             "$description": "Yellow colors",
             "n0": {
               "$type": "color",
-              "$value": "#FFFBF5",
+              "$value": "#FBF8DD",
               "$extensions": {
                 "mode": {
-                  "dark": "#1F1300"
+                  "dark": "#1A1100"
                 }
               }
             },
             "n1": {
               "$type": "color",
-              "$value": "#FCF4AC",
+              "$value": "#fbf198",
               "$extensions": {
                 "mode": {
                   "dark": "#362500"
@@ -47,7 +47,15 @@
               "$extensions": {
                 "mode": {
                   "dark": "#705300"
-                }
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha20": 20
+                    }
+                  }
+                ]
               }
             },
             "n30": {
@@ -101,7 +109,15 @@
               "$extensions": {
                 "mode": {
                   "dark": "#e8c600"
-                }
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha20": 20
+                    }
+                  }
+                ]
               }
             },
             "n90": {
@@ -127,16 +143,16 @@
               "$value": "#362500",
               "$extensions": {
                 "mode": {
-                  "dark": "#FCF4AC"
+                  "dark": "#fbf198"
                 }
               }
             },
             "n100": {
               "$type": "color",
-              "$value": "#1F1300",
+              "$value": "#1A1100",
               "$extensions": {
                 "mode": {
-                  "dark": "#FFFBF5"
+                  "dark": "#FBF8DD"
                 }
               }
             }

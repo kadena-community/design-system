@@ -18,7 +18,7 @@
             },
             "@visited": {
               "$type": "color",
-              "$value": "{kda.foundation.color.palette.purple.n80}"
+              "$value": "{kda.foundation.color.palette.magenta.n80}"
             }
           },
           "brand": {
@@ -37,7 +37,7 @@
               },
               "@visited": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.palette.purple.n80}"
+                "$value": "{kda.foundation.color.palette.magenta.n80}"
               }
             },
             "secondary": {
@@ -55,7 +55,7 @@
               },
               "@visited": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.palette.purple.n80}"
+                "$value": "{kda.foundation.color.palette.magenta.n80}"
               }
             }
           },
@@ -75,7 +75,7 @@
               },
               "@visited": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.palette.purple.n80}"
+                "$value": "{kda.foundation.color.palette.magenta.n80}"
               }
             },
             "negative": {
@@ -93,7 +93,7 @@
               },
               "@visited": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.palette.purple.n80}"
+                "$value": "{kda.foundation.color.palette.magenta.n80}"
               }
             },
             "warning": {
@@ -111,7 +111,7 @@
               },
               "@visited": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.palette.purple.n80}"
+                "$value": "{kda.foundation.color.palette.magenta.n80}"
               }
             },
             "info": {
@@ -129,7 +129,7 @@
               },
               "@visited": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.palette.purple.n80}"
+                "$value": "{kda.foundation.color.palette.magenta.n80}"
               }
             }
           }
