@@ -5,6 +5,10 @@ import { deconstructPath, getValueByPath } from "./helper";
 import { processToken } from './mappers/token'
 
 let iconToken: null | Variable = null
+export const addedIconPaths: string[] = []
+export function addIcon(path: string) {
+  addedIconPaths.push(path)
+}
 
 export function iterateJson(jsonObj: any, path: string[], isInit: boolean, params: TCollectionPayload): TPreProcessedDataObject {
   if (!isInit && !iconToken && params.isImportIcons) {
@@ -29,7 +33,10 @@ export function iterateJson(jsonObj: any, path: string[], isInit: boolean, param
           let isAdded = false
 
           if (!isInit && params.isImportIcons) {
-            isAdded = createSVG({ $path: path, $description: jsonObj.$description }, jsonObj.$value, iconToken)
+            isAdded = createSVG({
+              ...jsonObj,
+              $path: path,
+            }, jsonObj.$value, iconToken)
           } else if (isInit && params.isImportIcons && frame) {
             clearState()
           }

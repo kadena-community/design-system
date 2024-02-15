@@ -6,19 +6,19 @@
           "base": {
             "subtle": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n100@alpha2}"
+              "$value": "{kda.foundation.color.neutral.n100}"
             },
             "default": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n100@alpha5}"
+              "$value": "{kda.foundation.color.neutral.n90@alpha25}"
             },
             "bold": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n100@alpha10}"
+              "$value": "{kda.foundation.color.neutral.n100}"
             },
             "boldest": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n100@alpha20}"
+              "$value": "{kda.foundation.color.neutral.n100}"
             },
             "high-contrast": {
               "$type": "color",

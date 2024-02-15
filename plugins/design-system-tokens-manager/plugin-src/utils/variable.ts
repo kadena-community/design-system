@@ -123,7 +123,7 @@ export async function createToken(token: TTokenData, params: TCreateTokenMetaDat
         token = updatedToken
         variableData = variable
       } else {
-        variableData = figma.variables.createVariable(token.name, collection.id, getResolvedTokenType(token.type))
+        variableData = figma.variables.createVariable(token.name, collection, getResolvedTokenType(token.type))
       }
     }
 

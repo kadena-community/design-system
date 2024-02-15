@@ -84,7 +84,8 @@ function getAllValues(obj) {
   }, {});
 
   const destPath = './builds/tokens/kda-design-system.raw.tokens.json'
-  const writeFileContent = join(__dirname, destPath)
-  await writeFile(writeFileContent, JSON.stringify(result, null, 2), { flag: 'w', encoding: 'utf-8' })
+  const writeFilePath = join(__dirname, destPath)
+  await writeFile(writeFilePath, JSON.stringify(result), { flag: 'w', encoding: 'utf-8' })
+
   StyleDictionary(destPath)
 })()
