@@ -21,8 +21,8 @@ export enum EConstants {
   NAMESPACE_ROOT = 'kda',
   NAMESPACE_FOUNDATION = 'foundation',
 
-  PAGE_ICONS = 'System Icons',
-  ICONS_FRAME_NAME = 'icon',
+  PAGE_ICONS = 'Design System Icons',
+  ICONS_FRAME_NAME = 'icons',
 }
 
 export enum EDTFTypes {
