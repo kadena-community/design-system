@@ -1,5 +1,5 @@
 import { EConstants, TAction, TCollectionPayload } from "../types";
-import { addedIconPaths, iterateJson, processData } from "./core";
+import { iterateJson, processData } from "./core";
 import { mapper } from '../utils/mappers/base'
 import { getTypographyTokens } from "./composites/typography";
 import { clearUnusedIcons } from "./composites/icon";

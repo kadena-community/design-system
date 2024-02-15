@@ -4919,6 +4919,144 @@
           }
         },
         "palette": {
+          "aqua": {
+            "$description": "Kadena Digital Green Color Palette Aqua",
+            "n0": {
+              "$type": "color",
+              "$value": "#F0FFFA",
+              "$extensions": {
+                "mode": {
+                  "dark": "#0A1F18"
+                }
+              }
+            },
+            "n1": {
+              "$type": "color",
+              "$value": "#D7F8ED",
+              "$extensions": {
+                "mode": {
+                  "dark": "#12382B"
+                }
+              }
+            },
+            "n5": {
+              "$type": "color",
+              "$value": "#BEF1E0",
+              "$extensions": {
+                "mode": {
+                  "dark": "#1A513F"
+                }
+              }
+            },
+            "n10": {
+              "$type": "color",
+              "$value": "#A5EAD3",
+              "$extensions": {
+                "mode": {
+                  "dark": "#226A52"
+                }
+              }
+            },
+            "n20": {
+              "$type": "color",
+              "$value": "#8DE3C7",
+              "$extensions": {
+                "mode": {
+                  "dark": "#2A8366"
+                }
+              }
+            },
+            "n30": {
+              "$type": "color",
+              "$value": "#74DCBA",
+              "$extensions": {
+                "mode": {
+                  "dark": "#329C79"
+                }
+              }
+            },
+            "n40": {
+              "$type": "color",
+              "$value": "#5BD5AD",
+              "$extensions": {
+                "mode": {
+                  "dark": "#3AB58D"
+                }
+              }
+            },
+            "n50": {
+              "$type": "color",
+              "$value": "#42CEA0",
+              "$extensions": {
+                "mode": {
+                  "dark": "#42CEA0"
+                }
+              }
+            },
+            "n60": {
+              "$type": "color",
+              "$value": "#3AB58D",
+              "$extensions": {
+                "mode": {
+                  "dark": "#5BD5AD"
+                }
+              }
+            },
+            "n70": {
+              "$type": "color",
+              "$value": "#329C79",
+              "$extensions": {
+                "mode": {
+                  "dark": "#74DCBA"
+                }
+              }
+            },
+            "n80": {
+              "$type": "color",
+              "$value": "#2A8366",
+              "$extensions": {
+                "mode": {
+                  "dark": "#8DE3C7"
+                }
+              }
+            },
+            "n90": {
+              "$type": "color",
+              "$value": "#226A52",
+              "$extensions": {
+                "mode": {
+                  "dark": "#A5EAD3"
+                }
+              }
+            },
+            "n95": {
+              "$type": "color",
+              "$value": "#1A513F",
+              "$extensions": {
+                "mode": {
+                  "dark": "#BEF1E0"
+                }
+              }
+            },
+            "n99": {
+              "$type": "color",
+              "$value": "#12382B",
+              "$extensions": {
+                "mode": {
+                  "dark": "#D7F8ED"
+                }
+              }
+            },
+            "n100": {
+              "$type": "color",
+              "$value": "#0A1F18",
+              "$extensions": {
+                "mode": {
+                  "dark": "#F0FFFA"
+                }
+              }
+            }
+          },
           "blue": {
             "$description": "Blue colors",
             "n0": {
@@ -8336,6 +8474,101 @@
               },
               "$dimensions": {
                 "width": 193,
+                "height": 64
+              }
+            },
+            "kdacolor_logo_black": {
+              "$type": "icon",
+              "$name": "logo_black",
+              "$description": "",
+              "$style": "kdacolor",
+              "$value": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#020E1B",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#F5F5F5"
+                    }
+                  }
+                },
+                "$extensions": {
+                  "mode": {
+                    "dark": {
+                      "$type": "color",
+                      "$value": "#F5F5F5",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#020E1B"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "$dimensions": {
+                "width": 64,
+                "height": 64
+              }
+            },
+            "kdacolor_logo_green": {
+              "$type": "icon",
+              "$name": "logo_green",
+              "$description": "",
+              "$style": "kdacolor",
+              "$value": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#4A9079",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#4A9079"
+                      }
+                    }
+                  }
+                }
+              },
+              "$dimensions": {
+                "width": 64,
+                "height": 64
+              }
+            },
+            "kdacolor_logo_white": {
+              "$type": "icon",
+              "$name": "logo_white",
+              "$description": "",
+              "$style": "kdacolor",
+              "$value": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#F5F5F5",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#020E1B"
+                    }
+                  }
+                },
+                "$extensions": {
+                  "mode": {
+                    "dark": {
+                      "$type": "color",
+                      "$value": "#020E1B",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#F5F5F5"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "$dimensions": {
+                "width": 64,
                 "height": 64
               }
             },
