@@ -1,5 +1,5 @@
 const { resolve, relative, join } = require('path');
-const { readFileSync } = require('fs');
+const { readFileSync, writeFileSync } = require('fs');
 const { readdir } = require('fs').promises;
 const set = require('lodash/set')
 const get = require('lodash/get');
