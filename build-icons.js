@@ -60,6 +60,9 @@ async function getFiles(dir) {
           }
         }
       }
-    }, null, 2), { flag: 'w', encoding: 'utf-8' })
+    }), { flag: 'w', encoding: 'utf-8' })
   })
+
+  const writeSVGFilePath = join(__dirname, `./builds/tokens/kda-design-system.raw.svg.tokens.json`)
+  await writeFile(writeSVGFilePath, JSON.stringify({ kda: { foundation: { icon: jsonFile } } }), { flag: 'w', encoding: 'utf-8' })
 })()
