@@ -7,46 +7,46 @@
             "$description": "Yellow colors",
             "n0": {
               "$type": "color",
-              "$value": "#FBF8DD",
+              "$value": "#FCF8E3",
               "$extensions": {
                 "mode": {
-                  "dark": "#1A1100"
+                  "dark": "#1A1500"
                 }
               }
             },
             "n1": {
               "$type": "color",
-              "$value": "#fbf198",
+              "$value": "#FCF2BF",
               "$extensions": {
                 "mode": {
-                  "dark": "#362500"
+                  "dark": "#302800"
                 }
               }
             },
             "n5": {
               "$type": "color",
-              "$value": "#f8e750",
+              "$value": "#F6E79D",
               "$extensions": {
                 "mode": {
-                  "dark": "#483300"
+                  "dark": "#403500"
                 }
               }
             },
             "n10": {
               "$type": "color",
-              "$value": "#f8d904",
+              "$value": "#EEDD85",
               "$extensions": {
                 "mode": {
-                  "dark": "#5b4300"
+                  "dark": "#534500"
                 }
               }
             },
             "n20": {
               "$type": "color",
-              "$value": "#e8c600",
+              "$value": "#E0CC6A",
               "$extensions": {
                 "mode": {
-                  "dark": "#705300"
+                  "dark": "#675600"
                 },
                 "generators": [
                   {
@@ -60,55 +60,55 @@
             },
             "n30": {
               "$type": "color",
-              "$value": "#d7b300",
+              "$value": "#CFBA4E",
               "$extensions": {
                 "mode": {
-                  "dark": "#856600"
+                  "dark": "#7C6700"
                 }
               }
             },
             "n40": {
               "$type": "color",
-              "$value": "#c49f00",
+              "$value": "#BBA227",
               "$extensions": {
                 "mode": {
-                  "dark": "#9b7800"
+                  "dark": "#917900"
                 }
               }
             },
             "n50": {
               "$type": "color",
-              "$value": "#b08c00",
+              "$value": "#A78C07",
               "$extensions": {
                 "mode": {
-                  "dark": "#b08c00"
+                  "dark": "#A78C07"
                 }
               }
             },
             "n60": {
               "$type": "color",
-              "$value": "#9b7800",
+              "$value": "#917900",
               "$extensions": {
                 "mode": {
-                  "dark": "#c49f00"
+                  "dark": "#BBA227"
                 }
               }
             },
             "n70": {
               "$type": "color",
-              "$value": "#856600",
+              "$value": "#7C6700",
               "$extensions": {
                 "mode": {
-                  "dark": "#d7b300"
+                  "dark": "#CFBA4E"
                 }
               }
             },
             "n80": {
               "$type": "color",
-              "$value": "#705300",
+              "$value": "#675600",
               "$extensions": {
                 "mode": {
-                  "dark": "#e8c600"
+                  "dark": "#E0CC6A"
                 },
                 "generators": [
                   {
@@ -122,37 +122,37 @@
             },
             "n90": {
               "$type": "color",
-              "$value": "#5b4300",
+              "$value": "#534500",
               "$extensions": {
                 "mode": {
-                  "dark": "#f8d904"
+                  "dark": "#EEDD85"
                 }
               }
             },
             "n95": {
               "$type": "color",
-              "$value": "#483300",
+              "$value": "#403500",
               "$extensions": {
                 "mode": {
-                  "dark": "#f8e750"
+                  "dark": "#F6E79D"
                 }
               }
             },
             "n99": {
               "$type": "color",
-              "$value": "#362500",
+              "$value": "#302800",
               "$extensions": {
                 "mode": {
-                  "dark": "#fbf198"
+                  "dark": "#FCF2BF"
                 }
               }
             },
             "n100": {
               "$type": "color",
-              "$value": "#1A1100",
+              "$value": "#1A1500",
               "$extensions": {
                 "mode": {
-                  "dark": "#FBF8DD"
+                  "dark": "#FCF8E3"
                 }
               }
             }
