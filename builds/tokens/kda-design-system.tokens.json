@@ -8420,10 +8420,11 @@
         },
         "product": {
           "proofOfUs": {
-            "undefined_dark": {
+            "kdacolor_dark": {
               "$type": "icon",
               "$name": "dark",
               "$description": "",
+              "$style": "kdacolor",
               "$value": {
                 "$type": "color",
                 "$value": {
@@ -8454,10 +8455,11 @@
                 "height": 46
               }
             },
-            "undefined_light": {
+            "kdacolor_light": {
               "$type": "icon",
               "$name": "light",
               "$description": "",
+              "$style": "kdacolor",
               "$value": {
                 "$type": "color",
                 "$value": {
