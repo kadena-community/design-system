@@ -4,164 +4,82 @@
       "typography": {
         "font": {
           "h2": {
-            "regular": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n9}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n13}"
-                }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n9}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n13}"
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n9}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n13}"
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n11}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n16}"
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n13}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n19}"
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n15}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n20}"
-                }
+            "@xs": {
+              "$name": "heading",
+              "$description": "H2 Description",
+              "$type": "typography",
+              "$title": "H2",
+              "$value": {
+                "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontSize": "{kda.foundation.typography.fontSize.2xl}",
+                "letterSpacing": "{kda.foundation.spacing.no}",
+                "lineHeight": "{kda.foundation.typography.lineHeight.3xl}"
               }
             },
-            "bold": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H2 Bold @ xs Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ xs",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n9}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n13}"
-                }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H2 Bold @ sm Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ sm",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n9}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n13}"
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H2 Bold @ md Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ md",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n9}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n13}"
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H2 Bold @ lg Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ lg",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n11}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n16}"
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H2 Bold @ xl Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ xl",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n13}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n19}"
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H2 Bold @ xxl Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ xxl",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n15}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n20}"
-                }
+            "@sm": {
+              "$name": "heading",
+              "$description": "H2 Description",
+              "$type": "typography",
+              "$title": "H2",
+              "$value": {
+                "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontSize": "{kda.foundation.typography.fontSize.2xl}",
+                "letterSpacing": "{kda.foundation.spacing.no}",
+                "lineHeight": "{kda.foundation.typography.lineHeight.3xl}"
+              }
+            },
+            "@md": {
+              "$name": "heading",
+              "$description": "H2 Description",
+              "$type": "typography",
+              "$title": "H2",
+              "$value": {
+                "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontSize": "{kda.foundation.typography.fontSize.2xl}",
+                "letterSpacing": "{kda.foundation.spacing.no}",
+                "lineHeight": "{kda.foundation.typography.lineHeight.3xl}"
+              }
+            },
+            "@lg": {
+              "$name": "heading",
+              "$description": "H2 Description",
+              "$type": "typography",
+              "$title": "H2",
+              "$value": {
+                "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontSize": "{kda.foundation.typography.fontSize.3xl}",
+                "letterSpacing": "{kda.foundation.spacing.no}",
+                "lineHeight": "{kda.foundation.typography.lineHeight.4xl}"
+              }
+            },
+            "@xl": {
+              "$name": "heading",
+              "$description": "H2 Description",
+              "$type": "typography",
+              "$title": "H2",
+              "$value": {
+                "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontSize": "{kda.foundation.typography.fontSize.3xl}",
+                "letterSpacing": "{kda.foundation.spacing.no}",
+                "lineHeight": "{kda.foundation.typography.lineHeight.4xl}"
+              }
+            },
+            "@xxl": {
+              "$name": "heading",
+              "$description": "H2 Description",
+              "$type": "typography",
+              "$title": "H2",
+              "$value": {
+                "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontSize": "{kda.foundation.typography.fontSize.3xl}",
+                "letterSpacing": "{kda.foundation.spacing.no}",
+                "lineHeight": "{kda.foundation.typography.lineHeight.4xl}"
               }
             }
           }

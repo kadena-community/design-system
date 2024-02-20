@@ -3,6 +3,26 @@
   "$version": "0.0.1",
   "$fonts": [
     {
+      "family": "Kadena Space Grotesk",
+      "style": "Light"
+    },
+    {
+      "family": "Kadena Space Grotesk",
+      "style": "Regular"
+    },
+    {
+      "family": "Kadena Space Grotesk",
+      "style": "Medium"
+    },
+    {
+      "family": "Kadena Space Grotesk",
+      "style": "SemiBold"
+    },
+    {
+      "family": "Kadena Space Grotesk",
+      "style": "Bold"
+    },
+    {
       "family": "Haas Grot Disp",
       "style": "55 Roman"
     },
@@ -22866,24 +22886,20 @@
       "typography": {
         "family": {
           "primaryFont": {
+            "$value": "Kadena Space Grotesk",
+            "$type": "fontFamily"
+          },
+          "secondaryFont": {
             "$value": "Haas Grot Disp",
             "$type": "fontFamily"
           },
-          "headingFont": {
-            "$value": "Haas Grot Disp",
-            "$type": "fontFamily"
-          },
-          "codeFont": {
+          "monospaceFont": {
             "$value": "Kode Mono",
-            "$type": "fontFamily"
-          },
-          "bodyFont": {
-            "$value": "Haas Grot Disp",
             "$type": "fontFamily"
           }
         },
         "font": {
-          "code": {
+          "monospace": {
             "small": {
               "regular": {
                 "@xs": {
@@ -22903,14 +22919,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.75rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -22931,14 +22950,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.75rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -22959,14 +22981,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.75rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -22987,14 +23012,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23015,14 +23043,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23043,14 +23074,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 }
@@ -23073,14 +23107,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.75rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23101,14 +23138,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.75rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23129,14 +23169,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.75rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23157,14 +23200,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23185,14 +23231,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23213,14 +23262,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 }
@@ -23245,18 +23297,12 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": {
-                      "$type": "dimension",
-                      "$value": "0.75rem"
-                    },
+                    "fontSize": "0.6875rem",
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "0.875rem"
                   }
                 },
                 "@sm": {
@@ -23276,18 +23322,12 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": {
-                      "$type": "dimension",
-                      "$value": "0.75rem"
-                    },
+                    "fontSize": "0.6875rem",
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "0.875rem"
                   }
                 },
                 "@md": {
@@ -23307,18 +23347,12 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": {
-                      "$type": "dimension",
-                      "$value": "0.75rem"
-                    },
+                    "fontSize": "0.6875rem",
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "0.875rem"
                   }
                 },
                 "@lg": {
@@ -23347,8 +23381,8 @@
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23378,8 +23412,8 @@
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23409,8 +23443,8 @@
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 }
@@ -23433,18 +23467,12 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": {
-                      "$type": "dimension",
-                      "$value": "0.75rem"
-                    },
+                    "fontSize": "0.6875rem",
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "0.875rem"
                   }
                 },
                 "@sm": {
@@ -23464,18 +23492,12 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": {
-                      "$type": "dimension",
-                      "$value": "0.75rem"
-                    },
+                    "fontSize": "0.6875rem",
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "0.875rem"
                   }
                 },
                 "@md": {
@@ -23495,18 +23517,12 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": {
-                      "$type": "dimension",
-                      "$value": "0.75rem"
-                    },
+                    "fontSize": "0.6875rem",
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "0.875rem"
                   }
                 },
                 "@lg": {
@@ -23535,8 +23551,8 @@
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23566,8 +23582,8 @@
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23597,8 +23613,8 @@
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 }
@@ -23625,16 +23641,13 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "0.875rem"
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@sm": {
@@ -23656,16 +23669,13 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "0.875rem"
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@md": {
@@ -23687,16 +23697,13 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "0.875rem"
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@lg": {
@@ -23718,15 +23725,18 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": {
+                        "$type": "dimension",
+                        "$value": "1rem"
+                      }
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1.25rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23749,15 +23759,18 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": {
+                        "$type": "dimension",
+                        "$value": "1rem"
+                      }
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1.25rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23780,15 +23793,18 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": {
+                        "$type": "dimension",
+                        "$value": "1rem"
+                      }
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1.25rem",
+                      "$type": "dimension"
                     }
                   }
                 }
@@ -23813,16 +23829,13 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "0.875rem"
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@sm": {
@@ -23844,16 +23857,13 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "0.875rem"
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@md": {
@@ -23875,16 +23885,13 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "0.875rem"
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@lg": {
@@ -23906,15 +23913,18 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": {
+                        "$type": "dimension",
+                        "$value": "1rem"
+                      }
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1.25rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23937,15 +23947,18 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": {
+                        "$type": "dimension",
+                        "$value": "1rem"
+                      }
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1.25rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -23968,15 +23981,18 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": {
+                        "$type": "dimension",
+                        "$value": "1rem"
+                      }
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1.25rem",
+                      "$type": "dimension"
                     }
                   }
                 }
@@ -23984,2161 +24000,1138 @@
             }
           },
           "h1": {
-            "regular": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+            "@xs": {
+              "$name": "heading",
+              "$description": "H1 Description",
+              "$type": "typography",
+              "$title": "H1",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.5rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.5rem"
-                  }
-                }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.5rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.5rem"
-                  }
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "4.25rem"
-                  }
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.75rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "5rem"
-                  }
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4.5rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "6.25rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "5rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "7.5rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "2rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "2.25rem",
+                  "$type": "dimension"
                 }
               }
             },
-            "bold": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H1 Bold @ xs Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ xs",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+            "@sm": {
+              "$name": "heading",
+              "$description": "H1 Description",
+              "$type": "typography",
+              "$title": "H1",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.5rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.5rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "2rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "2.25rem",
+                  "$type": "dimension"
                 }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H1 Bold @ sm Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ sm",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@md": {
+              "$name": "heading",
+              "$description": "H1 Description",
+              "$type": "typography",
+              "$title": "H1",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.5rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.5rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "2rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "2.25rem",
+                  "$type": "dimension"
                 }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H1 Bold @ md Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ md",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@lg": {
+              "$name": "heading",
+              "$description": "H1 Description",
+              "$type": "typography",
+              "$title": "H1",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "4.25rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "2.5rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "3rem",
+                  "$type": "dimension"
                 }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H1 Bold @ lg Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ lg",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@xl": {
+              "$name": "heading",
+              "$description": "H1 Description",
+              "$type": "typography",
+              "$title": "H1",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.75rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "5rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "2.5rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "3rem",
+                  "$type": "dimension"
                 }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H1 Bold @ xl Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ xl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@xxl": {
+              "$name": "heading",
+              "$description": "H1 Description",
+              "$type": "typography",
+              "$title": "H1",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "4.5rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "6.25rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H1 Bold @ xxl Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ xxl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "5rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "7.5rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "2.5rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "3rem",
+                  "$type": "dimension"
                 }
               }
             }
           },
           "h2": {
-            "regular": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+            "@xs": {
+              "$name": "heading",
+              "$description": "H2 Description",
+              "$type": "typography",
+              "$title": "H2",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  }
-                }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  }
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  }
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "4rem"
-                  }
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "4.75rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H2 Description",
-                "$type": "typography",
-                "$title": "H2",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.75rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "5rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.75rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "2rem",
+                  "$type": "dimension"
                 }
               }
             },
-            "bold": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H2 Bold @ xs Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ xs",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+            "@sm": {
+              "$name": "heading",
+              "$description": "H2 Description",
+              "$type": "typography",
+              "$title": "H2",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.75rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "2rem",
+                  "$type": "dimension"
                 }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H2 Bold @ sm Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ sm",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@md": {
+              "$name": "heading",
+              "$description": "H2 Description",
+              "$type": "typography",
+              "$title": "H2",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.75rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "2rem",
+                  "$type": "dimension"
                 }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H2 Bold @ md Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ md",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@lg": {
+              "$name": "heading",
+              "$description": "H2 Description",
+              "$type": "typography",
+              "$title": "H2",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "2rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "2.25rem",
+                  "$type": "dimension"
                 }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H2 Bold @ lg Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ lg",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@xl": {
+              "$name": "heading",
+              "$description": "H2 Description",
+              "$type": "typography",
+              "$title": "H2",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "4rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "2rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "2.25rem",
+                  "$type": "dimension"
                 }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H2 Bold @ xl Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ xl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@xxl": {
+              "$name": "heading",
+              "$description": "H2 Description",
+              "$type": "typography",
+              "$title": "H2",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "4.75rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H2 Bold @ xxl Description",
-                "$type": "typography",
-                "$title": "H2 Bold @ xxl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "3.75rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "5rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "2rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "2.25rem",
+                  "$type": "dimension"
                 }
               }
             }
           },
           "h3": {
-            "regular": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H3 Description",
-                "$type": "typography",
-                "$title": "H3",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+            "@xs": {
+              "$name": "heading",
+              "$description": "H3 Description",
+              "$type": "typography",
+              "$title": "H3",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  }
-                }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H3 Description",
-                "$type": "typography",
-                "$title": "H3",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  }
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H3 Description",
-                "$type": "typography",
-                "$title": "H3",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  }
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H3 Description",
-                "$type": "typography",
-                "$title": "H3",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  }
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H3 Description",
-                "$type": "typography",
-                "$title": "H3",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.5rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.75rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H3 Description",
-                "$type": "typography",
-                "$title": "H3",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "4.25rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.5rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.75rem",
+                  "$type": "dimension"
                 }
               }
             },
-            "bold": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H3 Bold @ xs Description",
-                "$type": "typography",
-                "$title": "H3 Bold @ xs",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+            "@sm": {
+              "$name": "heading",
+              "$description": "H3 Description",
+              "$type": "typography",
+              "$title": "H3",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.5rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.75rem",
+                  "$type": "dimension"
                 }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H3 Bold @ sm Description",
-                "$type": "typography",
-                "$title": "H3 Bold @ sm",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@md": {
+              "$name": "heading",
+              "$description": "H3 Description",
+              "$type": "typography",
+              "$title": "H3",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.5rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.75rem",
+                  "$type": "dimension"
                 }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H3 Bold @ md Description",
-                "$type": "typography",
-                "$title": "H3 Bold @ md",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@lg": {
+              "$name": "heading",
+              "$description": "H3 Description",
+              "$type": "typography",
+              "$title": "H3",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.75rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "2rem",
+                  "$type": "dimension"
                 }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H3 Bold @ lg Description",
-                "$type": "typography",
-                "$title": "H3 Bold @ lg",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@xl": {
+              "$name": "heading",
+              "$description": "H3 Description",
+              "$type": "typography",
+              "$title": "H3",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.75rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "2rem",
+                  "$type": "dimension"
                 }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H3 Bold @ xl Description",
-                "$type": "typography",
-                "$title": "H3 Bold @ xl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@xxl": {
+              "$name": "heading",
+              "$description": "H3 Description",
+              "$type": "typography",
+              "$title": "H3",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.5rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.75rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H3 Bold @ xxl Description",
-                "$type": "typography",
-                "$title": "H3 Bold @ xxl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  },
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "4.25rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.75rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "2rem",
+                  "$type": "dimension"
                 }
               }
             }
           },
           "h4": {
-            "regular": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H4 Description",
-                "$type": "typography",
-                "$title": "H4",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+            "@xs": {
+              "$name": "heading",
+              "$description": "H4 Description",
+              "$type": "typography",
+              "$title": "H4",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  }
-                }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H4 Description",
-                "$type": "typography",
-                "$title": "H4",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  }
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H4 Description",
-                "$type": "typography",
-                "$title": "H4",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  }
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H4 Description",
-                "$type": "typography",
-                "$title": "H4",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  }
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H4 Description",
-                "$type": "typography",
-                "$title": "H4",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H4 Description",
-                "$type": "typography",
-                "$title": "H4",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.25rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.5rem",
+                  "$type": "dimension"
                 }
               }
             },
-            "bold": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H4 Bold @ xs Description",
-                "$type": "typography",
-                "$title": "H4 Bold @ xs",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+            "@sm": {
+              "$name": "heading",
+              "$description": "H4 Description",
+              "$type": "typography",
+              "$title": "H4",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.25rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.5rem",
+                  "$type": "dimension"
                 }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H4 Bold @ sm Description",
-                "$type": "typography",
-                "$title": "H4 Bold @ sm",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@md": {
+              "$name": "heading",
+              "$description": "H4 Description",
+              "$type": "typography",
+              "$title": "H4",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.25rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.5rem",
+                  "$type": "dimension"
                 }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H4 Bold @ md Description",
-                "$type": "typography",
-                "$title": "H4 Bold @ md",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@lg": {
+              "$name": "heading",
+              "$description": "H4 Description",
+              "$type": "typography",
+              "$title": "H4",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.5rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.75rem",
+                  "$type": "dimension"
                 }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H4 Bold @ lg Description",
-                "$type": "typography",
-                "$title": "H4 Bold @ lg",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@xl": {
+              "$name": "heading",
+              "$description": "H4 Description",
+              "$type": "typography",
+              "$title": "H4",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.75rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.5rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.75rem",
+                  "$type": "dimension"
                 }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H4 Bold @ xl Description",
-                "$type": "typography",
-                "$title": "H4 Bold @ xl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@xxl": {
+              "$name": "heading",
+              "$description": "H4 Description",
+              "$type": "typography",
+              "$title": "H4",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H4 Bold @ xxl Description",
-                "$type": "typography",
-                "$title": "H4 Bold @ xxl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "3.25rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.5rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.75rem",
+                  "$type": "dimension"
                 }
               }
             }
           },
           "h5": {
-            "regular": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H5 Description",
-                "$type": "typography",
-                "$title": "H5",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+            "@xs": {
+              "$name": "heading",
+              "$description": "H5 Description",
+              "$type": "typography",
+              "$title": "H5",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": {
                     "$type": "dimension",
-                    "$value": "1.25rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2rem"
+                    "$value": "1rem"
                   }
-                }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H5 Description",
-                "$type": "typography",
-                "$title": "H5",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.25rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2rem"
-                  }
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H5 Description",
-                "$type": "typography",
-                "$title": "H5",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.25rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2rem"
-                  }
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H5 Description",
-                "$type": "typography",
-                "$title": "H5",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.25rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2rem"
-                  }
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H5 Description",
-                "$type": "typography",
-                "$title": "H5",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H5 Description",
-                "$type": "typography",
-                "$title": "H5",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  }
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.25rem",
+                  "$type": "dimension"
                 }
               }
             },
-            "bold": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H5 Bold @ xs Description",
-                "$type": "typography",
-                "$title": "H5 Bold @ xs",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+            "@sm": {
+              "$name": "heading",
+              "$description": "H5 Description",
+              "$type": "typography",
+              "$title": "H5",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": {
                     "$type": "dimension",
-                    "$value": "1.25rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2rem"
+                    "$value": "1rem"
                   }
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.25rem",
+                  "$type": "dimension"
                 }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H5 Bold @ sm Description",
-                "$type": "typography",
-                "$title": "H5 Bold @ sm",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@md": {
+              "$name": "heading",
+              "$description": "H5 Description",
+              "$type": "typography",
+              "$title": "H5",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": {
                     "$type": "dimension",
-                    "$value": "1.25rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2rem"
+                    "$value": "1rem"
                   }
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.25rem",
+                  "$type": "dimension"
                 }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H5 Bold @ md Description",
-                "$type": "typography",
-                "$title": "H5 Bold @ md",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@lg": {
+              "$name": "heading",
+              "$description": "H5 Description",
+              "$type": "typography",
+              "$title": "H5",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.25rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.25rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.5rem",
+                  "$type": "dimension"
                 }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H5 Bold @ lg Description",
-                "$type": "typography",
-                "$title": "H5 Bold @ lg",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@xl": {
+              "$name": "heading",
+              "$description": "H5 Description",
+              "$type": "typography",
+              "$title": "H5",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.25rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.25rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.5rem",
+                  "$type": "dimension"
                 }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H5 Bold @ xl Description",
-                "$type": "typography",
-                "$title": "H5 Bold @ xl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@xxl": {
+              "$name": "heading",
+              "$description": "H5 Description",
+              "$type": "typography",
+              "$title": "H5",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H5 Bold @ xxl Description",
-                "$type": "typography",
-                "$title": "H5 Bold @ xxl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "2.25rem"
-                  }
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "1.25rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.5rem",
+                  "$type": "dimension"
                 }
               }
             }
           },
           "h6": {
-            "regular": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H6 Description",
-                "$type": "typography",
-                "$title": "H6",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+            "@xs": {
+              "$name": "heading",
+              "$description": "H6 Description",
+              "$type": "typography",
+              "$title": "H6",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "0.875rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": "1.125rem"
+              }
+            },
+            "@sm": {
+              "$name": "heading",
+              "$description": "H6 Description",
+              "$type": "typography",
+              "$title": "H6",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontSize": {
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "0.875rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": "1.125rem"
+              }
+            },
+            "@md": {
+              "$name": "heading",
+              "$description": "H6 Description",
+              "$type": "typography",
+              "$title": "H6",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
+                  },
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": "0.875rem"
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": "1.125rem"
+              }
+            },
+            "@lg": {
+              "$name": "heading",
+              "$description": "H6 Description",
+              "$type": "typography",
+              "$title": "H6",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
+                  },
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": {
                     "$type": "dimension",
                     "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
                   }
-                }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H6 Description",
-                "$type": "typography",
-                "$title": "H6",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H6 Description",
-                "$type": "typography",
-                "$title": "H6",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H6 Description",
-                "$type": "typography",
-                "$title": "H6",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H6 Description",
-                "$type": "typography",
-                "$title": "H6",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.25rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H6 Description",
-                "$type": "typography",
-                "$title": "H6",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 400,
-                    "$extensions": {
-                      "weightTag": "55 Roman"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.25rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  }
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.25rem",
+                  "$type": "dimension"
                 }
               }
             },
-            "bold": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H6 Bold @ xs Description",
-                "$type": "typography",
-                "$title": "H6 Bold @ xs",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+            "@xl": {
+              "$name": "heading",
+              "$description": "H6 Description",
+              "$type": "typography",
+              "$title": "H6",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": {
                     "$type": "dimension",
                     "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
                   }
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.25rem",
+                  "$type": "dimension"
                 }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H6 Bold @ sm Description",
-                "$type": "typography",
-                "$title": "H6 Bold @ sm",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
+              }
+            },
+            "@xxl": {
+              "$name": "heading",
+              "$description": "H6 Description",
+              "$type": "typography",
+              "$title": "H6",
+              "$value": {
+                "fontFamily": {
+                  "$value": "Kadena Space Grotesk",
+                  "$type": "fontFamily"
+                },
+                "fontWeight": {
+                  "$value": 700,
+                  "$extensions": {
+                    "weightTag": "Bold"
                   },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
+                  "$type": "fontWeight"
+                },
+                "fontSize": {
+                  "$type": "dimension",
+                  "$value": {
                     "$type": "dimension",
                     "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
                   }
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H6 Bold @ md Description",
-                "$type": "typography",
-                "$title": "H6 Bold @ md",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H6 Bold @ lg Description",
-                "$type": "typography",
-                "$title": "H6 Bold @ lg",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.5rem"
-                  }
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H6 Bold @ xl Description",
-                "$type": "typography",
-                "$title": "H6 Bold @ xl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.25rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  }
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H6 Bold @ xxl Description",
-                "$type": "typography",
-                "$title": "H6 Bold @ xxl",
-                "$value": {
-                  "fontFamily": {
-                    "$value": "Haas Grot Disp",
-                    "$type": "fontFamily"
-                  },
-                  "fontWeight": {
-                    "$value": 700,
-                    "$extensions": {
-                      "weightTag": "75 Bold"
-                    },
-                    "$type": "fontWeight"
-                  },
-                  "fontSize": {
-                    "$type": "dimension",
-                    "$value": "1.25rem"
-                  },
-                  "letterSpacing": {
-                    "$type": "dimension",
-                    "$value": 0
-                  },
-                  "lineHeight": {
-                    "$type": "dimension",
-                    "$value": "1.75rem"
-                  }
+                },
+                "letterSpacing": {
+                  "$type": "dimension",
+                  "$value": 0
+                },
+                "lineHeight": {
+                  "$value": "1.25rem",
+                  "$type": "dimension"
                 }
               }
             }
@@ -26163,14 +25156,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.75rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -26191,14 +25187,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.75rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -26219,14 +25218,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.75rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -26247,14 +25249,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -26275,14 +25280,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -26303,14 +25311,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 }
@@ -26333,14 +25344,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.75rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -26361,14 +25375,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.75rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -26389,14 +25406,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.75rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -26417,14 +25437,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -26445,14 +25468,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -26473,14 +25499,17 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "14px",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 }
@@ -26505,18 +25534,12 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": {
-                      "$type": "dimension",
-                      "$value": "0.75rem"
-                    },
+                    "fontSize": "0.6875rem",
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
-                    }
+                    "lineHeight": "0.875rem"
                   }
                 },
                 "@sm": {
@@ -26536,18 +25559,12 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": {
-                      "$type": "dimension",
-                      "$value": "0.75rem"
-                    },
+                    "fontSize": "0.6875rem",
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
-                    }
+                    "lineHeight": "0.875rem"
                   }
                 },
                 "@md": {
@@ -26567,18 +25584,12 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": {
-                      "$type": "dimension",
-                      "$value": "0.75rem"
-                    },
+                    "fontSize": "0.6875rem",
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
-                    }
+                    "lineHeight": "0.875rem"
                   }
                 },
                 "@lg": {
@@ -26607,8 +25618,8 @@
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -26638,8 +25649,8 @@
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -26669,8 +25680,8 @@
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 }
@@ -26693,18 +25704,12 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": {
-                      "$type": "dimension",
-                      "$value": "0.75rem"
-                    },
+                    "fontSize": "0.6875rem",
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
-                    }
+                    "lineHeight": "0.875rem"
                   }
                 },
                 "@sm": {
@@ -26724,18 +25729,12 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": {
-                      "$type": "dimension",
-                      "$value": "0.75rem"
-                    },
+                    "fontSize": "0.6875rem",
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
-                    }
+                    "lineHeight": "0.875rem"
                   }
                 },
                 "@md": {
@@ -26755,18 +25754,12 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": {
-                      "$type": "dimension",
-                      "$value": "0.75rem"
-                    },
+                    "fontSize": "0.6875rem",
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
-                    }
+                    "lineHeight": "0.875rem"
                   }
                 },
                 "@lg": {
@@ -26795,8 +25788,8 @@
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -26826,8 +25819,8 @@
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -26857,8 +25850,8 @@
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "1rem",
+                      "$type": "dimension"
                     }
                   }
                 }
@@ -26885,16 +25878,13 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "0.875rem"
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@sm": {
@@ -26916,16 +25906,13 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "0.875rem"
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@md": {
@@ -26947,16 +25934,13 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "0.875rem"
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@lg": {
@@ -26978,15 +25962,18 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": {
+                        "$type": "dimension",
+                        "$value": "1rem"
+                      }
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1.25rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -27009,15 +25996,18 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": {
+                        "$type": "dimension",
+                        "$value": "1rem"
+                      }
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1.25rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -27040,15 +26030,18 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": {
+                        "$type": "dimension",
+                        "$value": "1rem"
+                      }
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1.25rem",
+                      "$type": "dimension"
                     }
                   }
                 }
@@ -27073,16 +26066,13 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "0.875rem"
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@sm": {
@@ -27104,16 +26094,13 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "0.875rem"
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@md": {
@@ -27135,16 +26122,13 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": "0.875rem"
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
-                    }
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@lg": {
@@ -27166,15 +26150,18 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": {
+                        "$type": "dimension",
+                        "$value": "1rem"
+                      }
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1.25rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -27197,15 +26184,18 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": {
+                        "$type": "dimension",
+                        "$value": "1rem"
+                      }
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1.25rem",
+                      "$type": "dimension"
                     }
                   }
                 },
@@ -27228,15 +26218,18 @@
                     },
                     "fontSize": {
                       "$type": "dimension",
-                      "$value": "1rem"
+                      "$value": {
+                        "$type": "dimension",
+                        "$value": "1rem"
+                      }
                     },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
                     "lineHeight": {
-                      "$type": "dimension",
-                      "$value": "1.5rem"
+                      "$value": "1.25rem",
+                      "$type": "dimension"
                     }
                   }
                 }
@@ -27318,47 +26311,74 @@
           }
         },
         "lineHeight": {
-          "base": {
-            "$value": 1.4,
-            "$type": "number"
+          "7xl": {
+            "$value": "3rem",
+            "$type": "dimension"
           },
-          "lg": {
-            "$value": 1.9,
-            "$type": "number"
+          "4xl": {
+            "$value": "2.25rem",
+            "$type": "dimension"
+          },
+          "3xl": {
+            "$value": "2rem",
+            "$type": "dimension"
+          },
+          "2xl": {
+            "$value": "1.75rem",
+            "$type": "dimension"
+          },
+          "xl": {
+            "$value": "1.5rem",
+            "$type": "dimension"
+          },
+          "base": {
+            "$value": "1.25rem",
+            "$type": "dimension"
+          },
+          "minimum": {
+            "$value": "1rem",
+            "$type": "dimension"
           }
         },
         "weight": {
-          "headingFont": {
+          "primaryFont": {
+            "light": {
+              "$value": 300,
+              "$extensions": {
+                "weightTag": "Light"
+              },
+              "$type": "fontWeight"
+            },
             "regular": {
               "$value": 400,
               "$extensions": {
-                "weightTag": "55 Roman"
+                "weightTag": "Regular"
               },
               "$type": "fontWeight"
             },
             "medium": {
               "$value": 500,
               "$extensions": {
-                "weightTag": "65 Medium"
+                "weightTag": "Medium"
+              },
+              "$type": "fontWeight"
+            },
+            "semiBold": {
+              "$value": 600,
+              "$extensions": {
+                "weightTag": "SemiBold"
               },
               "$type": "fontWeight"
             },
             "bold": {
               "$value": 700,
               "$extensions": {
-                "weightTag": "75 Bold"
-              },
-              "$type": "fontWeight"
-            },
-            "black": {
-              "$value": 700,
-              "$extensions": {
-                "weightTag": "95 Black"
+                "weightTag": "Bold"
               },
               "$type": "fontWeight"
             }
           },
-          "bodyFont": {
+          "secondaryFont": {
             "regular": {
               "$value": 400,
               "$extensions": {
@@ -27388,7 +26408,7 @@
               "$type": "fontWeight"
             }
           },
-          "monoFont": {
+          "monospaceFont": {
             "regular": {
               "$value": 400,
               "$extensions": {

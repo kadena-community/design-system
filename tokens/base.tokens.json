@@ -3,6 +3,26 @@
   "$version": "0.0.1",
   "$fonts": [
     {
+      "family": "Kadena Space Grotesk",
+      "style": "Light"
+    },
+    {
+      "family": "Kadena Space Grotesk",
+      "style": "Regular"
+    },
+    {
+      "family": "Kadena Space Grotesk",
+      "style": "Medium"
+    },
+    {
+      "family": "Kadena Space Grotesk",
+      "style": "SemiBold"
+    },
+    {
+      "family": "Kadena Space Grotesk",
+      "style": "Bold"
+    },
+    {
       "family": "Haas Grot Disp",
       "style": "55 Roman"
     },

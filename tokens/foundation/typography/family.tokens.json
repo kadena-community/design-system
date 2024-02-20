@@ -4,19 +4,15 @@
       "typography": {
         "family": {
           "primaryFont": {
+            "$value": "Kadena Space Grotesk",
+            "$type": "fontFamily"
+          },
+          "secondaryFont": {
             "$value": "Haas Grot Disp",
             "$type": "fontFamily"
           },
-          "headingFont": {
-            "$value": "Haas Grot Disp",
-            "$type": "fontFamily"
-          },
-          "codeFont": {
+          "monospaceFont": {
             "$value": "Kode Mono",
-            "$type": "fontFamily"
-          },
-          "bodyFont": {
-            "$value": "Haas Grot Disp",
             "$type": "fontFamily"
           }
         }

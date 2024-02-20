@@ -3,13 +3,33 @@
     "foundation": {
       "typography": {
         "lineHeight": {
-          "base": {
-            "$value": 1.4,
-            "$type": "number"
+          "7xl": {
+            "$value": "3rem",
+            "$type": "dimension"
           },
-          "lg": {
-            "$value": 1.9,
-            "$type": "number"
+          "4xl": {
+            "$value": "2.25rem",
+            "$type": "dimension"
+          },
+          "3xl": {
+            "$value": "2rem",
+            "$type": "dimension"
+          },
+          "2xl": {
+            "$value": "1.75rem",
+            "$type": "dimension"
+          },
+          "xl": {
+            "$value": "1.5rem",
+            "$type": "dimension"
+          },
+          "base": {
+            "$value": "1.25rem",
+            "$type": "dimension"
+          },
+          "minimum": {
+            "$value": "1rem",
+            "$type": "dimension"
           }
         }
       }

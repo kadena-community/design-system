@@ -4,164 +4,82 @@
       "typography": {
         "font": {
           "h1": {
-            "regular": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n10}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n14}"
-                }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n10}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n14}"
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n12}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n17}"
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n15}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n20}"
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n18}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n25}"
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H1 Description",
-                "$type": "typography",
-                "$title": "H1",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.regular}",
-                  "fontSize": "{kda.foundation.size.n20}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n30}"
-                }
+            "@xs": {
+              "$name": "heading",
+              "$description": "H1 Description",
+              "$type": "typography",
+              "$title": "H1",
+              "$value": {
+                "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontSize": "{kda.foundation.typography.fontSize.3xl}",
+                "letterSpacing": "{kda.foundation.spacing.no}",
+                "lineHeight": "{kda.foundation.typography.lineHeight.4xl}"
               }
             },
-            "bold": {
-              "@xs": {
-                "$name": "heading",
-                "$description": "H1 Bold @ xs Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ xs",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n10}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n14}"
-                }
-              },
-              "@sm": {
-                "$name": "heading",
-                "$description": "H1 Bold @ sm Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ sm",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n10}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n14}"
-                }
-              },
-              "@md": {
-                "$name": "heading",
-                "$description": "H1 Bold @ md Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ md",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n12}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n17}"
-                }
-              },
-              "@lg": {
-                "$name": "heading",
-                "$description": "H1 Bold @ lg Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ lg",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n15}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n20}"
-                }
-              },
-              "@xl": {
-                "$name": "heading",
-                "$description": "H1 Bold @ xl Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ xl",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n18}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n25}"
-                }
-              },
-              "@xxl": {
-                "$name": "heading",
-                "$description": "H1 Bold @ xxl Description",
-                "$type": "typography",
-                "$title": "H1 Bold @ xxl",
-                "$value": {
-                  "fontFamily": "{kda.foundation.typography.family.headingFont}",
-                  "fontWeight": "{kda.foundation.typography.weight.headingFont.bold}",
-                  "fontSize": "{kda.foundation.size.n20}",
-                  "letterSpacing": "0.125rem",
-                  "lineHeight": "{kda.foundation.size.n30}"
-                }
+            "@sm": {
+              "$name": "heading",
+              "$description": "H1 Description",
+              "$type": "typography",
+              "$title": "H1",
+              "$value": {
+                "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontSize": "{kda.foundation.typography.fontSize.3xl}",
+                "letterSpacing": "{kda.foundation.spacing.no}",
+                "lineHeight": "{kda.foundation.typography.lineHeight.4xl}"
+              }
+            },
+            "@md": {
+              "$name": "heading",
+              "$description": "H1 Description",
+              "$type": "typography",
+              "$title": "H1",
+              "$value": {
+                "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontSize": "{kda.foundation.typography.fontSize.3xl}",
+                "letterSpacing": "{kda.foundation.spacing.no}",
+                "lineHeight": "{kda.foundation.typography.lineHeight.4xl}"
+              }
+            },
+            "@lg": {
+              "$name": "heading",
+              "$description": "H1 Description",
+              "$type": "typography",
+              "$title": "H1",
+              "$value": {
+                "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontSize": "{kda.foundation.typography.fontSize.5xl}",
+                "letterSpacing": "{kda.foundation.spacing.no}",
+                "lineHeight": "{kda.foundation.typography.lineHeight.7xl}"
+              }
+            },
+            "@xl": {
+              "$name": "heading",
+              "$description": "H1 Description",
+              "$type": "typography",
+              "$title": "H1",
+              "$value": {
+                "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontSize": "{kda.foundation.typography.fontSize.5xl}",
+                "letterSpacing": "{kda.foundation.spacing.no}",
+                "lineHeight": "{kda.foundation.typography.lineHeight.7xl}"
+              }
+            },
+            "@xxl": {
+              "$name": "heading",
+              "$description": "H1 Description",
+              "$type": "typography",
+              "$title": "H1",
+              "$value": {
+                "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontSize": "{kda.foundation.typography.fontSize.5xl}",
+                "letterSpacing": "{kda.foundation.spacing.no}",
+                "lineHeight": "{kda.foundation.typography.lineHeight.7xl}"
               }
             }
           }

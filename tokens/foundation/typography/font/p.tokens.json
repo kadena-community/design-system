@@ -12,11 +12,11 @@
                   "$type": "typography",
                   "$title": "P",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@sm": {
@@ -25,11 +25,11 @@
                   "$type": "typography",
                   "$title": "P",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@md": {
@@ -38,11 +38,11 @@
                   "$type": "typography",
                   "$title": "P",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@lg": {
@@ -51,11 +51,11 @@
                   "$type": "typography",
                   "$title": "P",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.base}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 },
                 "@xl": {
@@ -64,11 +64,11 @@
                   "$type": "typography",
                   "$title": "P",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.base}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 },
                 "@xxl": {
@@ -77,11 +77,11 @@
                   "$type": "typography",
                   "$title": "P",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.regular}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.base}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 }
               },
@@ -92,11 +92,11 @@
                   "$type": "typography",
                   "$title": "P Bold @ xs",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@sm": {
@@ -105,11 +105,11 @@
                   "$type": "typography",
                   "$title": "P Bold @ sm",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@md": {
@@ -118,11 +118,11 @@
                   "$type": "typography",
                   "$title": "P Bold @ md",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
+                    "lineHeight": "1.125rem"
                   }
                 },
                 "@lg": {
@@ -131,11 +131,11 @@
                   "$type": "typography",
                   "$title": "P Bold @ lg",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.base}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 },
                 "@xl": {
@@ -144,11 +144,11 @@
                   "$type": "typography",
                   "$title": "P Bold @ xl",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.base}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 },
                 "@xxl": {
@@ -157,11 +157,11 @@
                   "$type": "typography",
                   "$title": "P Bold @ xxl",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.bodyFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.bodyFont.bold}",
-                    "fontSize": "{kda.foundation.size.n4}",
+                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.base}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.size.n6}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 }
               }

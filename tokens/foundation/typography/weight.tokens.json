@@ -3,37 +3,44 @@
     "foundation": {
       "typography": {
         "weight": {
-          "headingFont": {
+          "primaryFont": {
+            "light": {
+              "$value": 300,
+              "$extensions": {
+                "weightTag": "Light"
+              },
+              "$type": "fontWeight"
+            },
             "regular": {
               "$value": 400,
               "$extensions": {
-                "weightTag": "55 Roman"
+                "weightTag": "Regular"
               },
               "$type": "fontWeight"
             },
             "medium": {
               "$value": 500,
               "$extensions": {
-                "weightTag": "65 Medium"
+                "weightTag": "Medium"
+              },
+              "$type": "fontWeight"
+            },
+            "semiBold": {
+              "$value": 600,
+              "$extensions": {
+                "weightTag": "SemiBold"
               },
               "$type": "fontWeight"
             },
             "bold": {
               "$value": 700,
               "$extensions": {
-                "weightTag": "75 Bold"
-              },
-              "$type": "fontWeight"
-            },
-            "black": {
-              "$value": 700,
-              "$extensions": {
-                "weightTag": "95 Black"
+                "weightTag": "Bold"
               },
               "$type": "fontWeight"
             }
           },
-          "bodyFont": {
+          "secondaryFont": {
             "regular": {
               "$value": 400,
               "$extensions": {
@@ -63,7 +70,7 @@
               "$type": "fontWeight"
             }
           },
-          "monoFont": {
+          "monospaceFont": {
             "regular": {
               "$value": 400,
               "$extensions": {
