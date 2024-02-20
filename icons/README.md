@@ -16,6 +16,8 @@ Note: icons are rendered with black fill by default, which has poor readability 
 ![white](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/brand/K/square/white.svg "white")
 ![dark](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/brand/logo/dark.svg "dark")
 ![light](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/brand/logo/light.svg "light")
+![dark](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/product/marmaladeV2/dark.svg "dark")
+![light](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/product/marmaladeV2/light.svg "light")
 ![dark](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/product/proofOfUs/dark.svg "dark")
 ![light](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/product/proofOfUs/light.svg "light")
 ![dark](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/product/spireKey/dark.svg "dark")
