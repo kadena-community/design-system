@@ -31,24 +31,123 @@
               }
             }
           },
-          "layer": {
+          "layer03": {
             "default": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n0@alpha3}",
-              "$extensions": {
-                "mode": {
-                  "dark": "{kda.foundation.color.neutral.n0@alpha3}"
-                }
-              }
+              "$value": "{kda.foundation.color.neutral.n99@alpha3}"
             },
             "@hover": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n20}"
+              "$value": "{kda.foundation.color.neutral.n99@alpha1}"
             },
             "inverse": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.neutral.n90}"
+                "$value": "{kda.foundation.color.neutral.n1@alpha3}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1@alpha1}"
+              }
+            }
+          },
+          "layer10": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n99@alpha10}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n99@alpha3}"
+            },
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1@alpha10}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1@alpha3}"
+              }
+            }
+          },
+          "layer20": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n99@alpha20}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n99@alpha10}"
+            },
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1@alpha20}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1@alpha10}"
+              }
+            }
+          },
+          "layer30": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n99@alpha30}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n99@alpha20}"
+            },
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1@alpha30}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1@alpha20}"
+              }
+            }
+          },
+          "layer40": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n99@alpha40}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n99@alpha30}"
+            },
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1@alpha40}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1@alpha30}"
+              }
+            }
+          },
+          "layer50": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n99@alpha50}"
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n99@alpha40}"
+            },
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1@alpha50}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1@alpha40}"
               }
             }
           },
