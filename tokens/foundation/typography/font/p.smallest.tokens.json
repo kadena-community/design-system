@@ -16,7 +16,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
                     "fontSize": "0.6875rem",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "0.875rem"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
                   }
                 },
                 "@sm": {
@@ -29,7 +29,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
                     "fontSize": "0.6875rem",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "0.875rem"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
                   }
                 },
                 "@md": {
@@ -42,7 +42,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
                     "fontSize": "0.6875rem",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "0.875rem"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
                   }
                 },
                 "@lg": {
@@ -55,7 +55,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 },
                 "@xl": {
@@ -68,7 +68,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 },
                 "@xxl": {
@@ -81,7 +81,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 }
               },
@@ -93,10 +93,10 @@
                   "$title": "Smallest P Bold @ xs",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.medium}",
                     "fontSize": "0.6875rem",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "0.875rem"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
                   }
                 },
                 "@sm": {
@@ -106,10 +106,10 @@
                   "$title": "Smallest P Bold @ sm",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.medium}",
                     "fontSize": "0.6875rem",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "0.875rem"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
                   }
                 },
                 "@md": {
@@ -119,10 +119,10 @@
                   "$title": "Smallest P Bold @ md",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.medium}",
                     "fontSize": "0.6875rem",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "0.875rem"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
                   }
                 },
                 "@lg": {
@@ -132,10 +132,10 @@
                   "$title": "Smallest P Bold @ lg",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 },
                 "@xl": {
@@ -145,10 +145,10 @@
                   "$title": "Smallest P Bold @ xl",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 },
                 "@xxl": {
@@ -158,10 +158,10 @@
                   "$title": "Smallest P Bold @ xxl",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 }
               }

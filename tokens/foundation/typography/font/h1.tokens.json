@@ -11,7 +11,7 @@
               "$title": "H1",
               "$value": {
                 "fontFamily": "{kda.foundation.typography.family.primaryFont}",
-                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                 "fontSize": "{kda.foundation.typography.fontSize.3xl}",
                 "letterSpacing": "{kda.foundation.spacing.no}",
                 "lineHeight": "{kda.foundation.typography.lineHeight.4xl}"
@@ -24,7 +24,7 @@
               "$title": "H1",
               "$value": {
                 "fontFamily": "{kda.foundation.typography.family.primaryFont}",
-                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                 "fontSize": "{kda.foundation.typography.fontSize.3xl}",
                 "letterSpacing": "{kda.foundation.spacing.no}",
                 "lineHeight": "{kda.foundation.typography.lineHeight.4xl}"
@@ -37,7 +37,7 @@
               "$title": "H1",
               "$value": {
                 "fontFamily": "{kda.foundation.typography.family.primaryFont}",
-                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                 "fontSize": "{kda.foundation.typography.fontSize.3xl}",
                 "letterSpacing": "{kda.foundation.spacing.no}",
                 "lineHeight": "{kda.foundation.typography.lineHeight.4xl}"
@@ -50,7 +50,7 @@
               "$title": "H1",
               "$value": {
                 "fontFamily": "{kda.foundation.typography.family.primaryFont}",
-                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                 "fontSize": "{kda.foundation.typography.fontSize.5xl}",
                 "letterSpacing": "{kda.foundation.spacing.no}",
                 "lineHeight": "{kda.foundation.typography.lineHeight.7xl}"
@@ -63,7 +63,7 @@
               "$title": "H1",
               "$value": {
                 "fontFamily": "{kda.foundation.typography.family.primaryFont}",
-                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                 "fontSize": "{kda.foundation.typography.fontSize.5xl}",
                 "letterSpacing": "{kda.foundation.spacing.no}",
                 "lineHeight": "{kda.foundation.typography.lineHeight.7xl}"
@@ -76,7 +76,7 @@
               "$title": "H1",
               "$value": {
                 "fontFamily": "{kda.foundation.typography.family.primaryFont}",
-                "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                 "fontSize": "{kda.foundation.typography.fontSize.5xl}",
                 "letterSpacing": "{kda.foundation.spacing.no}",
                 "lineHeight": "{kda.foundation.typography.lineHeight.7xl}"

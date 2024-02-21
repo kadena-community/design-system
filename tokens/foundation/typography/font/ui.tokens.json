@@ -93,7 +93,7 @@
                   "$title": "P Bold @ xs",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.primaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "1.125rem"
@@ -106,7 +106,7 @@
                   "$title": "P Bold @ sm",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.primaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "1.125rem"
@@ -119,7 +119,7 @@
                   "$title": "P Bold @ md",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.primaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "1.125rem"
@@ -132,7 +132,7 @@
                   "$title": "P Bold @ lg",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.primaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.base}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.base}"
@@ -145,7 +145,7 @@
                   "$title": "P Bold @ xl",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.primaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.base}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.base}"
@@ -158,7 +158,7 @@
                   "$title": "P Bold @ xxl",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.primaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.base}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.base}"
