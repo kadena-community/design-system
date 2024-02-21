@@ -1,0 +1,174 @@
+{
+  "kda": {
+    "foundation": {
+      "typography": {
+        "font": {
+          "ui": {
+            "smallest": {
+              "regular": {
+                "@xs": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @xs Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                    "fontSize": "0.6875rem",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "0.875rem"
+                  }
+                },
+                "@sm": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @sm Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                    "fontSize": "0.6875rem",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "0.875rem"
+                  }
+                },
+                "@md": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @md Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                    "fontSize": "0.6875rem",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "0.875rem"
+                  }
+                },
+                "@lg": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @lg Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.xs}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                },
+                "@xl": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @xl Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.xs}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                },
+                "@xxl": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P @xxl Description",
+                  "$type": "typography",
+                  "$title": "Smallest",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.xs}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                }
+              },
+              "bold": {
+                "@xs": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ xs Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ xs",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontSize": "0.6875rem",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "0.875rem"
+                  }
+                },
+                "@sm": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ sm Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ sm",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontSize": "0.6875rem",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "0.875rem"
+                  }
+                },
+                "@md": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ md Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ md",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontSize": "0.6875rem",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "0.875rem"
+                  }
+                },
+                "@lg": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ lg Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ lg",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.xs}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                },
+                "@xl": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ xl Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ xl",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.xs}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                },
+                "@xxl": {
+                  "$name": "paragraph",
+                  "$description": "Smallest P Bold @ xxl Description",
+                  "$type": "typography",
+                  "$title": "Smallest P Bold @ xxl",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.xs}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "kda": {
+    "foundation": {
+      "typography": {
+        "font": {
+          "ui": {
+            "small": {
+              "regular": {
+                "@xs": {
+                  "$name": "paragraph",
+                  "$description": "Small P @xs Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.xs}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                },
+                "@sm": {
+                  "$name": "paragraph",
+                  "$description": "Small P @sm Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.xs}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                },
+                "@md": {
+                  "$name": "paragraph",
+                  "$description": "Small P @md Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.xs}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                },
+                "@lg": {
+                  "$name": "paragraph",
+                  "$description": "Small P @lg Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                },
+                "@xl": {
+                  "$name": "paragraph",
+                  "$description": "Small P @xl Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                },
+                "@xxl": {
+                  "$name": "paragraph",
+                  "$description": "Small P @xxl Description",
+                  "$type": "typography",
+                  "$title": "Small",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                }
+              },
+              "bold": {
+                "@xs": {
+                  "$name": "paragraph",
+                  "$description": "Small P Bold @ xs Description",
+                  "$type": "typography",
+                  "$title": "Small P Bold @ xs",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.xs}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                },
+                "@sm": {
+                  "$name": "paragraph",
+                  "$description": "Small P Bold @ sm Description",
+                  "$type": "typography",
+                  "$title": "Small P Bold @ sm",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.xs}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                },
+                "@md": {
+                  "$name": "paragraph",
+                  "$description": "Small P Bold @ md Description",
+                  "$type": "typography",
+                  "$title": "Small P Bold @ md",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.xs}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                },
+                "@lg": {
+                  "$name": "paragraph",
+                  "$description": "Small P Bold @ lg Description",
+                  "$type": "typography",
+                  "$title": "Small P Bold @ lg",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                },
+                "@xl": {
+                  "$name": "paragraph",
+                  "$description": "Small P Bold @ xl Description",
+                  "$type": "typography",
+                  "$title": "Small P Bold @ xl",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                },
+                "@xxl": {
+                  "$name": "paragraph",
+                  "$description": "Small P Bold @ xxl Description",
+                  "$type": "typography",
+                  "$title": "Small P Bold @ xxl",
+                  "$value": {
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.bold}",
+                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
+                    "letterSpacing": "{kda.foundation.spacing.no}",
+                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
