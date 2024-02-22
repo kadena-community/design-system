@@ -5969,10 +5969,10 @@
           "$description": "Neutral Warm colors",
           "n0": {
             "$type": "color",
-            "$value": "#FFFFFF",
+            "$value": "#FBFAF9",
             "$extensions": {
               "mode": {
-                "dark": "#000000"
+                "dark": "#050505"
               }
             }
           },
@@ -6220,10 +6220,10 @@
           },
           "n100": {
             "$type": "color",
-            "$value": "#000000",
+            "$value": "#050505",
             "$extensions": {
               "mode": {
-                "dark": "#FFFFFF"
+                "dark": "#FBFAF9"
               }
             }
           }
