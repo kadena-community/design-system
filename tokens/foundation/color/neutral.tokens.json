@@ -10,7 +10,18 @@
             "$extensions": {
               "mode": {
                 "dark": "#000000"
-              }
+              },
+              "generators": [
+                {
+                  "type": "alpha",
+                  "value": {
+                    "@alpha40": 40,
+                    "@alpha70": 70,
+                    "@alpha80": 80,
+                    "@alpha95": 95
+                  }
+                }
+              ]
             }
           },
           "n1": {
@@ -190,7 +201,18 @@
             "$extensions": {
               "mode": {
                 "dark": "#FFFFFF"
-              }
+              },
+              "generators": [
+                {
+                  "type": "alpha",
+                  "value": {
+                    "@alpha40": 40,
+                    "@alpha70": 70,
+                    "@alpha80": 80,
+                    "@alpha95": 95
+                  }
+                }
+              ]
             }
           }
         }

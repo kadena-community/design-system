@@ -7,75 +7,67 @@
             "default": {
               "$description": "Use for primary text, such as body copy, sentence case headers, and buttons.",
               "$type": "color",
-              "$value": "{kda.foundation.color.neutralwarm.n90}"
+              "$value": "{kda.foundation.color.neutral.n100@alpha95}"
             },
             "@disabled": {
               "$description": "Use for text in a disabled state.",
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n40}"
+              "$value": "{kda.foundation.color.neutral.n100@alpha40}"
             },
             "@selected": {
               "$description": "Use for text in selected or opened states, such as tabs and dropdown buttons.",
               "$type": "color",
-              "$value": "{kda.foundation.color.palette.blue.n70}"
+              "$value": "{kda.foundation.color.neutral.n100}"
             },
             "inverse": {
               "default": {
                 "$description": "Use for text on bold backgrounds.",
                 "$type": "color",
-                "$value": "{kda.foundation.color.neutral.n0}"
-              }
-            }
-          },
-          "gray": {
-            "default": {
-              "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n70}"
-            },
-            "lighter": {
-              "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n60}"
-            },
-            "bolder": {
-              "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n80}"
-            },
-            "inverse": {
-              "default": {
-                "$type": "color",
-                "$value": "{kda.foundation.color.neutral.n30}"
+                "$value": "{kda.foundation.color.neutral.n0@alpha95}"
               }
             }
           },
           "subtle": {
             "default": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutralwarm.n70}"
+              "$value": "{kda.foundation.color.neutral.n100@alpha80}"
             },
             "@hover": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutralwarm.n80}"
+              "$value": "{kda.foundation.color.neutral.n100@alpha95}"
             },
             "inverse": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.neutralwarm.n30}"
+                "$value": "{kda.foundation.color.neutral.n0@alpha95}"
               }
             }
           },
           "subtlest": {
             "default": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutralwarm.n60}"
+              "$value": "{kda.foundation.color.neutral.n100@alpha70}"
             },
             "@hover": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutralwarm.n50}"
+              "$value": "{kda.foundation.color.neutral.n100@alpha80}"
             },
             "inverse": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.neutralwarm.n40}"
+                "$value": "{kda.foundation.color.neutral.n0@alpha70}"
+              }
+            }
+          },
+          "gray": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100@alpha40}"
+            },
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n0@alpha40}"
               }
             }
           },
