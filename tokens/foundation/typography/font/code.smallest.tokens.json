@@ -6,6 +6,8 @@
           "monospace": {
             "smallest": {
               "regular": {
+                "$name": "codeSmallestRegular",
+                "$description": "Smallest Code Regular Description",
                 "@xs": {
                   "$name": "code",
                   "$description": "Smallest Code @xs Description",
@@ -86,6 +88,8 @@
                 }
               },
               "bold": {
+                "$name": "codeSmallestBold",
+                "$description": "Smallest Code Bold Description",
                 "@xs": {
                   "$name": "code",
                   "$description": "Smallest Code Bold @ xs Description",

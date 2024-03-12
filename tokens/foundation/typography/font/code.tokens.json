@@ -6,6 +6,8 @@
           "monospace": {
             "base": {
               "regular": {
+                "$name": "codeBaseRegular",
+                "$description": "Code Base Regular Description",
                 "@xs": {
                   "$name": "code",
                   "$description": "Code @xs Description",
@@ -86,6 +88,8 @@
                 }
               },
               "bold": {
+                "$name": "codeBaseBold",
+                "$description": "Code Base Bold Description",
                 "@xs": {
                   "$name": "code",
                   "$description": "Code Bold @ xs Description",
