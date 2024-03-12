@@ -342,13 +342,27 @@
               }
             },
             "tint": {
-              "$type": "color",
-              "$value": {
+              "primary": {
                 "$type": "color",
-                "$value": "#E41968",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#E41968"
+                "$value": {
+                  "$type": "color",
+                  "$value": "#52FFC6",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#27795E"
+                    }
+                  }
+                }
+              },
+              "secondary": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#E41968",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#E41968"
+                    }
                   }
                 }
               }

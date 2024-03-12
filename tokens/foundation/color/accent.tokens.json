@@ -46,8 +46,14 @@
               "$value": "{kda.foundation.color.brand.tertiary.n50}"
             },
             "tint": {
-              "$type": "color",
-              "$value": "{kda.foundation.color.palette.magenta.n50}"
+              "primary": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.aqua.n20}"
+              },
+              "secondary": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.magenta.n50}"
+              }
             }
           },
           "semantic": {
