@@ -28,7 +28,7 @@
               "$value": "#BBDBF9",
               "$extensions": {
                 "mode": {
-                  "dark": "#122F4B"
+                  "dark": "#112C46"
                 }
               }
             },
@@ -131,7 +131,7 @@
             },
             "n95": {
               "$type": "color",
-              "$value": "#122F4B",
+              "$value": "#112C46",
               "$extensions": {
                 "mode": {
                   "dark": "#BBDBF9"

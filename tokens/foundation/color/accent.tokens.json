@@ -53,6 +53,10 @@
               "secondary": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.palette.magenta.n50}"
+              },
+              "tertiary": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.orange.n50}"
               }
             }
           },

@@ -16,6 +16,10 @@
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n10}"
             },
+            "@focus": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n5}"
+            },
             "@disabled": {
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n20}"
@@ -28,6 +32,18 @@
               "warm": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.neutralwarm.n99}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n90}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n95}"
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n80}"
               }
             }
           },
@@ -209,11 +225,105 @@
               }
             }
           },
+          "accent": {
+            "primary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.aqua.n20}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.aqua.n30}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.aqua.n30}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.palette.aqua.n80}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.palette.aqua.n70}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.palette.aqua.n70}"
+                }
+              }
+            },
+            "secondary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.magenta.n50}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.magenta.n60}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.magenta.n60}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.palette.magenta.n50}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.palette.magenta.n40}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.palette.magenta.n40}"
+                }
+              }
+            },
+            "tertiary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.orange.n50}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.orange.n60}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.palette.orange.n60}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.palette.orange.n50}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.palette.orange.n40}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.palette.orange.n40}"
+                }
+              }
+            }
+          },
           "semantic": {
             "positive": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.palette.celery.n20@alpha20}"
+                "$value": "{kda.foundation.color.semantic.positive.n20}"
+              },
+              "subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n1}"
+              },
+              "subtlest": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.positive.n0}"
               },
               "@hover": {
                 "$type": "color",
@@ -226,7 +336,15 @@
               "inverse": {
                 "default": {
                   "$type": "color",
-                  "$value": "{kda.foundation.color.palette.celery.n80@alpha20}"
+                  "$value": "{kda.foundation.color.semantic.positive.n80}"
+                },
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.positive.n99}"
+                },
+                "subtlest": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.positive.n100}"
                 },
                 "@hover": {
                   "$type": "color",
@@ -241,7 +359,15 @@
             "negative": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.palette.red.n20@alpha20}"
+                "$value": "{kda.foundation.color.semantic.negative.n20}"
+              },
+              "subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n1}"
+              },
+              "subtlest": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.negative.n0}"
               },
               "@hover": {
                 "$type": "color",
@@ -254,7 +380,15 @@
               "inverse": {
                 "default": {
                   "$type": "color",
-                  "$value": "{kda.foundation.color.palette.red.n80@alpha20}"
+                  "$value": "{kda.foundation.color.semantic.negative.n80}"
+                },
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.negative.n99}"
+                },
+                "subtlest": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.negative.n100}"
                 },
                 "@hover": {
                   "$type": "color",
@@ -269,7 +403,15 @@
             "warning": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.palette.yellow.n20@alpha20}"
+                "$value": "{kda.foundation.color.semantic.warning.n20}"
+              },
+              "subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n1}"
+              },
+              "subtlest": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.warning.n0}"
               },
               "@hover": {
                 "$type": "color",
@@ -282,7 +424,15 @@
               "inverse": {
                 "default": {
                   "$type": "color",
-                  "$value": "{kda.foundation.color.palette.yellow.n80@alpha20}"
+                  "$value": "{kda.foundation.color.semantic.warning.n80}"
+                },
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.warning.n99}"
+                },
+                "subtlest": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.warning.n100}"
                 },
                 "@hover": {
                   "$type": "color",
@@ -297,7 +447,15 @@
             "info": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.palette.blue.n20@alpha20}"
+                "$value": "{kda.foundation.color.semantic.info.n20}"
+              },
+              "subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n1}"
+              },
+              "subtlest": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.semantic.info.n0}"
               },
               "@hover": {
                 "$type": "color",
@@ -310,7 +468,15 @@
               "inverse": {
                 "default": {
                   "$type": "color",
-                  "$value": "{kda.foundation.color.palette.blue.n80@alpha20}"
+                  "$value": "{kda.foundation.color.semantic.info.n80}"
+                },
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.info.n99}"
+                },
+                "subtlest": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.semantic.info.n100}"
                 },
                 "@hover": {
                   "$type": "color",
