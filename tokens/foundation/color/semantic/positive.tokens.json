@@ -22,7 +22,17 @@
             },
             "n20": {
               "$type": "color",
-              "$value": "{kda.foundation.color.palette.celery.n20}"
+              "$value": "{kda.foundation.color.palette.celery.n20}",
+              "$extensions": {
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha80": 80
+                    }
+                  }
+                ]
+              }
             },
             "n30": {
               "$type": "color",
@@ -46,7 +56,17 @@
             },
             "n80": {
               "$type": "color",
-              "$value": "{kda.foundation.color.palette.celery.n80}"
+              "$value": "{kda.foundation.color.palette.celery.n80}",
+              "$extensions": {
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha80": 80
+                    }
+                  }
+                ]
+              }
             },
             "n90": {
               "$type": "color",

@@ -5,17 +5,27 @@
         "text": {
           "base": {
             "default": {
-              "$description": "Use for primary text, such as body copy, sentence case headers, and buttons.",
+              "$description": "Use for primary text, such as body copy, sentence case headers.",
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n100@alpha95}"
+            },
+            "@init": {
+              "$description": "Use for primary text @init for buttons.",
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100}"
             },
             "@hover": {
               "$description": "Use for text in a hover state.",
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n100}"
+              "$value": "{kda.foundation.color.neutral.n95}"
             },
             "@focus": {
               "$description": "Use for text in a focus state.",
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n99}"
+            },
+            "@active": {
+              "$description": "Use for text in a active state.",
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n100}"
             },
@@ -35,13 +45,23 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.neutral.n0@alpha95}"
               },
-              "@hover": {
-                "$description": "Use for text in a hover state.",
+              "@init": {
+                "$description": "Use for primary text @init for buttons.",
                 "$type": "color",
                 "$value": "{kda.foundation.color.neutral.n0}"
               },
+              "@hover": {
+                "$description": "Use for text in a hover state.",
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n5}"
+              },
               "@focus": {
                 "$description": "Use for text in a focus state.",
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1}"
+              },
+              "@active": {
+                "$description": "Use for text in a active state.",
                 "$type": "color",
                 "$value": "{kda.foundation.color.neutral.n0}"
               },
@@ -167,6 +187,44 @@
                 "@focus": {
                   "$type": "color",
                   "$value": "{kda.foundation.color.brand.secondary.n1}"
+                }
+              }
+            }
+          },
+          "accent": {
+            "primary": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n100}"
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n95}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n99}"
+              },
+              "@active": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n100}"
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.neutral.n0}"
+                },
+                "@hover": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.neutral.n5}"
+                },
+                "@focus": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.neutral.n1}"
+                },
+                "@active": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.neutral.n0}"
                 }
               }
             }
