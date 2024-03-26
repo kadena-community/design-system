@@ -3015,6 +3015,28 @@
                 }
               }
             },
+            "@active": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#475059",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#B0B3B7"
+                  },
+                  "generators": [
+                    {
+                      "type": "alpha",
+                      "value": {
+                        "@alpha80": 80
+                      },
+                      "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                      "isSource": true
+                    }
+                  ]
+                }
+              }
+            },
             "inverse": {
               "default": {
                 "$type": "color",
@@ -3079,6 +3101,28 @@
                         "type": "alpha",
                         "value": {
                           "@alpha25": 25
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "@active": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#B0B3B7",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#475059"
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha80": 80
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                         "isSource": true
@@ -4156,6 +4200,18 @@
             }
           },
           "tint": {
+            "outline": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#2E7AC0",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#509CE3"
+                  }
+                }
+              }
+            },
             "@focus": {
               "$type": "color",
               "$value": {

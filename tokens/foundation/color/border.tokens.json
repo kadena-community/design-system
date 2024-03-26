@@ -36,6 +36,10 @@
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n60}"
             },
+            "@active": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n80}"
+            },
             "inverse": {
               "default": {
                 "$type": "color",
@@ -48,6 +52,10 @@
               "@focus": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.neutral.n90}"
+              },
+              "@active": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n20}"
               }
             }
           },
@@ -284,6 +292,10 @@
             }
           },
           "tint": {
+            "outline": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.blue.n60}"
+            },
             "@focus": {
               "$type": "color",
               "$value": "{kda.foundation.color.palette.aqua.n80@alpha80}",
