@@ -27,8 +27,12 @@
             "$value": "1.25rem",
             "$type": "dimension"
           },
-          "minimum": {
+          "md": {
             "$value": "1rem",
+            "$type": "dimension"
+          },
+          "sm": {
+            "$value": "0.875rem",
             "$type": "dimension"
           }
         }

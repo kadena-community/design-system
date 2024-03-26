@@ -131,9 +131,11 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
                         "@alpha80": 80,
+                        "@alpha90": 90,
                         "@alpha95": 95
                       },
                       "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -166,9 +168,11 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
                         "@alpha80": 80,
+                        "@alpha90": 90,
                         "@alpha95": 95
                       },
                       "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -350,7 +354,17 @@
                   "$extensions": {
                     "mode": {
                       "dark": "#27795E"
-                    }
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha80": 80
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
                   }
                 }
               },
@@ -460,11 +474,14 @@
                       "value": {
                         "@alpha1": 1,
                         "@alpha3": 3,
+                        "@alpha6": 6,
                         "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha30": 30,
                         "@alpha40": 40,
-                        "@alpha50": 50
+                        "@alpha50": 50,
+                        "@alpha80": 80,
+                        "@alpha90": 90
                       },
                       "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                       "isSource": true
@@ -498,42 +515,6 @@
                 }
               }
             },
-            "@hover": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": "#D2D4D6",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#252F3A"
-                  }
-                }
-              }
-            },
-            "@focus": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": "#E4E5E5",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#131E2B"
-                  }
-                }
-              }
-            },
-            "@disabled": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": "#B0B3B7",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#475059"
-                  }
-                }
-              }
-            },
             "inverse": {
               "default": {
                 "$type": "color",
@@ -550,11 +531,14 @@
                         "value": {
                           "@alpha1": 1,
                           "@alpha3": 3,
+                          "@alpha6": 6,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha30": 30,
                           "@alpha40": 40,
-                          "@alpha50": 50
+                          "@alpha50": 50,
+                          "@alpha80": 80,
+                          "@alpha90": 90
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                         "isSource": true
@@ -574,56 +558,74 @@
                     }
                   }
                 }
-              },
-              "@hover": {
+              }
+            }
+          },
+          "layer": {
+            "default": {
+              "$type": "color",
+              "$value": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
-                  "$value": "#252F3A",
+                  "$value": "#FFFFFF",
                   "$extensions": {
                     "mode": {
-                      "dark": "#D2D4D6"
+                      "dark": "#000000"
                     },
                     "generators": [
                       {
                         "type": "alpha",
                         "value": {
-                          "@alpha25": 25
+                          "@alpha20": 20,
+                          "@alpha40": 40,
+                          "@alpha70": 70,
+                          "@alpha80": 80,
+                          "@alpha90": 90,
+                          "@alpha95": 95
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                         "isSource": true
                       }
                     ]
                   }
+                },
+                "$extensions": {
+                  "alpha": 80
                 }
               },
-              "@focus": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": "#131E2B",
-                  "$extensions": {
-                    "mode": {
-                      "dark": "#E4E5E5"
-                    }
-                  }
-                }
-              },
-              "@disabled": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": "#475059",
-                  "$extensions": {
-                    "mode": {
-                      "dark": "#B0B3B7"
+              "$extensions": {
+                "mode": {
+                  "dark": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#E4E5E5",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#131E2B"
+                        },
+                        "generators": [
+                          {
+                            "type": "alpha",
+                            "value": {
+                              "@alpha80": 80
+                            },
+                            "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                            "isSource": true
+                          }
+                        ]
+                      }
+                    },
+                    "$extensions": {
+                      "alpha": 80
                     }
                   }
                 }
               }
             }
           },
-          "layer03": {
+          "surface": {
             "default": {
               "$type": "color",
               "$value": {
@@ -641,11 +643,14 @@
                         "value": {
                           "@alpha1": 1,
                           "@alpha3": 3,
+                          "@alpha6": 6,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha30": 30,
                           "@alpha40": 40,
-                          "@alpha50": 50
+                          "@alpha50": 50,
+                          "@alpha80": 80,
+                          "@alpha90": 90
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                         "isSource": true
@@ -654,41 +659,45 @@
                   }
                 },
                 "$extensions": {
-                  "alpha": 3
+                  "alpha": 6
                 }
-              }
-            },
-            "@hover": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": "#020E1B",
-                  "$extensions": {
-                    "mode": {
-                      "dark": "#F5F5F5"
-                    },
-                    "generators": [
-                      {
-                        "type": "alpha",
-                        "value": {
-                          "@alpha1": 1,
-                          "@alpha3": 3,
-                          "@alpha10": 10,
-                          "@alpha20": 20,
-                          "@alpha30": 30,
-                          "@alpha40": 40,
-                          "@alpha50": 50
+              },
+              "$extensions": {
+                "mode": {
+                  "dark": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#020E1B",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#F5F5F5"
                         },
-                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                        "isSource": true
+                        "generators": [
+                          {
+                            "type": "alpha",
+                            "value": {
+                              "@alpha1": 1,
+                              "@alpha3": 3,
+                              "@alpha6": 6,
+                              "@alpha10": 10,
+                              "@alpha20": 20,
+                              "@alpha30": 30,
+                              "@alpha40": 40,
+                              "@alpha50": 50,
+                              "@alpha80": 80,
+                              "@alpha90": 90
+                            },
+                            "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                            "isSource": true
+                          }
+                        ]
                       }
-                    ]
+                    },
+                    "$extensions": {
+                      "alpha": 6
+                    }
                   }
-                },
-                "$extensions": {
-                  "alpha": 1
                 }
               }
             },
@@ -699,10 +708,10 @@
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#F5F5F5",
+                    "$value": "#020E1B",
                     "$extensions": {
                       "mode": {
-                        "dark": "#020E1B"
+                        "dark": "#F5F5F5"
                       },
                       "generators": [
                         {
@@ -710,11 +719,14 @@
                           "value": {
                             "@alpha1": 1,
                             "@alpha3": 3,
+                            "@alpha6": 6,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha30": 30,
                             "@alpha40": 40,
-                            "@alpha50": 50
+                            "@alpha50": 50,
+                            "@alpha80": 80,
+                            "@alpha90": 90
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                           "isSource": true
@@ -723,69 +735,72 @@
                     }
                   },
                   "$extensions": {
-                    "alpha": 3
+                    "alpha": 80
                   }
-                }
-              },
-              "@hover": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#F5F5F5",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#020E1B"
-                      },
-                      "generators": [
-                        {
-                          "type": "alpha",
-                          "value": {
-                            "@alpha1": 1,
-                            "@alpha3": 3,
-                            "@alpha10": 10,
-                            "@alpha20": 20,
-                            "@alpha30": 30,
-                            "@alpha40": 40,
-                            "@alpha50": 50
+                },
+                "$extensions": {
+                  "mode": {
+                    "dark": {
+                      "$type": "color",
+                      "$value": {
+                        "$type": "color",
+                        "$value": "#020E1B",
+                        "$extensions": {
+                          "mode": {
+                            "dark": "#F5F5F5"
                           },
-                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                          "isSource": true
+                          "generators": [
+                            {
+                              "type": "alpha",
+                              "value": {
+                                "@alpha1": 1,
+                                "@alpha3": 3,
+                                "@alpha6": 6,
+                                "@alpha10": 10,
+                                "@alpha20": 20,
+                                "@alpha30": 30,
+                                "@alpha40": 40,
+                                "@alpha50": 50,
+                                "@alpha80": 80,
+                                "@alpha90": 90
+                              },
+                              "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                              "isSource": true
+                            }
+                          ]
                         }
-                      ]
+                      },
+                      "$extensions": {
+                        "alpha": 80
+                      }
                     }
-                  },
-                  "$extensions": {
-                    "alpha": 1
                   }
                 }
               }
             }
           },
-          "layer10": {
+          "surfaceHighContrast": {
             "default": {
               "$type": "color",
               "$value": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
-                  "$value": "#020E1B",
+                  "$value": "#FFFFFF",
                   "$extensions": {
                     "mode": {
-                      "dark": "#F5F5F5"
+                      "dark": "#000000"
                     },
                     "generators": [
                       {
                         "type": "alpha",
                         "value": {
-                          "@alpha1": 1,
-                          "@alpha3": 3,
-                          "@alpha10": 10,
                           "@alpha20": 20,
-                          "@alpha30": 30,
                           "@alpha40": 40,
-                          "@alpha50": 50
+                          "@alpha70": 70,
+                          "@alpha80": 80,
+                          "@alpha90": 90,
+                          "@alpha95": 95
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                         "isSource": true
@@ -794,41 +809,41 @@
                   }
                 },
                 "$extensions": {
-                  "alpha": 10
+                  "alpha": 90
                 }
-              }
-            },
-            "@hover": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": "#020E1B",
-                  "$extensions": {
-                    "mode": {
-                      "dark": "#F5F5F5"
-                    },
-                    "generators": [
-                      {
-                        "type": "alpha",
-                        "value": {
-                          "@alpha1": 1,
-                          "@alpha3": 3,
-                          "@alpha10": 10,
-                          "@alpha20": 20,
-                          "@alpha30": 30,
-                          "@alpha40": 40,
-                          "@alpha50": 50
+              },
+              "$extensions": {
+                "mode": {
+                  "dark": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#FFFFFF",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#000000"
                         },
-                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                        "isSource": true
+                        "generators": [
+                          {
+                            "type": "alpha",
+                            "value": {
+                              "@alpha20": 20,
+                              "@alpha40": 40,
+                              "@alpha70": 70,
+                              "@alpha80": 80,
+                              "@alpha90": 90,
+                              "@alpha95": 95
+                            },
+                            "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                            "isSource": true
+                          }
+                        ]
                       }
-                    ]
+                    },
+                    "$extensions": {
+                      "alpha": 90
+                    }
                   }
-                },
-                "$extensions": {
-                  "alpha": 3
                 }
               }
             },
@@ -839,22 +854,21 @@
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#F5F5F5",
+                    "$value": "#000000",
                     "$extensions": {
                       "mode": {
-                        "dark": "#020E1B"
+                        "dark": "#FFFFFF"
                       },
                       "generators": [
                         {
                           "type": "alpha",
                           "value": {
-                            "@alpha1": 1,
-                            "@alpha3": 3,
-                            "@alpha10": 10,
                             "@alpha20": 20,
-                            "@alpha30": 30,
                             "@alpha40": 40,
-                            "@alpha50": 50
+                            "@alpha70": 70,
+                            "@alpha80": 80,
+                            "@alpha90": 90,
+                            "@alpha95": 95
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                           "isSource": true
@@ -863,601 +877,41 @@
                     }
                   },
                   "$extensions": {
-                    "alpha": 10
-                  }
-                }
-              },
-              "@hover": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#F5F5F5",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#020E1B"
-                      },
-                      "generators": [
-                        {
-                          "type": "alpha",
-                          "value": {
-                            "@alpha1": 1,
-                            "@alpha3": 3,
-                            "@alpha10": 10,
-                            "@alpha20": 20,
-                            "@alpha30": 30,
-                            "@alpha40": 40,
-                            "@alpha50": 50
-                          },
-                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                          "isSource": true
-                        }
-                      ]
-                    }
-                  },
-                  "$extensions": {
-                    "alpha": 3
-                  }
-                }
-              }
-            }
-          },
-          "layer20": {
-            "default": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": "#020E1B",
-                  "$extensions": {
-                    "mode": {
-                      "dark": "#F5F5F5"
-                    },
-                    "generators": [
-                      {
-                        "type": "alpha",
-                        "value": {
-                          "@alpha1": 1,
-                          "@alpha3": 3,
-                          "@alpha10": 10,
-                          "@alpha20": 20,
-                          "@alpha30": 30,
-                          "@alpha40": 40,
-                          "@alpha50": 50
-                        },
-                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                        "isSource": true
-                      }
-                    ]
+                    "alpha": 90
                   }
                 },
                 "$extensions": {
-                  "alpha": 20
-                }
-              }
-            },
-            "@hover": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": "#020E1B",
-                  "$extensions": {
-                    "mode": {
-                      "dark": "#F5F5F5"
-                    },
-                    "generators": [
-                      {
-                        "type": "alpha",
-                        "value": {
-                          "@alpha1": 1,
-                          "@alpha3": 3,
-                          "@alpha10": 10,
-                          "@alpha20": 20,
-                          "@alpha30": 30,
-                          "@alpha40": 40,
-                          "@alpha50": 50
-                        },
-                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                        "isSource": true
+                  "mode": {
+                    "dark": {
+                      "$type": "color",
+                      "$value": {
+                        "$type": "color",
+                        "$value": "#000000",
+                        "$extensions": {
+                          "mode": {
+                            "dark": "#FFFFFF"
+                          },
+                          "generators": [
+                            {
+                              "type": "alpha",
+                              "value": {
+                                "@alpha20": 20,
+                                "@alpha40": 40,
+                                "@alpha70": 70,
+                                "@alpha80": 80,
+                                "@alpha90": 90,
+                                "@alpha95": 95
+                              },
+                              "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                              "isSource": true
+                            }
+                          ]
+                        }
+                      },
+                      "$extensions": {
+                        "alpha": 90
                       }
-                    ]
-                  }
-                },
-                "$extensions": {
-                  "alpha": 10
-                }
-              }
-            },
-            "inverse": {
-              "default": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#F5F5F5",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#020E1B"
-                      },
-                      "generators": [
-                        {
-                          "type": "alpha",
-                          "value": {
-                            "@alpha1": 1,
-                            "@alpha3": 3,
-                            "@alpha10": 10,
-                            "@alpha20": 20,
-                            "@alpha30": 30,
-                            "@alpha40": 40,
-                            "@alpha50": 50
-                          },
-                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                          "isSource": true
-                        }
-                      ]
                     }
-                  },
-                  "$extensions": {
-                    "alpha": 20
-                  }
-                }
-              },
-              "@hover": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#F5F5F5",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#020E1B"
-                      },
-                      "generators": [
-                        {
-                          "type": "alpha",
-                          "value": {
-                            "@alpha1": 1,
-                            "@alpha3": 3,
-                            "@alpha10": 10,
-                            "@alpha20": 20,
-                            "@alpha30": 30,
-                            "@alpha40": 40,
-                            "@alpha50": 50
-                          },
-                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                          "isSource": true
-                        }
-                      ]
-                    }
-                  },
-                  "$extensions": {
-                    "alpha": 10
-                  }
-                }
-              }
-            }
-          },
-          "layer30": {
-            "default": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": "#020E1B",
-                  "$extensions": {
-                    "mode": {
-                      "dark": "#F5F5F5"
-                    },
-                    "generators": [
-                      {
-                        "type": "alpha",
-                        "value": {
-                          "@alpha1": 1,
-                          "@alpha3": 3,
-                          "@alpha10": 10,
-                          "@alpha20": 20,
-                          "@alpha30": 30,
-                          "@alpha40": 40,
-                          "@alpha50": 50
-                        },
-                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                        "isSource": true
-                      }
-                    ]
-                  }
-                },
-                "$extensions": {
-                  "alpha": 30
-                }
-              }
-            },
-            "@hover": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": "#020E1B",
-                  "$extensions": {
-                    "mode": {
-                      "dark": "#F5F5F5"
-                    },
-                    "generators": [
-                      {
-                        "type": "alpha",
-                        "value": {
-                          "@alpha1": 1,
-                          "@alpha3": 3,
-                          "@alpha10": 10,
-                          "@alpha20": 20,
-                          "@alpha30": 30,
-                          "@alpha40": 40,
-                          "@alpha50": 50
-                        },
-                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                        "isSource": true
-                      }
-                    ]
-                  }
-                },
-                "$extensions": {
-                  "alpha": 20
-                }
-              }
-            },
-            "inverse": {
-              "default": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#F5F5F5",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#020E1B"
-                      },
-                      "generators": [
-                        {
-                          "type": "alpha",
-                          "value": {
-                            "@alpha1": 1,
-                            "@alpha3": 3,
-                            "@alpha10": 10,
-                            "@alpha20": 20,
-                            "@alpha30": 30,
-                            "@alpha40": 40,
-                            "@alpha50": 50
-                          },
-                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                          "isSource": true
-                        }
-                      ]
-                    }
-                  },
-                  "$extensions": {
-                    "alpha": 30
-                  }
-                }
-              },
-              "@hover": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#F5F5F5",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#020E1B"
-                      },
-                      "generators": [
-                        {
-                          "type": "alpha",
-                          "value": {
-                            "@alpha1": 1,
-                            "@alpha3": 3,
-                            "@alpha10": 10,
-                            "@alpha20": 20,
-                            "@alpha30": 30,
-                            "@alpha40": 40,
-                            "@alpha50": 50
-                          },
-                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                          "isSource": true
-                        }
-                      ]
-                    }
-                  },
-                  "$extensions": {
-                    "alpha": 20
-                  }
-                }
-              }
-            }
-          },
-          "layer40": {
-            "default": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": "#020E1B",
-                  "$extensions": {
-                    "mode": {
-                      "dark": "#F5F5F5"
-                    },
-                    "generators": [
-                      {
-                        "type": "alpha",
-                        "value": {
-                          "@alpha1": 1,
-                          "@alpha3": 3,
-                          "@alpha10": 10,
-                          "@alpha20": 20,
-                          "@alpha30": 30,
-                          "@alpha40": 40,
-                          "@alpha50": 50
-                        },
-                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                        "isSource": true
-                      }
-                    ]
-                  }
-                },
-                "$extensions": {
-                  "alpha": 40
-                }
-              }
-            },
-            "@hover": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": "#020E1B",
-                  "$extensions": {
-                    "mode": {
-                      "dark": "#F5F5F5"
-                    },
-                    "generators": [
-                      {
-                        "type": "alpha",
-                        "value": {
-                          "@alpha1": 1,
-                          "@alpha3": 3,
-                          "@alpha10": 10,
-                          "@alpha20": 20,
-                          "@alpha30": 30,
-                          "@alpha40": 40,
-                          "@alpha50": 50
-                        },
-                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                        "isSource": true
-                      }
-                    ]
-                  }
-                },
-                "$extensions": {
-                  "alpha": 30
-                }
-              }
-            },
-            "inverse": {
-              "default": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#F5F5F5",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#020E1B"
-                      },
-                      "generators": [
-                        {
-                          "type": "alpha",
-                          "value": {
-                            "@alpha1": 1,
-                            "@alpha3": 3,
-                            "@alpha10": 10,
-                            "@alpha20": 20,
-                            "@alpha30": 30,
-                            "@alpha40": 40,
-                            "@alpha50": 50
-                          },
-                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                          "isSource": true
-                        }
-                      ]
-                    }
-                  },
-                  "$extensions": {
-                    "alpha": 40
-                  }
-                }
-              },
-              "@hover": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#F5F5F5",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#020E1B"
-                      },
-                      "generators": [
-                        {
-                          "type": "alpha",
-                          "value": {
-                            "@alpha1": 1,
-                            "@alpha3": 3,
-                            "@alpha10": 10,
-                            "@alpha20": 20,
-                            "@alpha30": 30,
-                            "@alpha40": 40,
-                            "@alpha50": 50
-                          },
-                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                          "isSource": true
-                        }
-                      ]
-                    }
-                  },
-                  "$extensions": {
-                    "alpha": 30
-                  }
-                }
-              }
-            }
-          },
-          "layer50": {
-            "default": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": "#020E1B",
-                  "$extensions": {
-                    "mode": {
-                      "dark": "#F5F5F5"
-                    },
-                    "generators": [
-                      {
-                        "type": "alpha",
-                        "value": {
-                          "@alpha1": 1,
-                          "@alpha3": 3,
-                          "@alpha10": 10,
-                          "@alpha20": 20,
-                          "@alpha30": 30,
-                          "@alpha40": 40,
-                          "@alpha50": 50
-                        },
-                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                        "isSource": true
-                      }
-                    ]
-                  }
-                },
-                "$extensions": {
-                  "alpha": 50
-                }
-              }
-            },
-            "@hover": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": "#020E1B",
-                  "$extensions": {
-                    "mode": {
-                      "dark": "#F5F5F5"
-                    },
-                    "generators": [
-                      {
-                        "type": "alpha",
-                        "value": {
-                          "@alpha1": 1,
-                          "@alpha3": 3,
-                          "@alpha10": 10,
-                          "@alpha20": 20,
-                          "@alpha30": 30,
-                          "@alpha40": 40,
-                          "@alpha50": 50
-                        },
-                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                        "isSource": true
-                      }
-                    ]
-                  }
-                },
-                "$extensions": {
-                  "alpha": 40
-                }
-              }
-            },
-            "inverse": {
-              "default": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#F5F5F5",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#020E1B"
-                      },
-                      "generators": [
-                        {
-                          "type": "alpha",
-                          "value": {
-                            "@alpha1": 1,
-                            "@alpha3": 3,
-                            "@alpha10": 10,
-                            "@alpha20": 20,
-                            "@alpha30": 30,
-                            "@alpha40": 40,
-                            "@alpha50": 50
-                          },
-                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                          "isSource": true
-                        }
-                      ]
-                    }
-                  },
-                  "$extensions": {
-                    "alpha": 50
-                  }
-                }
-              },
-              "@hover": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#F5F5F5",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#020E1B"
-                      },
-                      "generators": [
-                        {
-                          "type": "alpha",
-                          "value": {
-                            "@alpha1": 1,
-                            "@alpha3": 3,
-                            "@alpha10": 10,
-                            "@alpha20": 20,
-                            "@alpha30": 30,
-                            "@alpha40": 40,
-                            "@alpha50": 50
-                          },
-                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
-                          "isSource": true
-                        }
-                      ]
-                    }
-                  },
-                  "$extensions": {
-                    "alpha": 40
                   }
                 }
               }
@@ -1683,7 +1137,17 @@
                   "$extensions": {
                     "mode": {
                       "dark": "#27795E"
-                    }
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha80": 80
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
                   }
                 }
               },
@@ -1720,7 +1184,17 @@
                     "$extensions": {
                       "mode": {
                         "dark": "#52FFC6"
-                      }
+                      },
+                      "generators": [
+                        {
+                          "type": "alpha",
+                          "value": {
+                            "@alpha80": 80
+                          },
+                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                          "isSource": true
+                        }
+                      ]
                     }
                   }
                 },
@@ -2600,6 +2074,124 @@
                 }
               }
             }
+          },
+          "input": {
+            "default": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#E4E5E5",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#131E2B"
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha80": 80
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
+                  }
+                },
+                "$extensions": {
+                  "alpha": 80
+                }
+              },
+              "$extensions": {
+                "mode": {
+                  "dark": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#B0B3B7",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#475059"
+                        },
+                        "generators": [
+                          {
+                            "type": "alpha",
+                            "value": {
+                              "@alpha80": 80
+                            },
+                            "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                            "isSource": true
+                          }
+                        ]
+                      }
+                    },
+                    "$extensions": {
+                      "alpha": 80
+                    }
+                  }
+                }
+              }
+            },
+            "inverse": {
+              "default": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#475059",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#B0B3B7"
+                      },
+                      "generators": [
+                        {
+                          "type": "alpha",
+                          "value": {
+                            "@alpha80": 80
+                          },
+                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                          "isSource": true
+                        }
+                      ]
+                    }
+                  },
+                  "$extensions": {
+                    "alpha": 80
+                  }
+                },
+                "$extensions": {
+                  "mode": {
+                    "dark": {
+                      "$type": "color",
+                      "$value": {
+                        "$type": "color",
+                        "$value": "#475059",
+                        "$extensions": {
+                          "mode": {
+                            "dark": "#B0B3B7"
+                          },
+                          "generators": [
+                            {
+                              "type": "alpha",
+                              "value": {
+                                "@alpha80": 80
+                              },
+                              "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                              "isSource": true
+                            }
+                          ]
+                        }
+                      },
+                      "$extensions": {
+                        "alpha": 80
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "border": {
@@ -2617,9 +2209,11 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
                         "@alpha80": 80,
+                        "@alpha90": 90,
                         "@alpha95": 95
                       },
                       "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -2670,9 +2264,11 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
                         "@alpha80": 80,
+                        "@alpha90": 90,
                         "@alpha95": 95
                       },
                       "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -2695,9 +2291,11 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
                         "@alpha80": 80,
+                        "@alpha90": 90,
                         "@alpha95": 95
                       },
                       "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -2720,9 +2318,11 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
                         "@alpha80": 80,
+                        "@alpha90": 90,
                         "@alpha95": 95
                       },
                       "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -2740,7 +2340,17 @@
                 "$extensions": {
                   "mode": {
                     "dark": "#475059"
-                  }
+                  },
+                  "generators": [
+                    {
+                      "type": "alpha",
+                      "value": {
+                        "@alpha80": 80
+                      },
+                      "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                      "isSource": true
+                    }
+                  ]
                 }
               }
             },
@@ -2752,7 +2362,17 @@
                 "$extensions": {
                   "mode": {
                     "dark": "#475059"
-                  }
+                  },
+                  "generators": [
+                    {
+                      "type": "alpha",
+                      "value": {
+                        "@alpha80": 80
+                      },
+                      "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                      "isSource": true
+                    }
+                  ]
                 }
               }
             },
@@ -2782,9 +2402,11 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
                           "@alpha80": 80,
+                          "@alpha90": 90,
                           "@alpha95": 95
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -2802,7 +2424,17 @@
                   "$extensions": {
                     "mode": {
                       "dark": "#E4E5E5"
-                    }
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha80": 80
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
                   }
                 }
               },
@@ -3751,6 +3383,65 @@
                 }
               }
             }
+          },
+          "tint": {
+            "@focus": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#27795E",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#52FFC6"
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha80": 80
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
+                  }
+                },
+                "$extensions": {
+                  "alpha": 80
+                }
+              },
+              "$extensions": {
+                "mode": {
+                  "dark": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#52FFC6",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#27795E"
+                        },
+                        "generators": [
+                          {
+                            "type": "alpha",
+                            "value": {
+                              "@alpha80": 80
+                            },
+                            "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                            "isSource": true
+                          }
+                        ]
+                      }
+                    },
+                    "$extensions": {
+                      "alpha": 80
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "brand": {
@@ -4434,11 +4125,14 @@
                       "value": {
                         "@alpha1": 1,
                         "@alpha3": 3,
+                        "@alpha6": 6,
                         "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha30": 30,
                         "@alpha40": 40,
-                        "@alpha50": 50
+                        "@alpha50": 50,
+                        "@alpha80": 80,
+                        "@alpha90": 90
                       },
                       "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                       "isSource": true
@@ -4461,11 +4155,14 @@
                           "value": {
                             "@alpha1": 1,
                             "@alpha3": 3,
+                            "@alpha6": 6,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha30": 30,
                             "@alpha40": 40,
-                            "@alpha50": 50
+                            "@alpha50": 50,
+                            "@alpha80": 80,
+                            "@alpha90": 90
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                           "isSource": true
@@ -4491,11 +4188,14 @@
                       "value": {
                         "@alpha1": 1,
                         "@alpha3": 3,
+                        "@alpha6": 6,
                         "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha30": 30,
                         "@alpha40": 40,
-                        "@alpha50": 50
+                        "@alpha50": 50,
+                        "@alpha80": 80,
+                        "@alpha90": 90
                       },
                       "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                       "isSource": true
@@ -4518,11 +4218,14 @@
                           "value": {
                             "@alpha1": 1,
                             "@alpha3": 3,
+                            "@alpha6": 6,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha30": 30,
                             "@alpha40": 40,
-                            "@alpha50": 50
+                            "@alpha50": 50,
+                            "@alpha80": 80,
+                            "@alpha90": 90
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                           "isSource": true
@@ -4545,7 +4248,17 @@
                 "$extensions": {
                   "mode": {
                     "dark": "#E4E5E5"
-                  }
+                  },
+                  "generators": [
+                    {
+                      "type": "alpha",
+                      "value": {
+                        "@alpha80": 80
+                      },
+                      "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                      "isSource": true
+                    }
+                  ]
                 }
               }
             },
@@ -4564,28 +4277,19 @@
                       "value": {
                         "@alpha1": 1,
                         "@alpha3": 3,
+                        "@alpha6": 6,
                         "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha30": 30,
                         "@alpha40": 40,
-                        "@alpha50": 50
+                        "@alpha50": 50,
+                        "@alpha80": 80,
+                        "@alpha90": 90
                       },
                       "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                       "isSource": true
                     }
                   ]
-                }
-              }
-            },
-            "@disabled": {
-              "$type": "color",
-              "$value": {
-                "$type": "color",
-                "$value": "#9EA3A7",
-                "$extensions": {
-                  "mode": {
-                    "dark": "#596069"
-                  }
                 }
               }
             },
@@ -4613,6 +4317,51 @@
                 }
               }
             },
+            "@active": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#7C8288",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#7C8288"
+                  }
+                }
+              }
+            },
+            "@disabled": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#000000",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#FFFFFF"
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha20": 20,
+                          "@alpha40": 40,
+                          "@alpha70": 70,
+                          "@alpha80": 80,
+                          "@alpha90": 90,
+                          "@alpha95": 95
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
+                  }
+                },
+                "$extensions": {
+                  "alpha": 20
+                }
+              }
+            },
             "inverse": {
               "default": {
                 "$type": "color",
@@ -4622,7 +4371,17 @@
                   "$extensions": {
                     "mode": {
                       "dark": "#131E2B"
-                    }
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha80": 80
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
                   }
                 }
               },
@@ -4641,11 +4400,14 @@
                         "value": {
                           "@alpha1": 1,
                           "@alpha3": 3,
+                          "@alpha6": 6,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha30": 30,
                           "@alpha40": 40,
-                          "@alpha50": 50
+                          "@alpha50": 50,
+                          "@alpha80": 80,
+                          "@alpha90": 90
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                         "isSource": true
@@ -4658,10 +4420,10 @@
                 "$type": "color",
                 "$value": {
                   "$type": "color",
-                  "$value": "#D2D4D6",
+                  "$value": "#9EA3A7",
                   "$extensions": {
                     "mode": {
-                      "dark": "#252F3A"
+                      "dark": "#596069"
                     }
                   }
                 }
@@ -4670,11 +4432,56 @@
                 "$type": "color",
                 "$value": {
                   "$type": "color",
-                  "$value": "#E4E5E5",
+                  "$value": "#8D9298",
                   "$extensions": {
                     "mode": {
-                      "dark": "#131E2B"
+                      "dark": "#6A7178"
                     }
+                  }
+                }
+              },
+              "@active": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#7C8288",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#7C8288"
+                    }
+                  }
+                }
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#FFFFFF",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#000000"
+                      },
+                      "generators": [
+                        {
+                          "type": "alpha",
+                          "value": {
+                            "@alpha20": 20,
+                            "@alpha40": 40,
+                            "@alpha70": 70,
+                            "@alpha80": 80,
+                            "@alpha90": 90,
+                            "@alpha95": 95
+                          },
+                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                          "isSource": true
+                        }
+                      ]
+                    }
+                  },
+                  "$extensions": {
+                    "alpha": 20
                   }
                 }
               }
@@ -4713,11 +4520,14 @@
                           "value": {
                             "@alpha1": 1,
                             "@alpha3": 3,
+                            "@alpha6": 6,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha30": 30,
                             "@alpha40": 40,
-                            "@alpha50": 50
+                            "@alpha50": 50,
+                            "@alpha80": 80,
+                            "@alpha90": 90
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                           "isSource": true
@@ -4748,10 +4558,10 @@
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#60A18A",
+                    "$value": "#2A5F4B",
                     "$extensions": {
                       "mode": {
-                        "dark": "#3F806A"
+                        "dark": "#8CC4AD"
                       }
                     }
                   }
@@ -4763,25 +4573,10 @@
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#4A9079",
+                    "$value": "#1F4F3C",
                     "$extensions": {
                       "mode": {
-                        "dark": "#4A9079"
-                      }
-                    }
-                  }
-                }
-              },
-              "@disabled": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#8CC4AD",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#2A5F4B"
+                        "dark": "#A2D5BE"
                       }
                     }
                   }
@@ -4793,10 +4588,10 @@
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#4A9079",
+                    "$value": "#356F5A",
                     "$extensions": {
                       "mode": {
-                        "dark": "#4A9079"
+                        "dark": "#76B39B"
                       }
                     }
                   }
@@ -4817,6 +4612,33 @@
                   }
                 }
               },
+              "@active": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#4A9079",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#4A9079"
+                      }
+                    }
+                  }
+                }
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#9EA3A7",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#596069"
+                    }
+                  }
+                }
+              },
               "inverse": {
                 "default": {
                   "$type": "color",
@@ -4824,10 +4646,10 @@
                     "$type": "color",
                     "$value": {
                       "$type": "color",
-                      "$value": "#A2D5BE",
+                      "$value": "#8CC4AD",
                       "$extensions": {
                         "mode": {
-                          "dark": "#1F4F3C"
+                          "dark": "#2A5F4B"
                         }
                       }
                     }
@@ -4839,10 +4661,10 @@
                     "$type": "color",
                     "$value": {
                       "$type": "color",
-                      "$value": "#B8E7CF",
+                      "$value": "#76B39B",
                       "$extensions": {
                         "mode": {
-                          "dark": "#153E2C"
+                          "dark": "#356F5A"
                         }
                       }
                     }
@@ -4854,11 +4676,38 @@
                     "$type": "color",
                     "$value": {
                       "$type": "color",
-                      "$value": "#CEF8E0",
+                      "$value": "#60A18A",
                       "$extensions": {
                         "mode": {
-                          "dark": "#0A2E1D"
+                          "dark": "#3F806A"
                         }
+                      }
+                    }
+                  }
+                },
+                "@active": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#4A9079",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#4A9079"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@disabled": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#9EA3A7",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#596069"
                       }
                     }
                   }
@@ -4872,40 +4721,10 @@
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#509CE3",
+                    "$value": "#205586",
                     "$extensions": {
                       "mode": {
-                        "dark": "#2E7AC0"
-                      }
-                    }
-                  }
-                }
-              },
-              "bold": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#358CDD",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#358CDD"
-                      }
-                    }
-                  }
-                }
-              },
-              "@disabled": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#86BCEE",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#205586"
+                        "dark": "#86BCEE"
                       },
                       "generators": [
                         {
@@ -4921,16 +4740,31 @@
                   }
                 }
               },
+              "bold": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#194268",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#A0CBF4"
+                      }
+                    }
+                  }
+                }
+              },
               "@hover": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#358CDD",
+                    "$value": "#2767A3",
                     "$extensions": {
                       "mode": {
-                        "dark": "#358CDD"
+                        "dark": "#6BACE8"
                       }
                     }
                   }
@@ -4951,6 +4785,33 @@
                   }
                 }
               },
+              "@active": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#358CDD",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#358CDD"
+                      }
+                    }
+                  }
+                }
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#9EA3A7",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#596069"
+                    }
+                  }
+                }
+              },
               "inverse": {
                 "default": {
                   "$type": "color",
@@ -4958,11 +4819,21 @@
                     "$type": "color",
                     "$value": {
                       "$type": "color",
-                      "$value": "#A0CBF4",
+                      "$value": "#86BCEE",
                       "$extensions": {
                         "mode": {
-                          "dark": "#194268"
-                        }
+                          "dark": "#205586"
+                        },
+                        "generators": [
+                          {
+                            "type": "alpha",
+                            "value": {
+                              "@alpha20": 20
+                            },
+                            "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                            "isSource": true
+                          }
+                        ]
                       }
                     }
                   }
@@ -4973,10 +4844,10 @@
                     "$type": "color",
                     "$value": {
                       "$type": "color",
-                      "$value": "#BBDBF9",
+                      "$value": "#6BACE8",
                       "$extensions": {
                         "mode": {
-                          "dark": "#112C46"
+                          "dark": "#2767A3"
                         }
                       }
                     }
@@ -4988,11 +4859,38 @@
                     "$type": "color",
                     "$value": {
                       "$type": "color",
-                      "$value": "#D6EBFF",
+                      "$value": "#509CE3",
                       "$extensions": {
                         "mode": {
-                          "dark": "#0B1D2E"
+                          "dark": "#2E7AC0"
                         }
+                      }
+                    }
+                  }
+                },
+                "@active": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#358CDD",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#358CDD"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@disabled": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#9EA3A7",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#596069"
                       }
                     }
                   }
@@ -5057,6 +4955,33 @@
                   }
                 }
               },
+              "@active": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#07a721",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#07a721"
+                      }
+                    }
+                  }
+                }
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#9EA3A7",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#596069"
+                    }
+                  }
+                }
+              },
               "inverse": {
                 "default": {
                   "$type": "color",
@@ -5089,10 +5014,10 @@
                     "$type": "color",
                     "$value": {
                       "$type": "color",
-                      "$value": "#96ee85",
+                      "$value": "#4ecf50",
                       "$extensions": {
                         "mode": {
-                          "dark": "#00530d"
+                          "dark": "#007c0f"
                         }
                       }
                     }
@@ -5104,11 +5029,38 @@
                     "$type": "color",
                     "$value": {
                       "$type": "color",
-                      "$value": "#aef69d",
+                      "$value": "#27bb36",
                       "$extensions": {
                         "mode": {
-                          "dark": "#00400a"
+                          "dark": "#009112"
                         }
+                      }
+                    }
+                  }
+                },
+                "@active": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#07a721",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#07a721"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@disabled": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#9EA3A7",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#596069"
                       }
                     }
                   }
@@ -5171,6 +5123,33 @@
                   }
                 }
               },
+              "@active": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#F75C46",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#F75C46"
+                      }
+                    }
+                  }
+                }
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#9EA3A7",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#596069"
+                    }
+                  }
+                }
+              },
               "inverse": {
                 "default": {
                   "$type": "color",
@@ -5203,10 +5182,10 @@
                     "$type": "color",
                     "$value": {
                       "$type": "color",
-                      "$value": "#FFCDC3",
+                      "$value": "#FF9B88",
                       "$extensions": {
                         "mode": {
-                          "dark": "#930000"
+                          "dark": "#D31510"
                         }
                       }
                     }
@@ -5218,11 +5197,38 @@
                     "$type": "color",
                     "$value": {
                       "$type": "color",
-                      "$value": "#FFDDD6",
+                      "$value": "#FF7C65",
                       "$extensions": {
                         "mode": {
-                          "dark": "#740000"
+                          "dark": "#EA3829"
                         }
+                      }
+                    }
+                  }
+                },
+                "@active": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#F75C46",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#F75C46"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@disabled": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#9EA3A7",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#596069"
                       }
                     }
                   }
@@ -5285,6 +5291,33 @@
                   }
                 }
               },
+              "@active": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#B08C00",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#B08C00"
+                      }
+                    }
+                  }
+                }
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#9EA3A7",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#596069"
+                    }
+                  }
+                }
+              },
               "inverse": {
                 "default": {
                   "$type": "color",
@@ -5317,10 +5350,10 @@
                     "$type": "color",
                     "$value": {
                       "$type": "color",
-                      "$value": "#F8D904",
+                      "$value": "#D7B300",
                       "$extensions": {
                         "mode": {
-                          "dark": "#5B4300"
+                          "dark": "#856600"
                         }
                       }
                     }
@@ -5332,11 +5365,38 @@
                     "$type": "color",
                     "$value": {
                       "$type": "color",
-                      "$value": "#F8E750",
+                      "$value": "#C49F00",
                       "$extensions": {
                         "mode": {
-                          "dark": "#483300"
+                          "dark": "#9B7800"
                         }
+                      }
+                    }
+                  }
+                },
+                "@active": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#B08C00",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#B08C00"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@disabled": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#9EA3A7",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#596069"
                       }
                     }
                   }
@@ -5399,6 +5459,33 @@
                   }
                 }
               },
+              "@active": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#358CDD",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#358CDD"
+                      }
+                    }
+                  }
+                }
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#9EA3A7",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#596069"
+                    }
+                  }
+                }
+              },
               "inverse": {
                 "default": {
                   "$type": "color",
@@ -5431,10 +5518,10 @@
                     "$type": "color",
                     "$value": {
                       "$type": "color",
-                      "$value": "#A0CBF4",
+                      "$value": "#6BACE8",
                       "$extensions": {
                         "mode": {
-                          "dark": "#194268"
+                          "dark": "#2767A3"
                         }
                       }
                     }
@@ -5446,11 +5533,38 @@
                     "$type": "color",
                     "$value": {
                       "$type": "color",
-                      "$value": "#BBDBF9",
+                      "$value": "#509CE3",
                       "$extensions": {
                         "mode": {
-                          "dark": "#112C46"
+                          "dark": "#2E7AC0"
                         }
+                      }
+                    }
+                  }
+                },
+                "@active": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#358CDD",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#358CDD"
+                        }
+                      }
+                    }
+                  }
+                },
+                "@disabled": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#9EA3A7",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#596069"
                       }
                     }
                   }
@@ -5984,15 +6098,47 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha20": 20,
                     "@alpha40": 40,
                     "@alpha70": 70,
                     "@alpha80": 80,
+                    "@alpha90": 90,
                     "@alpha95": 95
                   },
                   "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                   "isSource": true
                 }
               ]
+            }
+          },
+          "n0@alpha20": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#FFFFFF",
+              "$extensions": {
+                "mode": {
+                  "dark": "#000000"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha20": 20,
+                      "@alpha40": 40,
+                      "@alpha70": 70,
+                      "@alpha80": 80,
+                      "@alpha90": 90,
+                      "@alpha95": 95
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 20
             }
           },
           "n0@alpha40": {
@@ -6008,9 +6154,11 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
                       "@alpha80": 80,
+                      "@alpha90": 90,
                       "@alpha95": 95
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -6036,9 +6184,11 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
                       "@alpha80": 80,
+                      "@alpha90": 90,
                       "@alpha95": 95
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -6064,9 +6214,11 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
                       "@alpha80": 80,
+                      "@alpha90": 90,
                       "@alpha95": 95
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -6077,6 +6229,36 @@
             },
             "$extensions": {
               "alpha": 80
+            }
+          },
+          "n0@alpha90": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#FFFFFF",
+              "$extensions": {
+                "mode": {
+                  "dark": "#000000"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha20": 20,
+                      "@alpha40": 40,
+                      "@alpha70": 70,
+                      "@alpha80": 80,
+                      "@alpha90": 90,
+                      "@alpha95": 95
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 90
             }
           },
           "n0@alpha95": {
@@ -6092,9 +6274,11 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
                       "@alpha80": 80,
+                      "@alpha90": 90,
                       "@alpha95": 95
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -6120,11 +6304,14 @@
                   "value": {
                     "@alpha1": 1,
                     "@alpha3": 3,
+                    "@alpha6": 6,
                     "@alpha10": 10,
                     "@alpha20": 20,
                     "@alpha30": 30,
                     "@alpha40": 40,
-                    "@alpha50": 50
+                    "@alpha50": 50,
+                    "@alpha80": 80,
+                    "@alpha90": 90
                   },
                   "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                   "isSource": true
@@ -6147,11 +6334,14 @@
                     "value": {
                       "@alpha1": 1,
                       "@alpha3": 3,
+                      "@alpha6": 6,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha30": 30,
                       "@alpha40": 40,
-                      "@alpha50": 50
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                     "isSource": true
@@ -6178,11 +6368,14 @@
                     "value": {
                       "@alpha1": 1,
                       "@alpha3": 3,
+                      "@alpha6": 6,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha30": 30,
                       "@alpha40": 40,
-                      "@alpha50": 50
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                     "isSource": true
@@ -6192,6 +6385,40 @@
             },
             "$extensions": {
               "alpha": 3
+            }
+          },
+          "n1@alpha6": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#F5F5F5",
+              "$extensions": {
+                "mode": {
+                  "dark": "#020E1B"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha1": 1,
+                      "@alpha3": 3,
+                      "@alpha6": 6,
+                      "@alpha10": 10,
+                      "@alpha20": 20,
+                      "@alpha30": 30,
+                      "@alpha40": 40,
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 6
             }
           },
           "n1@alpha10": {
@@ -6209,11 +6436,14 @@
                     "value": {
                       "@alpha1": 1,
                       "@alpha3": 3,
+                      "@alpha6": 6,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha30": 30,
                       "@alpha40": 40,
-                      "@alpha50": 50
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                     "isSource": true
@@ -6240,11 +6470,14 @@
                     "value": {
                       "@alpha1": 1,
                       "@alpha3": 3,
+                      "@alpha6": 6,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha30": 30,
                       "@alpha40": 40,
-                      "@alpha50": 50
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                     "isSource": true
@@ -6271,11 +6504,14 @@
                     "value": {
                       "@alpha1": 1,
                       "@alpha3": 3,
+                      "@alpha6": 6,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha30": 30,
                       "@alpha40": 40,
-                      "@alpha50": 50
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                     "isSource": true
@@ -6302,11 +6538,14 @@
                     "value": {
                       "@alpha1": 1,
                       "@alpha3": 3,
+                      "@alpha6": 6,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha30": 30,
                       "@alpha40": 40,
-                      "@alpha50": 50
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                     "isSource": true
@@ -6333,11 +6572,14 @@
                     "value": {
                       "@alpha1": 1,
                       "@alpha3": 3,
+                      "@alpha6": 6,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha30": 30,
                       "@alpha40": 40,
-                      "@alpha50": 50
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                     "isSource": true
@@ -6349,13 +6591,116 @@
               "alpha": 50
             }
           },
+          "n1@alpha80": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#F5F5F5",
+              "$extensions": {
+                "mode": {
+                  "dark": "#020E1B"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha1": 1,
+                      "@alpha3": 3,
+                      "@alpha6": 6,
+                      "@alpha10": 10,
+                      "@alpha20": 20,
+                      "@alpha30": 30,
+                      "@alpha40": 40,
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 80
+            }
+          },
+          "n1@alpha90": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#F5F5F5",
+              "$extensions": {
+                "mode": {
+                  "dark": "#020E1B"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha1": 1,
+                      "@alpha3": 3,
+                      "@alpha6": 6,
+                      "@alpha10": 10,
+                      "@alpha20": 20,
+                      "@alpha30": 30,
+                      "@alpha40": 40,
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 90
+            }
+          },
           "n5": {
             "$type": "color",
             "$value": "#E4E5E5",
             "$extensions": {
               "mode": {
                 "dark": "#131E2B"
+              },
+              "generators": [
+                {
+                  "type": "alpha",
+                  "value": {
+                    "@alpha80": 80
+                  },
+                  "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                  "isSource": true
+                }
+              ]
+            }
+          },
+          "n5@alpha80": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#E4E5E5",
+              "$extensions": {
+                "mode": {
+                  "dark": "#131E2B"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha80": 80
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
               }
+            },
+            "$extensions": {
+              "alpha": 80
             }
           },
           "n10": {
@@ -6382,7 +6727,42 @@
             "$extensions": {
               "mode": {
                 "dark": "#475059"
+              },
+              "generators": [
+                {
+                  "type": "alpha",
+                  "value": {
+                    "@alpha80": 80
+                  },
+                  "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                  "isSource": true
+                }
+              ]
+            }
+          },
+          "n20@alpha80": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#B0B3B7",
+              "$extensions": {
+                "mode": {
+                  "dark": "#475059"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha80": 80
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
               }
+            },
+            "$extensions": {
+              "alpha": 80
             }
           },
           "n30": {
@@ -6436,7 +6816,42 @@
             "$extensions": {
               "mode": {
                 "dark": "#B0B3B7"
+              },
+              "generators": [
+                {
+                  "type": "alpha",
+                  "value": {
+                    "@alpha80": 80
+                  },
+                  "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                  "isSource": true
+                }
+              ]
+            }
+          },
+          "n80@alpha80": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#475059",
+              "$extensions": {
+                "mode": {
+                  "dark": "#B0B3B7"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha80": 80
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
               }
+            },
+            "$extensions": {
+              "alpha": 80
             }
           },
           "n85": {
@@ -6498,7 +6913,42 @@
             "$extensions": {
               "mode": {
                 "dark": "#E4E5E5"
+              },
+              "generators": [
+                {
+                  "type": "alpha",
+                  "value": {
+                    "@alpha80": 80
+                  },
+                  "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                  "isSource": true
+                }
+              ]
+            }
+          },
+          "n95@alpha80": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#131E2B",
+              "$extensions": {
+                "mode": {
+                  "dark": "#E4E5E5"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha80": 80
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
               }
+            },
+            "$extensions": {
+              "alpha": 80
             }
           },
           "n99": {
@@ -6514,11 +6964,14 @@
                   "value": {
                     "@alpha1": 1,
                     "@alpha3": 3,
+                    "@alpha6": 6,
                     "@alpha10": 10,
                     "@alpha20": 20,
                     "@alpha30": 30,
                     "@alpha40": 40,
-                    "@alpha50": 50
+                    "@alpha50": 50,
+                    "@alpha80": 80,
+                    "@alpha90": 90
                   },
                   "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                   "isSource": true
@@ -6541,11 +6994,14 @@
                     "value": {
                       "@alpha1": 1,
                       "@alpha3": 3,
+                      "@alpha6": 6,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha30": 30,
                       "@alpha40": 40,
-                      "@alpha50": 50
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                     "isSource": true
@@ -6572,11 +7028,14 @@
                     "value": {
                       "@alpha1": 1,
                       "@alpha3": 3,
+                      "@alpha6": 6,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha30": 30,
                       "@alpha40": 40,
-                      "@alpha50": 50
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                     "isSource": true
@@ -6586,6 +7045,40 @@
             },
             "$extensions": {
               "alpha": 3
+            }
+          },
+          "n99@alpha6": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#020E1B",
+              "$extensions": {
+                "mode": {
+                  "dark": "#F5F5F5"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha1": 1,
+                      "@alpha3": 3,
+                      "@alpha6": 6,
+                      "@alpha10": 10,
+                      "@alpha20": 20,
+                      "@alpha30": 30,
+                      "@alpha40": 40,
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 6
             }
           },
           "n99@alpha10": {
@@ -6603,11 +7096,14 @@
                     "value": {
                       "@alpha1": 1,
                       "@alpha3": 3,
+                      "@alpha6": 6,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha30": 30,
                       "@alpha40": 40,
-                      "@alpha50": 50
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                     "isSource": true
@@ -6634,11 +7130,14 @@
                     "value": {
                       "@alpha1": 1,
                       "@alpha3": 3,
+                      "@alpha6": 6,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha30": 30,
                       "@alpha40": 40,
-                      "@alpha50": 50
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                     "isSource": true
@@ -6665,11 +7164,14 @@
                     "value": {
                       "@alpha1": 1,
                       "@alpha3": 3,
+                      "@alpha6": 6,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha30": 30,
                       "@alpha40": 40,
-                      "@alpha50": 50
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                     "isSource": true
@@ -6696,11 +7198,14 @@
                     "value": {
                       "@alpha1": 1,
                       "@alpha3": 3,
+                      "@alpha6": 6,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha30": 30,
                       "@alpha40": 40,
-                      "@alpha50": 50
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                     "isSource": true
@@ -6727,11 +7232,14 @@
                     "value": {
                       "@alpha1": 1,
                       "@alpha3": 3,
+                      "@alpha6": 6,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha30": 30,
                       "@alpha40": 40,
-                      "@alpha50": 50
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                     "isSource": true
@@ -6741,6 +7249,74 @@
             },
             "$extensions": {
               "alpha": 50
+            }
+          },
+          "n99@alpha80": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#020E1B",
+              "$extensions": {
+                "mode": {
+                  "dark": "#F5F5F5"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha1": 1,
+                      "@alpha3": 3,
+                      "@alpha6": 6,
+                      "@alpha10": 10,
+                      "@alpha20": 20,
+                      "@alpha30": 30,
+                      "@alpha40": 40,
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 80
+            }
+          },
+          "n99@alpha90": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#020E1B",
+              "$extensions": {
+                "mode": {
+                  "dark": "#F5F5F5"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha1": 1,
+                      "@alpha3": 3,
+                      "@alpha6": 6,
+                      "@alpha10": 10,
+                      "@alpha20": 20,
+                      "@alpha30": 30,
+                      "@alpha40": 40,
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 90
             }
           },
           "n100": {
@@ -6754,15 +7330,47 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha20": 20,
                     "@alpha40": 40,
                     "@alpha70": 70,
                     "@alpha80": 80,
+                    "@alpha90": 90,
                     "@alpha95": 95
                   },
                   "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                   "isSource": true
                 }
               ]
+            }
+          },
+          "n100@alpha20": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#000000",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FFFFFF"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha20": 20,
+                      "@alpha40": 40,
+                      "@alpha70": 70,
+                      "@alpha80": 80,
+                      "@alpha90": 90,
+                      "@alpha95": 95
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 20
             }
           },
           "n100@alpha40": {
@@ -6778,9 +7386,11 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
                       "@alpha80": 80,
+                      "@alpha90": 90,
                       "@alpha95": 95
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -6806,9 +7416,11 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
                       "@alpha80": 80,
+                      "@alpha90": 90,
                       "@alpha95": 95
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -6834,9 +7446,11 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
                       "@alpha80": 80,
+                      "@alpha90": 90,
                       "@alpha95": 95
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -6847,6 +7461,36 @@
             },
             "$extensions": {
               "alpha": 80
+            }
+          },
+          "n100@alpha90": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#000000",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FFFFFF"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha20": 20,
+                      "@alpha40": 40,
+                      "@alpha70": 70,
+                      "@alpha80": 80,
+                      "@alpha90": 90,
+                      "@alpha95": 95
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 90
             }
           },
           "n100@alpha95": {
@@ -6862,9 +7506,11 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
                       "@alpha80": 80,
+                      "@alpha90": 90,
                       "@alpha95": 95
                     },
                     "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -7186,7 +7832,42 @@
               "$extensions": {
                 "mode": {
                   "dark": "#27795E"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha80": 80
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "n20@alpha80": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#52FFC6",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#27795E"
+                  },
+                  "generators": [
+                    {
+                      "type": "alpha",
+                      "value": {
+                        "@alpha80": 80
+                      },
+                      "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                      "isSource": true
+                    }
+                  ]
                 }
+              },
+              "$extensions": {
+                "alpha": 80
               }
             },
             "n30": {
@@ -7240,7 +7921,42 @@
               "$extensions": {
                 "mode": {
                   "dark": "#52FFC6"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha80": 80
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "n80@alpha80": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#27795E",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#52FFC6"
+                  },
+                  "generators": [
+                    {
+                      "type": "alpha",
+                      "value": {
+                        "@alpha80": 80
+                      },
+                      "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                      "isSource": true
+                    }
+                  ]
                 }
+              },
+              "$extensions": {
+                "alpha": 80
               }
             },
             "n90": {
@@ -9534,9 +10250,11 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
                           "@alpha80": 80,
+                          "@alpha90": 90,
                           "@alpha95": 95
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9564,9 +10282,11 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
                         "@alpha80": 80,
+                        "@alpha90": 90,
                         "@alpha95": 95
                       },
                       "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9590,9 +10310,11 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
                         "@alpha80": 80,
+                        "@alpha90": 90,
                         "@alpha95": 95
                       },
                       "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9618,9 +10340,11 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
                           "@alpha80": 80,
+                          "@alpha90": 90,
                           "@alpha95": 95
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9648,9 +10372,11 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
                         "@alpha80": 80,
+                        "@alpha90": 90,
                         "@alpha95": 95
                       },
                       "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9677,9 +10403,11 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha20": 20,
                             "@alpha40": 40,
                             "@alpha70": 70,
                             "@alpha80": 80,
+                            "@alpha90": 90,
                             "@alpha95": 95
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9707,9 +10435,11 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
                           "@alpha80": 80,
+                          "@alpha90": 90,
                           "@alpha95": 95
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9733,9 +10463,11 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
                           "@alpha80": 80,
+                          "@alpha90": 90,
                           "@alpha95": 95
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9761,9 +10493,11 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha20": 20,
                             "@alpha40": 40,
                             "@alpha70": 70,
                             "@alpha80": 80,
+                            "@alpha90": 90,
                             "@alpha95": 95
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9791,9 +10525,11 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
                           "@alpha80": 80,
+                          "@alpha90": 90,
                           "@alpha95": 95
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9821,9 +10557,11 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
                           "@alpha80": 80,
+                          "@alpha90": 90,
                           "@alpha95": 95
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9852,9 +10590,11 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
                           "@alpha80": 80,
+                          "@alpha90": 90,
                           "@alpha95": 95
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9884,9 +10624,11 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha20": 20,
                             "@alpha40": 40,
                             "@alpha70": 70,
                             "@alpha80": 80,
+                            "@alpha90": 90,
                             "@alpha95": 95
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9918,9 +10660,11 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
                           "@alpha80": 80,
+                          "@alpha90": 90,
                           "@alpha95": 95
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9949,9 +10693,11 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
                           "@alpha80": 80,
+                          "@alpha90": 90,
                           "@alpha95": 95
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -9981,9 +10727,11 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha20": 20,
                             "@alpha40": 40,
                             "@alpha70": 70,
                             "@alpha80": 80,
+                            "@alpha90": 90,
                             "@alpha95": 95
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -10015,9 +10763,11 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
                           "@alpha80": 80,
+                          "@alpha90": 90,
                           "@alpha95": 95
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -10047,9 +10797,11 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha20": 20,
                             "@alpha40": 40,
                             "@alpha70": 70,
                             "@alpha80": 80,
+                            "@alpha90": 90,
                             "@alpha95": 95
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
@@ -10763,11 +11515,14 @@
                           "value": {
                             "@alpha1": 1,
                             "@alpha3": 3,
+                            "@alpha6": 6,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha30": 30,
                             "@alpha40": 40,
-                            "@alpha50": 50
+                            "@alpha50": 50,
+                            "@alpha80": 80,
+                            "@alpha90": 90
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                           "isSource": true
@@ -10790,11 +11545,14 @@
                               "value": {
                                 "@alpha1": 1,
                                 "@alpha3": 3,
+                                "@alpha6": 6,
                                 "@alpha10": 10,
                                 "@alpha20": 20,
                                 "@alpha30": 30,
                                 "@alpha40": 40,
-                                "@alpha50": 50
+                                "@alpha50": 50,
+                                "@alpha80": 80,
+                                "@alpha90": 90
                               },
                               "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                               "isSource": true
@@ -10855,11 +11613,14 @@
                           "value": {
                             "@alpha1": 1,
                             "@alpha3": 3,
+                            "@alpha6": 6,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha30": 30,
                             "@alpha40": 40,
-                            "@alpha50": 50
+                            "@alpha50": 50,
+                            "@alpha80": 80,
+                            "@alpha90": 90
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                           "isSource": true
@@ -10882,11 +11643,14 @@
                               "value": {
                                 "@alpha1": 1,
                                 "@alpha3": 3,
+                                "@alpha6": 6,
                                 "@alpha10": 10,
                                 "@alpha20": 20,
                                 "@alpha30": 30,
                                 "@alpha40": 40,
-                                "@alpha50": 50
+                                "@alpha50": 50,
+                                "@alpha80": 80,
+                                "@alpha90": 90
                               },
                               "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                               "isSource": true
@@ -10924,11 +11688,14 @@
                           "value": {
                             "@alpha1": 1,
                             "@alpha3": 3,
+                            "@alpha6": 6,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha30": 30,
                             "@alpha40": 40,
-                            "@alpha50": 50
+                            "@alpha50": 50,
+                            "@alpha80": 80,
+                            "@alpha90": 90
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                           "isSource": true
@@ -10951,11 +11718,14 @@
                               "value": {
                                 "@alpha1": 1,
                                 "@alpha3": 3,
+                                "@alpha6": 6,
                                 "@alpha10": 10,
                                 "@alpha20": 20,
                                 "@alpha30": 30,
                                 "@alpha40": 40,
-                                "@alpha50": 50
+                                "@alpha50": 50,
+                                "@alpha80": 80,
+                                "@alpha90": 90
                               },
                               "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                               "isSource": true
@@ -11016,11 +11786,14 @@
                           "value": {
                             "@alpha1": 1,
                             "@alpha3": 3,
+                            "@alpha6": 6,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha30": 30,
                             "@alpha40": 40,
-                            "@alpha50": 50
+                            "@alpha50": 50,
+                            "@alpha80": 80,
+                            "@alpha90": 90
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                           "isSource": true
@@ -11043,11 +11816,14 @@
                               "value": {
                                 "@alpha1": 1,
                                 "@alpha3": 3,
+                                "@alpha6": 6,
                                 "@alpha10": 10,
                                 "@alpha20": 20,
                                 "@alpha30": 30,
                                 "@alpha40": 40,
-                                "@alpha50": 50
+                                "@alpha50": 50,
+                                "@alpha80": 80,
+                                "@alpha90": 90
                               },
                               "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                               "isSource": true
@@ -11374,11 +12150,14 @@
                         "value": {
                           "@alpha1": 1,
                           "@alpha3": 3,
+                          "@alpha6": 6,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha30": 30,
                           "@alpha40": 40,
-                          "@alpha50": 50
+                          "@alpha50": 50,
+                          "@alpha80": 80,
+                          "@alpha90": 90
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                         "isSource": true
@@ -11401,11 +12180,14 @@
                             "value": {
                               "@alpha1": 1,
                               "@alpha3": 3,
+                              "@alpha6": 6,
                               "@alpha10": 10,
                               "@alpha20": 20,
                               "@alpha30": 30,
                               "@alpha40": 40,
-                              "@alpha50": 50
+                              "@alpha50": 50,
+                              "@alpha80": 80,
+                              "@alpha90": 90
                             },
                             "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                             "isSource": true
@@ -11466,11 +12248,14 @@
                         "value": {
                           "@alpha1": 1,
                           "@alpha3": 3,
+                          "@alpha6": 6,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha30": 30,
                           "@alpha40": 40,
-                          "@alpha50": 50
+                          "@alpha50": 50,
+                          "@alpha80": 80,
+                          "@alpha90": 90
                         },
                         "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                         "isSource": true
@@ -11493,11 +12278,14 @@
                             "value": {
                               "@alpha1": 1,
                               "@alpha3": 3,
+                              "@alpha6": 6,
                               "@alpha10": 10,
                               "@alpha20": 20,
                               "@alpha30": 30,
                               "@alpha40": 40,
-                              "@alpha50": 50
+                              "@alpha50": 50,
+                              "@alpha80": 80,
+                              "@alpha90": 90
                             },
                             "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                             "isSource": true
@@ -26041,12 +26829,18 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": "0.875rem"
+                    "lineHeight": {
+                      "$value": "0.875rem",
+                      "$type": "dimension"
+                    }
                   }
                 },
                 "@sm": {
@@ -26066,12 +26860,18 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": "0.875rem"
+                    "lineHeight": {
+                      "$value": "0.875rem",
+                      "$type": "dimension"
+                    }
                   }
                 },
                 "@md": {
@@ -26091,12 +26891,18 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": "0.875rem"
+                    "lineHeight": {
+                      "$value": "0.875rem",
+                      "$type": "dimension"
+                    }
                   }
                 },
                 "@lg": {
@@ -26211,12 +27017,18 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": "0.875rem"
+                    "lineHeight": {
+                      "$value": "0.875rem",
+                      "$type": "dimension"
+                    }
                   }
                 },
                 "@sm": {
@@ -26236,12 +27048,18 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": "0.875rem"
+                    "lineHeight": {
+                      "$value": "0.875rem",
+                      "$type": "dimension"
+                    }
                   }
                 },
                 "@md": {
@@ -26261,12 +27079,18 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": "0.875rem"
+                    "lineHeight": {
+                      "$value": "0.875rem",
+                      "$type": "dimension"
+                    }
                   }
                 },
                 "@lg": {
@@ -28260,7 +29084,10 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
@@ -28288,7 +29115,10 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
@@ -28316,7 +29146,10 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
@@ -28439,7 +29272,10 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
@@ -28467,7 +29303,10 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
@@ -28495,7 +29334,10 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
@@ -29378,12 +30220,18 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": "0.875rem"
+                    "lineHeight": {
+                      "$value": "0.875rem",
+                      "$type": "dimension"
+                    }
                   }
                 },
                 "@sm": {
@@ -29403,12 +30251,18 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": "0.875rem"
+                    "lineHeight": {
+                      "$value": "0.875rem",
+                      "$type": "dimension"
+                    }
                   }
                 },
                 "@md": {
@@ -29428,12 +30282,18 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": "0.875rem"
+                    "lineHeight": {
+                      "$value": "0.875rem",
+                      "$type": "dimension"
+                    }
                   }
                 },
                 "@lg": {
@@ -29548,12 +30408,18 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": "0.875rem"
+                    "lineHeight": {
+                      "$value": "0.875rem",
+                      "$type": "dimension"
+                    }
                   }
                 },
                 "@sm": {
@@ -29573,12 +30439,18 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": "0.875rem"
+                    "lineHeight": {
+                      "$value": "0.875rem",
+                      "$type": "dimension"
+                    }
                   }
                 },
                 "@md": {
@@ -29598,12 +30470,18 @@
                       },
                       "$type": "fontWeight"
                     },
-                    "fontSize": "0.6875rem",
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "0.6875rem"
+                    },
                     "letterSpacing": {
                       "$type": "dimension",
                       "$value": 0
                     },
-                    "lineHeight": "0.875rem"
+                    "lineHeight": {
+                      "$value": "0.875rem",
+                      "$type": "dimension"
+                    }
                   }
                 },
                 "@lg": {
@@ -30082,6 +30960,10 @@
           }
         },
         "fontSize": {
+          "xxs": {
+            "$type": "dimension",
+            "$value": "0.6875rem"
+          },
           "xs": {
             "$type": "dimension",
             "$value": "0.75rem"
@@ -30179,8 +31061,12 @@
             "$value": "1.25rem",
             "$type": "dimension"
           },
-          "minimum": {
+          "md": {
             "$value": "1rem",
+            "$type": "dimension"
+          },
+          "sm": {
+            "$value": "0.875rem",
             "$type": "dimension"
           }
         },

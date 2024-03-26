@@ -3,6 +3,10 @@
     "foundation": {
       "typography": {
         "fontSize": {
+          "xxs": {
+            "$type": "dimension",
+            "$value": "0.6875rem"
+          },
           "xs": {
             "$type": "dimension",
             "$value": "0.75rem"

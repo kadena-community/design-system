@@ -15,9 +15,11 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha20": 20,
                     "@alpha40": 40,
                     "@alpha70": 70,
                     "@alpha80": 80,
+                    "@alpha90": 90,
                     "@alpha95": 95
                   }
                 }
@@ -37,11 +39,14 @@
                   "value": {
                     "@alpha1": 1,
                     "@alpha3": 3,
+                    "@alpha6": 6,
                     "@alpha10": 10,
                     "@alpha20": 20,
                     "@alpha30": 30,
                     "@alpha40": 40,
-                    "@alpha50": 50
+                    "@alpha50": 50,
+                    "@alpha80": 80,
+                    "@alpha90": 90
                   }
                 }
               ]
@@ -53,7 +58,15 @@
             "$extensions": {
               "mode": {
                 "dark": "#131E2B"
-              }
+              },
+              "generators": [
+                {
+                  "type": "alpha",
+                  "value": {
+                    "@alpha80": 80
+                  }
+                }
+              ]
             }
           },
           "n10": {
@@ -80,7 +93,15 @@
             "$extensions": {
               "mode": {
                 "dark": "#475059"
-              }
+              },
+              "generators": [
+                {
+                  "type": "alpha",
+                  "value": {
+                    "@alpha80": 80
+                  }
+                }
+              ]
             }
           },
           "n30": {
@@ -134,7 +155,15 @@
             "$extensions": {
               "mode": {
                 "dark": "#B0B3B7"
-              }
+              },
+              "generators": [
+                {
+                  "type": "alpha",
+                  "value": {
+                    "@alpha80": 80
+                  }
+                }
+              ]
             }
           },
           "n85": {
@@ -169,7 +198,15 @@
             "$extensions": {
               "mode": {
                 "dark": "#E4E5E5"
-              }
+              },
+              "generators": [
+                {
+                  "type": "alpha",
+                  "value": {
+                    "@alpha80": 80
+                  }
+                }
+              ]
             }
           },
           "n99": {
@@ -185,11 +222,14 @@
                   "value": {
                     "@alpha1": 1,
                     "@alpha3": 3,
+                    "@alpha6": 6,
                     "@alpha10": 10,
                     "@alpha20": 20,
                     "@alpha30": 30,
                     "@alpha40": 40,
-                    "@alpha50": 50
+                    "@alpha50": 50,
+                    "@alpha80": 80,
+                    "@alpha90": 90
                   }
                 }
               ]
@@ -206,9 +246,11 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha20": 20,
                     "@alpha40": 40,
                     "@alpha70": 70,
                     "@alpha80": 80,
+                    "@alpha90": 90,
                     "@alpha95": 95
                   }
                 }

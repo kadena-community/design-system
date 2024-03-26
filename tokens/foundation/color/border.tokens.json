@@ -282,6 +282,17 @@
                 }
               }
             }
+          },
+          "tint": {
+            "@focus": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.aqua.n80@alpha80}",
+              "$extensions": {
+                "mode": {
+                  "dark": "{kda.foundation.color.palette.aqua.n20@alpha80}"
+                }
+              }
+            }
           }
         }
       }

@@ -16,7 +16,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.md}"
                   }
                 },
                 "@sm": {
@@ -29,7 +29,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.md}"
                   }
                 },
                 "@md": {
@@ -42,7 +42,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.md}"
                   }
                 },
                 "@lg": {
@@ -55,7 +55,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.md}"
                   }
                 },
                 "@xl": {
@@ -68,7 +68,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.md}"
                   }
                 },
                 "@xxl": {
@@ -81,7 +81,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.md}"
                   }
                 }
               },
@@ -96,7 +96,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.md}"
                   }
                 },
                 "@sm": {
@@ -109,7 +109,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.md}"
                   }
                 },
                 "@md": {
@@ -122,7 +122,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.md}"
                   }
                 },
                 "@lg": {
@@ -135,7 +135,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.md}"
                   }
                 },
                 "@xl": {
@@ -148,7 +148,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.md}"
                   }
                 },
                 "@xxl": {
@@ -161,7 +161,7 @@
                     "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.sm}",
                     "letterSpacing": "{kda.foundation.spacing.no}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.minimum}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.md}"
                   }
                 }
               }

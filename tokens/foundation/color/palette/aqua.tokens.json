@@ -47,7 +47,15 @@
               "$extensions": {
                 "mode": {
                   "dark": "#27795E"
-                }
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha80": 80
+                    }
+                  }
+                ]
               }
             },
             "n30": {
@@ -101,7 +109,15 @@
               "$extensions": {
                 "mode": {
                   "dark": "#52FFC6"
-                }
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha80": 80
+                    }
+                  }
+                ]
               }
             },
             "n90": {
