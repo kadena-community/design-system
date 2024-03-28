@@ -2,41 +2,49 @@
   "kda": {
     "foundation": {
       "spacing": {
-        "no": {
+        "n0": {
           "$type": "dimension",
-          "$value": "{kda.foundation.size.n0.$value}"
+          "$value": 0
         },
-        "xxs": {
+        "n1": {
           "$type": "dimension",
-          "$value": "0.125rem"
+          "$value": "{kda.foundation.size.n1}"
         },
-        "xs": {
+        "n2": {
           "$type": "dimension",
-          "$value": "{kda.foundation.size.n1.$value}"
+          "$value": "{kda.foundation.size.n2}"
         },
-        "sm": {
+        "n3": {
           "$type": "dimension",
-          "$value": "{kda.foundation.size.n2.$value}"
+          "$value": "{kda.foundation.size.n3}"
         },
-        "md": {
+        "n4": {
           "$type": "dimension",
-          "$value": "{kda.foundation.size.n4.$value}"
+          "$value": "{kda.foundation.size.n4}"
         },
-        "lg": {
+        "n5": {
           "$type": "dimension",
-          "$value": "{kda.foundation.size.n6.$value}"
+          "$value": "{kda.foundation.size.n5}"
         },
-        "xl": {
+        "n6": {
           "$type": "dimension",
-          "$value": "{kda.foundation.size.n7.$value}"
+          "$value": "{kda.foundation.size.n6}"
         },
-        "xxl": {
+        "n7": {
           "$type": "dimension",
-          "$value": "{kda.foundation.size.n9.$value}"
+          "$value": "{kda.foundation.size.n7}"
         },
-        "xxxl": {
+        "n8": {
           "$type": "dimension",
-          "$value": "{kda.foundation.size.n10.$value}"
+          "$value": "{kda.foundation.size.n8}"
+        },
+        "n9": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n9}"
+        },
+        "n10": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n10}"
         }
       }
     }

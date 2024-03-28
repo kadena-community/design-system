@@ -12,6 +12,10 @@
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n99}"
             },
+            "@init": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n99}"
+            },
             "@hover": {
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n99@alpha50}"
@@ -34,6 +38,10 @@
                 "$value": "{kda.foundation.color.neutral.n5}"
               },
               "bold": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1}"
+              },
+              "@init": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.neutral.n1}"
               },

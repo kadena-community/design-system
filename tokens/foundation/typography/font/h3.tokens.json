@@ -13,7 +13,7 @@
                 "fontFamily": "{kda.foundation.typography.family.primaryFont}",
                 "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                 "fontSize": "{kda.foundation.typography.fontSize.xl}",
-                "letterSpacing": "{kda.foundation.spacing.no}",
+                "letterSpacing": "{kda.foundation.spacing.n0}",
                 "lineHeight": "{kda.foundation.typography.lineHeight.2xl}"
               }
             },
@@ -26,7 +26,7 @@
                 "fontFamily": "{kda.foundation.typography.family.primaryFont}",
                 "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                 "fontSize": "{kda.foundation.typography.fontSize.xl}",
-                "letterSpacing": "{kda.foundation.spacing.no}",
+                "letterSpacing": "{kda.foundation.spacing.n0}",
                 "lineHeight": "{kda.foundation.typography.lineHeight.2xl}"
               }
             },
@@ -39,7 +39,7 @@
                 "fontFamily": "{kda.foundation.typography.family.primaryFont}",
                 "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                 "fontSize": "{kda.foundation.typography.fontSize.xl}",
-                "letterSpacing": "{kda.foundation.spacing.no}",
+                "letterSpacing": "{kda.foundation.spacing.n0}",
                 "lineHeight": "{kda.foundation.typography.lineHeight.2xl}"
               }
             },
@@ -52,7 +52,7 @@
                 "fontFamily": "{kda.foundation.typography.family.primaryFont}",
                 "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                 "fontSize": "{kda.foundation.typography.fontSize.2xl}",
-                "letterSpacing": "{kda.foundation.spacing.no}",
+                "letterSpacing": "{kda.foundation.spacing.n0}",
                 "lineHeight": "{kda.foundation.typography.lineHeight.3xl}"
               }
             },
@@ -65,7 +65,7 @@
                 "fontFamily": "{kda.foundation.typography.family.primaryFont}",
                 "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                 "fontSize": "{kda.foundation.typography.fontSize.2xl}",
-                "letterSpacing": "{kda.foundation.spacing.no}",
+                "letterSpacing": "{kda.foundation.spacing.n0}",
                 "lineHeight": "{kda.foundation.typography.lineHeight.3xl}"
               }
             },
@@ -78,7 +78,7 @@
                 "fontFamily": "{kda.foundation.typography.family.primaryFont}",
                 "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                 "fontSize": "{kda.foundation.typography.fontSize.2xl}",
-                "letterSpacing": "{kda.foundation.spacing.no}",
+                "letterSpacing": "{kda.foundation.spacing.n0}",
                 "lineHeight": "{kda.foundation.typography.lineHeight.3xl}"
               }
             }

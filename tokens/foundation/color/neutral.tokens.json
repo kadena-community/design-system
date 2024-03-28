@@ -15,6 +15,7 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha10": 10,
                     "@alpha20": 20,
                     "@alpha40": 40,
                     "@alpha70": 70,
@@ -246,6 +247,7 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha10": 10,
                     "@alpha20": 20,
                     "@alpha40": 40,
                     "@alpha70": 70,

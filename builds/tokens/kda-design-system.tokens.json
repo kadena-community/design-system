@@ -131,6 +131,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
@@ -168,6 +169,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
@@ -515,6 +517,102 @@
                 }
               }
             },
+            "@hover": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#D2D4D6",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#252F3A"
+                  }
+                }
+              }
+            },
+            "@focus": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#E4E5E5",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#131E2B"
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha80": 80
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
+                  }
+                },
+                "$extensions": {
+                  "alpha": 80
+                }
+              }
+            },
+            "@active": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#E4E5E5",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#131E2B"
+                  },
+                  "generators": [
+                    {
+                      "type": "alpha",
+                      "value": {
+                        "@alpha80": 80
+                      },
+                      "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                      "isSource": true
+                    }
+                  ]
+                }
+              }
+            },
+            "@disabled": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#000000",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#FFFFFF"
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha10": 10,
+                          "@alpha20": 20,
+                          "@alpha40": 40,
+                          "@alpha70": 70,
+                          "@alpha80": 80,
+                          "@alpha90": 90,
+                          "@alpha95": 95
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
+                  }
+                },
+                "$extensions": {
+                  "alpha": 10
+                }
+              }
+            },
             "inverse": {
               "default": {
                 "$type": "color",
@@ -558,6 +656,90 @@
                     }
                   }
                 }
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#252F3A",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#D2D4D6"
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha25": 25
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#131E2B",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#E4E5E5"
+                      },
+                      "generators": [
+                        {
+                          "type": "alpha",
+                          "value": {
+                            "@alpha80": 80
+                          },
+                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                          "isSource": true
+                        }
+                      ]
+                    }
+                  },
+                  "$extensions": {
+                    "alpha": 80
+                  }
+                }
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#FFFFFF",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#000000"
+                      },
+                      "generators": [
+                        {
+                          "type": "alpha",
+                          "value": {
+                            "@alpha10": 10,
+                            "@alpha20": 20,
+                            "@alpha40": 40,
+                            "@alpha70": 70,
+                            "@alpha80": 80,
+                            "@alpha90": 90,
+                            "@alpha95": 95
+                          },
+                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                          "isSource": true
+                        }
+                      ]
+                    }
+                  },
+                  "$extensions": {
+                    "alpha": 10
+                  }
+                }
               }
             }
           },
@@ -577,6 +759,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -795,6 +978,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -827,6 +1011,7 @@
                           {
                             "type": "alpha",
                             "value": {
+                              "@alpha10": 10,
                               "@alpha20": 20,
                               "@alpha40": 40,
                               "@alpha70": 70,
@@ -863,6 +1048,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
                             "@alpha70": 70,
@@ -895,6 +1081,7 @@
                             {
                               "type": "alpha",
                               "value": {
+                                "@alpha10": 10,
                                 "@alpha20": 20,
                                 "@alpha40": 40,
                                 "@alpha70": 70,
@@ -2836,6 +3023,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
@@ -2891,6 +3079,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
@@ -2918,6 +3107,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
@@ -2945,6 +3135,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
@@ -3051,6 +3242,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -5120,6 +5312,37 @@
                 }
               }
             },
+            "@init": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#020E1B",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#F5F5F5"
+                  },
+                  "generators": [
+                    {
+                      "type": "alpha",
+                      "value": {
+                        "@alpha1": 1,
+                        "@alpha3": 3,
+                        "@alpha6": 6,
+                        "@alpha10": 10,
+                        "@alpha20": 20,
+                        "@alpha30": 30,
+                        "@alpha40": 40,
+                        "@alpha50": 50,
+                        "@alpha80": 80,
+                        "@alpha90": 90
+                      },
+                      "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                      "isSource": true
+                    }
+                  ]
+                }
+              }
+            },
             "@hover": {
               "$type": "color",
               "$value": {
@@ -5201,6 +5424,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
@@ -5230,6 +5454,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -5272,6 +5497,37 @@
                 }
               },
               "bold": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#F5F5F5",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#020E1B"
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha1": 1,
+                          "@alpha3": 3,
+                          "@alpha6": 6,
+                          "@alpha10": 10,
+                          "@alpha20": 20,
+                          "@alpha30": 30,
+                          "@alpha40": 40,
+                          "@alpha50": 50,
+                          "@alpha80": 80,
+                          "@alpha90": 90
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "@init": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
@@ -5383,6 +5639,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -5412,6 +5669,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
                             "@alpha70": 70,
@@ -7187,6 +7445,7 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha10": 10,
                     "@alpha20": 20,
                     "@alpha40": 40,
                     "@alpha70": 70,
@@ -7198,6 +7457,37 @@
                   "isSource": true
                 }
               ]
+            }
+          },
+          "n0@alpha10": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#FFFFFF",
+              "$extensions": {
+                "mode": {
+                  "dark": "#000000"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha10": 10,
+                      "@alpha20": 20,
+                      "@alpha40": 40,
+                      "@alpha70": 70,
+                      "@alpha80": 80,
+                      "@alpha90": 90,
+                      "@alpha95": 95
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 10
             }
           },
           "n0@alpha20": {
@@ -7213,6 +7503,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
@@ -7243,6 +7534,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
@@ -7273,6 +7565,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
@@ -7303,6 +7596,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
@@ -7333,6 +7627,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
@@ -7363,6 +7658,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
@@ -8419,6 +8715,7 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha10": 10,
                     "@alpha20": 20,
                     "@alpha40": 40,
                     "@alpha70": 70,
@@ -8430,6 +8727,37 @@
                   "isSource": true
                 }
               ]
+            }
+          },
+          "n100@alpha10": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#000000",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FFFFFF"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha10": 10,
+                      "@alpha20": 20,
+                      "@alpha40": 40,
+                      "@alpha70": 70,
+                      "@alpha80": 80,
+                      "@alpha90": 90,
+                      "@alpha95": 95
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 10
             }
           },
           "n100@alpha20": {
@@ -8445,6 +8773,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
@@ -8475,6 +8804,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
@@ -8505,6 +8835,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
@@ -8535,6 +8866,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
@@ -8565,6 +8897,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
@@ -8595,6 +8928,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
                       "@alpha70": 70,
@@ -11755,6 +12089,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -11787,6 +12122,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
@@ -11870,6 +12206,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
@@ -11900,6 +12237,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -11932,6 +12270,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
                         "@alpha70": 70,
@@ -11963,6 +12302,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
                             "@alpha70": 70,
@@ -11995,6 +12335,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -12078,6 +12419,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -12108,6 +12450,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
                             "@alpha70": 70,
@@ -12140,6 +12483,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -12172,6 +12516,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -12205,6 +12550,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -12239,6 +12585,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
                             "@alpha70": 70,
@@ -12275,6 +12622,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -12308,6 +12656,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -12342,6 +12691,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
                             "@alpha70": 70,
@@ -12378,6 +12728,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -12412,6 +12763,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
                             "@alpha70": 70,
@@ -12678,6 +13030,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -12758,6 +13111,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
                           "@alpha70": 70,
@@ -12786,6 +13140,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
                             "@alpha70": 70,
@@ -12866,6 +13221,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
                             "@alpha70": 70,
@@ -28213,41 +28569,79 @@
         }
       },
       "spacing": {
-        "no": {
+        "n0": {
           "$type": "dimension",
           "$value": 0
         },
-        "xxs": {
+        "n1": {
           "$type": "dimension",
-          "$value": "0.125rem"
+          "$value": {
+            "$type": "dimension",
+            "$value": "0.25rem"
+          }
         },
-        "xs": {
+        "n2": {
           "$type": "dimension",
-          "$value": "0.25rem"
+          "$value": {
+            "$type": "dimension",
+            "$value": "0.5rem"
+          }
         },
-        "sm": {
+        "n3": {
           "$type": "dimension",
-          "$value": "0.5rem"
+          "$value": {
+            "$type": "dimension",
+            "$value": "0.75rem"
+          }
         },
-        "md": {
+        "n4": {
           "$type": "dimension",
-          "$value": "1rem"
+          "$value": {
+            "$type": "dimension",
+            "$value": "1rem"
+          }
         },
-        "lg": {
+        "n5": {
           "$type": "dimension",
-          "$value": "1.5rem"
+          "$value": {
+            "$type": "dimension",
+            "$value": "1.25rem"
+          }
         },
-        "xl": {
+        "n6": {
           "$type": "dimension",
-          "$value": "1.75rem"
+          "$value": {
+            "$type": "dimension",
+            "$value": "1.5rem"
+          }
         },
-        "xxl": {
+        "n7": {
           "$type": "dimension",
-          "$value": "2.25rem"
+          "$value": {
+            "$type": "dimension",
+            "$value": "1.75rem"
+          }
         },
-        "xxxl": {
+        "n8": {
           "$type": "dimension",
-          "$value": "2.5rem"
+          "$value": {
+            "$type": "dimension",
+            "$value": "2rem"
+          }
+        },
+        "n9": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "2.25rem"
+          }
+        },
+        "n10": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "2.5rem"
+          }
         }
       },
       "typography": {
