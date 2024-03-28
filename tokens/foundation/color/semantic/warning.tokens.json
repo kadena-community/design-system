@@ -22,17 +22,11 @@
             },
             "n20": {
               "$type": "color",
-              "$value": "{kda.foundation.color.palette.yellow.n20}",
-              "$extensions": {
-                "generators": [
-                  {
-                    "type": "alpha",
-                    "value": {
-                      "@alpha80": 80
-                    }
-                  }
-                ]
-              }
+              "$value": "{kda.foundation.color.palette.yellow.n20}"
+            },
+            "n20@alpha80": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n20@alpha80}"
             },
             "n30": {
               "$type": "color",
@@ -56,17 +50,11 @@
             },
             "n80": {
               "$type": "color",
-              "$value": "{kda.foundation.color.palette.yellow.n80}",
-              "$extensions": {
-                "generators": [
-                  {
-                    "type": "alpha",
-                    "value": {
-                      "@alpha80": 80
-                    }
-                  }
-                ]
-              }
+              "$value": "{kda.foundation.color.palette.yellow.n80}"
+            },
+            "n80@alpha80": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n80@alpha80}"
             },
             "n90": {
               "$type": "color",
