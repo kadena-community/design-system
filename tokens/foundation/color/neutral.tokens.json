@@ -76,7 +76,15 @@
             "$extensions": {
               "mode": {
                 "dark": "#252F3A"
-              }
+              },
+              "generators": [
+                {
+                  "type": "alpha",
+                  "value": {
+                    "@alpha80": 80
+                  }
+                }
+              ]
             }
           },
           "n15": {
@@ -187,6 +195,7 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha20": 20,
                     "@alpha25": 25
                   }
                 }

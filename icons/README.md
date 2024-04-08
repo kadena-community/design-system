@@ -674,6 +674,7 @@ Note: icons are rendered with black fill by default, which has poor readability 
 ![list alt](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/list_alt.svg "list alt")
 ![live help](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/live_help.svg "live help")
 ![live tv](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/live_tv.svg "live tv")
+![loading](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/loading.svg "loading")
 ![local gas station](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/local_gas_station.svg "local gas station")
 ![local grocery store](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/local_grocery_store.svg "local grocery store")
 ![local hospital](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/local_hospital.svg "local hospital")

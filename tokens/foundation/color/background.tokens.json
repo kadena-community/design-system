@@ -511,9 +511,30 @@
               "$value": "{kda.foundation.color.neutral.n5@alpha80}",
               "$extensions": {
                 "mode": {
+                  "dark": "{kda.foundation.color.neutral.n10@alpha80}"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n10}",
+              "$extensions": {
+                "mode": {
                   "dark": "{kda.foundation.color.neutral.n20@alpha80}"
                 }
               }
+            },
+            "@focus": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n5@alpha80}"
+            },
+            "@active": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n5}"
+            },
+            "@disabled": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n100@alpha10}"
             },
             "inverse": {
               "default": {
@@ -524,6 +545,22 @@
                     "dark": "{kda.foundation.color.neutral.n80@alpha80}"
                   }
                 }
+              },
+              "@hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n90}"
+              },
+              "@focus": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n95@alpha80}"
+              },
+              "@active": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n95}"
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n0@alpha10}"
               }
             }
           }
