@@ -24,6 +24,10 @@
               "$type": "color",
               "$value": "{kda.foundation.color.palette.yellow.n20}"
             },
+            "n20@alpha20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n20@alpha20}"
+            },
             "n20@alpha80": {
               "$type": "color",
               "$value": "{kda.foundation.color.palette.yellow.n20@alpha80}"
@@ -51,6 +55,10 @@
             "n80": {
               "$type": "color",
               "$value": "{kda.foundation.color.palette.yellow.n80}"
+            },
+            "n80@alpha20": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.palette.yellow.n80@alpha20}"
             },
             "n80@alpha80": {
               "$type": "color",

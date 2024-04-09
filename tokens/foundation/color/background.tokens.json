@@ -303,7 +303,7 @@
               },
               "subtle": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.positive.n1}"
+                "$value": "{kda.foundation.color.semantic.positive.n20@alpha20}"
               },
               "subtlest": {
                 "$type": "color",
@@ -328,7 +328,7 @@
                 },
                 "subtle": {
                   "$type": "color",
-                  "$value": "{kda.foundation.color.semantic.positive.n99}"
+                  "$value": "{kda.foundation.color.semantic.positive.n80@alpha20}"
                 },
                 "subtlest": {
                   "$type": "color",
@@ -355,7 +355,7 @@
               },
               "subtle": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.negative.n1}"
+                "$value": "{kda.foundation.color.semantic.negative.n20@alpha20}"
               },
               "subtlest": {
                 "$type": "color",
@@ -380,7 +380,7 @@
                 },
                 "subtle": {
                   "$type": "color",
-                  "$value": "{kda.foundation.color.semantic.negative.n99}"
+                  "$value": "{kda.foundation.color.semantic.negative.n80@alpha20}"
                 },
                 "subtlest": {
                   "$type": "color",
@@ -407,7 +407,7 @@
               },
               "subtle": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.warning.n1}"
+                "$value": "{kda.foundation.color.semantic.warning.n20@alpha20}"
               },
               "subtlest": {
                 "$type": "color",
@@ -432,7 +432,7 @@
                 },
                 "subtle": {
                   "$type": "color",
-                  "$value": "{kda.foundation.color.semantic.warning.n99}"
+                  "$value": "{kda.foundation.color.semantic.warning.n80@alpha20}"
                 },
                 "subtlest": {
                   "$type": "color",
@@ -459,7 +459,7 @@
               },
               "subtle": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.semantic.info.n1}"
+                "$value": "{kda.foundation.color.semantic.info.n20@alpha20}"
               },
               "subtlest": {
                 "$type": "color",
@@ -484,7 +484,7 @@
                 },
                 "subtle": {
                   "$type": "color",
-                  "$value": "{kda.foundation.color.semantic.info.n99}"
+                  "$value": "{kda.foundation.color.semantic.info.n80@alpha20}"
                 },
                 "subtlest": {
                   "$type": "color",

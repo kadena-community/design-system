@@ -1044,6 +1044,7 @@ Note: icons are rendered with black fill by default, which has poor readability 
 ![sim card download](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/sim_card_download.svg "sim card download")
 ![skip next](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/skip_next.svg "skip next")
 ![skip previous](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/skip_previous.svg "skip previous")
+![slash forward](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/slash_forward.svg "slash forward")
 ![slideshow](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/slideshow.svg "slideshow")
 ![slow motion video](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/slow_motion_video.svg "slow motion video")
 ![smart button](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/smart_button.svg "smart button")
