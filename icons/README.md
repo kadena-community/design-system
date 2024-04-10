@@ -1038,6 +1038,7 @@ Note: icons are rendered with black fill by default, which has poor readability 
 ![signal cellular alt 1 bar](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/signal_cellular_alt_1_bar.svg "signal cellular alt 1 bar")
 ![signal cellular alt 2 bar](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/signal_cellular_alt_2_bar.svg "signal cellular alt 2 bar")
 ![signature](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/signature.svg "signature")
+![signature not allowed](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/signature_not_allowed.svg "signature not allowed")
 ![signpost](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/signpost.svg "signpost")
 ![sim card](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/sim_card.svg "sim card")
 ![sim card alert](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/sim_card_alert.svg "sim card alert")
