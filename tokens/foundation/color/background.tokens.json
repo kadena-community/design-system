@@ -508,10 +508,10 @@
           "input": {
             "default": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n5@alpha80}",
+              "$value": "{kda.foundation.color.neutral.n1@alpha80}",
               "$extensions": {
                 "mode": {
-                  "dark": "{kda.foundation.color.neutral.n10@alpha80}"
+                  "dark": "{kda.foundation.color.neutral.n5@alpha80}"
                 }
               }
             },

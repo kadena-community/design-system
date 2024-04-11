@@ -6,7 +6,12 @@
           "base": {
             "subtle": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n100}"
+              "$value": "{kda.foundation.color.neutral.n10@alpha80}",
+              "$extensions": {
+                "mode": {
+                  "dark": "{kda.foundation.color.neutral.n99@alpha10}"
+                }
+              }
             },
             "default": {
               "$type": "color",
@@ -14,11 +19,11 @@
             },
             "bold": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n100}"
+              "$value": "{kda.foundation.color.neutral.n99@alpha50}"
             },
             "boldest": {
               "$type": "color",
-              "$value": "{kda.foundation.color.neutral.n100}"
+              "$value": "{kda.foundation.color.neutral.n100@alpha70}"
             },
             "high-contrast": {
               "$type": "color",
@@ -41,21 +46,41 @@
               "$value": "{kda.foundation.color.neutral.n80}"
             },
             "inverse": {
+              "subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1@alpha10}"
+              },
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.neutral.n100}"
+                "$value": "{kda.foundation.color.neutral.n1@alpha20}"
+              },
+              "bold": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n0@alpha40}"
+              },
+              "boldest": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1@alpha50}"
+              },
+              "high-contrast": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n0}"
+              },
+              "@disabled": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n20}"
               },
               "@hover": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.neutral.n95}"
+                "$value": "{kda.foundation.color.neutral.n20}"
               },
               "@focus": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.neutral.n90}"
+                "$value": "{kda.foundation.color.neutral.n60}"
               },
               "@active": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.neutral.n20}"
+                "$value": "{kda.foundation.color.neutral.n80}"
               }
             }
           },
