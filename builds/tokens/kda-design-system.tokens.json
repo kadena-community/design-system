@@ -134,6 +134,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha1": 1,
                           "@alpha3": 3,
                           "@alpha6": 6,
@@ -181,6 +182,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha1": 1,
                           "@alpha3": 3,
                           "@alpha6": 6,
@@ -493,6 +495,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha0": 0,
                         "@alpha1": 1,
                         "@alpha3": 3,
                         "@alpha6": 6,
@@ -623,6 +626,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -656,6 +660,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha1": 1,
                           "@alpha3": 3,
                           "@alpha6": 6,
@@ -752,6 +757,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
@@ -789,6 +795,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -854,6 +861,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha1": 1,
                           "@alpha3": 3,
                           "@alpha6": 6,
@@ -890,6 +898,7 @@
                           {
                             "type": "alpha",
                             "value": {
+                              "@alpha0": 0,
                               "@alpha1": 1,
                               "@alpha3": 3,
                               "@alpha6": 6,
@@ -930,6 +939,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha1": 1,
                             "@alpha3": 3,
                             "@alpha6": 6,
@@ -966,6 +976,7 @@
                             {
                               "type": "alpha",
                               "value": {
+                                "@alpha0": 0,
                                 "@alpha1": 1,
                                 "@alpha3": 3,
                                 "@alpha6": 6,
@@ -1008,6 +1019,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -1041,6 +1053,7 @@
                           {
                             "type": "alpha",
                             "value": {
+                              "@alpha0": 0,
                               "@alpha10": 10,
                               "@alpha20": 20,
                               "@alpha40": 40,
@@ -1078,6 +1091,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
@@ -1111,6 +1125,7 @@
                             {
                               "type": "alpha",
                               "value": {
+                                "@alpha0": 0,
                                 "@alpha10": 10,
                                 "@alpha20": 20,
                                 "@alpha40": 40,
@@ -2897,6 +2912,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha1": 1,
                           "@alpha3": 3,
                           "@alpha6": 6,
@@ -3064,6 +3080,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -3229,6 +3246,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
@@ -3295,6 +3313,7 @@
                           {
                             "type": "alpha",
                             "value": {
+                              "@alpha0": 0,
                               "@alpha1": 1,
                               "@alpha3": 3,
                               "@alpha6": 6,
@@ -3363,6 +3382,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha1": 1,
                           "@alpha3": 3,
                           "@alpha6": 6,
@@ -3400,6 +3420,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -3432,6 +3453,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha0": 0,
                         "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
@@ -3541,6 +3563,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha1": 1,
                             "@alpha3": 3,
                             "@alpha6": 6,
@@ -3578,6 +3601,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha1": 1,
                             "@alpha3": 3,
                             "@alpha6": 6,
@@ -3615,6 +3639,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
@@ -3649,6 +3674,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha1": 1,
                             "@alpha3": 3,
                             "@alpha6": 6,
@@ -3684,6 +3710,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -5468,6 +5495,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha0": 0,
                         "@alpha1": 1,
                         "@alpha3": 3,
                         "@alpha6": 6,
@@ -5498,6 +5526,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha1": 1,
                             "@alpha3": 3,
                             "@alpha6": 6,
@@ -5531,6 +5560,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha0": 0,
                         "@alpha1": 1,
                         "@alpha3": 3,
                         "@alpha6": 6,
@@ -5561,6 +5591,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha1": 1,
                             "@alpha3": 3,
                             "@alpha6": 6,
@@ -5580,6 +5611,88 @@
                   }
                 }
               }
+            }
+          }
+        },
+        "gradient": {
+          "base": {
+            "subtle": {
+              "$type": "gradient",
+              "$value": [
+                {
+                  "color": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#F5F5F5",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#020E1B"
+                        },
+                        "generators": [
+                          {
+                            "type": "alpha",
+                            "value": {
+                              "@alpha0": 0,
+                              "@alpha1": 1,
+                              "@alpha3": 3,
+                              "@alpha6": 6,
+                              "@alpha10": 10,
+                              "@alpha20": 20,
+                              "@alpha30": 30,
+                              "@alpha40": 40,
+                              "@alpha50": 50,
+                              "@alpha80": 80,
+                              "@alpha90": 90
+                            },
+                            "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                            "isSource": true
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "position": 0.25
+                },
+                {
+                  "color": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#F5F5F5",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#020E1B"
+                        },
+                        "generators": [
+                          {
+                            "type": "alpha",
+                            "value": {
+                              "@alpha0": 0,
+                              "@alpha1": 1,
+                              "@alpha3": 3,
+                              "@alpha6": 6,
+                              "@alpha10": 10,
+                              "@alpha20": 20,
+                              "@alpha30": 30,
+                              "@alpha40": 40,
+                              "@alpha50": 50,
+                              "@alpha80": 80,
+                              "@alpha90": 90
+                            },
+                            "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                            "isSource": true
+                          }
+                        ]
+                      }
+                    },
+                    "$extensions": {
+                      "alpha": 0
+                    }
+                  },
+                  "position": 1
+                }
+              ]
             }
           }
         },
@@ -5620,6 +5733,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha0": 0,
                         "@alpha1": 1,
                         "@alpha3": 3,
                         "@alpha6": 6,
@@ -5651,6 +5765,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha0": 0,
                         "@alpha1": 1,
                         "@alpha3": 3,
                         "@alpha6": 6,
@@ -5684,6 +5799,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha1": 1,
                           "@alpha3": 3,
                           "@alpha6": 6,
@@ -5719,6 +5835,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha0": 0,
                         "@alpha1": 1,
                         "@alpha3": 3,
                         "@alpha6": 6,
@@ -5750,6 +5867,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha0": 0,
                         "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
@@ -5780,6 +5898,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -5835,6 +5954,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha1": 1,
                           "@alpha3": 3,
                           "@alpha6": 6,
@@ -5866,6 +5986,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha1": 1,
                           "@alpha3": 3,
                           "@alpha6": 6,
@@ -5899,6 +6020,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha1": 1,
                             "@alpha3": 3,
                             "@alpha6": 6,
@@ -5934,6 +6056,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha1": 1,
                           "@alpha3": 3,
                           "@alpha6": 6,
@@ -5965,6 +6088,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -5995,6 +6119,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
@@ -6047,6 +6172,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha1": 1,
                             "@alpha3": 3,
                             "@alpha6": 6,
@@ -7642,6 +7768,7 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha0": 0,
                     "@alpha10": 10,
                     "@alpha20": 20,
                     "@alpha40": 40,
@@ -7654,6 +7781,38 @@
                   "isSource": true
                 }
               ]
+            }
+          },
+          "n0@alpha0": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#FFFFFF",
+              "$extensions": {
+                "mode": {
+                  "dark": "#000000"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha0": 0,
+                      "@alpha10": 10,
+                      "@alpha20": 20,
+                      "@alpha40": 40,
+                      "@alpha70": 70,
+                      "@alpha80": 80,
+                      "@alpha90": 90,
+                      "@alpha95": 95
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 0
             }
           },
           "n0@alpha10": {
@@ -7669,6 +7828,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
@@ -7700,6 +7860,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
@@ -7731,6 +7892,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
@@ -7762,6 +7924,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
@@ -7793,6 +7956,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
@@ -7824,6 +7988,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
@@ -7855,6 +8020,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
@@ -7884,6 +8050,7 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha0": 0,
                     "@alpha1": 1,
                     "@alpha3": 3,
                     "@alpha6": 6,
@@ -7901,6 +8068,41 @@
               ]
             }
           },
+          "n1@alpha0": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#F5F5F5",
+              "$extensions": {
+                "mode": {
+                  "dark": "#020E1B"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha0": 0,
+                      "@alpha1": 1,
+                      "@alpha3": 3,
+                      "@alpha6": 6,
+                      "@alpha10": 10,
+                      "@alpha20": 20,
+                      "@alpha30": 30,
+                      "@alpha40": 40,
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 0
+            }
+          },
           "n1@alpha1": {
             "$type": "color",
             "$value": {
@@ -7914,6 +8116,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -7948,6 +8151,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -7982,6 +8186,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8016,6 +8221,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8050,6 +8256,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8084,6 +8291,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8118,6 +8326,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8152,6 +8361,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8186,6 +8396,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8220,6 +8431,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8607,6 +8819,7 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha0": 0,
                     "@alpha1": 1,
                     "@alpha3": 3,
                     "@alpha6": 6,
@@ -8624,6 +8837,41 @@
               ]
             }
           },
+          "n99@alpha0": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#020E1B",
+              "$extensions": {
+                "mode": {
+                  "dark": "#F5F5F5"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha0": 0,
+                      "@alpha1": 1,
+                      "@alpha3": 3,
+                      "@alpha6": 6,
+                      "@alpha10": 10,
+                      "@alpha20": 20,
+                      "@alpha30": 30,
+                      "@alpha40": 40,
+                      "@alpha50": 50,
+                      "@alpha80": 80,
+                      "@alpha90": 90
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 0
+            }
+          },
           "n99@alpha1": {
             "$type": "color",
             "$value": {
@@ -8637,6 +8885,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8671,6 +8920,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8705,6 +8955,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8739,6 +8990,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8773,6 +9025,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8807,6 +9060,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8841,6 +9095,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8875,6 +9130,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8909,6 +9165,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8943,6 +9200,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha1": 1,
                       "@alpha3": 3,
                       "@alpha6": 6,
@@ -8975,6 +9233,7 @@
                 {
                   "type": "alpha",
                   "value": {
+                    "@alpha0": 0,
                     "@alpha10": 10,
                     "@alpha20": 20,
                     "@alpha40": 40,
@@ -8987,6 +9246,38 @@
                   "isSource": true
                 }
               ]
+            }
+          },
+          "n100@alpha0": {
+            "$type": "color",
+            "$value": {
+              "$type": "color",
+              "$value": "#000000",
+              "$extensions": {
+                "mode": {
+                  "dark": "#FFFFFF"
+                },
+                "generators": [
+                  {
+                    "type": "alpha",
+                    "value": {
+                      "@alpha0": 0,
+                      "@alpha10": 10,
+                      "@alpha20": 20,
+                      "@alpha40": 40,
+                      "@alpha70": 70,
+                      "@alpha80": 80,
+                      "@alpha90": 90,
+                      "@alpha95": 95
+                    },
+                    "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                    "isSource": true
+                  }
+                ]
+              }
+            },
+            "$extensions": {
+              "alpha": 0
             }
           },
           "n100@alpha10": {
@@ -9002,6 +9293,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
@@ -9033,6 +9325,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
@@ -9064,6 +9357,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
@@ -9095,6 +9389,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
@@ -9126,6 +9421,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
@@ -9157,6 +9453,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
@@ -9188,6 +9485,7 @@
                   {
                     "type": "alpha",
                     "value": {
+                      "@alpha0": 0,
                       "@alpha10": 10,
                       "@alpha20": 20,
                       "@alpha40": 40,
@@ -12629,6 +12927,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -12662,6 +12961,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha0": 0,
                         "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
@@ -12714,6 +13014,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha0": 0,
                         "@alpha1": 1,
                         "@alpha3": 3,
                         "@alpha6": 6,
@@ -12746,6 +13047,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha0": 0,
                         "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
@@ -12777,6 +13079,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -12810,6 +13113,7 @@
                     {
                       "type": "alpha",
                       "value": {
+                        "@alpha0": 0,
                         "@alpha10": 10,
                         "@alpha20": 20,
                         "@alpha40": 40,
@@ -12842,6 +13146,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
@@ -12875,6 +13180,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -12927,6 +13233,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha1": 1,
                           "@alpha3": 3,
                           "@alpha6": 6,
@@ -12959,6 +13266,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -12990,6 +13298,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
@@ -13023,6 +13332,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -13056,6 +13366,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -13090,6 +13401,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -13125,6 +13437,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
@@ -13162,6 +13475,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -13196,6 +13510,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -13231,6 +13546,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
@@ -13268,6 +13584,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -13303,6 +13620,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
@@ -13570,6 +13888,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -13620,6 +13939,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha1": 1,
                           "@alpha3": 3,
                           "@alpha6": 6,
@@ -13651,6 +13971,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha10": 10,
                           "@alpha20": 20,
                           "@alpha40": 40,
@@ -13680,6 +14001,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
@@ -13730,6 +14052,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha1": 1,
                             "@alpha3": 3,
                             "@alpha6": 6,
@@ -13761,6 +14084,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha10": 10,
                             "@alpha20": 20,
                             "@alpha40": 40,
@@ -14244,6 +14568,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha1": 1,
                             "@alpha3": 3,
                             "@alpha6": 6,
@@ -14274,6 +14599,7 @@
                             {
                               "type": "alpha",
                               "value": {
+                                "@alpha0": 0,
                                 "@alpha1": 1,
                                 "@alpha3": 3,
                                 "@alpha6": 6,
@@ -14342,6 +14668,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha1": 1,
                             "@alpha3": 3,
                             "@alpha6": 6,
@@ -14372,6 +14699,7 @@
                             {
                               "type": "alpha",
                               "value": {
+                                "@alpha0": 0,
                                 "@alpha1": 1,
                                 "@alpha3": 3,
                                 "@alpha6": 6,
@@ -14417,6 +14745,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha1": 1,
                             "@alpha3": 3,
                             "@alpha6": 6,
@@ -14447,6 +14776,7 @@
                             {
                               "type": "alpha",
                               "value": {
+                                "@alpha0": 0,
                                 "@alpha1": 1,
                                 "@alpha3": 3,
                                 "@alpha6": 6,
@@ -14515,6 +14845,7 @@
                         {
                           "type": "alpha",
                           "value": {
+                            "@alpha0": 0,
                             "@alpha1": 1,
                             "@alpha3": 3,
                             "@alpha6": 6,
@@ -14545,6 +14876,7 @@
                             {
                               "type": "alpha",
                               "value": {
+                                "@alpha0": 0,
                                 "@alpha1": 1,
                                 "@alpha3": 3,
                                 "@alpha6": 6,
@@ -14938,6 +15270,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha1": 1,
                           "@alpha3": 3,
                           "@alpha6": 6,
@@ -14968,6 +15301,7 @@
                           {
                             "type": "alpha",
                             "value": {
+                              "@alpha0": 0,
                               "@alpha1": 1,
                               "@alpha3": 3,
                               "@alpha6": 6,
@@ -15036,6 +15370,7 @@
                       {
                         "type": "alpha",
                         "value": {
+                          "@alpha0": 0,
                           "@alpha1": 1,
                           "@alpha3": 3,
                           "@alpha6": 6,
@@ -15066,6 +15401,7 @@
                           {
                             "type": "alpha",
                             "value": {
+                              "@alpha0": 0,
                               "@alpha1": 1,
                               "@alpha3": 3,
                               "@alpha6": 6,
@@ -29368,6 +29704,64 @@
           "$value": {
             "$type": "dimension",
             "$value": "2.5rem"
+          }
+        }
+      },
+      "transition": {
+        "delay": {
+          "none": {
+            "$value": "0ms",
+            "$type": "duration"
+          }
+        },
+        "duration": {
+          "base": {
+            "$value": "400ms",
+            "$type": "duration"
+          },
+          "d200": {
+            "$value": "200ms",
+            "$type": "duration"
+          }
+        },
+        "animation": {
+          "easeOutSine": {
+            "$type": "transition",
+            "$value": {
+              "duration": {
+                "$value": "200ms",
+                "$type": "duration"
+              },
+              "delay": {
+                "$value": "0ms",
+                "$type": "duration"
+              },
+              "timingFunction": [
+                0.61,
+                1,
+                0.88,
+                1
+              ]
+            }
+          },
+          "easeOutCubic": {
+            "$type": "transition",
+            "$value": {
+              "duration": {
+                "$value": "200ms",
+                "$type": "duration"
+              },
+              "delay": {
+                "$value": "0ms",
+                "$type": "duration"
+              },
+              "timingFunction": [
+                0.33,
+                1,
+                0.68,
+                1
+              ]
+            }
           }
         }
       },

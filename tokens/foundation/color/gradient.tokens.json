@@ -1,0 +1,25 @@
+{
+  "kda": {
+    "foundation": {
+      "color": {
+        "gradient": {
+          "base": {
+            "subtle": {
+              "$type": "gradient",
+              "$value": [
+                {
+                  "color": "{kda.foundation.color.background.base.default}",
+                  "position": 0.25
+                },
+                {
+                  "color": "{kda.foundation.color.neutral.n1@alpha0}",
+                  "position": 1
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
