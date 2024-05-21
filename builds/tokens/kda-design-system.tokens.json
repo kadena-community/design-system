@@ -7236,6 +7236,51 @@
                 }
               }
             }
+          },
+          "product": {
+            "spirekey": {
+              "animation": {
+                "start": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#4A9079",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#4A9079"
+                        }
+                      }
+                    }
+                  }
+                },
+                "step1": {
+                  "$type": "color",
+                  "$value": "#4AA688"
+                },
+                "step2": {
+                  "$type": "color",
+                  "$value": "#4BBD97"
+                },
+                "step3": {
+                  "$type": "color",
+                  "$value": "#4BD3A6"
+                },
+                "end": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#4BE9B5",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#2E8F6F"
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "link": {

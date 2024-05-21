@@ -355,6 +355,32 @@
                 }
               }
             }
+          },
+          "product": {
+            "spirekey": {
+              "animation": {
+                "start": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n50}"
+                },
+                "step1": {
+                  "$type": "color",
+                  "$value": "#4AA688"
+                },
+                "step2": {
+                  "$type": "color",
+                  "$value": "#4BBD97"
+                },
+                "step3": {
+                  "$type": "color",
+                  "$value": "#4BD3A6"
+                },
+                "end": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.palette.aqua.n30}"
+                }
+              }
+            }
           }
         }
       }
