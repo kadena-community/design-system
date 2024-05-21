@@ -1,8 +1,14 @@
 <svg data-style="kdacolor" width="64" height="64" viewBox="0 0 64 64"
   xmlns="http://www.w3.org/2000/svg">
-  <path id="{kda.foundation.color.brand.key.black}" d="M40.7125 45.9281L47.6806 49.3787L42.2231 53.3444L40.7125 45.9281Z" fill="#020E1B"/>
-  <path id="{kda.foundation.color.brand.key.black}" d="M58.3587 41.6212L39.3894 39.4306L38.4381 34.76L56.1287 34.7587L58.3587 41.6212Z" fill="#020E1B"/>
-  <path id="{kda.foundation.color.brand.key.black}" d="M16.3187 49.3775L23.2969 45.9281L21.8056 53.3656L16.3187 49.3775Z" fill="#020E1B"/>
-  <path id="{kda.foundation.color.brand.key.black}" d="M24.6006 39.4306L5.64124 41.6212L7.86999 34.76H25.5381L24.6006 39.4306Z" fill="#020E1B"/>
-  <path id="{kda.foundation.color.brand.key.black}" d="M52.5269 23.6737L38.4381 34.76L31.9881 32.5425L25.5381 34.76L11.4688 23.6862L13.5756 17.2019L24.5912 24.6037L28.6975 32.1812V10.6344H35.2781V31.5737L39.3844 24.6037L50.4212 17.1944L52.5269 23.6737Z" fill="#020E1B"/>
+  <path id="{kda.foundation.color.brand.key.black}" fill="#020E1B" d="M16.3,49.4l7-3.4-1.5,7.4-5.5-4Z"/>
+  <path id="{kda.foundation.color.brand.key.black}" fill="#020E1B" d="M24.6,39.4l-18.9,2.2,2.2-6.9h17.7l-.9,4.7Z"/>
+  <polygon id="{kda.foundation.color.brand.key.black}" fill="#020E1B" points="28.7 32.2 26.6 28.4 28.7 32.2 28.7 32.2"/>
+  <polygon id="{kda.foundation.color.brand.key.black}" fill="#020E1B" points="24.6 24.6 24.6 24.6 26.6 28.4 24.6 24.6"/>
+  <path id="{kda.foundation.color.brand.key.black}" fill="#020E1B" d="M42.2,53.3l-1.5-7.4,7,3.4-5.5,4Z"/>
+  <path id="{kda.foundation.color.brand.key.black}" fill="#020E1B" d="M38.4,34.7h17.7s2.2,6.9,2.2,6.9l-18.9-2.2-.9-4.7Z"/>
+  <polygon id="{kda.foundation.color.brand.key.black}" fill="#020E1B" points="35.3 32.2 37.3 28.4 35.3 32.2 35.3 32.2"/>
+  <polygon id="{kda.foundation.color.brand.key.black}" fill="#020E1B" points="39.4 24.6 39.4 24.6 37.3 28.4 39.4 24.6"/>
+  <polygon id="{kda.foundation.color.brand.key.black}" fill="#020E1B" points="28.7 10.6 28.7 32.2 29.4 33.4 32 32.5 34.6 33.4 35.3 32.2 35.3 10.6 28.7 10.6"/>
+  <polygon id="{kda.foundation.color.brand.key.black}" fill="#020E1B" points="39.4 24.6 50.4 17.2 52.5 23.7 38.4 34.7 34.6 33.4 39.4 24.6"/>
+  <polygon id="{kda.foundation.color.brand.key.black}" fill="#020E1B" points="24.6 24.6 13.6 17.2 11.5 23.7 25.5 34.7 29.4 33.4 24.6 24.6"/>
 </svg>

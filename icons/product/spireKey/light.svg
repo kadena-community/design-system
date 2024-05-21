@@ -1,10 +1,16 @@
 <svg data-style="kdacolor" width="193" height="64" viewBox="0 0 193 64" fill="none"
   xmlns="http://www.w3.org/2000/svg">
-  <path id="{kda.foundation.color.icon.brand.logo.default}" d="M31.5043 42.9968L36.174 45.3092L32.5165 47.9671L31.5043 42.9968Z" fill="#4A9079"/>
-  <path id="{kda.foundation.color.icon.brand.logo.default}" d="M43.3304 40.1103L30.6171 38.6417L29.9799 35.5119L41.836 35.5112L43.3304 40.1103Z" fill="#4A9079"/>
-  <path id="{kda.foundation.color.icon.brand.logo.default}" d="M15.1556 45.3085L19.8327 42.9968L18.833 47.9811L15.1556 45.3085Z" fill="#4A9079"/>
-  <path id="{kda.foundation.color.icon.brand.logo.default}" d="M20.7066 38.6417L8 40.1103L9.4936 35.5119H21.3343L20.7066 38.6417Z" fill="#4A9079"/>
-  <path id="{kda.foundation.color.icon.brand.logo.default}" d="M39.4222 28.0821L29.9799 35.5119L25.6571 34.0256L21.3343 35.5119L11.9053 28.0902L13.3173 23.7447L20.7 28.7054L23.452 33.7838V19.3432H27.8622V33.3766L30.6142 28.7054L38.0109 23.7395L39.4222 28.0821Z" fill="#4A9079"/>
+  <path id="{kda.foundation.color.icon.brand.logo.default}" d="M15.2,45.3l4.7-2.3-1,5-3.7-2.7Z" fill="#4A9079"/>
+  <path id="{kda.foundation.color.icon.brand.logo.default}" d="M20.7,38.6l-12.7,1.5,1.5-4.6h11.8l-.6,3.1Z" fill="#4A9079"/>
+  <polygon id="{kda.foundation.color.icon.brand.logo.default}" points="23.5 33.8 22.1 31.2 23.5 33.8 23.5 33.8" fill="#4A9079"/>
+  <polygon id="{kda.foundation.color.icon.brand.logo.default}" points="20.7 28.7 20.7 28.7 22.1 31.2 20.7 28.7" fill="#4A9079"/>
+  <path id="{kda.foundation.color.icon.brand.logo.default}" d="M32.5,48l-1-5,4.7,2.3-3.7,2.7Z" fill="#4A9079"/>
+  <path id="{kda.foundation.color.icon.brand.logo.default}" d="M30,35.5h11.8s1.5,4.6,1.5,4.6l-12.7-1.5-.6-3.1Z" fill="#4A9079"/>
+  <polygon id="{kda.foundation.color.icon.brand.logo.default}" points="27.9 33.8 29.3 31.2 27.9 33.8 27.9 33.8" fill="#4A9079"/>
+  <polygon id="{kda.foundation.color.icon.brand.logo.default}" points="30.6 28.7 30.6 28.7 29.3 31.2 30.6 28.7" fill="#4A9079"/>
+  <polygon id="{kda.foundation.color.icon.brand.logo.default}" points="23.5 19.3 23.5 33.8 23.9 34.6 25.7 34 27.4 34.6 27.9 33.8 27.9 19.3 23.5 19.3" fill="#4A9079"/>
+  <polygon id="{kda.foundation.color.icon.brand.logo.default}" points="30.6 28.7 38 23.7 39.4 28.1 30 35.5 27.4 34.6 30.6 28.7" fill="#4A9079"/>
+  <polygon id="{kda.foundation.color.icon.brand.logo.default}" points="20.7 28.7 13.3 23.7 11.9 28.1 21.4 35.5 23.9 34.6 20.7 28.7" fill="#4A9079"/>
   <path id="{kda.foundation.color.text.brand.wordmark.default}" d="M50.1622 15.9311V10.527H50.9892V12.7731H51.1168C51.4529 12.401 52.1223 11.6527 53.1251 10.527H54.208C53.8018 10.9746 52.9928 11.8612 51.7789 13.1873C52.1998 13.6443 53.0396 14.5589 54.2982 15.9311H53.1779C52.8371 15.549 52.1497 14.7853 51.1175 13.6396H50.9899V15.9311H50.1628H50.1622Z" fill="#0F0F0F"/>
   <path id="{kda.foundation.color.text.brand.wordmark.default}" d="M54.5234 15.9311C54.7792 15.0319 55.2903 13.2301 56.0573 10.527H57.5237C57.7796 11.4263 58.2907 13.2281 59.0576 15.9311H58.2005C58.1403 15.72 58.0221 15.2958 57.8471 14.6571H55.7339C55.6791 14.8675 55.5609 15.2924 55.3805 15.9311H54.5234ZM55.945 13.8888H57.6373C57.507 13.4118 57.2458 12.4644 56.8556 11.0475H56.728C56.5978 11.5198 56.3372 12.4671 55.9464 13.8888H55.945Z" fill="#0F0F0F"/>
   <path id="{kda.foundation.color.text.brand.wordmark.default}" d="M59.5854 15.9311V10.527H61.7433C62.4601 10.527 63.0093 10.7107 63.3901 11.0769C63.7756 11.4436 63.9693 11.9941 63.9693 12.727V13.7371C63.9693 14.476 63.7762 15.0258 63.3901 15.3873C63.0093 15.7487 62.4601 15.9298 61.7433 15.9298H59.5854V15.9311ZM60.4272 15.1775H61.7506C62.2169 15.1775 62.5623 15.0599 62.7888 14.8234C63.0146 14.5822 63.1269 14.2282 63.1269 13.7605V12.6976C63.1269 12.2253 63.014 11.8732 62.7888 11.642C62.563 11.4116 62.2176 11.2953 61.7506 11.2953H60.4272V15.1775Z" fill="#0F0F0F"/>
