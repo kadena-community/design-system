@@ -377,7 +377,12 @@
                 },
                 "end": {
                   "$type": "color",
-                  "$value": "{kda.foundation.color.palette.aqua.n30}"
+                  "$value": "{kda.foundation.color.palette.aqua.n30}",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "{kda.foundation.color.palette.aqua.n70}"
+                    }
+                  }
                 }
               }
             }

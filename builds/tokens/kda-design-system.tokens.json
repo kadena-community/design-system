@@ -7277,6 +7277,19 @@
                         "dark": "#2E8F6F"
                       }
                     }
+                  },
+                  "$extensions": {
+                    "mode": {
+                      "dark": {
+                        "$type": "color",
+                        "$value": "#2E8F6F",
+                        "$extensions": {
+                          "mode": {
+                            "dark": "#4BE9B5"
+                          }
+                        }
+                      }
+                    }
                   }
                 }
               }
