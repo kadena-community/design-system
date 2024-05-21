@@ -29,8 +29,6 @@ Note: icons are rendered with black fill by default, which has poor readability 
 ![logo black](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/product/spireKey/logo_black.svg "logo black")
 ![logo green](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/product/spireKey/logo_green.svg "logo green")
 ![logo white](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/product/spireKey/logo_white.svg "logo white")
-![pro dark](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/product/spireKey/pro_dark.svg "pro dark")
-![pro light](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/product/spireKey/pro_light.svg "pro light")
 ![dark](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/product/tools/dark.svg "dark")
 ![light](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/product/tools/light.svg "light")
 ![123](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/system/123.svg "123")
