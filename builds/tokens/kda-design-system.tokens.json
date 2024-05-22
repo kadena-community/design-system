@@ -32055,6 +32055,826 @@
               }
             }
           },
+          "input": {
+            "monospace": {
+              "base": {
+                "regular": {
+                  "@xs": {
+                    "$name": "inputElementBaseCode",
+                    "$description": "Input Element Code @xs Description",
+                    "$type": "typography",
+                    "$title": "Input Code",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kode Mono",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": "0.75rem"
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@sm": {
+                    "$name": "inputElementBaseCode",
+                    "$description": "Input Element Code @sm Description",
+                    "$type": "typography",
+                    "$title": "Input Code",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kode Mono",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": "0.875rem"
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": "1.125rem"
+                    }
+                  },
+                  "@md": {
+                    "$name": "inputElementBaseCode",
+                    "$description": "Input Element Code @md Description",
+                    "$type": "typography",
+                    "$title": "Input Code",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kode Mono",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.25rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@lg": {
+                    "$name": "inputElementBaseCode",
+                    "$description": "Input Element Code @lg Description",
+                    "$type": "typography",
+                    "$title": "Input Code",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kode Mono",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.25rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@xl": {
+                    "$name": "inputElementBaseCode",
+                    "$description": "Input Element Code @xl Description",
+                    "$type": "typography",
+                    "$title": "Input Code",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kode Mono",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.25rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@xxl": {
+                    "$name": "inputElementBaseCode",
+                    "$description": "Input Element Code @xxl Description",
+                    "$type": "typography",
+                    "$title": "Input Code",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kode Mono",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.25rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  }
+                }
+              },
+              "mobile": {
+                "regular": {
+                  "@xs": {
+                    "$name": "inputElementMobileCode",
+                    "$description": "Input Element Code @xs Description",
+                    "$type": "typography",
+                    "$title": "Input Code",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kode Mono",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.25rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@sm": {
+                    "$name": "inputElementMobileCode",
+                    "$description": "Input Element Code @sm Description",
+                    "$type": "typography",
+                    "$title": "Input Code",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kode Mono",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.25rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@md": {
+                    "$name": "inputElementMobileCode",
+                    "$description": "Input Element Code @md Description",
+                    "$type": "typography",
+                    "$title": "Input Code",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kode Mono",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.25rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@lg": {
+                    "$name": "inputElementMobileCode",
+                    "$description": "Input Element Code @lg Description",
+                    "$type": "typography",
+                    "$title": "Input Code",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kode Mono",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.25rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@xl": {
+                    "$name": "inputElementMobileCode",
+                    "$description": "Input Element Code @xl Description",
+                    "$type": "typography",
+                    "$title": "Input Code",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kode Mono",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.25rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@xxl": {
+                    "$name": "inputElementMobileCode",
+                    "$description": "Input Element Code @xxl Description",
+                    "$type": "typography",
+                    "$title": "Input Code",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kode Mono",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.25rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "ui": {
+              "base": {
+                "regular": {
+                  "@xs": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @xs Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kadena Space Grotesk",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": "0.75rem"
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@sm": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @sm Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kadena Space Grotesk",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": "0.875rem"
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": "1.375rem"
+                    }
+                  },
+                  "@md": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @md Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kadena Space Grotesk",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.5rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@lg": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @lg Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kadena Space Grotesk",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.5rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@xl": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @xl Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kadena Space Grotesk",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.5rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@xxl": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @xxl Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kadena Space Grotesk",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.5rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  }
+                }
+              },
+              "mobile": {
+                "regular": {
+                  "@xs": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @xs Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kadena Space Grotesk",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.5rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@sm": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @sm Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kadena Space Grotesk",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.5rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@md": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @md Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kadena Space Grotesk",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.5rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@lg": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @lg Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kadena Space Grotesk",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.5rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@xl": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @xl Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kadena Space Grotesk",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.5rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  },
+                  "@xxl": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @xxl Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": {
+                        "$value": "Kadena Space Grotesk",
+                        "$type": "fontFamily"
+                      },
+                      "fontWeight": {
+                        "$value": 400,
+                        "$extensions": {
+                          "weightTag": "Regular"
+                        },
+                        "$type": "fontWeight"
+                      },
+                      "fontSize": {
+                        "$type": "dimension",
+                        "$value": {
+                          "$type": "dimension",
+                          "$value": "1rem"
+                        }
+                      },
+                      "letterSpacing": {
+                        "$type": "dimension",
+                        "$value": 0
+                      },
+                      "lineHeight": {
+                        "$value": "1.5rem",
+                        "$type": "dimension"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
           "body": {
             "small": {
               "regular": {

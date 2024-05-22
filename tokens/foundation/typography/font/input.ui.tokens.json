@@ -1,0 +1,178 @@
+{
+  "kda": {
+    "foundation": {
+      "typography": {
+        "font": {
+          "input": {
+            "ui": {
+              "base": {
+                "regular": {
+                  "@xs": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @xs Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                      "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                      "fontSize": "{kda.foundation.typography.fontSize.xs}",
+                      "letterSpacing": "{kda.foundation.spacing.n0}",
+                      "lineHeight": "{kda.foundation.typography.lineHeight.md}"
+                    }
+                  },
+                  "@sm": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @sm Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                      "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                      "fontSize": "{kda.foundation.typography.fontSize.sm}",
+                      "letterSpacing": "{kda.foundation.spacing.n0}",
+                      "lineHeight": "1.375rem"
+                    }
+                  },
+                  "@md": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @md Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                      "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                      "fontSize": "{kda.foundation.typography.fontSize.base}",
+                      "letterSpacing": "{kda.foundation.spacing.n0}",
+                      "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
+                    }
+                  },
+                  "@lg": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @lg Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                      "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                      "fontSize": "{kda.foundation.typography.fontSize.base}",
+                      "letterSpacing": "{kda.foundation.spacing.n0}",
+                      "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
+                    }
+                  },
+                  "@xl": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @xl Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                      "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                      "fontSize": "{kda.foundation.typography.fontSize.base}",
+                      "letterSpacing": "{kda.foundation.spacing.n0}",
+                      "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
+                    }
+                  },
+                  "@xxl": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @xxl Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                      "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                      "fontSize": "{kda.foundation.typography.fontSize.base}",
+                      "letterSpacing": "{kda.foundation.spacing.n0}",
+                      "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
+                    }
+                  }
+                }
+              },
+              "mobile": {
+                "regular": {
+                  "@xs": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @xs Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                      "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                      "fontSize": "{kda.foundation.typography.fontSize.base}",
+                      "letterSpacing": "{kda.foundation.spacing.n0}",
+                      "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
+                    }
+                  },
+                  "@sm": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @sm Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                      "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                      "fontSize": "{kda.foundation.typography.fontSize.base}",
+                      "letterSpacing": "{kda.foundation.spacing.n0}",
+                      "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
+                    }
+                  },
+                  "@md": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @md Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                      "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                      "fontSize": "{kda.foundation.typography.fontSize.base}",
+                      "letterSpacing": "{kda.foundation.spacing.n0}",
+                      "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
+                    }
+                  },
+                  "@lg": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @lg Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                      "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                      "fontSize": "{kda.foundation.typography.fontSize.base}",
+                      "letterSpacing": "{kda.foundation.spacing.n0}",
+                      "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
+                    }
+                  },
+                  "@xl": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @xl Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                      "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                      "fontSize": "{kda.foundation.typography.fontSize.base}",
+                      "letterSpacing": "{kda.foundation.spacing.n0}",
+                      "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
+                    }
+                  },
+                  "@xxl": {
+                    "$name": "inputElementUI",
+                    "$description": "Input Element @xxl Description",
+                    "$type": "typography",
+                    "$title": "Input UI",
+                    "$value": {
+                      "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                      "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
+                      "fontSize": "{kda.foundation.typography.fontSize.base}",
+                      "letterSpacing": "{kda.foundation.spacing.n0}",
+                      "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
