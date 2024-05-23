@@ -29534,6 +29534,18 @@
               }
             },
             "desktop": {
+              "small": {
+                "$type": "dimension",
+                "$value": 1024
+              },
+              "widescreen": {
+                "$type": "dimension",
+                "$value": 1280
+              },
+              "hd": {
+                "$type": "dimension",
+                "$value": 1366
+              },
               "full_hd": {
                 "$type": "dimension",
                 "$value": 1920
@@ -29610,6 +29622,18 @@
               }
             },
             "desktop": {
+              "small": {
+                "$type": "dimension",
+                "$value": 768
+              },
+              "widescreen": {
+                "$type": "dimension",
+                "$value": 800
+              },
+              "hd": {
+                "$type": "dimension",
+                "$value": 768
+              },
               "full_hd": {
                 "$type": "dimension",
                 "$value": 1080
