@@ -42,19 +42,17 @@ function makeIconsReadme(template, iconFilenames, templateFilename) {
     const width = +(content.match(/width="(.*?)"/) ?? [])[1];
     const height = +(content.match(/height="(.*?)"/) ?? [])[1];
 
-    if (style === 'animated') {
-      return
-    }
-
-    return {
-      path: svg,
-      folder: relative('./icons', svg).split('/').slice(0, -1).concat(`${style}_${name}`),
-      file,
-      style,
-      content,
-      name,
-      dimensions: { width, height },
-      description: description ?? ''
+    if (style !== 'animated') {
+      return {
+        path: svg,
+        folder: relative('./icons', svg).split('/').slice(0, -1).concat(`${style}_${name}`),
+        file,
+        style,
+        content,
+        name,
+        dimensions: { width, height },
+        description: description ?? ''
+      }
     }
   });
 
@@ -74,18 +72,16 @@ function makeIconsReadme(template, iconFilenames, templateFilename) {
   }, {});
 
   Object.keys(jsonFile).forEach(async (iconType) => {
-    // if (iconType !== 'animated') {
-      const writeFilePath = join(__dirname, `./tokens/foundation/icon/${iconType}/svg.${iconType}.tokens.json`)
-      await writeFile(writeFilePath, JSON.stringify({
-        kda: {
-          foundation: {
-            icon: {
-              [iconType]: jsonFile[iconType]
-            }
+    const writeFilePath = join(__dirname, `./tokens/foundation/icon/${iconType}/svg.${iconType}.tokens.json`)
+    await writeFile(writeFilePath, JSON.stringify({
+      kda: {
+        foundation: {
+          icon: {
+            [iconType]: jsonFile[iconType]
           }
         }
-      }), { flag: 'w', encoding: 'utf-8' })
-    // }
+      }
+    }), { flag: 'w', encoding: 'utf-8' })
   })
 
   const writeSVGFilePath = join(__dirname, `./builds/tokens/kda-design-system.raw.svg.tokens.json`)
