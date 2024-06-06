@@ -8,6 +8,7 @@ Note: icons are rendered with black fill by default, which has poor readability 
 
 ## Icons
 
+![fingerprint](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/animated/fingerprint.svg "fingerprint")
 ![black](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/brand/K/rounded/black.svg "black")
 ![green](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/brand/K/rounded/green.svg "green")
 ![white](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/brand/K/rounded/white.svg "white")
