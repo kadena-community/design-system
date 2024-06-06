@@ -74,7 +74,7 @@ function makeIconsReadme(template, iconFilenames, templateFilename) {
   }, {});
 
   Object.keys(jsonFile).forEach(async (iconType) => {
-    if (iconType !== 'animated') {
+    // if (iconType !== 'animated') {
       const writeFilePath = join(__dirname, `./tokens/foundation/icon/${iconType}/svg.${iconType}.tokens.json`)
       await writeFile(writeFilePath, JSON.stringify({
         kda: {
@@ -85,7 +85,7 @@ function makeIconsReadme(template, iconFilenames, templateFilename) {
           }
         }
       }), { flag: 'w', encoding: 'utf-8' })
-    }
+    // }
   })
 
   const writeSVGFilePath = join(__dirname, `./builds/tokens/kda-design-system.raw.svg.tokens.json`)
