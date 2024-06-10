@@ -17,6 +17,7 @@ async function getFiles(dir) {
   const dirents = await readdir(dir, { withFileTypes: true });
   const files = await Promise.all(dirents.map((dirent) => {
     const res = resolve(dir, dirent.name);
+
     return dirent.isDirectory() ? getFiles(res) : res;
   }));
   return Array.prototype.concat(...files);
@@ -47,14 +48,17 @@ function getAllValues(obj) {
   function traverse(obj, currentObj, path = '', parentKey = '', parentObj = {}) {
     for (const key in obj) {
       const newPath = path ? `${path}.${key}` : key;
+
       if (isObject(obj[key]) && !isArray(obj[key])) {
         currentObj[key] = {};
+
         traverse(obj[key], currentObj[key], newPath, key, currentObj);
       } else if (isArray(obj[key])) {
         if (parentKey === '$extensions') {
           if (obj.hasOwnProperty('generators')) {
             if (isArray(obj.generators)) {
               const rootPath = path.split('.').filter(d => d != '$extensions').join('.')
+
               obj.generators.forEach(({ type, value }) => {
                 Object.keys(value).forEach((generatorKey) => {
                   set(
@@ -75,6 +79,7 @@ function getAllValues(obj) {
         }
 
         currentObj[key] = [];
+
         traverse(obj[key], currentObj[key], newPath, key, currentObj);
       } else {
         currentObj[key] = obj[key];
@@ -83,6 +88,7 @@ function getAllValues(obj) {
   }
 
   traverse(obj, result);
+
   return result;
 }
 
@@ -95,16 +101,19 @@ async function createExportFiles() {
     if (content) {
       const rawData = JSON.parse(content).kda.foundation;
 
-      Object.keys(rawData).filter(foundationItemKey => !excludeExportPaths.includes(foundationItemKey)).forEach(async (foundationItemKey) => {
-        const foundationItemExportPath = join(__dirname, `${buildPath}/export/${foundationItemKey}.tokens.json`)
-        await writeFile(foundationItemExportPath, JSON.stringify({
-          kda: {
-            foundation: {
-              [foundationItemKey]: rawData[foundationItemKey]
+      Object.keys(rawData)
+        .filter(foundationItemKey => !excludeExportPaths.includes(foundationItemKey))
+        .forEach(async (foundationItemKey) => {
+          const foundationItemExportPath = join(__dirname, `${buildPath}/export/${foundationItemKey}.tokens.json`)
+
+          await writeFile(foundationItemExportPath, JSON.stringify({
+            kda: {
+              foundation: {
+                [foundationItemKey]: rawData[foundationItemKey]
+              },
             },
-          },
-        }), { flag: 'w', encoding: 'utf-8' })
-      })
+          }), { flag: 'w', encoding: 'utf-8' })
+        })
     }
 
   } catch (error) {
@@ -117,6 +126,7 @@ async function createExportFiles() {
 
   const jsons = tokens.filter(x => x.endsWith('.tokens.json')).map(jsonFile => {
     const content = readFileSync(jsonFile, 'utf8');
+
     return {
       path: jsonFile,
       content,
