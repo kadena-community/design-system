@@ -1,0 +1,48 @@
+<svg data-style="animated" width="64" height="64" viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes lightup {
+        0% { opacity: 0; }
+        25% { opacity: 1; }
+        75% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+
+      .foreground .fill-foreground {
+        opacity: 0;
+        animation-name: lightup;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 3.25s;
+      }
+
+      .foreground .fill-00 { animation-delay: 0s; }
+      .foreground .fill-01 { animation-delay: 0.357s; }
+      .foreground .fill-02 { animation-delay: 0.714s; }
+      .foreground .fill-03 { animation-delay: 1.07s; }
+      .foreground .fill-04 { animation-delay: 1.42857s; }
+      .foreground .fill-05 { animation-delay: 1.7857s; }
+      .foreground .fill-06 { animation-delay: 2.14s; }
+    </style>
+  </defs>
+
+  <g class="background">
+    <path class="fill-background fill-00" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4A9079" d="M16.3,49.4l7-3.4-1.5,7.4-5.5-4Z"/>
+    <path class="fill-background fill-01" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4A9079" d="M24.6,39.4l-18.9,2.2,2.2-6.9h17.7l-.9,4.7Z"/>
+    <polygon class="fill-background fill-02" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4A9079" points="24.6 24.6 13.6 17.2 11.5 23.7 25.5 34.7 29.4 33.4 24.6 24.6"/>
+    <polygon class="fill-background fill-03" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4A9079" points="28.7 10.6 28.7 32.2 29.4 33.4 32 32.5 34.6 33.4 35.3 32.2 35.3 10.6 28.7 10.6"/>
+    <polygon class="fill-background fill-04" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4A9079" points="39.4 24.6 50.4 17.2 52.5 23.7 38.4 34.7 34.6 33.4 39.4 24.6"/>
+    <path class="fill-background fill-05" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4A9079" d="M38.4,34.7h17.7s2.2,6.9,2.2,6.9l-18.9-2.2-.9-4.7Z"/>
+    <path class="fill-background fill-06" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4A9079" d="M42.2,53.3l-1.5-7.4,7,3.4-5.5,4Z"/>
+  </g>
+  <g class="foreground">
+    <path class="fill-foreground fill-00" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4BE9B5" d="M16.3,49.4l7-3.4-1.5,7.4-5.5-4Z"/>
+    <path class="fill-foreground fill-01" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4BE9B5" d="M24.6,39.4l-18.9,2.2,2.2-6.9h17.7l-.9,4.7Z"/>
+    <polygon class="fill-foreground fill-02" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4BE9B5" points="24.6 24.6 13.6 17.2 11.5 23.7 25.5 34.7 29.4 33.4 24.6 24.6"/>
+    <polygon class="fill-foreground fill-03" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4BE9B5" points="28.7 10.6 28.7 32.2 29.4 33.4 32 32.5 34.6 33.4 35.3 32.2 35.3 10.6 28.7 10.6"/>
+    <polygon class="fill-foreground fill-04" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4BE9B5" points="39.4 24.6 50.4 17.2 52.5 23.7 38.4 34.7 34.6 33.4 39.4 24.6"/>
+    <path class="fill-foreground fill-05" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4BE9B5" d="M38.4,34.7h17.7s2.2,6.9,2.2,6.9l-18.9-2.2-.9-4.7Z"/>
+    <path class="fill-foreground fill-06" id="{kda.foundation.color.icon.brand.logo.default}" fill="#4BE9B5" d="M42.2,53.3l-1.5-7.4,7,3.4-5.5,4Z"/>
+  </g>
+</svg>
