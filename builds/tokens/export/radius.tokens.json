@@ -1,0 +1,1 @@
+{"kda":{"foundation":{"radius":{"no":{"$type":"dimension","$value":"0px"},"xs":{"$type":"dimension","$value":"2px"},"sm":{"$type":"dimension","$value":"4px"},"md":{"$type":"dimension","$value":"6px"},"lg":{"$type":"dimension","$value":"8px"},"xl":{"$type":"dimension","$value":"16px"},"xxl":{"$type":"dimension","$value":"24px"},"round":{"$type":"dimension","$value":"999rem"}}}}}
