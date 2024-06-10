@@ -104,7 +104,7 @@ async function createExportFiles() {
             },
           },
         }), { flag: 'w', encoding: 'utf-8' })
-      }, {})
+      })
     }
 
   } catch (error) {
