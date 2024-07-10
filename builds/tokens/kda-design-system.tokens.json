@@ -3267,6 +3267,59 @@
                 }
               }
             }
+          },
+          "skeleton": {
+            "default": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#D2D4D6",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#252F3A"
+                  },
+                  "generators": [
+                    {
+                      "type": "alpha",
+                      "value": {
+                        "@alpha80": 80
+                      },
+                      "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                      "isSource": true
+                    }
+                  ]
+                }
+              },
+              "$extensions": {
+                "mode": {
+                  "dark": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#B0B3B7",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#475059"
+                        },
+                        "generators": [
+                          {
+                            "type": "alpha",
+                            "value": {
+                              "@alpha80": 80
+                            },
+                            "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                            "isSource": true
+                          }
+                        ]
+                      }
+                    },
+                    "$extensions": {
+                      "alpha": 80
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "border": {
@@ -14775,6 +14828,120 @@
                           ]
                         }
                       }
+                    }
+                  }
+                },
+                "$dimensions": {
+                  "width": 64,
+                  "height": 64
+                }
+              }
+            },
+            "rounded-filled": {
+              "kdacolor_black": {
+                "$type": "icon",
+                "$name": "black",
+                "$description": "",
+                "$style": "kdacolor",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#F5F5F5",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#020E1B"
+                      },
+                      "generators": [
+                        {
+                          "type": "alpha",
+                          "value": {
+                            "@alpha0": 0,
+                            "@alpha1": 1,
+                            "@alpha3": 3,
+                            "@alpha6": 6,
+                            "@alpha10": 10,
+                            "@alpha20": 20,
+                            "@alpha30": 30,
+                            "@alpha40": 40,
+                            "@alpha50": 50,
+                            "@alpha80": 80,
+                            "@alpha90": 90
+                          },
+                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                          "isSource": true
+                        }
+                      ]
+                    }
+                  },
+                  "$extensions": {
+                    "mode": {
+                      "dark": {
+                        "$type": "color",
+                        "$value": "#0F0F0F",
+                        "$extensions": {
+                          "mode": {
+                            "dark": "#F0EAE6"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "$dimensions": {
+                  "width": 64,
+                  "height": 64
+                }
+              },
+              "kdacolor_green": {
+                "$type": "icon",
+                "$name": "green",
+                "$description": "",
+                "$style": "kdacolor",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#4A9079",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#4A9079"
+                        }
+                      }
+                    }
+                  }
+                },
+                "$dimensions": {
+                  "width": 64,
+                  "height": 64
+                }
+              },
+              "kdacolor_white": {
+                "$type": "icon",
+                "$name": "white",
+                "$description": "",
+                "$style": "kdacolor",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#131E2B",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#E4E5E5"
+                      },
+                      "generators": [
+                        {
+                          "type": "alpha",
+                          "value": {
+                            "@alpha80": 80
+                          },
+                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                          "isSource": true
+                        }
+                      ]
                     }
                   }
                 },

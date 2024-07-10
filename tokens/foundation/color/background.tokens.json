@@ -563,6 +563,17 @@
                 "$value": "{kda.foundation.color.neutral.n0@alpha10}"
               }
             }
+          },
+          "skeleton": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n10}",
+              "$extensions": {
+                "mode": {
+                  "dark": "{kda.foundation.color.neutral.n20@alpha80}"
+                }
+              }
+            }
           }
         }
       }
