@@ -62,6 +62,26 @@
               }
             }
           },
+          "overlay": {
+            "default": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n0@alpha95}",
+              "$extensions": {
+                "mode": {
+                  "dark": "{kda.foundation.color.neutral.n5@alpha95}"
+                }
+              }
+            },
+            "@hover": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n0}",
+              "$extensions": {
+                "mode": {
+                  "dark": "{kda.foundation.color.neutral.n5}"
+                }
+              }
+            }
+          },
           "surface": {
             "default": {
               "$type": "color",

@@ -66,7 +66,8 @@
                 {
                   "type": "alpha",
                   "value": {
-                    "@alpha80": 80
+                    "@alpha80": 80,
+                    "@alpha95": 95
                   }
                 }
               ]
@@ -215,7 +216,8 @@
                 {
                   "type": "alpha",
                   "value": {
-                    "@alpha80": 80
+                    "@alpha80": 80,
+                    "@alpha95": 95
                   }
                 }
               ]
