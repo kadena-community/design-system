@@ -157,6 +157,14 @@
                   "$type": "color",
                   "$value": "{kda.foundation.color.brand.primary.n95}"
                 },
+                "subtle": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n99}"
+                },
+                "subtlest": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.primary.n100}"
+                },
                 "@hover": {
                   "$type": "color",
                   "$value": "{kda.foundation.color.brand.primary.n90}"
@@ -199,7 +207,15 @@
               "inverse": {
                 "default": {
                   "$type": "color",
+                  "$value": "{kda.foundation.color.brand.secondary.n95}"
+                },
+                "subtle": {
+                  "$type": "color",
                   "$value": "{kda.foundation.color.brand.secondary.n99}"
+                },
+                "subtlest": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.brand.secondary.n100}"
                 },
                 "@hover": {
                   "$type": "color",
