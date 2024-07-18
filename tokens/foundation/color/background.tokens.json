@@ -132,6 +132,14 @@
                 "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n5}"
               },
+              "subtle": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n1}"
+              },
+              "subtlest": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.primary.n0}"
+              },
               "@hover": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.brand.primary.n10}"
@@ -166,7 +174,15 @@
             "secondary": {
               "default": {
                 "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n5}"
+              },
+              "subtle": {
+                "$type": "color",
                 "$value": "{kda.foundation.color.brand.secondary.n1}"
+              },
+              "subtlest": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.brand.secondary.n0}"
               },
               "@hover": {
                 "$type": "color",

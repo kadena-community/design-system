@@ -1290,6 +1290,36 @@
                   }
                 }
               },
+              "subtle": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#CEF8E0",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#0A2E1D"
+                      }
+                    }
+                  }
+                }
+              },
+              "subtlest": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#E9F8EF",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#061A10"
+                      }
+                    }
+                  }
+                }
+              },
               "@hover": {
                 "$type": "color",
                 "$value": {
@@ -1405,10 +1435,40 @@
                   "$type": "color",
                   "$value": {
                     "$type": "color",
+                    "$value": "#BBDBF9",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#112C46"
+                      }
+                    }
+                  }
+                }
+              },
+              "subtle": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
                     "$value": "#D6EBFF",
                     "$extensions": {
                       "mode": {
                         "dark": "#0B1D2E"
+                      }
+                    }
+                  }
+                }
+              },
+              "subtlest": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#F0F8FF",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#06101A"
                       }
                     }
                   }
