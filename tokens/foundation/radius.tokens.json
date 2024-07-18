@@ -30,6 +30,18 @@
           "$type": "dimension",
           "$value": "24px"
         },
+        "xs-outline": {
+          "$type": "dimension",
+          "$value": "3px"
+        },
+        "sm-outline": {
+          "$type": "dimension",
+          "$value": "5px"
+        },
+        "md-outline": {
+          "$type": "dimension",
+          "$value": "7px"
+        },
         "round": {
           "$type": "dimension",
           "$value": "999rem"
