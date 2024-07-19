@@ -60,6 +60,15 @@
                   "dark": "{kda.foundation.color.neutral.n5@alpha80}"
                 }
               }
+            },
+            "solid": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n0}",
+              "$extensions": {
+                "mode": {
+                  "dark": "{kda.foundation.color.neutral.n5}"
+                }
+              }
             }
           },
           "overlay": {

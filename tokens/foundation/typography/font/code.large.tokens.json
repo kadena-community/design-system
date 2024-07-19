@@ -4,7 +4,7 @@
       "typography": {
         "font": {
           "monospace": {
-            "base": {
+            "large": {
               "regular": {
                 "@xs": {
                   "$name": "code",
@@ -14,9 +14,9 @@
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.monospaceFont}",
                     "fontWeight": "{kda.foundation.typography.weight.monospaceFont.regular}",
-                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
+                    "fontSize": "{kda.foundation.typography.fontSize.md}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
-                    "lineHeight": "1.125rem"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 },
                 "@sm": {
@@ -27,9 +27,9 @@
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.monospaceFont}",
                     "fontWeight": "{kda.foundation.typography.weight.monospaceFont.regular}",
-                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
+                    "fontSize": "{kda.foundation.typography.fontSize.md}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
-                    "lineHeight": "1.125rem"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 },
                 "@md": {
@@ -40,9 +40,9 @@
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.monospaceFont}",
                     "fontWeight": "{kda.foundation.typography.weight.monospaceFont.regular}",
-                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
+                    "fontSize": "{kda.foundation.typography.fontSize.md}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
-                    "lineHeight": "1.125rem"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 },
                 "@lg": {
@@ -53,9 +53,9 @@
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.monospaceFont}",
                     "fontWeight": "{kda.foundation.typography.weight.monospaceFont.regular}",
-                    "fontSize": "{kda.foundation.typography.fontSize.base}",
+                    "fontSize": "{kda.foundation.typography.fontSize.lg}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
                   }
                 },
                 "@xl": {
@@ -66,9 +66,9 @@
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.monospaceFont}",
                     "fontWeight": "{kda.foundation.typography.weight.monospaceFont.regular}",
-                    "fontSize": "{kda.foundation.typography.fontSize.base}",
+                    "fontSize": "{kda.foundation.typography.fontSize.lg}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
                   }
                 },
                 "@xxl": {
@@ -79,9 +79,9 @@
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.monospaceFont}",
                     "fontWeight": "{kda.foundation.typography.weight.monospaceFont.regular}",
-                    "fontSize": "{kda.foundation.typography.fontSize.base}",
+                    "fontSize": "{kda.foundation.typography.fontSize.lg}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
                   }
                 }
               },
@@ -93,10 +93,10 @@
                   "$title": "Code Bold @ xs",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.monospaceFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.monospaceFont.bold}",
-                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
+                    "fontWeight": "{kda.foundation.typography.weight.monospaceFont.medium}",
+                    "fontSize": "{kda.foundation.typography.fontSize.md}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
-                    "lineHeight": "1.125rem"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 },
                 "@sm": {
@@ -106,10 +106,10 @@
                   "$title": "Code Bold @ sm",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.monospaceFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.monospaceFont.bold}",
-                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
+                    "fontWeight": "{kda.foundation.typography.weight.monospaceFont.medium}",
+                    "fontSize": "{kda.foundation.typography.fontSize.md}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
-                    "lineHeight": "1.125rem"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 },
                 "@md": {
@@ -119,10 +119,10 @@
                   "$title": "Code Bold @ md",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.monospaceFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.monospaceFont.bold}",
-                    "fontSize": "{kda.foundation.typography.fontSize.sm}",
+                    "fontWeight": "{kda.foundation.typography.weight.monospaceFont.medium}",
+                    "fontSize": "{kda.foundation.typography.fontSize.md}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
-                    "lineHeight": "1.125rem"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
                   }
                 },
                 "@lg": {
@@ -132,10 +132,10 @@
                   "$title": "Code Bold @ lg",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.monospaceFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.monospaceFont.bold}",
-                    "fontSize": "{kda.foundation.typography.fontSize.base}",
+                    "fontWeight": "{kda.foundation.typography.weight.monospaceFont.medium}",
+                    "fontSize": "{kda.foundation.typography.fontSize.lg}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
                   }
                 },
                 "@xl": {
@@ -145,10 +145,10 @@
                   "$title": "Code Bold @ xl",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.monospaceFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.monospaceFont.bold}",
-                    "fontSize": "{kda.foundation.typography.fontSize.base}",
+                    "fontWeight": "{kda.foundation.typography.weight.monospaceFont.medium}",
+                    "fontSize": "{kda.foundation.typography.fontSize.lg}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
                   }
                 },
                 "@xxl": {
@@ -158,10 +158,10 @@
                   "$title": "Code Bold @ xxl",
                   "$value": {
                     "fontFamily": "{kda.foundation.typography.family.monospaceFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.monospaceFont.bold}",
-                    "fontSize": "{kda.foundation.typography.fontSize.base}",
+                    "fontWeight": "{kda.foundation.typography.weight.monospaceFont.medium}",
+                    "fontSize": "{kda.foundation.typography.fontSize.lg}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
-                    "lineHeight": "{kda.foundation.typography.lineHeight.base}"
+                    "lineHeight": "{kda.foundation.typography.lineHeight.xl}"
                   }
                 }
               }

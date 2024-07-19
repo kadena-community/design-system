@@ -847,6 +847,59 @@
                   }
                 }
               }
+            },
+            "solid": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#FFFFFF",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#000000"
+                  },
+                  "generators": [
+                    {
+                      "type": "alpha",
+                      "value": {
+                        "@alpha0": 0,
+                        "@alpha10": 10,
+                        "@alpha20": 20,
+                        "@alpha40": 40,
+                        "@alpha70": 70,
+                        "@alpha80": 80,
+                        "@alpha90": 90,
+                        "@alpha95": 95
+                      },
+                      "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                      "isSource": true
+                    }
+                  ]
+                }
+              },
+              "$extensions": {
+                "mode": {
+                  "dark": {
+                    "$type": "color",
+                    "$value": "#E4E5E5",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#131E2B"
+                      },
+                      "generators": [
+                        {
+                          "type": "alpha",
+                          "value": {
+                            "@alpha80": 80,
+                            "@alpha95": 95
+                          },
+                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                          "isSource": true
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
             }
           },
           "overlay": {
@@ -30514,6 +30567,384 @@
         },
         "font": {
           "monospace": {
+            "large": {
+              "regular": {
+                "@xs": {
+                  "$name": "code",
+                  "$description": "Code @xs Description",
+                  "$type": "typography",
+                  "$title": "Code",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "Regular"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.125rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.25rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@sm": {
+                  "$name": "code",
+                  "$description": "Code @sm Description",
+                  "$type": "typography",
+                  "$title": "Code",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "Regular"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.125rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.25rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@md": {
+                  "$name": "code",
+                  "$description": "Code @md Description",
+                  "$type": "typography",
+                  "$title": "Code",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "Regular"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.125rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.25rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@lg": {
+                  "$name": "code",
+                  "$description": "Code @lg Description",
+                  "$type": "typography",
+                  "$title": "Code",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "Regular"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.25rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.5rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@xl": {
+                  "$name": "code",
+                  "$description": "Code @xl Description",
+                  "$type": "typography",
+                  "$title": "Code",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "Regular"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.25rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.5rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "code",
+                  "$description": "Code @xxl Description",
+                  "$type": "typography",
+                  "$title": "Code",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "Regular"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.25rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.5rem",
+                      "$type": "dimension"
+                    }
+                  }
+                }
+              },
+              "bold": {
+                "@xs": {
+                  "$name": "code",
+                  "$description": "Code Bold @ xs Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ xs",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 500,
+                      "$extensions": {
+                        "weightTag": "Medium"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.125rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.25rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@sm": {
+                  "$name": "code",
+                  "$description": "Code Bold @ sm Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ sm",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 500,
+                      "$extensions": {
+                        "weightTag": "Medium"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.125rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.25rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@md": {
+                  "$name": "code",
+                  "$description": "Code Bold @ md Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ md",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 500,
+                      "$extensions": {
+                        "weightTag": "Medium"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.125rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.25rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@lg": {
+                  "$name": "code",
+                  "$description": "Code Bold @ lg Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ lg",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 500,
+                      "$extensions": {
+                        "weightTag": "Medium"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.25rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.5rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@xl": {
+                  "$name": "code",
+                  "$description": "Code Bold @ xl Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ xl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 500,
+                      "$extensions": {
+                        "weightTag": "Medium"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.25rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.5rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "code",
+                  "$description": "Code Bold @ xxl Description",
+                  "$type": "typography",
+                  "$title": "Code Bold @ xxl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kode Mono",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 500,
+                      "$extensions": {
+                        "weightTag": "Medium"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.25rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.5rem",
+                      "$type": "dimension"
+                    }
+                  }
+                }
+              }
+            },
             "small": {
               "regular": {
                 "@xs": {
@@ -31276,7 +31707,7 @@
                   "$name": "code",
                   "$description": "Code @xs Description",
                   "$type": "typography",
-                  "$title": "P",
+                  "$title": "Code",
                   "$value": {
                     "fontFamily": {
                       "$value": "Kode Mono",
@@ -31304,7 +31735,7 @@
                   "$name": "code",
                   "$description": "Code @sm Description",
                   "$type": "typography",
-                  "$title": "P",
+                  "$title": "Code",
                   "$value": {
                     "fontFamily": {
                       "$value": "Kode Mono",
@@ -31332,7 +31763,7 @@
                   "$name": "code",
                   "$description": "Code @md Description",
                   "$type": "typography",
-                  "$title": "P",
+                  "$title": "Code",
                   "$value": {
                     "fontFamily": {
                       "$value": "Kode Mono",
@@ -31360,7 +31791,7 @@
                   "$name": "code",
                   "$description": "Code @lg Description",
                   "$type": "typography",
-                  "$title": "P",
+                  "$title": "Code",
                   "$value": {
                     "fontFamily": {
                       "$value": "Kode Mono",
@@ -31394,7 +31825,7 @@
                   "$name": "code",
                   "$description": "Code @xl Description",
                   "$type": "typography",
-                  "$title": "P",
+                  "$title": "Code",
                   "$value": {
                     "fontFamily": {
                       "$value": "Kode Mono",
@@ -31428,7 +31859,7 @@
                   "$name": "code",
                   "$description": "Code @xxl Description",
                   "$type": "typography",
-                  "$title": "P",
+                  "$title": "Code",
                   "$value": {
                     "fontFamily": {
                       "$value": "Kode Mono",
@@ -34725,6 +35156,384 @@
             }
           },
           "ui": {
+            "large": {
+              "regular": {
+                "@xs": {
+                  "$name": "paragraph",
+                  "$description": "P Large @xs Description",
+                  "$type": "typography",
+                  "$title": "P Large",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kadena Space Grotesk",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "Regular"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.125rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.25rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@sm": {
+                  "$name": "paragraph",
+                  "$description": "P Large @sm Description",
+                  "$type": "typography",
+                  "$title": "P Large",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kadena Space Grotesk",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "Regular"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.125rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.25rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@md": {
+                  "$name": "paragraph",
+                  "$description": "P Large @md Description",
+                  "$type": "typography",
+                  "$title": "P Large",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kadena Space Grotesk",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "Regular"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.125rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.25rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@lg": {
+                  "$name": "paragraph",
+                  "$description": "P Large @lg Description",
+                  "$type": "typography",
+                  "$title": "P Large",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kadena Space Grotesk",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "Regular"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.25rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.5rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@xl": {
+                  "$name": "paragraph",
+                  "$description": "P Large @xl Description",
+                  "$type": "typography",
+                  "$title": "P Large",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kadena Space Grotesk",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "Regular"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.25rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.5rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "paragraph",
+                  "$description": "P Large @xxl Description",
+                  "$type": "typography",
+                  "$title": "P Large",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kadena Space Grotesk",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 400,
+                      "$extensions": {
+                        "weightTag": "Regular"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.25rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.5rem",
+                      "$type": "dimension"
+                    }
+                  }
+                }
+              },
+              "bold": {
+                "@xs": {
+                  "$name": "paragraph",
+                  "$description": "P Bold @ xs Description",
+                  "$type": "typography",
+                  "$title": "P Bold @ xs",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kadena Space Grotesk",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 500,
+                      "$extensions": {
+                        "weightTag": "Medium"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.125rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.25rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@sm": {
+                  "$name": "paragraph",
+                  "$description": "P Bold @ sm Description",
+                  "$type": "typography",
+                  "$title": "P Bold @ sm",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kadena Space Grotesk",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 500,
+                      "$extensions": {
+                        "weightTag": "Medium"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.125rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.25rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@md": {
+                  "$name": "paragraph",
+                  "$description": "P Bold @ md Description",
+                  "$type": "typography",
+                  "$title": "P Bold @ md",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kadena Space Grotesk",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 500,
+                      "$extensions": {
+                        "weightTag": "Medium"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.125rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.25rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@lg": {
+                  "$name": "paragraph",
+                  "$description": "P Bold @ lg Description",
+                  "$type": "typography",
+                  "$title": "P Bold @ lg",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kadena Space Grotesk",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 500,
+                      "$extensions": {
+                        "weightTag": "Medium"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.25rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.5rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@xl": {
+                  "$name": "paragraph",
+                  "$description": "P Bold @ xl Description",
+                  "$type": "typography",
+                  "$title": "P Bold @ xl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kadena Space Grotesk",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 500,
+                      "$extensions": {
+                        "weightTag": "Medium"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.25rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.5rem",
+                      "$type": "dimension"
+                    }
+                  }
+                },
+                "@xxl": {
+                  "$name": "paragraph",
+                  "$description": "P Bold @ xxl Description",
+                  "$type": "typography",
+                  "$title": "P Bold @ xxl",
+                  "$value": {
+                    "fontFamily": {
+                      "$value": "Kadena Space Grotesk",
+                      "$type": "fontFamily"
+                    },
+                    "fontWeight": {
+                      "$value": 500,
+                      "$extensions": {
+                        "weightTag": "Medium"
+                      },
+                      "$type": "fontWeight"
+                    },
+                    "fontSize": {
+                      "$type": "dimension",
+                      "$value": "1.25rem"
+                    },
+                    "letterSpacing": {
+                      "$type": "dimension",
+                      "$value": 0
+                    },
+                    "lineHeight": {
+                      "$value": "1.5rem",
+                      "$type": "dimension"
+                    }
+                  }
+                }
+              }
+            },
             "small": {
               "regular": {
                 "@xs": {
