@@ -3,39 +3,39 @@
   "$version": "0.0.1",
   "$fonts": [
     {
-      "family": "Kadena Space Grotesk",
+      "family": "Inter",
       "style": "Light"
     },
     {
-      "family": "Kadena Space Grotesk",
+      "family": "Inter",
       "style": "Regular"
     },
     {
-      "family": "Kadena Space Grotesk",
+      "family": "Inter",
       "style": "Medium"
     },
     {
-      "family": "Kadena Space Grotesk",
+      "family": "Inter",
       "style": "SemiBold"
     },
     {
-      "family": "Kadena Space Grotesk",
+      "family": "Inter",
       "style": "Bold"
     },
     {
-      "family": "Haas Grot Disp",
+      "family": "Inter",
       "style": "55 Roman"
     },
     {
-      "family": "Haas Grot Disp",
+      "family": "Inter",
       "style": "65 Medium"
     },
     {
-      "family": "Haas Grot Disp",
+      "family": "Inter",
       "style": "75 Bold"
     },
     {
-      "family": "Haas Grot Disp",
+      "family": "Inter",
       "style": "95 Black"
     },
     {
