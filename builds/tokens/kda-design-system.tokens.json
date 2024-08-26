@@ -3,39 +3,39 @@
   "$version": "0.0.1",
   "$fonts": [
     {
-      "family": "Kadena Space Grotesk",
+      "family": "Inter",
       "style": "Light"
     },
     {
-      "family": "Kadena Space Grotesk",
+      "family": "Inter",
       "style": "Regular"
     },
     {
-      "family": "Kadena Space Grotesk",
+      "family": "Inter",
       "style": "Medium"
     },
     {
-      "family": "Kadena Space Grotesk",
+      "family": "Inter",
       "style": "SemiBold"
     },
     {
-      "family": "Kadena Space Grotesk",
+      "family": "Inter",
       "style": "Bold"
     },
     {
-      "family": "Haas Grot Disp",
+      "family": "Inter",
       "style": "55 Roman"
     },
     {
-      "family": "Haas Grot Disp",
+      "family": "Inter",
       "style": "65 Medium"
     },
     {
-      "family": "Haas Grot Disp",
+      "family": "Inter",
       "style": "75 Bold"
     },
     {
-      "family": "Haas Grot Disp",
+      "family": "Inter",
       "style": "95 Black"
     },
     {
@@ -30553,11 +30553,11 @@
       "typography": {
         "family": {
           "primaryFont": {
-            "$value": "Kadena Space Grotesk",
+            "$value": "Inter",
             "$type": "fontFamily"
           },
           "secondaryFont": {
-            "$value": "Haas Grot Disp",
+            "$value": "Inter",
             "$type": "fontFamily"
           },
           "monospaceFont": {
@@ -32088,7 +32088,7 @@
               "$title": "H1",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32119,7 +32119,7 @@
               "$title": "H1",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32150,7 +32150,7 @@
               "$title": "H1",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32181,7 +32181,7 @@
               "$title": "H1",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32212,7 +32212,7 @@
               "$title": "H1",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32243,7 +32243,7 @@
               "$title": "H1",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32276,7 +32276,7 @@
               "$title": "H2",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32307,7 +32307,7 @@
               "$title": "H2",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32338,7 +32338,7 @@
               "$title": "H2",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32369,7 +32369,7 @@
               "$title": "H2",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32400,7 +32400,7 @@
               "$title": "H2",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32431,7 +32431,7 @@
               "$title": "H2",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32464,7 +32464,7 @@
               "$title": "H3",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32495,7 +32495,7 @@
               "$title": "H3",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32526,7 +32526,7 @@
               "$title": "H3",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32557,7 +32557,7 @@
               "$title": "H3",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32588,7 +32588,7 @@
               "$title": "H3",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32619,7 +32619,7 @@
               "$title": "H3",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32652,7 +32652,7 @@
               "$title": "H4",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32683,7 +32683,7 @@
               "$title": "H4",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32714,7 +32714,7 @@
               "$title": "H4",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32745,7 +32745,7 @@
               "$title": "H4",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32776,7 +32776,7 @@
               "$title": "H4",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32807,7 +32807,7 @@
               "$title": "H4",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32840,7 +32840,7 @@
               "$title": "H5",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32874,7 +32874,7 @@
               "$title": "H5",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32908,7 +32908,7 @@
               "$title": "H5",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32942,7 +32942,7 @@
               "$title": "H5",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -32973,7 +32973,7 @@
               "$title": "H5",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -33004,7 +33004,7 @@
               "$title": "H5",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -33037,7 +33037,7 @@
               "$title": "H6",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -33065,7 +33065,7 @@
               "$title": "H6",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -33093,7 +33093,7 @@
               "$title": "H6",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -33121,7 +33121,7 @@
               "$title": "H6",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -33155,7 +33155,7 @@
               "$title": "H6",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -33189,7 +33189,7 @@
               "$title": "H6",
               "$value": {
                 "fontFamily": {
-                  "$value": "Kadena Space Grotesk",
+                  "$value": "Inter",
                   "$type": "fontFamily"
                 },
                 "fontWeight": {
@@ -33637,7 +33637,7 @@
                     "$title": "Input UI",
                     "$value": {
                       "fontFamily": {
-                        "$value": "Kadena Space Grotesk",
+                        "$value": "Inter",
                         "$type": "fontFamily"
                       },
                       "fontWeight": {
@@ -33668,7 +33668,7 @@
                     "$title": "Input UI",
                     "$value": {
                       "fontFamily": {
-                        "$value": "Kadena Space Grotesk",
+                        "$value": "Inter",
                         "$type": "fontFamily"
                       },
                       "fontWeight": {
@@ -33696,7 +33696,7 @@
                     "$title": "Input UI",
                     "$value": {
                       "fontFamily": {
-                        "$value": "Kadena Space Grotesk",
+                        "$value": "Inter",
                         "$type": "fontFamily"
                       },
                       "fontWeight": {
@@ -33730,7 +33730,7 @@
                     "$title": "Input UI",
                     "$value": {
                       "fontFamily": {
-                        "$value": "Kadena Space Grotesk",
+                        "$value": "Inter",
                         "$type": "fontFamily"
                       },
                       "fontWeight": {
@@ -33764,7 +33764,7 @@
                     "$title": "Input UI",
                     "$value": {
                       "fontFamily": {
-                        "$value": "Kadena Space Grotesk",
+                        "$value": "Inter",
                         "$type": "fontFamily"
                       },
                       "fontWeight": {
@@ -33798,7 +33798,7 @@
                     "$title": "Input UI",
                     "$value": {
                       "fontFamily": {
-                        "$value": "Kadena Space Grotesk",
+                        "$value": "Inter",
                         "$type": "fontFamily"
                       },
                       "fontWeight": {
@@ -33836,7 +33836,7 @@
                     "$title": "Input UI",
                     "$value": {
                       "fontFamily": {
-                        "$value": "Kadena Space Grotesk",
+                        "$value": "Inter",
                         "$type": "fontFamily"
                       },
                       "fontWeight": {
@@ -33870,7 +33870,7 @@
                     "$title": "Input UI",
                     "$value": {
                       "fontFamily": {
-                        "$value": "Kadena Space Grotesk",
+                        "$value": "Inter",
                         "$type": "fontFamily"
                       },
                       "fontWeight": {
@@ -33904,7 +33904,7 @@
                     "$title": "Input UI",
                     "$value": {
                       "fontFamily": {
-                        "$value": "Kadena Space Grotesk",
+                        "$value": "Inter",
                         "$type": "fontFamily"
                       },
                       "fontWeight": {
@@ -33938,7 +33938,7 @@
                     "$title": "Input UI",
                     "$value": {
                       "fontFamily": {
-                        "$value": "Kadena Space Grotesk",
+                        "$value": "Inter",
                         "$type": "fontFamily"
                       },
                       "fontWeight": {
@@ -33972,7 +33972,7 @@
                     "$title": "Input UI",
                     "$value": {
                       "fontFamily": {
-                        "$value": "Kadena Space Grotesk",
+                        "$value": "Inter",
                         "$type": "fontFamily"
                       },
                       "fontWeight": {
@@ -34006,7 +34006,7 @@
                     "$title": "Input UI",
                     "$value": {
                       "fontFamily": {
-                        "$value": "Kadena Space Grotesk",
+                        "$value": "Inter",
                         "$type": "fontFamily"
                       },
                       "fontWeight": {
@@ -34047,7 +34047,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34078,7 +34078,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34109,7 +34109,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34140,7 +34140,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34168,7 +34168,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34196,7 +34196,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34226,7 +34226,7 @@
                   "$title": "Small P Bold @ xs",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34257,7 +34257,7 @@
                   "$title": "Small P Bold @ sm",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34288,7 +34288,7 @@
                   "$title": "Small P Bold @ md",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34319,7 +34319,7 @@
                   "$title": "Small P Bold @ lg",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34347,7 +34347,7 @@
                   "$title": "Small P Bold @ xl",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34375,7 +34375,7 @@
                   "$title": "Small P Bold @ xxl",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34407,7 +34407,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34438,7 +34438,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34469,7 +34469,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34500,7 +34500,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34531,7 +34531,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34562,7 +34562,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34595,7 +34595,7 @@
                   "$title": "Smallest P Bold @ xs",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34626,7 +34626,7 @@
                   "$title": "Smallest P Bold @ sm",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34657,7 +34657,7 @@
                   "$title": "Smallest P Bold @ md",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34688,7 +34688,7 @@
                   "$title": "Smallest P Bold @ lg",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34719,7 +34719,7 @@
                   "$title": "Smallest P Bold @ xl",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34750,7 +34750,7 @@
                   "$title": "Smallest P Bold @ xxl",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34785,7 +34785,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34813,7 +34813,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34841,7 +34841,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34869,7 +34869,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34903,7 +34903,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34937,7 +34937,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -34973,7 +34973,7 @@
                   "$title": "P Bold @ xs",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35001,7 +35001,7 @@
                   "$title": "P Bold @ sm",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35029,7 +35029,7 @@
                   "$title": "P Bold @ md",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35057,7 +35057,7 @@
                   "$title": "P Bold @ lg",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35091,7 +35091,7 @@
                   "$title": "P Bold @ xl",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35125,7 +35125,7 @@
                   "$title": "P Bold @ xxl",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Haas Grot Disp",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35165,7 +35165,7 @@
                   "$title": "P Large",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35196,7 +35196,7 @@
                   "$title": "P Large",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35227,7 +35227,7 @@
                   "$title": "P Large",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35258,7 +35258,7 @@
                   "$title": "P Large",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35289,7 +35289,7 @@
                   "$title": "P Large",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35320,7 +35320,7 @@
                   "$title": "P Large",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35353,7 +35353,7 @@
                   "$title": "P Bold @ xs",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35384,7 +35384,7 @@
                   "$title": "P Bold @ sm",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35415,7 +35415,7 @@
                   "$title": "P Bold @ md",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35446,7 +35446,7 @@
                   "$title": "P Bold @ lg",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35477,7 +35477,7 @@
                   "$title": "P Bold @ xl",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35508,7 +35508,7 @@
                   "$title": "P Bold @ xxl",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35543,7 +35543,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35574,7 +35574,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35605,7 +35605,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35636,7 +35636,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35667,7 +35667,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35698,7 +35698,7 @@
                   "$title": "Small",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35731,7 +35731,7 @@
                   "$title": "Small P Bold @ xs",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35762,7 +35762,7 @@
                   "$title": "Small P Bold @ sm",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35793,7 +35793,7 @@
                   "$title": "Small P Bold @ md",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35824,7 +35824,7 @@
                   "$title": "Small P Bold @ lg",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35855,7 +35855,7 @@
                   "$title": "Small P Bold @ xl",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35886,7 +35886,7 @@
                   "$title": "Small P Bold @ xxl",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35921,7 +35921,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35952,7 +35952,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -35983,7 +35983,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36014,7 +36014,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36045,7 +36045,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36076,7 +36076,7 @@
                   "$title": "Smallest",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36109,7 +36109,7 @@
                   "$title": "Smallest P Bold @ xs",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36140,7 +36140,7 @@
                   "$title": "Smallest P Bold @ sm",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36171,7 +36171,7 @@
                   "$title": "Smallest P Bold @ md",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36202,7 +36202,7 @@
                   "$title": "Smallest P Bold @ lg",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36233,7 +36233,7 @@
                   "$title": "Smallest P Bold @ xl",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36264,7 +36264,7 @@
                   "$title": "Smallest P Bold @ xxl",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36299,7 +36299,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36327,7 +36327,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36355,7 +36355,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36383,7 +36383,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36417,7 +36417,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36451,7 +36451,7 @@
                   "$title": "P",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36487,7 +36487,7 @@
                   "$title": "P Bold @ xs",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36515,7 +36515,7 @@
                   "$title": "P Bold @ sm",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36543,7 +36543,7 @@
                   "$title": "P Bold @ md",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36571,7 +36571,7 @@
                   "$title": "P Bold @ lg",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36605,7 +36605,7 @@
                   "$title": "P Bold @ xl",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {
@@ -36639,7 +36639,7 @@
                   "$title": "P Bold @ xxl",
                   "$value": {
                     "fontFamily": {
-                      "$value": "Kadena Space Grotesk",
+                      "$value": "Inter",
                       "$type": "fontFamily"
                     },
                     "fontWeight": {

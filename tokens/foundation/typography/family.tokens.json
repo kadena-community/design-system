@@ -4,11 +4,11 @@
       "typography": {
         "family": {
           "primaryFont": {
-            "$value": "Kadena Space Grotesk",
+            "$value": "Inter",
             "$type": "fontFamily"
           },
           "secondaryFont": {
-            "$value": "Haas Grot Disp",
+            "$value": "Inter",
             "$type": "fontFamily"
           },
           "monospaceFont": {
