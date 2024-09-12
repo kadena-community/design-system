@@ -330,6 +330,12 @@
                 }
               }
             }
+          },
+          "overlay": {
+            "context": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n20@alpha80}"
+            }
           }
         }
       }
