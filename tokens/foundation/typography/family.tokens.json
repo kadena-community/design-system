@@ -7,10 +7,6 @@
             "$value": "Inter",
             "$type": "fontFamily"
           },
-          "secondaryFont": {
-            "$value": "Inter",
-            "$type": "fontFamily"
-          },
           "monospaceFont": {
             "$value": "Kode Mono",
             "$type": "fontFamily"

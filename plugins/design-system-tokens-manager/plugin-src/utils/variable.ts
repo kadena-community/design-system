@@ -122,8 +122,10 @@ export async function createToken(token: TTokenData, params: TCreateTokenMetaDat
         const { variable, token: updatedToken } = await processTokenExtension(token, params, payload) ?? {}
         token = updatedToken
         variableData = variable
+      } else if (collection.id) {
+        variableData = figma.variables.createVariable(token.name, collection.id, getResolvedTokenType(token.type))
       } else {
-        variableData = figma.variables.createVariable(token.name, collection, getResolvedTokenType(token.type))
+        variableData = figma.variables.createVariable(token.name, collection as unknown as string, getResolvedTokenType(token.type))
       }
     }
 
@@ -203,7 +205,7 @@ async function setValueForMode({ mode: { modeId, name }, defaultMode }: TValueFo
 
 export function doSaveValueForMode(variable: Variable, modeId: TValueForMode['mode']['modeId'], value: any, token: TTokenData): Variable | void {
   try {
-    if (value && !hasAliasValue(value)) {
+    if ((value || typeof value === 'number' && value <= 0) && !hasAliasValue(value)) {
       variable.setValueForMode(modeId, value)
 
       return variable
@@ -243,7 +245,7 @@ async function setValueForModeExtension({ mode: { modeId, name } }: TValueForMod
 
       case EDTFTypes.NUMBER:
       case EDTFTypes.DIMENSION:
-        if (token.value && hasAliasValue(token.value)) {
+        if ((token.value || (typeof token.value === 'number' && token.value <= 0)) && hasAliasValue(token.value)) {
           const modeReferenceVariable = processTokenAliasValue(token.value, params)
 
           if (modeReferenceVariable?.id) {

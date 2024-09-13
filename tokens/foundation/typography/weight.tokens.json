@@ -40,36 +40,6 @@
               "$type": "fontWeight"
             }
           },
-          "secondaryFont": {
-            "regular": {
-              "$value": 400,
-              "$extensions": {
-                "weightTag": "55 Roman"
-              },
-              "$type": "fontWeight"
-            },
-            "medium": {
-              "$value": 500,
-              "$extensions": {
-                "weightTag": "65 Medium"
-              },
-              "$type": "fontWeight"
-            },
-            "bold": {
-              "$value": 600,
-              "$extensions": {
-                "weightTag": "75 Bold"
-              },
-              "$type": "fontWeight"
-            },
-            "black": {
-              "$value": 700,
-              "$extensions": {
-                "weightTag": "95 Black"
-              },
-              "$type": "fontWeight"
-            }
-          },
           "monospaceFont": {
             "regular": {
               "$value": 400,

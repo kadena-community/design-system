@@ -16,7 +16,7 @@
     },
     {
       "family": "Inter",
-      "style": "SemiBold"
+      "style": "Semi Bold"
     },
     {
       "family": "Inter",
@@ -24,19 +24,7 @@
     },
     {
       "family": "Inter",
-      "style": "55 Roman"
-    },
-    {
-      "family": "Inter",
-      "style": "65 Medium"
-    },
-    {
-      "family": "Inter",
-      "style": "75 Bold"
-    },
-    {
-      "family": "Inter",
-      "style": "95 Black"
+      "style": "Black"
     },
     {
       "family": "Kode Mono",
@@ -30474,10 +30462,6 @@
             "$value": "Inter",
             "$type": "fontFamily"
           },
-          "secondaryFont": {
-            "$value": "Inter",
-            "$type": "fontFamily"
-          },
           "monospaceFont": {
             "$value": "Kode Mono",
             "$type": "fontFamily"
@@ -33971,7 +33955,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34002,7 +33986,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34033,7 +34017,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34064,7 +34048,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34092,7 +34076,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34120,7 +34104,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34150,7 +34134,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34181,7 +34165,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34212,7 +34196,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34243,7 +34227,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34271,7 +34255,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34299,7 +34283,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34331,7 +34315,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34362,7 +34346,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34393,7 +34377,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34424,7 +34408,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34455,7 +34439,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34486,7 +34470,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34519,7 +34503,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34550,7 +34534,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34581,7 +34565,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34612,7 +34596,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34643,7 +34627,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34674,7 +34658,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34709,7 +34693,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34737,7 +34721,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34765,7 +34749,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34793,7 +34777,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34827,7 +34811,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34861,7 +34845,7 @@
                     "fontWeight": {
                       "$value": 400,
                       "$extensions": {
-                        "weightTag": "55 Roman"
+                        "weightTag": "Regular"
                       },
                       "$type": "fontWeight"
                     },
@@ -34897,7 +34881,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34925,7 +34909,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34953,7 +34937,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -34981,7 +34965,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -35015,7 +34999,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -35049,7 +35033,7 @@
                     "fontWeight": {
                       "$value": 500,
                       "$extensions": {
-                        "weightTag": "65 Medium"
+                        "weightTag": "Medium"
                       },
                       "$type": "fontWeight"
                     },
@@ -36733,36 +36717,6 @@
               "$value": 700,
               "$extensions": {
                 "weightTag": "Bold"
-              },
-              "$type": "fontWeight"
-            }
-          },
-          "secondaryFont": {
-            "regular": {
-              "$value": 400,
-              "$extensions": {
-                "weightTag": "55 Roman"
-              },
-              "$type": "fontWeight"
-            },
-            "medium": {
-              "$value": 500,
-              "$extensions": {
-                "weightTag": "65 Medium"
-              },
-              "$type": "fontWeight"
-            },
-            "bold": {
-              "$value": 600,
-              "$extensions": {
-                "weightTag": "75 Bold"
-              },
-              "$type": "fontWeight"
-            },
-            "black": {
-              "$value": 700,
-              "$extensions": {
-                "weightTag": "95 Black"
               },
               "$type": "fontWeight"
             }

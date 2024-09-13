@@ -191,7 +191,7 @@ export function parseDimensionUnit(type: string, token: TTokenData, value: TToke
   const [, unitValue, unitMetric] = match
 
   if (match.length) {
-    value = parseFloat(unitValue);
+    value = parseFloat(unitValue) ?? 0;
     let unit = unitMetric;
 
     switch (unit) {

@@ -12,8 +12,8 @@
                   "$type": "typography",
                   "$title": "Smallest",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.xxs}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.md}"
@@ -25,8 +25,8 @@
                   "$type": "typography",
                   "$title": "Smallest",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.xxs}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.md}"
@@ -38,8 +38,8 @@
                   "$type": "typography",
                   "$title": "Smallest",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.xxs}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.md}"
@@ -51,8 +51,8 @@
                   "$type": "typography",
                   "$title": "Smallest",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.base}"
@@ -64,8 +64,8 @@
                   "$type": "typography",
                   "$title": "Smallest",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.base}"
@@ -77,8 +77,8 @@
                   "$type": "typography",
                   "$title": "Smallest",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.regular}",
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.regular}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.base}"
@@ -92,8 +92,8 @@
                   "$type": "typography",
                   "$title": "Smallest P Bold @ xs",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.medium}",
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.xxs}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.md}"
@@ -105,8 +105,8 @@
                   "$type": "typography",
                   "$title": "Smallest P Bold @ sm",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.medium}",
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.xxs}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.md}"
@@ -118,8 +118,8 @@
                   "$type": "typography",
                   "$title": "Smallest P Bold @ md",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.medium}",
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.xxs}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.md}"
@@ -131,8 +131,8 @@
                   "$type": "typography",
                   "$title": "Smallest P Bold @ lg",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.medium}",
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.base}"
@@ -144,8 +144,8 @@
                   "$type": "typography",
                   "$title": "Smallest P Bold @ xl",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.medium}",
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.base}"
@@ -157,8 +157,8 @@
                   "$type": "typography",
                   "$title": "Smallest P Bold @ xxl",
                   "$value": {
-                    "fontFamily": "{kda.foundation.typography.family.secondaryFont}",
-                    "fontWeight": "{kda.foundation.typography.weight.secondaryFont.medium}",
+                    "fontFamily": "{kda.foundation.typography.family.primaryFont}",
+                    "fontWeight": "{kda.foundation.typography.weight.primaryFont.medium}",
                     "fontSize": "{kda.foundation.typography.fontSize.xs}",
                     "letterSpacing": "{kda.foundation.spacing.n0}",
                     "lineHeight": "{kda.foundation.typography.lineHeight.base}"
