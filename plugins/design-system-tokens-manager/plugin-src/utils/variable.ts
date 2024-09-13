@@ -37,7 +37,7 @@ export async function iterateTokens(params: TTokenIterationArgs): Promise<TTrans
             typography.push(token.name)
             break;
           case EDTFCompositeTypes.ICON:
-            icons.push(token.name)
+            // icons.push(token.name)
             break;
           case EDTFTypes.BORDER:
             processBorderTokens({ type: token.type, value: token.value as TBorderProps }, token, params, payload)

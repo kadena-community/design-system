@@ -146,7 +146,7 @@ export const Form = () => {
             value="true"
           />
           <span>
-            Reset existing variables.&nbsp;
+            Reset existing variables.{ ' ' }
             <strong style={{ color: "red" }}>
               Removes all variables, styles and effects.
             </strong>
@@ -164,7 +164,8 @@ export const Form = () => {
           </span>
         </label>
       </div>
-      <div className={styles.input}>
+      {/* Separating icons from the tokens library */}
+      {/* <div className={styles.input}>
         <label>
           <input type="checkbox" name="icons" ref={importIcons} value="true" />
           <span>
@@ -173,7 +174,7 @@ export const Form = () => {
             <strong style={{ color: "#ff6600" }}>about {iconsDuration}</strong>.
           </span>
         </label>
-      </div>
+      </div> */}
       <div className={styles.footers}>
         <button onClick={importHandler}>Import Tokens</button>
       </div>

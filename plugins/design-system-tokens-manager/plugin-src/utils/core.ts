@@ -30,27 +30,28 @@ export function iterateJson(jsonObj: any, path: string[], isInit: boolean, param
     if (typeof jsonObj === 'object') {
       switch (type) {
         case EDTFCompositeTypes.ICON:
-          let isAdded = false
+          return []
+          // let isAdded = false
 
-          if (!isInit && params.isImportIcons) {
-            isAdded = createSVG({
-              ...jsonObj,
-              $path: path,
-            }, jsonObj.$value, iconToken)
-          } else if (isInit && params.isImportIcons && frame) {
-            clearState()
-          }
+          // if (!isInit && params.isImportIcons) {
+          //   isAdded = createSVG({
+          //     ...jsonObj,
+          //     $path: path,
+          //   }, jsonObj.$value, iconToken)
+          // } else if (isInit && params.isImportIcons && frame) {
+          //   clearState()
+          // }
 
-          return isAdded ? [
-            {
-              path: `${[...path, jsonObj.$name].join(EConstants.DOT_PATH_DELIMITER)}.${EConstants.TYPE_KEY}`,
-              value: jsonObj.$type
-            },
-            {
-              path: `${[...path, jsonObj.$name].join(EConstants.DOT_PATH_DELIMITER)}.${EConstants.VALUE_KEY}`,
-              value: jsonObj.$value
-            },
-          ] : []
+          // return isAdded ? [
+          //   {
+          //     path: `${[...path, jsonObj.$name].join(EConstants.DOT_PATH_DELIMITER)}.${EConstants.TYPE_KEY}`,
+          //     value: jsonObj.$type
+          //   },
+          //   {
+          //     path: `${[...path, jsonObj.$name].join(EConstants.DOT_PATH_DELIMITER)}.${EConstants.VALUE_KEY}`,
+          //     value: jsonObj.$value
+          //   },
+          // ] : []
         case EDTFCompositeTypes.TYPOGRAPHY:
         case EDTFCompositeTypes.BORDER:
         case EDTFCompositeTypes.SHADOW:

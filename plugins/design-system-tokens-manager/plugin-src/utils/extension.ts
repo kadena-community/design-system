@@ -40,21 +40,25 @@ export function mapTokenExtensions(refToken: TDesignTokenFormat, params: TDecons
 export async function processTokenExtension(token: TTokenData, params: TCreateTokenMetaData, payload: TJsonData): Promise<{ token: TTokenData, variable: Variable | null }> {
   let variable = null
   const extensionPropType = token.type
+  let data = null;
 
   if (extensionPropType === EDTFTypes.COLOR) {
     switch (token.modifier) {
       case EExtensionProp.ALPHA:
-        const { token: updatedToken, variable: updatedVariable } = await processAlphaExtension(token, params, payload) ?? {}
-        variable = updatedVariable
-        token = updatedToken
+        data = await processAlphaExtension(token, params, payload);
+
+        if (data) {
+          variable = data.variable
+          token = data.token
+        }
         break;
       case EExtensionProp.HUE:
       default:
-        variable = figma.variables.createVariable(token.name, params.collection, getResolvedTokenType(token.type))
+        variable = figma.variables.createVariable(token.name, params.collection.id, getResolvedTokenType(token.type))
         break;
     }
   } else if (extensionPropType === EDTFTypes.FONTWEIGHT) {
-    variable = figma.variables.createVariable(token.name, params.collection, getResolvedTokenType(token.type))
+    variable = figma.variables.createVariable(token.name, params.collection.id, getResolvedTokenType(token.type))
   }
 
   return {
@@ -79,7 +83,7 @@ async function processAlphaExtension(token: TTokenData, params: TCreateTokenMeta
 
     if (hasAliasValue(token.value)) {
       if (!variable) {
-        variable = figma.variables.createVariable(token.name, params.collection, getResolvedTokenType(token.type))
+        variable = figma.variables.createVariable(token.name, params.collection.id, getResolvedTokenType(token.type))
       }
 
       if (variable) {
