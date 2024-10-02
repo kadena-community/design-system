@@ -73,7 +73,7 @@ const initLoad = async () => {
   postTeamLibraryData(data);
 }
 
-figma.on("documentchange", initLoad)
+// figma.on("documentchange", initLoad)
 figma.on("run", initLoad)
 
 figma.on("selectionchange", () => {
