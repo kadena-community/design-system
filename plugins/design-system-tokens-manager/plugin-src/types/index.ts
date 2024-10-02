@@ -1,4 +1,7 @@
 import { EActions, TActionParams, TDataContext } from '../../ui-src/types'
+import { TPostMessageProps } from '../utils/selection'
+
+export type TPostMessage = TPostMessageProps
 
 export enum EConstants {
   COLLECTION_TITLE = 'Kode Design System',

@@ -8,6 +8,9 @@
   "editorType": [
     "figma"
   ],
+  "permissions": [
+    "teamlibrary"
+  ],
   "ui": "dist/index.html",
   "networkAccess": {
     "allowedDomains": [

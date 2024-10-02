@@ -12,8 +12,9 @@ import {
   formatDuration,
   processTokens,
 } from "../lib/helpers";
+import { Footer, TFooterProps } from "../components/Footer";
 
-export const Form = () => {
+export const Form = ({ view, setView }: TFooterProps) => {
   const code = useRef<HTMLTextAreaElement>(null);
   const resetVariables = useRef<HTMLInputElement>(null);
   const importTypos = useRef<HTMLInputElement>(null);
@@ -175,9 +176,9 @@ export const Form = () => {
           </span>
         </label>
       </div> */}
-      <div className={styles.footers}>
+      <Footer view={view} setView={setView}>
         <button onClick={importHandler}>Import Tokens</button>
-      </div>
+      </Footer>
     </div>
   );
 };

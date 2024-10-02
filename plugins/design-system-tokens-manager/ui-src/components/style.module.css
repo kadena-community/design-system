@@ -1,93 +1,9 @@
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.wrapper textarea {
-  width: 100%;
-  resize: none;
-  font-family: "SF Mono", SFMono-Regular, ui-monospace, "DejaVu Sans Mono", Menlo, Consolas, monospace;
-  font-size: inherit;
-  white-space: nowrap;
-  padding: 12px;
-}
-
-.header {
-  display: flex;
-  margin: 0 0 12px 0;
-  padding: 0;
-  flex-grow: 0;
-  flex-direction: column;
-}
-
-.header p {
-  margin: 0;
-  align-items: flex-start;
-  text-align: left;
-}
-
-.header a {
-  color: darkblue;
-}
-.header a:hover {
-  color: blue;
-  text-decoration: none;
-}
-
-.header p:nth-child(2) {
-  margin-top: 8px;
-}
-
-.input {
-  display: flex;
-  align-items: flex-start;
-}
-
-.input > label {
-  margin: 0;
-  padding: 8px;
-  display: flex;
-  flex-direction: row;
-  cursor: pointer;
-  border-radius: 4px;
-}
-
-.input > label input[type="checkbox"] {
-  display: flex;
-  width: 16px;
-  height: 16px;
-  max-width: 16px;
-  max-height: 16px;
-  min-width: 16px;
-  min-height: 16px;
-  margin: 0;
-  margin-right: 8px;
-}
-
-.input > label span {
-  text-align: left;
-  flex-basis: fit-content;
-  margin-top: 1px;
-}
-
-.input > label:hover {
-  background: #f3f3f3;
-}
-
-.body {
-  display: flex;
-  margin: 8px 0;
-  padding: 0;
-  flex-grow: 1;
-}
-
 .footers {
   display: flex;
   margin: 16px 0 0 0;
   padding: 0;
   flex-grow: 0;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .footers button {
@@ -105,4 +21,10 @@
   border: 1px solid black;
   color: black;
   cursor: pointer;
+}
+
+.footers button[data-variant="outline"] {
+  background: transparent;
+  color: black;
+  border: 1px solid black;
 }
