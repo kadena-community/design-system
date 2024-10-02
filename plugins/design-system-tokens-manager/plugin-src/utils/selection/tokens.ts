@@ -212,8 +212,6 @@ export const extractTokensFromSelection = async (selection: Readonly<SceneNode[]
         node.children.map(async (child) => await traverseNode(child))
       );
     }
-
-    console.log({ tokens, collections })
   }
 
   await Promise.all(
