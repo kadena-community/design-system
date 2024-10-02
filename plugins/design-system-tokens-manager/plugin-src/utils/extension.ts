@@ -197,7 +197,7 @@ export async function getAliasAbsoluteValue(value: string | Variable, startValue
 
     if (refValue && modeId) {
       const refVariable = await figma.variables.importVariableByKeyAsync(refValue?.key)
-      const nestedVariable = figma.variables.getVariableById((refVariable?.valuesByMode[modeId] as unknown as Variable).id)
+      const nestedVariable = await figma.variables.getVariableByIdAsync((refVariable?.valuesByMode[modeId] as unknown as Variable).id)
 
       if (nestedVariable?.valuesByMode?.[modeId]) {
         return nestedVariable.valuesByMode[modeId]
@@ -222,7 +222,7 @@ export async function getAliasAbsoluteValue(value: string | Variable, startValue
     const resolvedValueByMode = resolvedValue?.valuesByMode?.[modeId] as unknown as Variable | undefined
 
     if (resolvedValueByMode?.id) {
-      const alias = figma.variables.getVariableById(resolvedValueByMode.id)
+      const alias = await figma.variables.getVariableByIdAsync(resolvedValueByMode.id)
       const resolvedColor = alias?.valuesByMode[modeId]
 
       return resolvedColor ?? value

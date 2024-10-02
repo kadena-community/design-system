@@ -73,9 +73,15 @@ const initLoad = async () => {
   postTeamLibraryData(data);
 }
 
-// figma.on("documentchange", initLoad)
-figma.on("run", initLoad)
+const loadAllPages = async () => {
+  await figma.loadAllPagesAsync();
+  
+  figma.on("documentchange", initLoad)
+  figma.on("run", initLoad)
+  
+  figma.on("selectionchange", () => {
+    getPageSelection();
+  });
+};
 
-figma.on("selectionchange", () => {
-  getPageSelection();
-});
+loadAllPages();

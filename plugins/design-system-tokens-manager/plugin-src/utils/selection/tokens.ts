@@ -75,8 +75,9 @@ const textStyleList = (textStyles: TConsumedVariableCollection[], textStyle: Var
   return textStyles;
 }
 
-const getCollectionById = (id: string) => {
-  return figma.variables.getVariableCollectionById(id);
+const getCollectionById = async (id: string) => {
+  const collection = await figma.variables.getVariableCollectionByIdAsync(id)
+  return collection;
 }
 
 export type TLocalTokenReference = { id: string; collectionName: string }
@@ -125,58 +126,66 @@ export const extractTokensFromSelection = async (selection: Readonly<SceneNode[]
   const collections = collectionsList([], null);
   const textStyles = textStyleList([], null);
 
-  function traverseFills(node: SceneNode) {
+  async function traverseFills(node: SceneNode) {
     if ('fills' in node) {
       const fills = node.fills as Paint[];
       const boundVariables = node.boundVariables
       
       if (fills && boundVariables) {
-        fills.forEach(() => {
-          if (boundVariables) {
-            boundVariables.fills?.forEach(variable => {
+        const d = fills.map(async () => {
+          if (boundVariables.fills) {
+            const e = boundVariables.fills?.map(async(variable) => {
               if (variable.type === 'VARIABLE_ALIAS') {
-                const token = figma.variables.getVariableById(variable.id);
-  
+                const token = await figma.variables.getVariableByIdAsync(variable.id);
+                
                 if (token) {
                   tokensList(tokens, token);
                 }
   
                 if (token?.variableCollectionId) {
-                  const collection = getCollectionById(token.variableCollectionId);
+                  const collection = await getCollectionById(token.variableCollectionId);
                   collectionsList(collections, collection)
                 }
               }
             });
+
+            await Promise.all(e);
           }
         });
+        
+        await Promise.all(d);
       }
     }
   }
   
-  function traverseStrokes(node: SceneNode) {
+  async function traverseStrokes(node: SceneNode) {
     if ('strokes' in node) {
       const strokes = node.strokes as Paint[];
       const boundVariables = node.boundVariables
       
       if (strokes && boundVariables) {
-        strokes.forEach(() => {
-          if (boundVariables) {
-            boundVariables.strokes?.forEach(variable => {
+        const d = strokes.map(async () => {
+          if (boundVariables.strokes) {
+            const e = boundVariables.strokes?.map(async (variable) => {
               if (variable.type === 'VARIABLE_ALIAS') {
-                const token = figma.variables.getVariableById(variable.id);
+                const token = await figma.variables.getVariableByIdAsync(variable.id);
   
                 if (token) {
                   tokensList(tokens, token);
                 }
   
                 if (token?.variableCollectionId) {
-                  const collection = getCollectionById(token.variableCollectionId);
+                  const collection = await getCollectionById(token.variableCollectionId);
                   collectionsList(collections, collection)
                 }
               }
             });
+
+            await Promise.all(e);
           }
         });
+
+        await Promise.all(d);
       }
     }
   }
@@ -194,8 +203,8 @@ export const extractTokensFromSelection = async (selection: Readonly<SceneNode[]
   }
 
   async function traverseNode(node: SceneNode) {
-    traverseFills(node)
-    traverseStrokes(node)
+    await traverseFills(node)
+    await traverseStrokes(node)
     // await traverseText(node)
       
     if ('children' in node) {
@@ -203,6 +212,8 @@ export const extractTokensFromSelection = async (selection: Readonly<SceneNode[]
         node.children.map(async (child) => await traverseNode(child))
       );
     }
+
+    console.log({ tokens, collections })
   }
 
   await Promise.all(
@@ -279,7 +290,7 @@ export const getTokenVariables = async (data: TPostMessageTransferProps) => {
 }
 
 export const updateSelectionVariables = async (selection: Readonly<SceneNode[]>, newVariables: Variable[]) => {
-  function traverseFills(node: SceneNode) {
+  async function traverseFills(node: SceneNode) {
     if ('fills' in node) {
       const fills = node.fills as Paint[];
       const boundVariables = node.boundVariables
@@ -289,7 +300,7 @@ export const updateSelectionVariables = async (selection: Readonly<SceneNode[]>,
           const newFill = [...node.fills as SolidPaint[]];
 
           if (newFill[0].boundVariables?.color?.type === 'VARIABLE_ALIAS') {
-            const token = figma.variables.getVariableById(newFill[0].boundVariables.color.id);
+            const token = await figma.variables.getVariableByIdAsync(newFill[0].boundVariables.color.id);
 
             if (token) {
               const newToken = newVariables.find(newVariable => newVariable.name === token.name);
@@ -306,7 +317,7 @@ export const updateSelectionVariables = async (selection: Readonly<SceneNode[]>,
     }
   }
 
-  function traverseStrokes(node: SceneNode) {
+  async function traverseStrokes(node: SceneNode) {
     if ('strokes' in node) {
       const strokes = node.strokes as Paint[];
       const boundVariables = node.boundVariables
@@ -316,7 +327,7 @@ export const updateSelectionVariables = async (selection: Readonly<SceneNode[]>,
           const newStroke = [...node.strokes as SolidPaint[]];
 
           if (newStroke[0].boundVariables?.color?.type === 'VARIABLE_ALIAS') {
-            const token = figma.variables.getVariableById(newStroke[0].boundVariables.color.id);
+            const token = await figma.variables.getVariableByIdAsync(newStroke[0].boundVariables.color.id);
 
             if (token) {
               const newToken = newVariables.find(newVariable => newVariable.name === token.name);
@@ -333,14 +344,18 @@ export const updateSelectionVariables = async (selection: Readonly<SceneNode[]>,
     }
   }
 
-  function traverseNode(node: SceneNode) {
-    traverseFills(node)
-    traverseStrokes(node)
+  async function traverseNode(node: SceneNode) {
+    await traverseFills(node)
+    await traverseStrokes(node)
       
     if ('children' in node) {
-      node.children.forEach(child => traverseNode(child));
+      await Promise.all(node.children.map(async (child) => await traverseNode(child)));
     }
   }
 
-  figma.currentPage.selection.forEach(node => traverseNode(node));
+  await Promise.all(
+    figma.currentPage.selection.map(async (node) => await traverseNode(node))
+  );
+
+  
 }
