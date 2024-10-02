@@ -1,100 +1,54 @@
 import { EConstants, EDimensionUnit, TAction, TCollectionPayload, TDesignTokenFormat, TFontProps, TJsonData, TTokenData, TTokenExtensions, EExtensionProp, TTokenIterationArgs, TCreateTokenMetaData } from "../../types";
 import { getAliasAbsoluteValue } from "../extension";
 import { convertNameToPath, getValueByPath, hasAliasValue, parseDimensionUnit, parseFontSize } from "../helper";
-import { getResolvedTokenType, processTokenAliasValue } from "../variable";
+import { getAliasVariable, getResolvedTokenType, processTokenAliasValue } from "../variable";
 
 export async function processTypographyTokens({ type, value }: { type: TTokenData['type'], value: TFontProps }, token: TDesignTokenFormat, params: TTokenIterationArgs, payload: TJsonData) {
   try {
-    let checkValue = {
-      ...value as { [key: string]: any }
-    }
+    let textStyle = params.styles.texts.find(({ name }) => name === token[EConstants.METADATA_KEY_NAME]) || figma.createTextStyle()
+    
+    textStyle.name = token[EConstants.METADATA_KEY_NAME] ?? ''
+    textStyle.description = token[EConstants.DESCRIPTION_KEY] ?? ''
 
-    const tokenData = {
-      ...token,
-      name: token[EConstants.METADATA_KEY_NAME],
-      description: token[EConstants.DESCRIPTION_KEY],
-      value: token[EConstants.VALUE_KEY],
-      type: token[EConstants.TYPE_KEY],
-      title: token[EConstants.TITLE_KEY],
-      prevValue: token[EConstants.VALUE_KEY],
-    } as unknown as TTokenData
-
-    if (typeof checkValue === 'object') {
-      checkValue = await Object.keys(checkValue).reduce(async (resolve, key) => {
-        let setValue = null
-
-        if (hasAliasValue(checkValue[key])) {
-          const { collection: { modes } } = params
-          const [baseMode] = modes
-          const fontRefPropValue = await getAliasAbsoluteValue(checkValue[key], checkValue[key], { modeId: baseMode.modeId, modeName: baseMode.name }) as Variable | undefined
-
-          if (typeof fontRefPropValue !== 'undefined') {
-            setValue = fontRefPropValue
-          }
-        } else if (checkValue[key]) {
-          setValue = checkValue[key]
-        }
-
-        if (typeof setValue === 'string' && ['fontSize', 'lineHeight'].includes(key)) {
-          setValue = parseDimensionUnit(type, tokenData, setValue || 0).value ?? 0
-        }
-
-        return {
-          ...await resolve,
-          ...(setValue ? { [key]: setValue } : {}),
-        }
-      }, Promise.resolve({}))
-    }
-
-    const textStyleName = tokenData.name
     const {
       fontFamily,
-      fontSize,
       fontWeight,
+      fontSize,
       letterSpacing,
       lineHeight,
-    } = checkValue
+    } = value
 
-    if (!params.allVariables.length) {
-      return JSON.stringify(value)
+    if (fontFamily && hasAliasValue(fontFamily)) {
+      const fontFamilyVariable = getAliasVariable(fontFamily, params as unknown as TCreateTokenMetaData)
+      textStyle.setBoundVariable('fontFamily', fontFamilyVariable)
     }
-
-    const family = getFontFamily(fontFamily)
-    const style = await getFontStyle(fontWeight, params, tokenData.extensions)
-
-    if (!family) {
-      return value
+    
+    if (fontWeight && hasAliasValue(fontWeight)) {
+      const fontWeightVariable = getAliasVariable(String(fontWeight), params as unknown as TCreateTokenMetaData)
+      textStyle.setBoundVariable('fontStyle', fontWeightVariable)
     }
-
-    let textStyle = params.styles.texts.find(({ name }) => name === textStyleName) || figma.createTextStyle()
-
-    if (family) {
-      try {
-        textStyle.name = textStyleName
-        textStyle.fontName = {
-          family,
-          style,
-        }
-        textStyle.fontSize = fontSize ? parseFontSize(fontSize) : EConstants.BASE_FONT_SIZE
-      } catch (error) {
-        console.error('Error loading font', error)
-      }
-
-      const parsedLetterSpacing = parseDimensionUnit('letterSpacing', tokenData, letterSpacing ?? 0) as LetterSpacing | undefined
-
-      if (parsedLetterSpacing) {
-        textStyle.letterSpacing = parsedLetterSpacing
-      } else {
-        textStyle.letterSpacing = { value: 0, unit: EDimensionUnit.PIXELS }
-      }
-
-      if (lineHeight) {
-        textStyle.lineHeight = parseDimensionUnit('lineHeight', tokenData, lineHeight, { unit: EDimensionUnit.AUTO }) as LineHeight
-      }
-
-      textStyle.description = tokenData.description
+    
+    if (fontSize && hasAliasValue(fontSize)) {
+      const fontSizeVariable = getAliasVariable(String(fontSize), params as unknown as TCreateTokenMetaData)
+      textStyle.setBoundVariable('fontSize', fontSizeVariable)
     }
-
+    
+    if (letterSpacing && hasAliasValue(letterSpacing)) {
+      const letterSpacingVariable = getAliasVariable(String(letterSpacing), params as unknown as TCreateTokenMetaData)
+      textStyle.setBoundVariable('letterSpacing', letterSpacingVariable)
+    } else if (letterSpacing) {
+      const parsedValue = parseDimensionUnit('letterSpacing', null, value.letterSpacing as TTokenData['value'])
+      const newValue = parsedValue.value ? parsedValue : { value: 0, unit: EDimensionUnit.PIXELS }
+      textStyle.letterSpacing = newValue as LetterSpacing
+    }
+    
+    if (lineHeight && hasAliasValue(lineHeight)) {
+      const lineHeightVariable = getAliasVariable(String(lineHeight), params as unknown as TCreateTokenMetaData)
+      textStyle.setBoundVariable('lineHeight', lineHeightVariable)
+    } else if (lineHeight) {
+      const newValue = parseDimensionUnit('lineHeight', null, value.lineHeight as TTokenData['value'], { unit: EDimensionUnit.AUTO })
+      textStyle.lineHeight = newValue as LineHeight
+    }
   } catch (error) {
     console.error(error)
   }

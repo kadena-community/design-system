@@ -173,7 +173,7 @@ export function delay(ms: number): Promise<void> {
 
 const matchUnitRegex = /^(\d+(?:\.\d+)?)([a-zA-Z]+)$/
 
-export function parseDimensionUnit(type: string, token: TTokenData, value: TTokenData['value'], defaults = { unit: EDimensionUnit.AUTO }): { value?: number, unit: EDimensionUnit } {
+export function parseDimensionUnit(type: string, token: TTokenData | null, value: TTokenData['value'], defaults = { unit: EDimensionUnit.AUTO }): { value?: number, unit: EDimensionUnit } {
   if (type === EDTFTypes.NUMBER && typeof value === 'number') {
     return { value, unit: EDimensionUnit.PIXELS }
   } else if (type === 'lineHeight' && typeof value === 'number') {

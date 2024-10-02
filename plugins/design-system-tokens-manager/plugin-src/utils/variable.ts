@@ -122,10 +122,10 @@ export async function createToken(token: TTokenData, params: TCreateTokenMetaDat
         const { variable, token: updatedToken } = await processTokenExtension(token, params, payload) ?? {}
         token = updatedToken
         variableData = variable
-      } else if (collection.id) {
-        variableData = figma.variables.createVariable(token.name, collection.id, getResolvedTokenType(token.type))
+      // } else if (collection) {
+      //   variableData = figma.variables.createVariable(token.name, collection, getResolvedTokenType(token.type))
       } else {
-        variableData = figma.variables.createVariable(token.name, collection as unknown as string, getResolvedTokenType(token.type))
+        variableData = figma.variables.createVariable(token.name, collection, getResolvedTokenType(token.type))
       }
     }
 
@@ -294,6 +294,10 @@ export function processTokenAliasValue(value: TTokenData['value'], params?: TCre
   }
 
   return referenceVariable
+}
+
+export function getAliasVariable(value: string, params: TCreateTokenMetaData) {
+  return params.allVariables.find(({ name }) => name === getValuePath(value)) ?? null
 }
 
 function processAliasValues(token: TTokenData, params: TCreateTokenMetaData) {

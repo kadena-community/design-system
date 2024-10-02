@@ -1,9 +1,8 @@
-import React, { useCallback, useEffect, useState } from "react";
-import { EActions } from "../../types";
+import React from "react";
 import { SelectionView } from "./elements";
-import { TFooterProps } from "../../components/Footer";
-import { TPostMessage } from "../../../plugin-src/types";
+import { SelectionFooter, TFooterProps } from "../../components/Footer";
 import { useSelection } from "../../hooks/selection";
+import { NoSelection } from "./placeholder";
 
 import styles from "./style.module.css";
 
@@ -11,6 +10,7 @@ export const Selection = ({ view, setView }: TFooterProps) => {
   const {
     selectionData,
     hasSelection,
+    hasTeamLibData,
   } = useSelection();
 
   return (
@@ -18,7 +18,11 @@ export const Selection = ({ view, setView }: TFooterProps) => {
       {
         hasSelection && selectionData?.selection ? 
         <SelectionView footerProps={{ view, setView }} />
-        : <>Nothing is selected</>
+        : 
+        <div className={styles.wrapper}>
+          <NoSelection />
+          <SelectionFooter hasTeamLibData={hasTeamLibData} setView={setView} view={view} />
+        </div>
       }
     </div>
   )

@@ -28,3 +28,23 @@
   color: black;
   border: 1px solid black;
 }
+
+.footers button[disabled] {
+  background: #ccc;
+  color: #666;
+  border: 1px solid #ccc;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.startButtons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.endButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}

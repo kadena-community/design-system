@@ -61,6 +61,20 @@ const collectionsList = (collections: TConsumedVariableCollection[], collection:
   return collections;
 }
 
+const textStyleList = (textStyles: TConsumedVariableCollection[], textStyle: VariableCollection | null) => {
+  if (!textStyles.find(__textStyle => __textStyle.id === textStyle?.id) && textStyle) {
+    textStyles.push({
+      id: textStyle.id,
+      key: textStyle.key,
+      name: textStyle.name,
+      modes: textStyle.modes,
+      variables: textStyle.variableIds,
+    });
+  }
+
+  return textStyles;
+}
+
 const getCollectionById = (id: string) => {
   return figma.variables.getVariableCollectionById(id);
 }
@@ -106,9 +120,10 @@ const getLocalTokens = (): {
   }
 }
 
-export const extractTokensFromSelection = (selection: Readonly<SceneNode[]>) => {
+export const extractTokensFromSelection = async (selection: Readonly<SceneNode[]>) => {
   const tokens = tokensList([], null);
   const collections = collectionsList([], null);
+  const textStyles = textStyleList([], null);
 
   function traverseFills(node: SceneNode) {
     if ('fills' in node) {
@@ -166,29 +181,38 @@ export const extractTokensFromSelection = (selection: Readonly<SceneNode[]>) => 
     }
   }
   
-  // @WIP
-  function traverseText(node: SceneNode) {
+  // @WIP - Text Styles
+  async function traverseText(node: SceneNode) {
     if (node.type === 'TEXT') {
       node = node as TextNode;
-      const textVariable = node.boundVariables;
+      let textStyle = figma.getStyleById(node.textStyleId as string);
+      
+      if (textStyle) {
+        textStyle = await figma.importStyleByKeyAsync(textStyle.key);
+      }
     }
   }
 
-  function traverseNode(node: SceneNode) {
+  async function traverseNode(node: SceneNode) {
     traverseFills(node)
     traverseStrokes(node)
-    traverseText(node)
+    // await traverseText(node)
       
     if ('children' in node) {
-      node.children.forEach(child => traverseNode(child));
+      await Promise.all(
+        node.children.map(async (child) => await traverseNode(child))
+      );
     }
   }
 
-  selection.forEach(node => traverseNode(node));
+  await Promise.all(
+    selection.map(async (node) => await traverseNode(node))
+  );
 
   return {
     tokens,
     collections,
+    textStyles,
   };
 }
 
@@ -198,7 +222,7 @@ export type TConsumedTeamLibraryCollection = {
   libraryName: string;
 }
 
-export type TConsumedTeamLibraryVariable = LibraryVariable & { collectionId: string}
+export type TConsumedTeamLibraryVariable = LibraryVariable & { collectionKey: string}
 
 export type TTeamLibraryData = {
   tokens: TConsumedTeamLibraryVariable[] | null;
@@ -208,6 +232,7 @@ export type TTeamLibraryData = {
 export const getLibraryReferences = async (): Promise<TTeamLibraryData> => {
   const collections = await figma.teamLibrary.getAvailableLibraryVariableCollectionsAsync();
   const tokens: TConsumedTeamLibraryVariable[] = []
+  // const textStyles = figma.
 
   collections.forEach(async (collection) => {
     const allTokens = await figma.teamLibrary.getVariablesInLibraryCollectionAsync(collection.key);
@@ -216,7 +241,7 @@ export const getLibraryReferences = async (): Promise<TTeamLibraryData> => {
       name: token.name,
       key: token.name,
       resolvedType: token.resolvedType,
-      collectionId: collection.key,
+      collectionKey: collection.key,
     })));
   });
 
@@ -231,13 +256,12 @@ export const getLibraryReferences = async (): Promise<TTeamLibraryData> => {
 }
 
 export const getTokenVariables = async (data: TPostMessageTransferProps) => {
-  console.log({data})
   const referencedVariables: Variable[] = [];
 
   if (data.payload.collection.key) {
     const variables = await figma.teamLibrary.getVariablesInLibraryCollectionAsync(data.payload.collection.key);
     const filteredVariables = variables.filter(variable => data.payload.tokens.find(token => token.name === variable.name));
-    const promises = data.payload.tokens.map(async (token) => {
+    const promise = data.payload.tokens.map(async (token) => {
       const refToken = filteredVariables.find(variable => variable.name === token.name);
   
       if (refToken) {
@@ -248,7 +272,7 @@ export const getTokenVariables = async (data: TPostMessageTransferProps) => {
       }
     });
 
-    await Promise.all(promises);
+    await Promise.all(promise);
   }
 
   updateSelectionVariables(data.payload.selection, referencedVariables);
@@ -319,36 +343,4 @@ export const updateSelectionVariables = async (selection: Readonly<SceneNode[]>,
   }
 
   figma.currentPage.selection.forEach(node => traverseNode(node));
-
-  console.log({ selection: figma.currentPage.selection });
 }
-
-
-// if ('fills' in node && node.fillStyleId) {
-//   const fillStyle = figma.getStyleById(node.fillStyleId);
-//   tokens.push({ type: 'fill', name: fillStyle?.name || 'Unnamed Fill', id: node.fillStyleId });
-// }
-
-// // Collect stroke style
-// if ('strokes' in node && node.strokeStyleId) {
-//   const strokeStyle = figma.getStyleById(node.strokeStyleId);
-//   tokens.push({ type: 'stroke', name: strokeStyle?.name || 'Unnamed Stroke', id: node.strokeStyleId });
-// }
-
-// // Collect text style
-// if (node.type === 'TEXT' && node.textStyleId) {
-//   const textStyle = figma.getStyleById(node.textStyleId);
-//   tokens.push({ type: 'text', name: textStyle?.name || 'Unnamed Text', id: node.textStyleId });
-// }
-
-// // Collect effect style
-// if ('effects' in node && node.effectStyleId) {
-//   const effectStyle = figma.getStyleById(node.effectStyleId);
-//   tokens.push({ type: 'effect', name: effectStyle?.name || 'Unnamed Effect', id: node.effectStyleId });
-// }
-
-// // Collect grid style
-// if ('layoutGrids' in node && node.gridStyleId) {
-//   const gridStyle = figma.getStyleById(node.gridStyleId);
-//   tokens.push({ type: 'grid', name: gridStyle?.name || 'Unnamed Grid', id: node.gridStyleId });
-// }

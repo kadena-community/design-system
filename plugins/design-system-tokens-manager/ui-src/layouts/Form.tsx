@@ -149,7 +149,7 @@ export const Form = ({ view, setView }: TFooterProps) => {
           <span>
             Reset existing variables.{ ' ' }
             <strong style={{ color: "red" }}>
-              Removes all variables, styles and effects.
+              Removes all variables, styles and effects. Causing links to be broken.
             </strong>
           </span>
         </label>

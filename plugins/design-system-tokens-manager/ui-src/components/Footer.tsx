@@ -1,7 +1,8 @@
-import React, { useCallback } from "react"
+import React, { useCallback, useEffect, useState } from "react"
 
 import styles from "./style.module.css";
 import { EViews } from "../types";
+import { useSelection } from "../hooks/selection";
 
 export type TFooterProps = {
   view: string | null;
@@ -16,7 +17,7 @@ export const Footer = ({ setView, children }: TFooterProps) => {
 
   return (
     <div className={styles.footers}>
-      <button data-variant="outline" onClick={selectionTokenHandler}>Selection Tokens</button>
+      <button data-variant="outline" onClick={selectionTokenHandler}>Swap Variables</button>
       <div>
         {children}
       </div>
@@ -24,15 +25,22 @@ export const Footer = ({ setView, children }: TFooterProps) => {
   )
 }
 
-export const SelectionFooter = ({ setView, children }: TFooterProps) => {
+export const SelectionFooter = ({ hasTeamLibData, setView, children }: TFooterProps & { hasTeamLibData: boolean }) => {
+  const {
+    loadTeamLibraryData,
+  } = useSelection();
+
   const selectionTokenHandler = useCallback(() => {
     setView(EViews.FORM);
   }, []);
 
   return (
     <div className={styles.footers}>
-      <button data-variant="outline" onClick={selectionTokenHandler}>Import Tokens</button>
-      <div>
+      <div className={styles.startButtons}>
+        <button data-variant="outline" onClick={selectionTokenHandler}>Import Tokens</button>
+      </div>
+      <div className={styles.endButtons}>
+        {!hasTeamLibData ? <button data-variant="outline" onClick={loadTeamLibraryData}>Load Libraries</button> : <></>}
         {children}
       </div>
     </div>

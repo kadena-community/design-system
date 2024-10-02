@@ -4,23 +4,30 @@ import { EActions } from "../types";
 import { TTeamLibraryData } from "../../plugin-src/utils/selection/tokens";
 import { TPostMessageTransferProps } from "../../plugin-src/utils/selection";
 
-export const useSelection = () => {
+export type TSelectionHook = {
+  reloadSwapUI: () => void;
+} | undefined
+
+export const useSelection = (options?: TSelectionHook) => {
   const [data, setData] = useState<TPostMessage['payload'] | null>(null);
   const [hasSelection, setHasSelection] = useState<boolean>(false);
   const [teamLibData, setTeamLibData] = useState<TTeamLibraryData>()
-  
-  const initCallback = useCallback(() => {
-    parent.postMessage({ pluginMessage: { type: EActions.CHECK_SELECTION } }, '*');
+  const [hasTeamLibData, setHasTeamLibData] = useState<boolean>(false);
+
+  const loadTeamLibraryData = useCallback(() => {
     parent.postMessage({ pluginMessage: { type: EActions.TEAM_LIBRARY_DATA } }, '*');
   }, []);
+
+  const initCallback = useCallback(() => {
+    parent.postMessage({ pluginMessage: { type: EActions.CHECK_SELECTION } }, '*');
+    loadTeamLibraryData();
+  }, [loadTeamLibraryData]);
 
   const doTransfer = useCallback((data: TPostMessageTransferProps['payload']) => {
     parent.postMessage({ pluginMessage: { type: EActions.GET_COLLECTION_VARIABLES, payload: data } }, '*');
   }, []);
 
   const changeSelectionHandler = useCallback((data: MessageEvent<{ type: EActions, payload: TPostMessage['payload'] }>['data']) => {
-    console.log('incoming data', data.payload);
-
     if (data.payload.selection.length) {
       setHasSelection(true);
       setData(data.payload);
@@ -32,14 +39,10 @@ export const useSelection = () => {
 
   const getCollectionVariablesCount = useCallback((collectionKey: string) => {
     if (teamLibData?.tokens) {
-      return teamLibData?.tokens?.filter((token) => token.collectionId === collectionKey).length;
+      return teamLibData?.tokens?.filter((token) => token.collectionKey === collectionKey).length;
     }
 
     return 0
-  }, [teamLibData]);
-
-  useEffect(() => {
-    console.log('teamLibData', teamLibData);
   }, [teamLibData]);
 
   useEffect(() => {
@@ -53,25 +56,34 @@ export const useSelection = () => {
       }
 
       if (message.type === EActions.TEAM_LIBRARY_DATA) {
-        setTeamLibData(message.payload.figma.teamLib);
+        setTeamLibData({
+          ...message.payload.figma.teamLib,
+        });
+      }
+
+      if (message.type === EActions.RELOAD_SWAP_UI && typeof options?.reloadSwapUI === 'function') {
+        options.reloadSwapUI();
       }
     }
 
     return () => {
       onmessage = null;
     }
-  }, [changeSelectionHandler, setTeamLibData]);
+  }, [initCallback, changeSelectionHandler, setTeamLibData]);
+
+  useEffect(() => {
+    setHasTeamLibData(!!(teamLibData?.collections && teamLibData?.tokens));
+  }, [teamLibData])
 
   return {
     selectionData: data,
-    team: {
-      library: {
-        data: teamLibData,
-      }
-    },
+    team: teamLibData,
     hasSelection,
+    hasTeamLibData,
+    setHasSelection,
     getCollectionVariablesCount,
     changeSelection: changeSelectionHandler,
+    loadTeamLibraryData,
     doTransfer,
   }
 };

@@ -1,6 +1,6 @@
 import { EActions } from "../../../ui-src/types";
 import { setTeamData, teamData } from "../../code";
-import { extractTokensFromSelection, getLibraryReferences, TConsumedTeamLibraryCollection, TConsumedToken, TConsumedVariableCollection, TLocalTokenReference, TTeamLibraryData } from "./tokens";
+import { extractTokensFromSelection, getLibraryReferences, TConsumedToken, TConsumedVariableCollection, TTeamLibraryData } from "./tokens";
 
 export type TPostmessageData = {
   selection: Readonly<SceneNode[]>;
@@ -23,6 +23,10 @@ export type TPostMessageProps = {
   payload: TPostmessageData;
 }
 
+export type TPostReloadUIProps = {
+  type: EActions;
+}
+
 export type TPostMessageTeamProps = {
   type: EActions;
   payload: TPostmessageTeamData;
@@ -31,22 +35,36 @@ export type TPostMessageTeamProps = {
 export type TPostMessageTransferProps = {
   type: EActions;
   payload: {
+    messages: {
+      success: string;
+      error: string;
+    },
     selection: Readonly<SceneNode[]>;
     tokens: TConsumedToken[];
     collection: TConsumedVariableCollection;
   }
 }
 
-export const getPageSelecion = () => {
+export const getPageSelection = () => {
   const selection = figma.currentPage.selection;
+
+  if (selection.length === 0) {
+    const message:TPostReloadUIProps = {
+      type: EActions.RELOAD_SWAP_UI,
+    }
+
+    figma.ui.postMessage(message);
+
+    return
+  }
 
   postPageData(selection);
 
   return selection;
 }
 
-export const postPageData = (selection: Readonly<SceneNode[]>) => {
-  const references = extractTokensFromSelection(selection)
+export const postPageData = async (selection: Readonly<SceneNode[]>) => {
+  const references = await extractTokensFromSelection(selection)
   
   const message:TPostMessageProps = {
     type: EActions.SELECTION_CHANGE,
@@ -70,8 +88,6 @@ export const getTeamLibraryData = async () => {
     setTeamData(teamLib)
   }
 
-  postTeamLibraryData(teamData);
-
   return teamData;
 }
 
@@ -86,6 +102,10 @@ export const postTeamLibraryData = (teamLib: TTeamLibraryData) => {
   }
 
   figma.ui.postMessage(message);
+}
+
+export const reloadSwapUI = () => {
+  figma.ui.postMessage({ type: EActions.RELOAD_SWAP_UI });
 }
 
 

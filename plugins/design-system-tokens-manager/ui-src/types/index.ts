@@ -14,6 +14,7 @@ export enum EActions {
   CHECK_SELECTION,
   TEAM_LIBRARY_DATA,
   GET_COLLECTION_VARIABLES,
+  RELOAD_SWAP_UI,
 }
 
 export type TActionParams<T> = T | {

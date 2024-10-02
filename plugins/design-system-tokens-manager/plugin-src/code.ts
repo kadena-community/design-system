@@ -1,8 +1,8 @@
 import { EActions } from "../ui-src/types";
 import { TAction } from "./types";
 import { init } from "./utils/main";
-import { getPageSelecion, getTeamLibraryData, postTeamLibraryData, TPostMessageTransferProps } from "./utils/selection";
-import { getLibraryReferences, getTokenVariables, TConsumedToken } from "./utils/selection/tokens";
+import { getPageSelection, getTeamLibraryData, postTeamLibraryData, reloadSwapUI, TPostMessageTransferProps } from "./utils/selection";
+import { getTokenVariables } from "./utils/selection/tokens";
 
 figma.showUI(__html__, {
   height: 440,
@@ -31,17 +31,28 @@ figma.ui.onmessage = async (action: TAction<any>) => {
       break;
 
     case EActions.CHECK_SELECTION:
-      getPageSelecion();
+      getPageSelection();
       break;
 
     case EActions.TEAM_LIBRARY_DATA:
-      await getTeamLibraryData();
+      const data = await getTeamLibraryData();
+      postTeamLibraryData(data);
       break;
 
     case EActions.GET_COLLECTION_VARIABLES:
-      const data = action as unknown as TPostMessageTransferProps;
-      
-      await getTokenVariables(data);
+      const variables = action as unknown as TPostMessageTransferProps;
+      try {
+        await getTokenVariables(variables);
+        
+        figma.notify(variables.payload.messages.success, { timeout: 10000 });
+        reloadSwapUI();
+        getPageSelection();
+      } catch (error) {
+        console.error(error);
+        figma.notify(variables.payload.messages.error, { timeout: 10000, error: true });
+        reloadSwapUI();
+        getPageSelection();
+      }
       break;
 
     default:
@@ -56,10 +67,15 @@ export const setTeamData = (data: any) => {
   return teamData = data
 }
 
-figma.on("run", async () => {
-  await getTeamLibraryData();
-})
+const initLoad = async () => {
+  const data = await getTeamLibraryData();
+  
+  postTeamLibraryData(data);
+}
+
+figma.on("documentchange", initLoad)
+figma.on("run", initLoad)
 
 figma.on("selectionchange", () => {
-  getPageSelecion();
+  getPageSelection();
 });
