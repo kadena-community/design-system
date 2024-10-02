@@ -11,6 +11,7 @@
   "permissions": [
     "teamlibrary"
   ],
+  "documentAccess": "dynamic-page",
   "ui": "dist/index.html",
   "networkAccess": {
     "allowedDomains": [
