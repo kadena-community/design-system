@@ -49,7 +49,7 @@ figma.ui.onmessage = async (action: TAction<any>) => {
         if (referencedVariables.length) {
           await updateSelectionVariables(referencedVariables);
         } else {
-          figma.notify('Unable to find referenced variables', { timeout: 10000, error: true });
+          return figma.notify('Unable to find referenced variables', { timeout: 10000, error: true });
         }
         
         figma.notify(variables.payload.messages.success, { timeout: 10000 });
