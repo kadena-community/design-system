@@ -1,8 +1,8 @@
 import { EActions } from "../ui-src/types";
 import { TAction } from "./types";
 import { init } from "./utils/main";
-import { getPageSelection, getTeamLibraryData, postTeamLibraryData, reloadSwapUI, TPostMessageTransferProps } from "./utils/selection";
-import { getTokenVariables } from "./utils/selection/tokens";
+import { getLocalLibraryData, getPageSelection, getTeamLibraryData, postLibraryData, reloadSwapUI, TPostMessageTransferProps } from "./utils/selection";
+import { getTokenVariables, updateSelectionVariables } from "./utils/selection/tokens";
 
 figma.showUI(__html__, {
   height: 440,
@@ -34,15 +34,23 @@ figma.ui.onmessage = async (action: TAction<any>) => {
       getPageSelection();
       break;
 
-    case EActions.TEAM_LIBRARY_DATA:
-      const data = await getTeamLibraryData();
-      postTeamLibraryData(data);
+    case EActions.LIBRARY_DATA:
+      const teamData = await getTeamLibraryData();
+      const localData = await getLocalLibraryData();
+      
+      postLibraryData(teamData, localData);
       break;
 
-    case EActions.GET_COLLECTION_VARIABLES:
+    case EActions.UPDATE_COLLECTION_VARIABLES:
       const variables = action as unknown as TPostMessageTransferProps;
       try {
-        await getTokenVariables(variables);
+        const referencedVariables = await getTokenVariables(variables);
+
+        if (referencedVariables.length) {
+          await updateSelectionVariables(referencedVariables);
+        } else {
+          figma.notify('Unable to find referenced variables', { timeout: 10000, error: true });
+        }
         
         figma.notify(variables.payload.messages.success, { timeout: 10000 });
         reloadSwapUI();
@@ -62,15 +70,21 @@ figma.ui.onmessage = async (action: TAction<any>) => {
 };
 
 export let teamData: any = null
+export let localData: any = null
 
 export const setTeamData = (data: any) => {
   return teamData = data
 }
 
+export const setLocalData = (data: any) => {
+  return localData = data
+}
+
 const initLoad = async () => {
-  const data = await getTeamLibraryData();
+  const _teamData = await getTeamLibraryData();
+  const _localData = await getLocalLibraryData();
   
-  postTeamLibraryData(data);
+  postLibraryData(_teamData, _localData);
 }
 
 const loadAllPages = async () => {

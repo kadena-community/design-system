@@ -1,6 +1,6 @@
 import { EActions } from "../../../ui-src/types";
-import { setTeamData, teamData } from "../../code";
-import { extractTokensFromSelection, getLibraryReferences, TConsumedToken, TConsumedVariableCollection, TTeamLibraryData } from "./tokens";
+import { localData, setLocalData, setTeamData, teamData } from "../../code";
+import { extractTokensFromSelection, getLibraryReferences, getLocalLibraryReferences, TConsumedToken, TConsumedVariableCollection, TLocalLibraryData, TTeamLibraryData } from "./tokens";
 
 export type TPostmessageData = {
   selection: Readonly<SceneNode[]>;
@@ -15,6 +15,7 @@ export type TPostmessageData = {
 export type TPostmessageTeamData = {
   figma: {
     teamLib: TTeamLibraryData;
+    localLib: TLocalLibraryData;
   }
 };
 
@@ -91,12 +92,23 @@ export const getTeamLibraryData = async () => {
   return teamData;
 }
 
-export const postTeamLibraryData = (teamLib: TTeamLibraryData) => {
+export const getLocalLibraryData = async () => {
+  if (!localData) {
+    const localLib = await getLocalLibraryReferences();
+    
+    setLocalData(localLib)
+  }
+
+  return localData;
+}
+
+export const postLibraryData = (teamLib: TTeamLibraryData, localLib: TLocalLibraryData) => {
   const message:TPostMessageTeamProps = {
-    type: EActions.TEAM_LIBRARY_DATA,
+    type: EActions.LIBRARY_DATA,
     payload: {
       figma: {
         teamLib,
+        localLib,
       },
     },
   }

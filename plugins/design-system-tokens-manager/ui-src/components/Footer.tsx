@@ -27,7 +27,7 @@ export const Footer = ({ setView, children }: TFooterProps) => {
 
 export const SelectionFooter = ({ hasTeamLibData, setView, children }: TFooterProps & { hasTeamLibData: boolean }) => {
   const {
-    loadTeamLibraryData,
+    loadLibraryData,
   } = useSelection();
 
   const selectionTokenHandler = useCallback(() => {
@@ -40,7 +40,7 @@ export const SelectionFooter = ({ hasTeamLibData, setView, children }: TFooterPr
         <button data-variant="outline" onClick={selectionTokenHandler}>Import Tokens</button>
       </div>
       <div className={styles.endButtons}>
-        {!hasTeamLibData ? <button data-variant="outline" onClick={loadTeamLibraryData}>Load Libraries</button> : <></>}
+        {!hasTeamLibData ? <button data-variant="outline" onClick={loadLibraryData}>Load Libraries</button> : <></>}
         {children}
       </div>
     </div>

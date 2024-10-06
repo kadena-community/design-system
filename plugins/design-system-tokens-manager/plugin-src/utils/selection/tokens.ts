@@ -25,9 +25,11 @@ export type TConsumedToken = {
 
 export type TConsumedVariableCollection = {
   id: string;
+  variableCollectionId: string;
   key: string;
   name: string;
   modes?: Record<string, any>;
+  isRemote: boolean;
   variables?: TConsumedToken['id'][];
 }
 
@@ -51,7 +53,9 @@ const collectionsList = (collections: TConsumedVariableCollection[], collection:
   if (!collections.find(__collection => __collection.id === collection?.id) && collection) {
     collections.push({
       id: collection.id,
+      variableCollectionId: collection.id,
       key: collection.key,
+      isRemote: collection.remote,
       name: collection.name,
       modes: collection.modes,
       variables: collection.variableIds,
@@ -65,7 +69,9 @@ const textStyleList = (textStyles: TConsumedVariableCollection[], textStyle: Var
   if (!textStyles.find(__textStyle => __textStyle.id === textStyle?.id) && textStyle) {
     textStyles.push({
       id: textStyle.id,
+      variableCollectionId: textStyle.id,
       key: textStyle.key,
+      isRemote: textStyle.remote,
       name: textStyle.name,
       modes: textStyle.modes,
       variables: textStyle.variableIds,
@@ -98,7 +104,9 @@ const getLocalTokens = (): {
     if (collection && !collectionExists) {
       allCollections.push({
         id: id,
+        variableCollectionId: id,
         key: collection.key,
+        isRemote: false,
         name: name,
         modes: modes,
         variables: variableIds,
@@ -127,33 +135,28 @@ export const extractTokensFromSelection = async (selection: Readonly<SceneNode[]
   const textStyles = textStyleList([], null);
 
   async function traverseFills(node: SceneNode) {
-    if ('fills' in node) {
-      const fills = node.fills as Paint[];
+    if ('boundVariables' in node) {
       const boundVariables = node.boundVariables
-      
-      if (fills && boundVariables) {
-        const d = fills.map(async () => {
-          if (boundVariables.fills) {
-            const e = boundVariables.fills?.map(async(variable) => {
-              if (variable.type === 'VARIABLE_ALIAS') {
-                const token = await figma.variables.getVariableByIdAsync(variable.id);
-                
-                if (token) {
-                  tokensList(tokens, token);
-                }
-  
-                if (token?.variableCollectionId) {
-                  const collection = await getCollectionById(token.variableCollectionId);
-                  collectionsList(collections, collection)
-                }
-              }
-            });
 
-            await Promise.all(e);
-          }
-        });
-        
-        await Promise.all(d);
+      if (boundVariables) {
+        if (boundVariables.fills) {
+          const e = boundVariables.fills?.map(async(variable) => {
+            if (variable.type === 'VARIABLE_ALIAS') {
+              const token = await figma.variables.getVariableByIdAsync(variable.id);
+              
+              if (token) {
+                tokensList(tokens, token);
+              }
+
+              if (token?.variableCollectionId) {
+                const collection = await getCollectionById(token.variableCollectionId);
+                collectionsList(collections, collection)
+              }
+            }
+          });
+
+          await Promise.all(e);
+        }
       }
     }
   }
@@ -228,7 +231,8 @@ export const extractTokensFromSelection = async (selection: Readonly<SceneNode[]
 export type TConsumedTeamLibraryCollection = {
   key: string;
   name: string;
-  libraryName: string;
+  variableCollectionId: string;
+  libraryName?: string;
 }
 
 export type TConsumedTeamLibraryVariable = LibraryVariable & { collectionKey: string}
@@ -238,12 +242,16 @@ export type TTeamLibraryData = {
   collections: TConsumedTeamLibraryCollection[];
 }
 
+export type TLocalLibraryData = {
+  tokens: TConsumedTeamLibraryVariable[] | null;
+  collections: TConsumedTeamLibraryCollection[];
+}
+
 export const getLibraryReferences = async (): Promise<TTeamLibraryData> => {
   const collections = await figma.teamLibrary.getAvailableLibraryVariableCollectionsAsync();
   const tokens: TConsumedTeamLibraryVariable[] = []
-  // const textStyles = figma.
 
-  collections.forEach(async (collection) => {
+  const d = collections.map(async (collection) => {
     const allTokens = await figma.teamLibrary.getVariablesInLibraryCollectionAsync(collection.key);
 
     tokens.push(...allTokens.map(token => ({
@@ -254,23 +262,71 @@ export const getLibraryReferences = async (): Promise<TTeamLibraryData> => {
     })));
   });
 
+  await Promise.all(d);
+
   return {
     tokens,
     collections: collections.map(collection => ({
       key: collection.key,
       name: collection.name,
+      variableCollectionId: collection.key,
       libraryName: collection.libraryName,
+    }))
+  }
+}
+
+export const getLocalLibraryReferences = async (): Promise<TLocalLibraryData> => {
+  const collections = await figma.variables.getLocalVariableCollectionsAsync();
+  const tokens: TConsumedTeamLibraryVariable[] = []
+
+  await Promise.all(collections.map(async (collection) => {
+    const variables = collection.variableIds
+
+    await Promise.all(variables.map(async (variableId) => {
+      const variable = await figma.variables.getVariableByIdAsync(variableId);
+
+      if (variable) {
+        tokens.push({
+          name: variable.name,
+          key: variable.name,
+          resolvedType: variable.resolvedType,
+          collectionKey: collection.key,
+        });
+      }
+
+      return variable;
+    }));
+  }));
+
+  return {
+    tokens,
+    collections: collections.map(collection => ({
+      key: collection.key,
+      name: collection.name,
+      variableCollectionId: collection.id,
+      // libraryName: collection.libraryName,
     }))
   }
 }
 
 export const getTokenVariables = async (data: TPostMessageTransferProps) => {
   const referencedVariables: Variable[] = [];
+  let filteredVariables: (Variable | LibraryVariable)[] = [];
 
   if (data.payload.collection.key) {
-    const variables = await figma.teamLibrary.getVariablesInLibraryCollectionAsync(data.payload.collection.key);
-    const filteredVariables = variables.filter(variable => data.payload.tokens.find(token => token.name === variable.name));
-    const promise = data.payload.tokens.map(async (token) => {
+    if (data.payload.collection.isRemote) {
+      const variables = await figma.teamLibrary.getVariablesInLibraryCollectionAsync(data.payload.collection.key);
+      filteredVariables = variables.filter(variable => data.payload.tokens.find(token => token.name === variable.name));
+    } else {
+      const variables = await figma.variables.getLocalVariablesAsync();
+      
+      filteredVariables = variables.filter(variable => 
+        data.payload.tokens.find(token => token.name === variable.name) &&
+        variable.variableCollectionId === data.payload.collection.variableCollectionId
+      );
+    }
+
+    await Promise.all(data.payload.tokens.map(async (token) => {
       const refToken = filteredVariables.find(variable => variable.name === token.name);
   
       if (refToken) {
@@ -279,15 +335,18 @@ export const getTokenVariables = async (data: TPostMessageTransferProps) => {
           referencedVariables.push(importedVariable);
         }
       }
-    });
-
-    await Promise.all(promise);
+    }));
   }
 
-  updateSelectionVariables(data.payload.selection, referencedVariables);
+  return referencedVariables;
 }
 
-export const updateSelectionVariables = async (selection: Readonly<SceneNode[]>, newVariables: Variable[]) => {
+export const updateSelectionVariables = async (newVariables: Variable[]) => {
+  if (newVariables.length === 0) {
+    console.error('No variables to update');
+    return
+  }
+
   async function traverseFills(node: SceneNode) {
     if ('fills' in node) {
       const fills = node.fills as Paint[];
@@ -298,7 +357,7 @@ export const updateSelectionVariables = async (selection: Readonly<SceneNode[]>,
           const newFill = [...node.fills as SolidPaint[]];
 
           if (newFill[0].boundVariables?.color?.type === 'VARIABLE_ALIAS') {
-            const token = await figma.variables.getVariableByIdAsync(newFill[0].boundVariables.color.id);
+            let token = await figma.variables.getVariableByIdAsync(newFill[0].boundVariables.color.id);
 
             if (token) {
               const newToken = newVariables.find(newVariable => newVariable.name === token.name);
@@ -309,6 +368,8 @@ export const updateSelectionVariables = async (selection: Readonly<SceneNode[]>,
             }
 
             node.fills = newFill;
+          } else {
+            // @WIP No bound variables in fill
           }
         }
       }

@@ -8,6 +8,7 @@ import { NoSelection } from './placeholder';
 import { EActions } from '../../types';
 
 export const SelectionView = ({ footerProps }: { footerProps: TFooterProps }) => {
+  const [sourceTargetId, setSourceTargetId] = useState<"team" | "local" | null>(null);
   const [sourceValue, setSourceValue] = useState<TConsumedVariableCollection | null>(null);
   const [targetValues, setTargetValues] = useState<TConsumedVariableCollection[]>([]);
   const [collectionVariables, setCollectionVariables] = useState<TConsumedToken[]>([]);
@@ -33,10 +34,12 @@ export const SelectionView = ({ footerProps }: { footerProps: TFooterProps }) =>
   const {
     selectionData,
     team,
+    local,
     hasTeamLibData,
     hasSelection,
     setHasSelection,
-    getCollectionVariablesCount,
+    getTeamCollectionVariablesCount,
+    getLocalCollectionVariablesCount,
     doTransfer,
   } = useSelection({
     reloadSwapUI: resetSelection,
@@ -46,18 +49,21 @@ export const SelectionView = ({ footerProps }: { footerProps: TFooterProps }) =>
   const setValueHandler = useCallback((event: React.ChangeEvent<HTMLSelectElement>) => {
     if (selectionData) {
       const [selectedOption] = event.target.selectedOptions;
+      const targetId = selectedOption.parentElement?.id
 
-      if (!selectedOption.value) {
+      if (!selectedOption.value || !targetId) {
         reselectCollection();
         return
       }
+
+      setSourceTargetId(targetId as 'team' | 'local');
 
       const collectionIdPrefix = `VariableCollectionId:${selectedOption.value}`;
       const matchingCollection = selectionData.figma.references.collections.find(
         (collection) => collection.id.startsWith(collectionIdPrefix)
       )
 
-      if (!matchingCollection && team?.collections) {
+      if (!matchingCollection && team?.collections && targetId === 'team') {
         const teamLibCollection = team.collections.find(
           (collection) => collection.key === selectedOption.value
         );
@@ -66,12 +72,33 @@ export const SelectionView = ({ footerProps }: { footerProps: TFooterProps }) =>
           return setSourceValue({
             id: `VariableCollectionId:${teamLibCollection.key}`,
             key: teamLibCollection.key,
+            variableCollectionId: teamLibCollection.variableCollectionId,
+            isRemote: true,
             name: teamLibCollection.name,
             // modes: undefined,
             // variables: undefined,
           });
         } else {
-          console.error('No matching collection found', team?.collections);
+          console.error('No matching team collection found', team?.collections);
+          return;
+        }
+      } else if (!matchingCollection && local?.collections && targetId === 'local') {
+        const localLibCollection = local.collections.find(
+          (collection) => collection.key === selectedOption.value
+        );
+
+        if (localLibCollection) {
+          return setSourceValue({
+            id: localLibCollection.key,
+            variableCollectionId: localLibCollection.variableCollectionId,
+            key: localLibCollection.key,
+            isRemote: false,
+            name: localLibCollection.name,
+            // modes: undefined,
+            // variables: undefined,
+          });
+        } else {
+          console.error('No matching local collection found', local?.collections);
           return;
         }
       }
@@ -82,7 +109,7 @@ export const SelectionView = ({ footerProps }: { footerProps: TFooterProps }) =>
         setTargetValues([]);
       }
     }
-  }, [selectionData, targetValues, setTargetValues, setSourceValue, reselectCollection]);
+  }, [team, local, selectionData, targetValues, setTargetValues, setSourceValue, reselectCollection, setSourceTargetId]);
 
   const setTargetCollectionsHandler = useCallback((event: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedOptions = event.target.selectedOptions;
@@ -100,12 +127,16 @@ export const SelectionView = ({ footerProps }: { footerProps: TFooterProps }) =>
   }, [selectionData, matchingVariables, setTargetValues, setMatchingVariables]);
 
   const getSourceTokenByKey = useCallback((key: string) => {
-    if (team?.tokens) {
-      return team.tokens.find((variable) => variable.key === key);
+    let token = null;
+
+    if (sourceTargetId === "team" && team?.tokens) {
+      token = team.tokens.find((variable) => variable.key === key);
+    } else if (sourceTargetId === "local" && local?.tokens) {
+      token = local.tokens.find((variable) => variable.key === key);
     }
 
-    return null
-  }, [team]);
+    return token
+  }, [team, local, sourceTargetId]);
 
   const transferCollectionHandler = useCallback(() => {
     if (sourceValue && matchingVariables.length && selectionData?.selection) {
@@ -133,6 +164,14 @@ export const SelectionView = ({ footerProps }: { footerProps: TFooterProps }) =>
   const selectAllMatchingVariablesHandler = useCallback(() => {
     setMatchingVariables(isAllSelected ? [] : collectionVariables);
   }, [setMatchingVariables, collectionVariables, isAllSelected]);
+
+  const checkIfSourceCollection = useCallback((collection: TConsumedVariableCollection) => {
+    if (sourceValue && sourceTargetId === 'local') {
+      return sourceValue.id === collection.key;
+    }
+    
+    return sourceValue?.id === collection.id;
+  }, [sourceTargetId, sourceValue]);
 
   useEffect(() => {
     setIsAllSelected(collectionVariables.length === matchingVariables.length);
@@ -163,11 +202,20 @@ export const SelectionView = ({ footerProps }: { footerProps: TFooterProps }) =>
                 <h4>Replace the collections existing in your selection with:</h4>
                 <select onChange={setValueHandler}>
                   <option value="">Select Collection</option>
-                  {
-                    team?.collections.map((collection) => (
-                      <option selected={collection.key === sourceValue?.key} key={collection.key} value={collection.key}>{collection.name} ({getCollectionVariablesCount(collection.key)})</option>
-                    ))
-                  }
+                  <optgroup id='team' label='Team Library Collections'>
+                    {
+                      team?.collections.map((collection) => (
+                        <option selected={collection.key === sourceValue?.key} key={collection.key} value={collection.key}>{collection.name} ({getTeamCollectionVariablesCount(collection.key)})</option>
+                      ))
+                    }
+                  </optgroup>
+                  <optgroup id='local' label='Local Collections'>
+                    {
+                      local?.collections.map((collection) => (
+                        <option selected={collection.key === sourceValue?.key} key={collection.key} value={collection.key}>{collection.name} ({getLocalCollectionVariablesCount(collection.key)})</option>
+                      ))
+                    }
+                  </optgroup>
                 </select>
               </div>
               <div className={[styles.col, styles.target].join(' ')}>
@@ -177,7 +225,7 @@ export const SelectionView = ({ footerProps }: { footerProps: TFooterProps }) =>
                   {
                     selectionData?.figma.references.collections.map((collection) => (
                       <option
-                        disabled={collection.id === sourceValue?.id}
+                        disabled={checkIfSourceCollection(collection)}
                         key={collection.id}
                         value={collection.id}
                         selected={targetValues.some((target) => target.id === collection.id)}
