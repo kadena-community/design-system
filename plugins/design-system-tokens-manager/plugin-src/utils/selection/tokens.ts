@@ -1,5 +1,4 @@
 import { TPostMessageTransferProps } from ".";
-import { loadAllStyles } from "../helper";
 
 export type TExtractedTokens = {
   type: string;
@@ -7,12 +6,6 @@ export type TExtractedTokens = {
   nodeId: string;
   nodeName: string
 }
-
-// type BoundVariable = {
-//   collection: string;
-//   index: number;
-//   variableAlias: string;
-// };
 
 export type TConsumedToken = {
   id: string;
@@ -87,22 +80,6 @@ const collectionsList = (collections: TConsumedVariableCollection[], collection:
   return collections;
 }
 
-const textStyleList = (textStyles: TConsumedVariableCollection[], textStyle: VariableCollection | null) => {
-  if (!textStyles.find(__textStyle => __textStyle.id === textStyle?.id) && textStyle) {
-    textStyles.push({
-      id: textStyle.id,
-      variableCollectionId: textStyle.id,
-      key: textStyle.key,
-      isRemote: textStyle.remote,
-      name: textStyle.name,
-      modes: textStyle.modes,
-      variables: textStyle.variableIds,
-    });
-  }
-
-  return textStyles;
-}
-
 const getCollectionById = async (id: string) => {
   const collection = await figma.variables.getVariableCollectionByIdAsync(id)
   return collection;
@@ -111,8 +88,6 @@ const getCollectionById = async (id: string) => {
 export const extractTokensFromSelection = async (selection: Readonly<SceneNode[]>) => {
   const tokens = tokensList([], null, null);
   const collections = collectionsList([], null);
-  // const textStyles = textStyleList([], null);
-
   
   async function traverseNode(node: SceneNode) {
     if (node.boundVariables) {
@@ -158,7 +133,6 @@ export const extractTokensFromSelection = async (selection: Readonly<SceneNode[]
   return {
     tokens,
     collections,
-    // textStyles,
   };
 }
 
@@ -219,7 +193,6 @@ export const getLocalLibraryReferences = async (): Promise<TLocalLibraryData> =>
       key: collection.key,
       name: collection.name,
       variableCollectionId: collection.id,
-      // libraryName: collection.libraryName,
     }))
   }
 }
@@ -266,7 +239,10 @@ export const updateSelectionVariables = async (newVariables: Variable[]) => {
     const keys = Object.keys(node.boundVariables ?? []);
 
     if (node.boundVariables) {
-      await Promise.all(Object.values(node.boundVariables).map(async (variable, index) => await updateNode(variable, newVariables, node, keys, index)));
+      await Promise.all(
+        Object.values(node.boundVariables)
+          .map(async (variable, index) => 
+            await updateNode(variable, newVariables, node, keys, index)));
     }
 
     if ('children' in node) {
@@ -284,16 +260,23 @@ async function updateNode(
   keys: string[],
   index: number
 ) {
-
-  if (keys[index] === 'fills' || keys[index] === 'strokes' ) {
-    const paints = (node as SceneNode & { fills?: Paint[], strokes?: Paint[] })[keys[index] as 'fills' | 'strokes'] as Paint[];
-
-    if (paints && variable) {
-      const newPaints = [...paints as SolidPaint[]];
-      const updatedPaints = await Promise.all(newPaints.map(async (paint) => await updatePaint(node, paint, newVariables)));
-      
-      (node as SceneNode & { fills?: Paint[], strokes?: Paint[] })[keys[index] as 'fills' | 'strokes'] = updatedPaints.filter(paint => paint !== undefined) as Paint[];
+  if (keys[index] === 'fills' || keys[index] === 'strokes') {
+    const hasFillVariables = newVariables.filter(newVariable => newVariable.resolvedType === 'COLOR').length > 0;
+    
+    if (hasFillVariables) {
+      const paints = (node as SceneNode & { fills?: Paint[], strokes?: Paint[] })[keys[index] as 'fills' | 'strokes'] as Paint[];
+  
+      if (paints && variable) {
+        const newPaints = [...paints as SolidPaint[]];
+        const updatedPaints = await Promise.all(
+          newPaints.map(async (paint) => 
+            await updatePaint(paint, newVariables.filter(newVariable => newVariable.resolvedType === 'COLOR'))));
+        
+        (node as SceneNode & { fills?: Paint[], strokes?: Paint[] })[keys[index] as 'fills' | 'strokes'] = updatedPaints
+          .filter(paint => paint !== undefined) as Paint[];
+      }
     }
+    
   } else if (Array.isArray(variable)) {
     await Promise.all(variable.map(async (v) => {
       if (v.type === 'VARIABLE_ALIAS' && typeof v.id === 'string') {
@@ -321,7 +304,7 @@ async function updateNode(
   }
 }
 
-async function updatePaint(node: SceneNode, paint: SolidPaint | ColorStop, newVariables: Variable[], isGradient = false) {
+async function updatePaint(paint: SolidPaint | ColorStop, newVariables: Variable[], isGradient = false) {
   {
     if (paint.boundVariables?.color?.type === 'VARIABLE_ALIAS') {
       const token = await figma.variables.getVariableByIdAsync(paint.boundVariables.color.id);
