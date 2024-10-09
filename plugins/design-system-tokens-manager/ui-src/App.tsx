@@ -8,7 +8,7 @@ import { Icons } from "./layouts/Icons";
 import { EViews } from "./types";
 
 function App() {
-  const [view, setView] = useState<string|null>(EViews.ICONS);
+  const [view, setView] = useState<string|null>(EViews.SELECTION);
   
   return (
     <main className={styles.wrapper}>
