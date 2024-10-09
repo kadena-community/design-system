@@ -32,9 +32,15 @@ export type TConsumedTeamLibraryCollection = {
   name: string;
   variableCollectionId: string;
   libraryName?: string;
+  isRemote?: boolean;
 }
 
 export type TConsumedTeamLibraryVariable = LibraryVariable & { collectionKey: string}
+
+export type TLibraryData = {
+  teamData: TTeamLibraryData;
+  localData: TLocalLibraryData;
+}
 
 export type TTeamLibraryData = {
   tokens: TConsumedTeamLibraryVariable[] | null;

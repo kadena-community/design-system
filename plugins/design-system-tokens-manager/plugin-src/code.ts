@@ -1,7 +1,8 @@
 import { EActions } from "../ui-src/types";
 import { TAction } from "./types";
 import { init } from "./utils/main";
-import { getLocalLibraryData, getPageSelection, getTeamLibraryData, postLibraryData, reloadSwapUI, TPostMessageTransferProps } from "./utils/selection";
+import { getLocalLibraryData, getPageSelection, getTeamLibraryData, postAvailableIcons, postLibraryData, reloadSwapUI, TPostMessageTransferProps } from "./utils/selection";
+import { getAvailableIconNames, getAvailableIcons, getAvailableLibraryData, setCollectionIcons, TPostAvailableIconsProps, TPostCollectionIconsProps, TPostSelectedIconProps, updateSelectedIcons } from "./utils/selection/icons";
 import { getTokenVariables, updateSelectionVariables } from "./utils/selection/tokens";
 
 figma.showUI(__html__, {
@@ -62,6 +63,39 @@ figma.ui.onmessage = async (action: TAction<any>) => {
         getPageSelection();
       }
       break;
+    
+    case EActions.COLLECT_EXISTING_ICONS:
+      const allIcons = getAvailableIconNames();
+      const { teamData: _teamData, localData: _localData } = await getAvailableLibraryData();
+      const message:TPostAvailableIconsProps = {
+        type: EActions.PAGE_ICONS_DATA,
+        payload: {
+          figma: {
+            icons: allIcons,
+          },
+        },
+      }
+    
+      figma.ui.postMessage(message);
+
+      postLibraryData(_teamData, _localData);
+      break;
+    
+    case EActions.ICON_SELECTION_CHANGE:
+      postAvailableIcons();
+      break;
+    
+    case EActions.INIT_ALL_ICONS:
+      const { payload: { figma: { icons: iconCollection } } } = action as unknown as TPostCollectionIconsProps;
+
+      setCollectionIcons(iconCollection);
+      break;
+    
+    case EActions.UPDATE_ICONS:
+      const icons = action as unknown as TPostSelectedIconProps;
+      
+      await updateSelectedIcons(icons.payload)
+      break;
 
     default:
       figma.closePlugin()
@@ -81,20 +115,29 @@ export const setLocalData = (data: any) => {
 }
 
 const initLoad = async () => {
-  const _teamData = await getTeamLibraryData();
-  const _localData = await getLocalLibraryData();
+  teamData = await getTeamLibraryData();
+  localData = await getLocalLibraryData();
   
-  postLibraryData(_teamData, _localData);
+  postLibraryData(teamData, localData);
+}
+
+const docChangeLoad = async () => {
+  postAvailableIcons()
+
+  if (!teamData || !localData) {
+    await initLoad()
+  }
 }
 
 const loadAllPages = async () => {
   await figma.loadAllPagesAsync();
   
-  figma.on("documentchange", initLoad)
+  figma.on("documentchange", docChangeLoad)
   figma.on("run", initLoad)
   
   figma.on("selectionchange", () => {
     getPageSelection();
+    postAvailableIcons();
   });
 };
 

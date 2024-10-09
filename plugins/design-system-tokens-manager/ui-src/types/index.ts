@@ -1,6 +1,7 @@
 export enum EViews {
   SELECTION = "selection",
   FORM = "form",
+  ICONS = "icons",
 }
 
 export enum EExtensions {
@@ -15,6 +16,11 @@ export enum EActions {
   LIBRARY_DATA,
   UPDATE_COLLECTION_VARIABLES,
   RELOAD_SWAP_UI,
+  COLLECT_EXISTING_ICONS,
+  PAGE_ICONS_DATA,
+  UPDATE_ICONS,
+  ICON_SELECTION_CHANGE,
+  INIT_ALL_ICONS,
 }
 
 export type TActionParams<T> = T | {

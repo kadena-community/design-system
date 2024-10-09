@@ -1,0 +1,88 @@
+.column {
+  flex-direction: column;
+}
+
+.iconsBody h4 {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  max-height: 260px;
+  height: 100%;
+}
+
+.container > div {
+  max-width: 50%;
+  height: 100%;
+}
+
+.selector select {
+  width: 100%;
+  height: 100%;
+}
+
+.selector {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-right: 8px;
+  flex-grow: 1;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-grow: 1;
+  overflow: auto;
+  padding: 8px;
+}
+
+.iconsWrapper {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  gap: 8px;
+  row-gap: 8px;
+}
+
+.icon {
+  aspect-ratio: 1/1;
+  height: 40px;
+  overflow: hidden;
+  border: 2px solid transparent;
+}
+
+.icon svg {
+  height: 100%;
+  width: auto;
+}
+
+.update {
+  border-color: green;
+}
+
+.new {
+  border-color: orangered;
+}
+
+.collectionSelect {
+  height: unset !important;
+  padding: 6px 4px;
+}
+
+.inputFallback {
+  width: 100%;
+  margin-top: 8px;
+  padding: 6px 4px;
+  text-align: left;
+}
+

@@ -1,5 +1,6 @@
 import { EActions } from "../../../ui-src/types";
 import { localData, setLocalData, setTeamData, teamData } from "../../code";
+import { getAvailableIcons } from "./icons";
 import { extractTokensFromSelection, getLibraryReferences, getLocalLibraryReferences, TConsumedToken, TConsumedVariableCollection, TLocalLibraryData, TTeamLibraryData } from "./tokens";
 
 export type TPostmessageData = {
@@ -114,6 +115,19 @@ export const postLibraryData = (teamLib: TTeamLibraryData, localLib: TLocalLibra
   }
 
   figma.ui.postMessage(message);
+}
+
+export const postAvailableIcons = () => {
+  const icons = getAvailableIcons();
+  
+  figma.ui.postMessage({
+    type: EActions.PAGE_ICONS_DATA,
+    payload: {
+      figma: {
+        icons,
+      },
+    },
+  });
 }
 
 export const reloadSwapUI = () => {

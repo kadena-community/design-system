@@ -34,10 +34,15 @@ export const SelectionFooter = ({ hasTeamLibData, setView, children }: TFooterPr
     setView(EViews.FORM);
   }, []);
 
+  const iconsViewHandler = useCallback(() => {
+    setView(EViews.ICONS);
+  }, []);
+
   return (
     <div className={styles.footers}>
       <div className={styles.startButtons}>
         <button data-variant="outline" onClick={selectionTokenHandler}>Import Tokens</button>
+        <button data-variant="outline" onClick={iconsViewHandler}>Import Icons</button>
       </div>
       <div className={styles.endButtons}>
         {!hasTeamLibData ? <button data-variant="outline" onClick={loadLibraryData}>Load Libraries</button> : <></>}

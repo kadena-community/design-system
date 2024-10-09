@@ -963,26 +963,23 @@
                   "$type": "color",
                   "$value": {
                     "$type": "color",
-                    "$value": "#F5F5F5",
+                    "$value": "#FFFFFF",
                     "$extensions": {
                       "mode": {
-                        "dark": "#020E1B"
+                        "dark": "#000000"
                       },
                       "generators": [
                         {
                           "type": "alpha",
                           "value": {
                             "@alpha0": 0,
-                            "@alpha1": 1,
-                            "@alpha3": 3,
-                            "@alpha6": 6,
                             "@alpha10": 10,
                             "@alpha20": 20,
-                            "@alpha30": 30,
                             "@alpha40": 40,
-                            "@alpha50": 50,
+                            "@alpha70": 70,
                             "@alpha80": 80,
-                            "@alpha90": 90
+                            "@alpha90": 90,
+                            "@alpha95": 95
                           },
                           "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
                           "isSource": true
@@ -991,7 +988,7 @@
                     }
                   },
                   "$extensions": {
-                    "alpha": 80
+                    "alpha": 95
                   }
                 },
                 "$extensions": {
@@ -1019,7 +1016,7 @@
                         }
                       },
                       "$extensions": {
-                        "alpha": 80
+                        "alpha": 95
                       }
                     }
                   }

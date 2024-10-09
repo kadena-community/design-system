@@ -84,10 +84,10 @@
             "context": {
               "default": {
                 "$type": "color",
-                "$value": "{kda.foundation.color.neutral.n1@alpha80}",
+                "$value": "{kda.foundation.color.neutral.n0@alpha95}",
                 "$extensions": {
                   "mode": {
-                    "dark": "{kda.foundation.color.neutral.n5@alpha80}"
+                    "dark": "{kda.foundation.color.neutral.n5@alpha95}"
                   }
                 }
               }

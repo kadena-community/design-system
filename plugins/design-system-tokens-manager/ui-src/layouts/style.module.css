@@ -77,7 +77,38 @@
 
 .body {
   display: flex;
+  flex-direction: row;
   margin: 8px 0;
   padding: 0;
   flex-grow: 1;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.iconsBody h4 {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container #selector {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+  background: red;
+}
+
+.container #details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: blue;
 }
