@@ -197,9 +197,13 @@ export const updateSelectedIcons = async ({ icons, collection, fallbackVariableR
 
     newIcon.name = iconData.$name;
     newIcon.description = iconData.$description;
-    newIcon.resizeWithoutConstraints(iconData.$dimensions.width, iconData.$dimensions.height);
-
+    newIcon.resize(iconData.$dimensions.width, iconData.$dimensions.height);
+    
     const firstChildFrame = newIcon.children[0] as FrameNode;
+    firstChildFrame.constraints = {
+      horizontal: 'SCALE',
+      vertical: 'SCALE',
+    }
     
     if (firstChildFrame && firstChildFrame.name !== 'icon') {
       firstChildFrame.name = 'icon'

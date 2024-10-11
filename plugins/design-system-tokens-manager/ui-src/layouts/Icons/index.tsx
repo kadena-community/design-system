@@ -93,10 +93,6 @@ export const Icons = ({ view, setView }: TFooterProps) => {
     return icons.length;
   }, [icons]);
 
-  // const getExistingIcons = useMemo(() => {
-  //   return existingIcons;
-  // }, [existingIcons]);
-
   const changeMatchingIcons = useCallback((e: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedOptions = Array.from(e.target.selectedOptions);
     const selectedOptionIcons = getIconNames
