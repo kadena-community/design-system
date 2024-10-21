@@ -1,0 +1,20 @@
+<svg data-style="kdacolor" width="64" height="64" viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg">
+  <path d="M31.9978 31.9962V25.9975L37.1931 22.9982L42.3897 25.9975V31.9962L37.1931 34.997L31.9978 31.9962Z" fill="#4A9079" id="{kda.foundation.color.icon.brand.logo.default}" />
+  <path d="M21.6058 31.9968V25.9981L26.8011 22.9988L31.9978 25.9981V31.9968L26.8011 34.9976L21.6058 31.9968Z" fill="#4A9079" id="{kda.foundation.color.icon.brand.logo.default}" />
+  <path d="M26.8054 34.9944V28.9957L32.0007 25.9964L37.1973 28.9957V34.9944L32.0007 37.9952L26.8054 34.9944Z" fill="#4A9079" id="{kda.foundation.color.icon.brand.logo.default}" />
+  <path d="M26.8018 40.9946V34.996L31.997 31.9966L37.1938 34.996V40.9946L31.997 43.9954L26.8018 40.9946Z" fill="#4A9079" id="{kda.foundation.color.icon.brand.logo.default}" />
+  
+  <path d="M11.2183 44.0013V38.0026L16.4135 35.0033L21.6102 38.0026V44.0013L16.4135 47.0021L11.2183 44.0013Z" fill="#0B1D2E" id="{kda.foundation.color.brand.key.secondary}" />
+  <path d="M11.2183 32.0009V26.0023L16.4135 23.0029L21.6102 26.0023V32.0009L16.4135 35.0017L11.2183 32.0009Z" fill="#0B1D2E" id="{kda.foundation.color.brand.key.secondary}" />
+  <path d="M11.2139 26.0015V20.0029L16.4091 17.0035L21.6058 20.0029V26.0015L16.4091 29.0023L11.2139 26.0015Z" fill="#0B1D2E" id="{kda.foundation.color.brand.key.secondary}" />
+  <path d="M26.804 16.998V10.9993L31.9992 8L37.196 10.9993V16.998L31.9992 19.9988L26.804 16.998Z" fill="#0B1D2E" id="{kda.foundation.color.brand.key.secondary}" />
+  <path d="M16.4136 22.9998V17.0011L21.6088 14.0018L26.8056 17.0011V22.9998L21.6088 26.0006L16.4136 22.9998Z" fill="#0B1D2E" id="{kda.foundation.color.brand.key.secondary}" />
+  <path d="M21.6088 49.9999V44.0012L26.804 41.0019L32.0008 44.0012V49.9999L26.804 53.0007L21.6088 49.9999Z" fill="#0B1D2E" id="{kda.foundation.color.brand.key.secondary}" />
+  <path d="M26.801 52.9933V46.9947L31.9963 43.9954L37.193 46.9947V52.9933L31.9963 55.9942L26.801 52.9933Z" fill="#0B1D2E" id="{kda.foundation.color.brand.key.secondary}" />
+  <path d="M37.1946 22.9966V16.9979L42.3898 13.9986L47.5866 16.9979V22.9966L42.3898 25.9974L37.1946 22.9966Z" fill="#0B1D2E" id="{kda.foundation.color.brand.key.secondary}" />
+  <path d="M42.3898 43.9964V37.9978L47.585 34.9985L52.7818 37.9978V43.9964L47.585 46.9973L42.3898 43.9964Z" fill="#0B1D2E" id="{kda.foundation.color.brand.key.secondary}" />
+  <path d="M31.9993 49.9983V43.9996L37.1945 41.0003L42.3913 43.9996V49.9983L37.1945 52.9991L31.9993 49.9983Z" fill="#0B1D2E" id="{kda.foundation.color.brand.key.secondary}" />
+  <path d="M42.3898 31.9961V25.9974L47.585 22.998L52.7818 25.9974V31.9961L47.585 34.9969L42.3898 31.9961Z" fill="#0B1D2E" id="{kda.foundation.color.brand.key.secondary}" />
+  <path d="M42.389 25.9958V19.9972L47.5842 16.9978L52.781 19.9972V25.9958L47.5842 28.9967L42.389 25.9958Z" fill="#0B1D2E" id="{kda.foundation.color.brand.key.secondary}" />
+</svg>

@@ -15768,6 +15768,74 @@
                     "height": 64
                   }
                 }
+              },
+              "rounded": {
+                "kdacolor_dark": {
+                  "$type": "icon",
+                  "$name": "dark",
+                  "$description": "",
+                  "$style": "kdacolor",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": {
+                        "$type": "color",
+                        "$value": "#4A9079",
+                        "$extensions": {
+                          "mode": {
+                            "dark": "#4A9079"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "$dimensions": {
+                    "width": 64,
+                    "height": 64
+                  }
+                },
+                "kdacolor_light": {
+                  "$type": "icon",
+                  "$name": "light",
+                  "$description": "",
+                  "$style": "kdacolor",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": {
+                        "$type": "color",
+                        "$value": "#0B1D2E",
+                        "$extensions": {
+                          "mode": {
+                            "dark": "#D6EBFF"
+                          }
+                        }
+                      }
+                    },
+                    "$extensions": {
+                      "mode": {
+                        "dark": {
+                          "$type": "color",
+                          "$value": {
+                            "$type": "color",
+                            "$value": "#D6EBFF",
+                            "$extensions": {
+                              "mode": {
+                                "dark": "#0B1D2E"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "$dimensions": {
+                    "width": 64,
+                    "height": 64
+                  }
+                }
               }
             }
           },
@@ -16063,142 +16131,6 @@
               "$dimensions": {
                 "width": 197,
                 "height": 64
-              }
-            }
-          },
-          "spireKey": {
-            "kdacolor_dark": {
-              "$type": "icon",
-              "$name": "dark",
-              "$description": "",
-              "$style": "kdacolor",
-              "$value": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#4A9079",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#4A9079"
-                      }
-                    }
-                  }
-                }
-              },
-              "$dimensions": {
-                "width": 264,
-                "height": 64
-              }
-            },
-            "kdacolor_light": {
-              "$type": "icon",
-              "$name": "light",
-              "$description": "",
-              "$style": "kdacolor",
-              "$value": {
-                "$type": "color",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": "#0B1D2E",
-                    "$extensions": {
-                      "mode": {
-                        "dark": "#D6EBFF"
-                      }
-                    }
-                  }
-                },
-                "$extensions": {
-                  "mode": {
-                    "dark": {
-                      "$type": "color",
-                      "$value": {
-                        "$type": "color",
-                        "$value": "#D6EBFF",
-                        "$extensions": {
-                          "mode": {
-                            "dark": "#0B1D2E"
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "$dimensions": {
-                "width": 264,
-                "height": 64
-              }
-            },
-            "logo": {
-              "kdacolor_dark": {
-                "$type": "icon",
-                "$name": "dark",
-                "$description": "",
-                "$style": "kdacolor",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": {
-                      "$type": "color",
-                      "$value": "#4A9079",
-                      "$extensions": {
-                        "mode": {
-                          "dark": "#4A9079"
-                        }
-                      }
-                    }
-                  }
-                },
-                "$dimensions": {
-                  "width": 64,
-                  "height": 64
-                }
-              },
-              "kdacolor_light": {
-                "$type": "icon",
-                "$name": "light",
-                "$description": "",
-                "$style": "kdacolor",
-                "$value": {
-                  "$type": "color",
-                  "$value": {
-                    "$type": "color",
-                    "$value": {
-                      "$type": "color",
-                      "$value": "#0B1D2E",
-                      "$extensions": {
-                        "mode": {
-                          "dark": "#D6EBFF"
-                        }
-                      }
-                    }
-                  },
-                  "$extensions": {
-                    "mode": {
-                      "dark": {
-                        "$type": "color",
-                        "$value": {
-                          "$type": "color",
-                          "$value": "#D6EBFF",
-                          "$extensions": {
-                            "mode": {
-                              "dark": "#0B1D2E"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
-                "$dimensions": {
-                  "width": 64,
-                  "height": 64
-                }
               }
             }
           },
