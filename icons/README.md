@@ -8,9 +8,6 @@ Note: icons are rendered with black fill by default, which has poor readability 
 
 ## Icons
 
-![dark](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/animated/product/spireKey/dark.svg "dark")
-![light](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/animated/product/spireKey/light.svg "light")
-![logo green](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/animated/product/spireKey/logo_green.svg "logo green")
 ![fingerprint](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/animated/system/fingerprint.svg "fingerprint")
 ![view in ar](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/animated/system/view_in_ar.svg "view in ar")
 ![black](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/brand/K/rounded/black.svg "black")
