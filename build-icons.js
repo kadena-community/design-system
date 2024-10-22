@@ -39,8 +39,11 @@ function makeIconsReadme(template, iconFilenames, templateFilename) {
     const name = (content.match(/name="(.*?)"/) ?? [])[1] ?? file.replace('.svg', '');
     const style = (content.match(/data-style="(.*?)"/) ?? [])[1];
     const description = (content.match(/description="(.*?)"/) ?? [])[1];
-    const width = +(content.match(/width="(.*?)"/) ?? [])[1];
-    const height = +(content.match(/height="(.*?)"/) ?? [])[1];
+
+    const [svgTagMatch] = content.match(/<svg[^>]*>/);
+
+    const [, width] = svgTagMatch.match(/width="([\d.]+)(px)?"/) ?? []
+    const [, height] = svgTagMatch.match(/height="([\d.]+)(px)?"/) ?? []
 
     if (style !== 'animated' || style !== 'custom') {
       return {
