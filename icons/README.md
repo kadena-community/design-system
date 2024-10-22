@@ -41,8 +41,6 @@ Note: icons are rendered with black fill by default, which has poor readability 
 ![light](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/device/icloudKeychain(managed)/light.svg "light")
 ![dark](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/device/idmelon/dark.svg "dark")
 ![light](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/device/idmelon/light.svg "light")
-![dark](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/device/ipasswords/dark.svg "dark")
-![light](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/device/ipasswords/light.svg "light")
 ![dark](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/device/keepassxc/dark.svg "dark")
 ![light](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/device/keepassxc/light.svg "light")
 ![dark](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/device/keeper/dark.svg "dark")
