@@ -6,6 +6,7 @@
   "scripts": {
     "preinstall": "git config core.hooksPath hooks",
     "build-icons": "node build-icons.js",
+    "decode-icons": "node decode-icons.js",
     "build-tokens": "node build-tokens.js",
     "build": "npm run build-icons && npm run build-tokens"
   },

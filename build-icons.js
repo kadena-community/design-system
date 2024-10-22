@@ -3,7 +3,7 @@ const { readFileSync, writeFileSync } = require('fs');
 const { readdir } = require('fs').promises;
 const set = require('lodash/set')
 const get = require('lodash/get');
-const { writeFile } = require('fs/promises');
+const { writeFile, mkdir } = require('fs/promises');
 
 async function getFiles(dir) {
   const dirents = await readdir(dir, { withFileTypes: true });
@@ -37,12 +37,12 @@ function makeIconsReadme(template, iconFilenames, templateFilename) {
     const content = readFileSync(svg, 'utf8');
     const file = relative('./icons', svg).split('/').pop();
     const name = (content.match(/name="(.*?)"/) ?? [])[1] ?? file.replace('.svg', '');
-    const style = (content.match(/data\-style="(.*?)"/) ?? [])[1];
+    const style = (content.match(/data-style="(.*?)"/) ?? [])[1];
     const description = (content.match(/description="(.*?)"/) ?? [])[1];
     const width = +(content.match(/width="(.*?)"/) ?? [])[1];
     const height = +(content.match(/height="(.*?)"/) ?? [])[1];
 
-    if (style !== 'animated') {
+    if (style !== 'animated' || style !== 'custom') {
       return {
         path: svg,
         folder: relative('./icons', svg).split('/').slice(0, -1).concat(`${style}_${name}`),
@@ -57,7 +57,7 @@ function makeIconsReadme(template, iconFilenames, templateFilename) {
   });
 
   const jsonFile = svgs.reduce((memo, svg) => {
-    if (svg?.style !== 'animated' && svg) {
+    if (svg?.style !== 'animated' && svg?.style !== 'custom' && svg) {
       set(memo, svg.folder.join('.'), {
         "$type": "icon",
         "$name": svg.name,
@@ -72,7 +72,10 @@ function makeIconsReadme(template, iconFilenames, templateFilename) {
   }, {});
 
   Object.keys(jsonFile).forEach(async (iconType) => {
-    const writeFilePath = join(__dirname, `./tokens/foundation/icon/${iconType}/svg.${iconType}.tokens.json`)
+    const directoryPath = `./tokens/foundation/icon/${iconType}`
+    await mkdir(directoryPath, { recursive: true });
+
+    const writeFilePath = join(__dirname, `${directoryPath}/svg.${iconType}.tokens.json`)
     await writeFile(writeFilePath, JSON.stringify({
       kda: {
         foundation: {
