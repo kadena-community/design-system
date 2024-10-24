@@ -189,7 +189,7 @@ type TAliasRetrievalParams = {
 
 export async function getAliasAbsoluteValue(value: string | Variable, startValue: TTokenData['prevValue'], params: TAliasRetrievalParams): Promise<Variable['valuesByMode'][0] | string | number | Variable> {
   let { modeId, allVariables } = params
-  allVariables = allVariables ?? figma.variables.getLocalVariables()
+  allVariables = allVariables ?? await figma.variables.getLocalVariablesAsync()
 
   if (typeof value === 'string' && hasAliasValue(value)) {
     const aliasValue = getValuePath(value)

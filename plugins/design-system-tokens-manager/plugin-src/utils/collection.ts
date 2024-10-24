@@ -1,12 +1,12 @@
 import { EConstants, TCollectionPayload, TJsonData, TProcessedData } from "../types";
 
-export function initCollection(data: TCollectionPayload, source: TProcessedData) {
+export async function initCollection(data: TCollectionPayload, source: TProcessedData) {
   try {
     const { name, payload, isReset } = data
     let collection: VariableCollection | null = null
 
     if (name && payload) {
-      collection = findLocalCollection(name)
+      collection = await findLocalCollection(name)
 
       if (collection && isReset) {
         collection.remove()
@@ -61,14 +61,14 @@ function setCollectionModes(collection: VariableCollection, data: TProcessedData
   }
 }
 
-function findLocalCollection(name: string) {
-  const collections = getLocalCollections()
+async function findLocalCollection(name: string) {
+  const collections = await getLocalCollections()
   const collection = collections.find((collection) => collection.name === name)
   return collection || null
 }
 
-function getLocalCollections(ids?: string[]) {
-  const all = figma.variables.getLocalVariableCollections();
+async function getLocalCollections(ids?: string[]) {
+  const all = await figma.variables.getLocalVariableCollectionsAsync();
 
   if (!ids) {
     return all;

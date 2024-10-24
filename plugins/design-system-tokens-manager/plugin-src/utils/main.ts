@@ -17,7 +17,7 @@ export async function init(data: TAction<TCollectionPayload>, isInit = true) {
       }
     }
 
-    const preProcessedData = iterateJson(params.payload, [], isInit, params as TCollectionPayload);
+    const preProcessedData = await iterateJson(params.payload, [], isInit, params as TCollectionPayload);
     const processedData = await processData(preProcessedData, params.payload)
     const mappedData = await mapper(processedData, params as TCollectionPayload)
 

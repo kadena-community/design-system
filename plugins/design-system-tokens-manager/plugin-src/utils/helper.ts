@@ -51,9 +51,9 @@ export function deconstructPath(path: string[] | string): TDeconstructPath {
   }
 }
 
-export function loadAllStyles(styles: TPreMappedData['styles']) {
-  const allEffects = figma.getLocalEffectStyles()
-  const allTexts = figma.getLocalTextStyles()
+export async function loadAllStyles(styles: TPreMappedData['styles']) {
+  const allEffects = await figma.getLocalEffectStylesAsync()
+  const allTexts = await figma.getLocalTextStylesAsync()
 
   styles.effects = [...allEffects]
   styles.texts = [...allTexts]

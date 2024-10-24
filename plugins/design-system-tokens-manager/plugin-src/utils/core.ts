@@ -10,9 +10,10 @@ export function addIcon(path: string) {
   addedIconPaths.push(path)
 }
 
-export function iterateJson(jsonObj: any, path: string[], isInit: boolean, params: TCollectionPayload): TPreProcessedDataObject {
+export async function iterateJson(jsonObj: any, path: string[], isInit: boolean, params: TCollectionPayload): Promise<TPreProcessedDataObject> {
   if (!isInit && !iconToken && params.isImportIcons) {
-    const [_iconToken] = figma.variables.getLocalVariables().filter(v => v.name.includes(`${EConstants.NAMESPACE_ROOT}${EConstants.TOKEN_NAME_DELIMITER}${EConstants.NAMESPACE_FOUNDATION}${EConstants.TOKEN_NAME_DELIMITER}${EDTFTypes.COLOR}${EConstants.TOKEN_NAME_DELIMITER}${EDTFCompositeTypes.ICON}${EConstants.TOKEN_NAME_DELIMITER}base${EConstants.TOKEN_NAME_DELIMITER}default`))
+    const tokens = await figma.variables.getLocalVariablesAsync()
+    const [_iconToken] = tokens.filter(v => v.name.includes(`${EConstants.NAMESPACE_ROOT}${EConstants.TOKEN_NAME_DELIMITER}${EConstants.NAMESPACE_FOUNDATION}${EConstants.TOKEN_NAME_DELIMITER}${EDTFTypes.COLOR}${EConstants.TOKEN_NAME_DELIMITER}${EDTFCompositeTypes.ICON}${EConstants.TOKEN_NAME_DELIMITER}base${EConstants.TOKEN_NAME_DELIMITER}default`))
     if (_iconToken) {
       iconToken = _iconToken
     }
@@ -89,11 +90,17 @@ export function iterateJson(jsonObj: any, path: string[], isInit: boolean, param
             }
 
           } else {
-            return Object.keys(jsonObj).reduce((acc, key) => {
+            const jsonData: TPreProcessedDataObject = []
+
+            Object.keys(jsonObj).forEach(async (key) => {
               const value = jsonObj[key];
               const newPath = [...path, key];
-              return acc.concat(iterateJson(value, newPath, isInit, params));
+              const json = await iterateJson(value, newPath, isInit, params)
+              
+              jsonData.push(...json)
             }, [] as { path: string; value: any }[]);
+
+            return jsonData
           }
       }
     } else {

@@ -108,8 +108,8 @@ export async function iterateTokens(params: TTokenIterationArgs): Promise<TTrans
   return resolvedValue
 }
 
-export function getLocalVariables() {
-  return figma.variables.getLocalVariables()
+export async function getLocalVariables() {
+  return await figma.variables.getLocalVariablesAsync()
 }
 
 export async function createToken(token: TTokenData, params: TCreateTokenMetaData, payload: TJsonData) {
@@ -147,13 +147,13 @@ export async function setVariableModeValues(variable: Variable, token: TTokenDat
 
   token = await resolveValueType(token, variable, params)
 
-  availableModes.forEach((mode) => {
+  availableModes.forEach(async (mode) => {
     if (token?.extensions?.[EExtensionProp.MODE]) {
       if (typeof token?.extensions?.[EExtensionProp.MODE]?.[mode.name] !== 'undefined') {
         const modeValue = token.extensions[EExtensionProp.MODE][mode.name]
 
         if (hasAliasValue(modeValue)) {
-          const modeReferenceVariable = processTokenAliasValue(modeValue, params)
+          const modeReferenceVariable = await processTokenAliasValue(modeValue, params)
 
           if (modeReferenceVariable?.id) {
             token.variableAlias = figma.variables.createVariableAlias(modeReferenceVariable)
@@ -184,7 +184,7 @@ async function setValueForMode({ mode: { modeId, name }, defaultMode }: TValueFo
       const rootMode = root[name]
 
       if (rootMode && hasAliasValue(rootMode)) {
-        const modeReferenceVariable = processTokenAliasValue(rootMode, params)
+        const modeReferenceVariable = await processTokenAliasValue(rootMode, params)
 
         if (modeReferenceVariable?.id) {
           const variableAlias = figma.variables.createVariableAlias(modeReferenceVariable)
@@ -246,7 +246,7 @@ async function setValueForModeExtension({ mode: { modeId, name } }: TValueForMod
       case EDTFTypes.NUMBER:
       case EDTFTypes.DIMENSION:
         if ((token.value || (typeof token.value === 'number' && token.value <= 0)) && hasAliasValue(token.value)) {
-          const modeReferenceVariable = processTokenAliasValue(token.value, params)
+          const modeReferenceVariable = await processTokenAliasValue(token.value, params)
 
           if (modeReferenceVariable?.id) {
             const variableAlias = figma.variables.createVariableAlias(modeReferenceVariable)
@@ -281,9 +281,9 @@ function processTokenUnitValue(token: TTokenData) {
   return token
 }
 
-export function processTokenAliasValue(value: TTokenData['value'], params?: TCreateTokenMetaData) {
+export async function processTokenAliasValue(value: TTokenData['value'], params?: TCreateTokenMetaData) {
   let referenceVariable = null
-  params = params ?? { allVariables: figma.variables.getLocalVariables() } as TCreateTokenMetaData
+  params = params ?? { allVariables: await figma.variables.getLocalVariablesAsync() } as TCreateTokenMetaData
 
   if (hasExtendedAliasValue(value)) {
     const extendedTokenRefName = getExtendedAliasValue(value)
@@ -300,9 +300,9 @@ export function getAliasVariable(value: string, params: TCreateTokenMetaData) {
   return params.allVariables.find(({ name }) => name === getValuePath(value)) ?? null
 }
 
-function processAliasValues(token: TTokenData, params: TCreateTokenMetaData) {
+async function processAliasValues(token: TTokenData, params: TCreateTokenMetaData) {
   if (hasAliasValue(token.value)) {
-    const referenceVariable = processTokenAliasValue(token.value, params)
+    const referenceVariable = await processTokenAliasValue(token.value, params)
 
     if (referenceVariable?.id) {
       const variableAlias = figma.variables.createVariableAlias(referenceVariable)
@@ -314,7 +314,7 @@ function processAliasValues(token: TTokenData, params: TCreateTokenMetaData) {
 }
 
 export async function resolveValueType(token: TTokenData, variable: Variable, params: TCreateTokenMetaData) {
-  token = processAliasValues(token, params)
+  token = await processAliasValues(token, params)
 
   if (token.variableAlias) {
     return token

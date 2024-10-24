@@ -52,10 +52,10 @@ export async function mapper(data: TProcessedData, params: TCollectionPayload): 
   } = await prepareMapper(data, params)
   const {
     collection
-  } = initCollection(params, data)
+  } = await initCollection(params, data)
 
-  const allVariables = getLocalVariables()
-  styles = loadAllStyles(styles)
+  const allVariables = await getLocalVariables()
+  styles = await loadAllStyles(styles)
 
   if (params.isReset) {
     styles.effects.forEach((style) => style.remove())

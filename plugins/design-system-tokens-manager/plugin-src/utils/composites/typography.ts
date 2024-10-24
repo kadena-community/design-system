@@ -56,9 +56,9 @@ export async function processTypographyTokens({ type, value }: { type: TTokenDat
   return JSON.stringify(value)
 }
 
-function getTypographyAliasValue(value: string): TFontProps | string | null {
+async function getTypographyAliasValue(value: string): Promise<TFontProps | string | null> {
   let response = null
-  const variableAliasValue = processTokenAliasValue(value)
+  const variableAliasValue = await processTokenAliasValue(value)
 
   if (variableAliasValue) {
     const [firstModeValue] = Object.values(variableAliasValue.valuesByMode)
@@ -68,7 +68,7 @@ function getTypographyAliasValue(value: string): TFontProps | string | null {
   return response ?? null
 }
 
-function getFontFamily(value: TFontProps | string | null): string | null {
+async function getFontFamily(value: TFontProps | string | null): Promise<string | null> {
   let response = null
 
   if (typeof value === 'object') {
@@ -76,7 +76,7 @@ function getFontFamily(value: TFontProps | string | null): string | null {
   }
 
   if (value && hasAliasValue(value)) {
-    response = getTypographyAliasValue(value) ?? value
+    response = await getTypographyAliasValue(value) ?? value
   } else {
     response = value
   }
