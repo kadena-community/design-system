@@ -122,6 +122,28 @@
                   }
                 }
               }
+            },
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n99@alpha3}",
+                "$extensions": {
+                  "mode": {
+                    "dark": "{kda.foundation.color.neutral.n99@alpha6}"
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": "{kda.foundation.color.neutral.n99@alpha80}",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "{kda.foundation.color.neutral.n99@alpha80}"
+                    }
+                  }
+                }
+              }
             }
           },
           "surfaceHighContrast": {

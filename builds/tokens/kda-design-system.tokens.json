@@ -1233,6 +1233,164 @@
                   }
                 }
               }
+            },
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": "#020E1B",
+                    "$extensions": {
+                      "mode": {
+                        "dark": "#F5F5F5"
+                      },
+                      "generators": [
+                        {
+                          "type": "alpha",
+                          "value": {
+                            "@alpha0": 0,
+                            "@alpha1": 1,
+                            "@alpha3": 3,
+                            "@alpha6": 6,
+                            "@alpha10": 10,
+                            "@alpha20": 20,
+                            "@alpha30": 30,
+                            "@alpha40": 40,
+                            "@alpha50": 50,
+                            "@alpha80": 80,
+                            "@alpha90": 90
+                          },
+                          "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                          "isSource": true
+                        }
+                      ]
+                    }
+                  },
+                  "$extensions": {
+                    "alpha": 3
+                  }
+                },
+                "$extensions": {
+                  "mode": {
+                    "dark": {
+                      "$type": "color",
+                      "$value": {
+                        "$type": "color",
+                        "$value": "#020E1B",
+                        "$extensions": {
+                          "mode": {
+                            "dark": "#F5F5F5"
+                          },
+                          "generators": [
+                            {
+                              "type": "alpha",
+                              "value": {
+                                "@alpha0": 0,
+                                "@alpha1": 1,
+                                "@alpha3": 3,
+                                "@alpha6": 6,
+                                "@alpha10": 10,
+                                "@alpha20": 20,
+                                "@alpha30": 30,
+                                "@alpha40": 40,
+                                "@alpha50": 50,
+                                "@alpha80": 80,
+                                "@alpha90": 90
+                              },
+                              "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                              "isSource": true
+                            }
+                          ]
+                        }
+                      },
+                      "$extensions": {
+                        "alpha": 6
+                      }
+                    }
+                  }
+                }
+              },
+              "inverse": {
+                "default": {
+                  "$type": "color",
+                  "$value": {
+                    "$type": "color",
+                    "$value": {
+                      "$type": "color",
+                      "$value": "#020E1B",
+                      "$extensions": {
+                        "mode": {
+                          "dark": "#F5F5F5"
+                        },
+                        "generators": [
+                          {
+                            "type": "alpha",
+                            "value": {
+                              "@alpha0": 0,
+                              "@alpha1": 1,
+                              "@alpha3": 3,
+                              "@alpha6": 6,
+                              "@alpha10": 10,
+                              "@alpha20": 20,
+                              "@alpha30": 30,
+                              "@alpha40": 40,
+                              "@alpha50": 50,
+                              "@alpha80": 80,
+                              "@alpha90": 90
+                            },
+                            "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                            "isSource": true
+                          }
+                        ]
+                      }
+                    },
+                    "$extensions": {
+                      "alpha": 80
+                    }
+                  },
+                  "$extensions": {
+                    "mode": {
+                      "dark": {
+                        "$type": "color",
+                        "$value": {
+                          "$type": "color",
+                          "$value": "#020E1B",
+                          "$extensions": {
+                            "mode": {
+                              "dark": "#F5F5F5"
+                            },
+                            "generators": [
+                              {
+                                "type": "alpha",
+                                "value": {
+                                  "@alpha0": 0,
+                                  "@alpha1": 1,
+                                  "@alpha3": 3,
+                                  "@alpha6": 6,
+                                  "@alpha10": 10,
+                                  "@alpha20": 20,
+                                  "@alpha30": 30,
+                                  "@alpha40": 40,
+                                  "@alpha50": 50,
+                                  "@alpha80": 80,
+                                  "@alpha90": 90
+                                },
+                                "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                                "isSource": true
+                              }
+                            ]
+                          }
+                        },
+                        "$extensions": {
+                          "alpha": 80
+                        }
+                      }
+                    }
+                  }
+                }
+              }
             }
           },
           "surfaceHighContrast": {
