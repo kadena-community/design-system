@@ -114,10 +114,26 @@
               "$type": "color",
               "$value": "{kda.foundation.color.neutral.n100@alpha40}"
             },
+            "lighter": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n60}"
+            },
+            "bolder": {
+              "$type": "color",
+              "$value": "{kda.foundation.color.neutral.n80}"
+            },
             "inverse": {
               "default": {
                 "$type": "color",
                 "$value": "{kda.foundation.color.neutral.n0@alpha40}"
+              },
+              "lighter": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n40}"
+              },
+              "bolder": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n20}"
               }
             }
           },

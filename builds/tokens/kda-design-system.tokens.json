@@ -14581,6 +14581,40 @@
                 }
               }
             },
+            "lighter": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#6A7178",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#8D9298"
+                  }
+                }
+              }
+            },
+            "bolder": {
+              "$type": "color",
+              "$value": {
+                "$type": "color",
+                "$value": "#475059",
+                "$extensions": {
+                  "mode": {
+                    "dark": "#B0B3B7"
+                  },
+                  "generators": [
+                    {
+                      "type": "alpha",
+                      "value": {
+                        "@alpha80": 80
+                      },
+                      "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                      "isSource": true
+                    }
+                  ]
+                }
+              }
+            },
             "inverse": {
               "default": {
                 "$type": "color",
@@ -14614,6 +14648,40 @@
                   },
                   "$extensions": {
                     "alpha": 40
+                  }
+                }
+              },
+              "lighter": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#8D9298",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#6A7178"
+                    }
+                  }
+                }
+              },
+              "bolder": {
+                "$type": "color",
+                "$value": {
+                  "$type": "color",
+                  "$value": "#B0B3B7",
+                  "$extensions": {
+                    "mode": {
+                      "dark": "#475059"
+                    },
+                    "generators": [
+                      {
+                        "type": "alpha",
+                        "value": {
+                          "@alpha80": 80
+                        },
+                        "filePath": "builds/tokens/kda-design-system.raw.tokens.json",
+                        "isSource": true
+                      }
+                    ]
                   }
                 }
               }
