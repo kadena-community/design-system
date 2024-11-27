@@ -81,6 +81,82 @@
         "n10": {
           "$type": "dimension",
           "$value": "{kda.foundation.size.n10}"
+        },
+        "n11": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n11}"
+        },
+        "n12": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n12}"
+        },
+        "n13": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n13}"
+        },
+        "n14": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n14}"
+        },
+        "n15": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n15}"
+        },
+        "n16": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n16}"
+        },
+        "n17": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n17}"
+        },
+        "n18": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n18}"
+        },
+        "n19": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n19}"
+        },
+        "n20": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n20}"
+        },
+        "n24": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n24}"
+        },
+        "n25": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n25}"
+        },
+        "n30": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n30}"
+        },
+        "n32": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n32}"
+        },
+        "n35": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n35}"
+        },
+        "n40": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n40}"
+        },
+        "n48": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n48}"
+        },
+        "n56": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n56}"
+        },
+        "n64": {
+          "$type": "dimension",
+          "$value": "{kda.foundation.size.n64}"
         }
       }
     }

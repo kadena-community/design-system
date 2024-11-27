@@ -31056,6 +31056,139 @@
             "$type": "dimension",
             "$value": "2.5rem"
           }
+        },
+        "n11": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "2.75rem"
+          }
+        },
+        "n12": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "3rem"
+          }
+        },
+        "n13": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "3.25rem"
+          }
+        },
+        "n14": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "3.5rem"
+          }
+        },
+        "n15": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "3.75rem"
+          }
+        },
+        "n16": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "4rem"
+          }
+        },
+        "n17": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "4.25rem"
+          }
+        },
+        "n18": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "4.5rem"
+          }
+        },
+        "n19": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "4.75rem"
+          }
+        },
+        "n20": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "5rem"
+          }
+        },
+        "n24": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "6rem"
+          }
+        },
+        "n25": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "6.25rem"
+          }
+        },
+        "n30": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "7.5rem"
+          }
+        },
+        "n32": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "8rem"
+          }
+        },
+        "n35": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "8.75rem"
+          }
+        },
+        "n40": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "10rem"
+          }
+        },
+        "n48": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "12rem"
+          }
+        },
+        "n56": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "14rem"
+          }
+        },
+        "n64": {
+          "$type": "dimension",
+          "$value": {
+            "$type": "dimension",
+            "$value": "16rem"
+          }
         }
       },
       "transition": {
