@@ -9,6 +9,7 @@ Note: icons are rendered with black fill by default, which has poor readability 
 ## Icons
 
 ![fingerprint](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/animated/system/fingerprint.svg "fingerprint")
+![loading circular](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/animated/system/loading_circular.svg "loading circular")
 ![view in ar](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/animated/system/view_in_ar.svg "view in ar")
 ![black](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/brand/K/rounded/black.svg "black")
 ![green](https://raw.githubusercontent.com/kadena-community/design-system/main/icons/brand/K/rounded/green.svg "green")
