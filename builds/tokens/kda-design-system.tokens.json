@@ -3927,7 +3927,7 @@
                   }
                 }
               },
-              "hover": {
+              "@hover": {
                 "$type": "color",
                 "$value": {
                   "$type": "color",
