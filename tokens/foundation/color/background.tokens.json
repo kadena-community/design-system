@@ -668,6 +668,23 @@
                 }
               }
             }
+          },
+          "table": {
+            "row": {
+              "default": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.background.layer.default}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{kda.foundation.color.neutral.n1@alpha80}",
+                "$extensions": {
+                  "mode": {
+                    "dark": "{kda.foundation.color.neutral.n10@alpha80}"
+                  }
+                }
+              }
+            }
           }
         }
       }
